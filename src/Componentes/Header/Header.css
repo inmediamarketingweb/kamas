@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+}
+
+.header-bottom-container{
+    padding: 0 20px;
+}
+
+.header-bottom{
+    margin: auto;
+    width: 100%;
+    max-width: var(--content-mx-width);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
