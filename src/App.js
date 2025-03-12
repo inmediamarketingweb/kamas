@@ -1,12 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
+
 import './App.css';
 
-function App(){
+function App() {
     return(
-        <div className="App">
-            <header className="App-header">
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
-            </header>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<PaginaPrincipal/>}/>
+            </Routes>
+        </Router>
     );
 }
 
