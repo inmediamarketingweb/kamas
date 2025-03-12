@@ -1,0 +1,122 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/rucay/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS RUCAY 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS ANÁTOMICO RUCAY 1 PLAZA Y MEDIA",
+            "fotos": "/assets/images/productos/colchones/rucay/1-plaza-y-media/",
+            "precioNormal": 449,
+            "precioVenta": 289,
+            "stock": 99,
+            "sku": "K1152CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Rucay",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Anátomicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "8 filas de resortes en forma vertical.",
+                "tres": "Tela algodón tejido en punto",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Marco sellado",
+                "seis": "Uso de un solo lado",
+                "siete": "Soporte de 60kg. por persona"
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/rucay/2-plazas/",
+            "nombre": "COLCHÓN KAMAS RUCAY 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN KAMAS ANÁTOMICO RUCAY 2 PLAZAS",
+            "fotos": "/assets/images/productos/colchones/rucay/2-plazas/",
+            "precioNormal": 499,
+            "precioVenta": 349,
+            "stock": 99,
+            "sku": "K122CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Rucay",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Anátomicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "12 filas de resortes en forma vertical.",
+                "tres": "Tela algodón tejido en punto",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Marco sellado",
+                "seis": "Uso de un solo lado",
+                "siete": "Soporte de 70kg. por persona"
+            }
+        },
+        {
+            "id": 3,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/rucay/queen/",
+            "nombre": "COLCHÓN KAMAS RUCAY QUEEN",
+            "nombreCompleto": "COLCHÓN KAMAS ANÁTOMICO RUCAY QUEEN",
+            "fotos": "/assets/images/productos/colchones/rucay/queen/",
+            "precioNormal": 679,
+            "precioVenta": 549,
+            "stock": 99,
+            "sku": "K132CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Rucay",
+                "tamaño": "Queen",
+                "lineaColchones": "Anátomicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "15 filas de resortes en forma vertical.",
+                "tres": "Tela algodón tejido en punto",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Marco sellado",
+                "seis": "Uso de un solo lado",
+                "siete": "Soporte de 70kg. por persona",
+                "ocho": "Refuerzos centrales",
+                "nueve": "25cm. de grosor",
+                "diez": "Resortes de acero templado"
+            }
+        },
+        {
+            "id": 4,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/rucay/king/",
+            "nombre": "COLCHÓN KAMAS RUCAY KING",
+            "nombreCompleto": "COLCHÓN KAMAS ANÁTOMICO RUCAY KING",
+            "fotos": "/assets/images/productos/colchones/rucay/king/",
+            "precioNormal": 899,
+            "precioVenta": 699,
+            "stock": 99,
+            "sku": "K142CM10",
+            "detallesDelProducto":{
+                "modeloColhon": "Rucay",
+                "tamaño": "King",
+                "lineaColchones": "Anátomicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "17 filas de resortes en forma vertical.",
+                "tres": "Tela algodón tejido en punto",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Marco sellado",
+                "seis": "Uso de un solo lado",
+                "siete": "Soporte de 70kg. por persona",
+                "ocho": "Refuerzos centrales",
+                "nueve": "25cm. de grosor",
+                "diez": "Resortes de acero templado"
+            }
+        }
+    ]
+}

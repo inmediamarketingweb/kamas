@@ -1,0 +1,126 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/konig/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS KONIG 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG 1 PLAZA Y MEDIA",
+            "fotos": "/assets/images/productos/colchones/konig/1-plaza-y-media/",
+            "precioNormal": 1399,
+            "precioVenta": 899,
+            "stock": 99,
+            "sku": "K11511MFN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Konig",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Extra ortopédicos",
+                "nivelDeConfort": "Muy firme",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 10 años.",
+                "dos": "12 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Refuerzo de marco sellado.",
+                "cinco": "Espuma de alta densidad 25kg/m3.",
+                "seis": "Uso de ambos lados.",
+                "siete": "Soporte de 100kg. por persona."
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/konig/2-plazas/",
+            "nombre": "COLCHÓN KAMAS KONIG 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG 2 PLAZAS",
+            "fotos": "/assets/images/productos/colchones/konig/2-plazas/",
+            "precioNormal": 1599,
+            "precioVenta": 999,
+            "stock": 99,
+            "sku": "K1211MFN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Konig",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Extra ortopédicos",
+                "nivelDeConfort": "Muy firme",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 10 años.",
+                "dos": "16 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Refuerzo de marco sellado.",
+                "cinco": "Espuma de alta densidad 25kg/m3.",
+                "seis": "Uso de ambos lados.",
+                "siete": "Soporte de 100kg. por persona."
+            }
+        },
+        {
+            "id": 3,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/konig/queen/",
+            "nombre": "COLCHÓN KAMAS KONIG QUEEN",
+            "nombreCompleto": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG QUEEN",
+            "fotos": "/assets/images/productos/colchones/konig/queen/",
+            "precioNormal": 2199,
+            "precioVenta": 1399,
+            "stock": 99,
+            "sku": "K1311MFN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Konig",
+                "tamaño": "Queen",
+                "lineaColchones": "Extra ortopédicos",
+                "nivelDeConfort": "Muy firme",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 10 años.",
+                "dos": "18 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Espuma de alta densidad 23kg/m3.",
+                "cinco": "Uso de un solo lado.",
+                "seis": "Soporte de 110kg. por persona.",
+                "siete": "Sistema PT.",
+                "ocho": "Refuerzos centrales.",
+                "nueve": "Marco de espuma.",
+                "diez": "Resortes de acero templado.",
+                "once": "40 cm. de grosor.",
+                "doce": "Sistema one size"
+            }
+        },
+        {
+            "id": 4,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/konig/king/",
+            "nombre": "COLCHÓN KAMAS KONIG KING",
+            "nombreCompleto": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG KING",
+            "fotos": "/assets/images/productos/colchones/konig/king/",
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 99,
+            "sku": "K1411MFN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Konig",
+                "tamaño": "King",
+                "lineaColchones": "Extra ortopédicos",
+                "nivelDeConfort": "Muy firme",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 10 años.",
+                "dos": "20 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Espuma de alta densidad 23kg/m3.",
+                "cinco": "Uso de un solo lado.",
+                "seis": "Soporte de 130kg. por persona.",
+                "siete": "Sistema PT.",
+                "ocho": "Refuerzos centrales.",
+                "nueve": "Marco de espuma.",
+                "diez": "Resortes de acero templado.",
+                "once": "44 cm. de grosor.",
+                "doce": "Sistema one size"
+            }
+        }
+    ]
+}

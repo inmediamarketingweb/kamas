@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "Línea",
+        "list":[
+            {
+                "id": 1,
+                "name": "Americana"
+            },
+            {
+                "id": 2,
+                "name": "Americana con cajones"
+            },
+            {
+                "id": 3,
+                "name": "Europea"
+            },
+            {
+                "id": 4,
+                "name": "Europea con cajones"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tamaño",
+        "list":[
+            {
+                "id": 1,
+                "name": "1 plaza"
+            },
+            {
+                "id": 2,
+                "name": "1 plaza y media"
+            },
+            {
+                "id": 3,
+                "name": "2 plazas"
+            },
+            {
+                "id": 4,
+                "name": "Queen"
+            },
+            {
+                "id": 5,
+                "name": "King"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Tipo de cabecera",
+        "list":[
+            {
+                "id": 1,
+                "name": "Aérea"
+            },
+            {
+                "id": 2,
+                "name": "Pedestal"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Modelos de cabecera",
+        "list":[
+            {
+                "id": 1,
+                "name": "Americanas"
+            },
+            {
+                "id": 2,
+                "name": "Bloques"
+            },
+            {
+                "id": 3,
+                "name": "Clásicas"
+            },
+            {
+                "id": 4,
+                "name": "Con marco"
+            },
+            {
+                "id": 5,
+                "name": "Coronas"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Diseños de cabecera",
+        "list":[
+            {
+                "id": 1,
+                "name": "Capitoneadas"
+            },
+            {
+                "id": 2,
+                "name": "Clásicas"
+            },
+            {
+                "id": 3,
+                "name": "Cuadros"
+            },
+            {
+                "id": 4,
+                "name": "Líneales"
+            },
+            {
+                "id": 5,
+                "name": "Infantiles"
+            },
+            {
+                "id": 6,
+                "name": "Otras formas"
+            }
+        ]
+    }
+]

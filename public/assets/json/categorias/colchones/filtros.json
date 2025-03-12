@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Modelo de colchón",
+        "list":[
+            {
+                "id": 1,
+                "name": "Adel"
+            },
+            {
+                "id": 2,
+                "name": "Rucay"
+            },
+            {
+                "id": 3,
+                "name": "Sarki"
+            },
+            {
+                "id": 4,
+                "name": "Safynnte"
+            },
+            {
+                "id": 5,
+                "name": "Der Prinz"
+            },
+            {
+                "id": 6,
+                "name": "Thameo Pocket"
+            },
+            {
+                "id": 7,
+                "name": "Ramat"
+            },
+            {
+                "id": 8,
+                "name": "Nesie"
+            },
+            {
+                "id": 9,
+                "name": "Norole"
+            },
+            {
+                "id": 10,
+                "name": "Thaleo Pocket"
+            },
+            {
+                "id": 11,
+                "name": "Konig"
+            },
+            {
+                "id": 12,
+                "name": "Yurmale"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tamaño",
+        "list":[
+            {
+                "id": 1,
+                "name": "1 plaza"
+            },
+            {
+                "id": 2,
+                "name": "1 plaza y media"
+            },
+            {
+                "id": 3,
+                "name": "2 plazas"
+            },
+            {
+                "id": 4,
+                "name": "Queen"
+            },
+            {
+                "id": 5,
+                "name": "King"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Línea de colchones",
+        "list":[
+            {
+                "id": 1,
+                "name": "Semi ortopédicos"
+            },
+            {
+                "id": 2,
+                "name": "Anátomicos"
+            },
+            {
+                "id": 3,
+                "name": "Ortopédicos"
+            },
+            {
+                "id": 4,
+                "name": "Super ortopédicos"
+            },
+            {
+                "id": 5,
+                "name": "Hoteleros"
+            },
+            {
+                "id": 6,
+                "name": "Extra ortopédicos"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nivel de confort",
+        "list":[
+            {
+                "id": 1,
+                "name": "Confortable"
+            },
+            {
+                "id": 2,
+                "name": "Intermedio"
+            },
+            {
+                "id": 3,
+                "name": "Muy confortable"
+            },
+            {
+                "id": 4,
+                "name": "Firme"
+            },
+            {
+                "id": 5,
+                "name": "Muy firme"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Tipo de resorte",
+        "list":[
+            {
+                "id": 1,
+                "name": "Bonell"
+            },
+            {
+                "id": 2,
+                "name": "Pocket"
+            }
+        ]
+    }
+]

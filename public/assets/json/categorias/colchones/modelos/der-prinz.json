@@ -1,0 +1,124 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/der-prinz/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS DER PRINZ 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
+            "fotos": "/assets/images/productos/colchones/der-prinz/1-plaza-y-media/",
+            "precioNormal": 599,
+            "precioVenta": 399,
+            "stock": 99,
+            "sku": "K1157MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Der Prinz",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Muy confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 6 años.",
+                "dos": "11 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Refuerzo de marco sellado.",
+                "cinco": "Espuma de alta densidad 20kg/m3.",
+                "seis": "Uso de un solo lado.",
+                "siete": "Soporte de 70kg. por persona."
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/der-prinz/2-plazas/",
+            "nombre": "COLCHÓN KAMAS DER PRINZ 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 2 PLAZAS",
+            "fotos": "/assets/images/productos/colchones/der-prinz/2-plazas/",
+            "precioNormal": 799,
+            "precioVenta": 499,
+            "stock": 99,
+            "sku": "K127MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Der Prinz",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Muy confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 6 años.",
+                "dos": "15 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Refuerzo de marco sellado.",
+                "cinco": "Espuma de alta densidad 20kg/m3.",
+                "seis": "Uso de un solo lado.",
+                "siete": "Soporte de 80kg. por persona."
+            }
+        },
+        {
+            "id": 3,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/der-prinz/queen/",
+            "nombre": "COLCHÓN KAMAS DER PRINZ QUEEN",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ QUEEN",
+            "fotos": "/assets/images/productos/colchones/der-prinz/queen/",
+            "precioNormal": 1149,
+            "precioVenta": 799,
+            "stock": 99,
+            "sku": "K137MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Der Prinz",
+                "tamaño": "Queen",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Muy confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 6 años.",
+                "dos": "17 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Espuma de alta densidad 20kg/m3.",
+                "cinco": "Uso de un solo lado.",
+                "seis": "Soporte de 90kg. por persona.",
+                "siete": "Sistema one size.",
+                "ocho": "Refuerzos centrales.",
+                "nueve": "Marco de espuma.",
+                "diez": "Resortes de acero templado.",
+                "once": "32 cm. de grosor."
+            }
+        },
+        {
+            "id": 4,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/der-prinz/king/",
+            "nombre": "COLCHÓN KAMAS DER PRINZ KING",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ KING",
+            "fotos": "/assets/images/productos/colchones/der-prinz/king/",
+            "precioNormal": 1399,
+            "precioVenta": 999,
+            "stock": 99,
+            "sku": "K147MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Der Prinz",
+                "tamaño": "King",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Muy confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 6 años.",
+                "dos": "19 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Espuma de alta densidad 20kg/m3.",
+                "cinco": "Uso de un solo lado.",
+                "seis": "Soporte de 90kg. por persona.",
+                "siete": "Sistema one size.",
+                "ocho": "Refuerzos centrales.",
+                "nueve": "Marco de espuma.",
+                "diez": "Resortes de acero templado.",
+                "once": "32 cm. de grosor."
+            }
+        }
+    ]
+}

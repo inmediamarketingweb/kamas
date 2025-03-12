@@ -1,0 +1,122 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/sarki/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS SARKI 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS ORTOPÉDICO SARKI 1 PLAZA Y MEDIA",
+            "fotos": "/assets/images/productos/colchones/sarki/1-plaza-y-media/",
+            "precioNormal": 499,
+            "precioVenta": 319,
+            "stock": 99,
+            "sku": "K1153CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Sarki",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 2 años.",
+                "dos": "9 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Marco sellado",
+                "cinco": "Espuma de alta densidad 18kg/m3",
+                "seis": "Uso de ambos lados",
+                "siete": "Soporte de 65kg. por persona."
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/sarki/2-plazas/",
+            "nombre": "COLCHÓN KAMAS SARKI 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN KAMAS ORTOPÉDICO SARKI 2 PLAZAS",
+            "fotos": "/assets/images/productos/colchones/sarki/2-plazas/",
+            "precioNormal": 599,
+            "precioVenta": 399,
+            "stock": 99,
+            "sku": "K123CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Sarki",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 2 años.",
+                "dos": "13 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Marco sellado",
+                "cinco": "Espuma de alta densidad 18kg/m3",
+                "seis": "Uso de ambos lados",
+                "siete": "Soporte de 75kg. por persona."
+            }
+        },
+        {
+            "id": 3,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/sarki/queen/",
+            "nombre": "COLCHÓN KAMAS SARKI QUEEN",
+            "nombreCompleto": "COLCHÓN KAMAS ORTOPÉDICO SARKI QUEEN",
+            "fotos": "/assets/images/productos/colchones/sarki/queen/",
+            "precioNormal": 899,
+            "precioVenta": 599,
+            "stock": 99,
+            "sku": "K133CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Sarki",
+                "tamaño": "Queen",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 2 años.",
+                "dos": "16 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Marco sellado",
+                "cinco": "Espuma de alta densidad 18kg/m3",
+                "seis": "Uso de ambos lados",
+                "siete": "Soporte de 80kg. por persona.",
+                "ocho": "Refuerzos centrales",
+                "nueve": "Resortes de acero templado",
+                "diez": "26 cm. de grosor"
+            }
+        },
+        {
+            "id": 4,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/sarki/king/",
+            "nombre": "COLCHÓN KAMAS SARKI KING",
+            "nombreCompleto": "COLCHÓN KAMAS ORTOPÉDICO SARKI KING",
+            "fotos": "/assets/images/productos/colchones/sarki/king/",
+            "precioNormal": 1099,
+            "precioVenta": 799,
+            "stock": 99,
+            "sku": "K143CN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Sarki",
+                "tamaño": "King",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 2 años.",
+                "dos": "18 filas de resortes.",
+                "tres": "Tela algodón tejido en punto.",
+                "cuatro": "Marco sellado",
+                "cinco": "Espuma de alta densidad 18kg/m3",
+                "seis": "Uso de ambos lados",
+                "siete": "Soporte de 80kg. por persona.",
+                "ocho": "Refuerzos centrales",
+                "nueve": "Resortes de acero templado",
+                "diez": "26 cm. de grosor"
+            }
+        }
+    ]
+}

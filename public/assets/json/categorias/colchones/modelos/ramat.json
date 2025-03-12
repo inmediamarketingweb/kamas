@@ -1,0 +1,126 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/ramat/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS RAMAT 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO RAMAT 1 PLAZA Y MEDIA",
+            "fotos": "/assets/images/productos/colchones/ramat/1-plaza-y-media/",
+            "precioNormal": 849,
+            "precioVenta": 549,
+            "stock": 99,
+            "sku": "K1155MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Ramat",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 4 años.",
+                "dos": "Doble pestaña.",
+                "tres": "11 filas de resortes.",
+                "cuatro": "Tela jacquard.",
+                "cinco": "Refuerzo de marco sellado.",
+                "seis": "Espuma de alta densidad 20kg/m3.",
+                "siete": "Uso de ambos lados.",
+                "ocho": "Soporte de 75kg. por persona."
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/ramat/2-plazas/",
+            "nombre": "COLCHÓN KAMAS RAMAT 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN SUPER ORTOPÉDICO RAMAT 2 PLAZAS",
+            "fotos": "/assets/images/productos/colchones/ramat/2-plazas/",
+            "precioNormal": 999,
+            "precioVenta": 649,
+            "stock": 99,
+            "sku": "K125MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Ramat",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 4 años.",
+                "dos": "Doble pestaña.",
+                "tres": "15 filas de resortes.",
+                "cuatro": "Tela jacquard.",
+                "cinco": "Refuerzo de marco sellado.",
+                "seis": "Espuma de alta densidad 20kg/m3.",
+                "siete": "Uso de ambos lados.",
+                "ocho": "Soporte de 85kg. por persona."
+            }
+        },
+        {
+            "id": 3,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/ramat/queen/",
+            "nombre": "COLCHÓN KAMAS RAMAT QUEEN",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO RAMAT QUEEN",
+            "fotos": "/assets/images/productos/colchones/ramat/queen/",
+            "precioNormal": 1499,
+            "precioVenta": 999,
+            "stock": 99,
+            "sku": "K135MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Ramat",
+                "tamaño": "Queen",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "17 filas de resortes",
+                "dos": "Tela jacquard",
+                "tres": "Sistema PT doble pestaña",
+                "cuatro": "Refuerzos centrales",
+                "cinco": "Espuma de alta densidad 20kg/m3",
+                "seis": "Marco de espuma",
+                "siete": "Resortes de acero templado",
+                "ocho": "37cm. de grosor",
+                "nueve": "Uso de ambos lados",
+                "diez": "Soporte de 90kg. por persona",
+                "once": "Garantía de 4 años"
+            }
+        },
+        {
+            "id": 4,
+            "categoria": "Colchones",
+            "ruta": "/productos/colchones/ramat/king/",
+            "nombre": "COLCHÓN KAMAS RAMAT KING",
+            "nombreCompleto": "COLCHÓN KAMAS SUPER ORTOPÉDICO RAMAT KING",
+            "fotos": "/assets/images/productos/colchones/ramat/king/",
+            "precioNormal": 1599,
+            "precioVenta": 1199,
+            "stock": 99,
+            "sku": "K145MCN10",
+            "detallesDelProducto":{
+                "modeloColhon": "Ramat",
+                "tamaño": "King",
+                "lineaColchones": "Super ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "19 filas de resortes",
+                "dos": "Tela jacquard",
+                "tres": "Sistema PT doble pestaña",
+                "cuatro": "Refuerzos centrales",
+                "cinco": "Espuma de alta densidad 20kg/m3",
+                "seis": "Marco de espuma",
+                "siete": "Resortes de acero templado",
+                "ocho": "37cm. de grosor",
+                "nueve": "Uso de ambos lados",
+                "diez": "Soporte de 90kg. por persona",
+                "once": "Garantía de 4 años"
+            }
+        }
+    ]
+}
