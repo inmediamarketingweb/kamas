@@ -1,151 +1,156 @@
 [
     {
         "id": 1,
-        "name": "Modelo de colchón",
-        "list":[
+        "titulo": "Tamaño",
+        "nombre": "tamaño",
+        "lista":[
             {
                 "id": 1,
-                "name": "Adel"
+                "nombre": "1 plaza"
             },
             {
                 "id": 2,
-                "name": "Rucay"
+                "nombre": "1 plaza y media"
             },
             {
                 "id": 3,
-                "name": "Sarki"
+                "nombre": "2 plazas"
             },
             {
                 "id": 4,
-                "name": "Safynnte"
+                "nombre": "Queen"
             },
             {
                 "id": 5,
-                "name": "Der Prinz"
-            },
-            {
-                "id": 6,
-                "name": "Thameo Pocket"
-            },
-            {
-                "id": 7,
-                "name": "Ramat"
-            },
-            {
-                "id": 8,
-                "name": "Nesie"
-            },
-            {
-                "id": 9,
-                "name": "Norole"
-            },
-            {
-                "id": 10,
-                "name": "Thaleo Pocket"
-            },
-            {
-                "id": 11,
-                "name": "Konig"
-            },
-            {
-                "id": 12,
-                "name": "Yurmale"
+                "nombre": "King"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Tamaño",
-        "list":[
+        "titulo": "Modelo de colchón",
+        "nombre": "modeloColchon",
+        "lista":[
             {
                 "id": 1,
-                "name": "1 plaza"
+                "nombre": "Adel"
             },
             {
                 "id": 2,
-                "name": "1 plaza y media"
+                "nombre": "Rucay"
             },
             {
                 "id": 3,
-                "name": "2 plazas"
+                "nombre": "Sarki"
             },
             {
                 "id": 4,
-                "name": "Queen"
+                "nombre": "Safynnte"
             },
             {
                 "id": 5,
-                "name": "King"
+                "nombre": "Der Prinz"
+            },
+            {
+                "id": 6,
+                "nombre": "Thameo Pocket"
+            },
+            {
+                "id": 7,
+                "nombre": "Ramat"
+            },
+            {
+                "id": 8,
+                "nombre": "Nesie"
+            },
+            {
+                "id": 9,
+                "nombre": "Norole"
+            },
+            {
+                "id": 10,
+                "nombre": "Thaleo Pocket"
+            },
+            {
+                "id": 11,
+                "nombre": "Konig"
+            },
+            {
+                "id": 12,
+                "nombre": "Yurmale"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Línea de colchones",
-        "list":[
+        "titulo": "Linea de colchones",
+        "nombre": "lineaColchones",
+        "lista":[
             {
                 "id": 1,
-                "name": "Semi ortopédicos"
+                "nombre": "Semi ortopédicos"
             },
             {
                 "id": 2,
-                "name": "Anátomicos"
+                "nombre": "Anátomicos"
             },
             {
                 "id": 3,
-                "name": "Ortopédicos"
+                "nombre": "Ortopédicos"
             },
             {
                 "id": 4,
-                "name": "Super ortopédicos"
+                "nombre": "Super ortopédicos"
             },
             {
                 "id": 5,
-                "name": "Hoteleros"
+                "nombre": "Hoteleros"
             },
             {
                 "id": 6,
-                "name": "Extra ortopédicos"
+                "nombre": "Extra ortopédicos"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Nivel de confort",
-        "list":[
+        "titulo": "Nivel de confort",
+        "nombre": "nivelDeConfort",
+        "lista":[
             {
                 "id": 1,
-                "name": "Confortable"
+                "nombre": "Confortable"
             },
             {
                 "id": 2,
-                "name": "Intermedio"
+                "nombre": "Intermedio"
             },
             {
                 "id": 3,
-                "name": "Muy confortable"
+                "nombre": "Muy confortable"
             },
             {
                 "id": 4,
-                "name": "Firme"
+                "nombre": "Firme"
             },
             {
                 "id": 5,
-                "name": "Muy firme"
+                "nombre": "Muy firme"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Tipo de resorte",
-        "list":[
+        "titulo": "Tipo de resorte",
+        "nombre": "tipoDeResorte",
+        "lista":[
             {
                 "id": 1,
-                "name": "Bonell"
+                "nombre": "Bonell"
             },
             {
                 "id": 2,
-                "name": "Pocket"
+                "nombre": "Pocket"
             }
         ]
     }

@@ -6,7 +6,7 @@
             "categoria": "Colchones",
             "metaTitulo": "Colchones | Kamas",
             "ruta": "/productos/colchones/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum industry. Lorem Ipsum has been 500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -109,7 +109,7 @@
             "categoria": "Cama box tarimas",
             "metaTitulo": "Cama box tarimas | Kamas",
             "ruta": "/productos/cama-box-tarimas/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -164,7 +164,7 @@
             "categoria": "Dormitorios",
             "metaTitulo": "Dormitorios | Kamas",
             "ruta": "/productos/dormitorios/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -219,7 +219,7 @@
             "categoria": "Camas funcionales",
             "metaTitulo": "Camas funcionales | Kamas",
             "ruta": "/productos/camas-funcionales/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -286,7 +286,7 @@
             "categoria": "Cabeceras",
             "metaTitulo": "Cabeceras | Kamas",
             "ruta": "/productos/cabeceras/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -329,7 +329,7 @@
             "categoria": "Sofás",
             "metaTitulo": "Sofás | Kamas",
             "ruta": "/productos/sofas/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -402,7 +402,7 @@
             "categoria": "Complementos",
             "metaTitulo": "Complementos | Kamas",
             "ruta": "/productos/complementos/",
-            "menuMessage":[
+            "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
@@ -474,7 +474,7 @@
             "icono": "sell",
             "categoria": "Ofertas",
             "metaTitulo": "Ofertas | Kamas",
-            "ruta": "/productos/ofertas/"
+            "ruta": "/ofertas/"
         }
     ]
 }

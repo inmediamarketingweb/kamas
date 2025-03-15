@@ -1,0 +1,28 @@
+{
+    "subcategorias":[
+        {
+            "id": 1,
+            "subcategoria": "Americanos",
+            "metaTitulo": "Cama box tarimas - Americanos | Kamas",
+            "ruta": "/productos/cama-box-tarimas/americanos/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Americanos con cajones",
+            "metaTitulo": "Cama box tarimas - Americanos con cajones | Kamas",
+            "ruta": "/productos/cama-box-tarimas/americanos/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "Europeos",
+            "metaTitulo": "Cama box tarimas - Europeos | Kamas",
+            "ruta": "/productos/cama-box-tarimas/europeos/"
+        },
+        {
+            "id": 4,
+            "subcategoria": "Europeos con cajones",
+            "metaTitulo": "Cama box tarimas - Europeos con cajones | Kamas",
+            "ruta": "/productos/cama-box-tarimas/europeos-con-cajones/"
+        }
+    ]
+}

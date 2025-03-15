@@ -9,6 +9,7 @@ header{
     top: 0;
     width: 100%;
     background: var(--header);
+    z-index: 100;
 
     box-shadow: 0 2.5px 5px rgba(0 0 0 / 0.15);
 }
