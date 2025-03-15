@@ -1,6 +1,6 @@
 :root{
     --header-top: 30px;
-    --header-bottom: 60px;
+    --header-bottom: 70px;
 }
 
 header{
@@ -9,8 +9,9 @@ header{
     top: 0;
     width: 100%;
     background: var(--header);
+    z-index: 100;
 
-    box-shadow: 0 2.5px 5px rgba(0 0 0 / 0.25);
+    box-shadow: 0 2.5px 5px rgba(0 0 0 / 0.15);
 }
 
 .header-top-container{
@@ -84,7 +85,7 @@ header{
     position: relative;
 }
 
-.menu-link:hover{
+.menu-link.active{
     /* padding: 5px 10px; */
     padding-left: 29px;
     /* background: var(--color-1); */
@@ -99,11 +100,12 @@ header{
     width: 0;
     height: 2px;
     border-radius: 5px;
-    background: var(--color-2);
+    background: var(--color-1);
     transition: var(--t-100ms-linear);
 }
 
-.menu-link:hover::before{
+.menu-link:hover::before,
+.menu-link.active::before{
     width: 100%;
 }
 
@@ -118,7 +120,7 @@ header{
     color: var(--color-1);
 }
 
-.menu-link:hover span{
+.menu-link.active span{
     scale: 1;
     left: 0;
 }
@@ -127,7 +129,8 @@ header{
     transition: var(--t-200ms-linear);
 }
 
-.menu-link:hover h2{
+.menu-link:hover h2,
+.menu-link.active h2{
     color: var(--color-1);
 }
 
@@ -169,11 +172,12 @@ header{
 .submenu-container{
     position: fixed;
     left: 0;
-    top: 90px;
+    top: calc(var(--header-top) + var(--header-bottom));
     width: 100%;
     display: flex;
     background: var(--header);
     padding: 20px;
+    transition: var(--t-200ms-linear);
 
     opacity: 0;
     pointer-events: none;
@@ -184,6 +188,8 @@ header{
     opacity: 1;
     pointer-events: unset;
     user-select: unset;
+
+    box-shadow: 0 2.5px 5px rgba(0 0 0 / 0.15);
 }
 
 .submenu{
@@ -196,6 +202,7 @@ header{
 
 .submenu-target-title{
     font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .submenu-target-1{
@@ -204,6 +211,7 @@ header{
 
 .submenu-target-2 ul{
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     gap: 10px;
 }
@@ -240,6 +248,6 @@ header{
 .submenu-target-3 img{
     width: auto;
     height: 100%;
-    max-height: 300px;
+    max-height: 250px;
     aspect-ratio: 1/1;
 }

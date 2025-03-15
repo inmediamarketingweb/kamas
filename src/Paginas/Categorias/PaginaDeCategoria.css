@@ -1,22 +1,24 @@
-.product-page-container{
+:root{
+    --product-card-images-height: 240px;
+}
+
+.category-page-container{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 20px;
 }
 
-.product-page-top{
+.category-page-top{
     grid-column: 1/-1;
 }
 
-.product-page-left{
+.category-page-left{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-/* .product-page-left > p{
-    font-size: 18px;
-} */
+/**/
 
 .filter{
     width: auto;
@@ -34,4 +36,86 @@
 .filter ul li{
     display: flex;
     gap: 10px;
+}
+
+/**/
+
+.category-page-products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-card{
+    width: 100%;
+    display: flex;
+    flex: 1 1 clamp(200px, calc(calc(100% / 4) - calc(30px / 4)), 100%);
+    max-width: calc(calc(100% / 4) - calc(30px / 4));
+    flex-direction: column;
+    gap: 10px;
+
+    border: 1px solid gray;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.product-card-images{
+    display: flex;
+    width: 100%;
+    height: var(--product-card-images-height);
+    position: relative;
+}
+
+.product-card-images img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+}
+
+.product-card-content{
+    width: 100%;
+    height: calc(100% - var(--product-card-images-height));
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-card-discount{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: var(--color-2);
+    font-size: 13px;
+    color: var(--white);
+    padding: 3px 5px;
+    border-radius: 2.5px;
+    z-index: 10;
+}
+
+.product-card-brand{
+    color: var(--black);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.product-card-name{
+    color: var(--text);
+    font-size: 14px;
+}
+
+.product-card-prices{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card-prices span{
+    margin-left: auto;
 }

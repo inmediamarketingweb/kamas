@@ -3,6 +3,7 @@ import './Header.css';
 
 function Header() {
     const [categorias, setCategorias] = useState([]);
+    const [activeIndex, setActiveIndex] = useState(null);
 
     useEffect(() => {
         fetch('/assets/json/categorias/categorias.json')
@@ -17,6 +18,10 @@ function Header() {
             })
             .catch(error => console.error('Error al cargar las categorías:', error));
     }, []);
+
+    const handleMenuClick = (index) => {
+        setActiveIndex(activeIndex === index ? null : index);
+    };
 
     return (
         <header>
@@ -43,18 +48,18 @@ function Header() {
                                             <h2>{item.categoria}</h2>
                                         </a>
                                     ) : (
-                                        <button type='button' className={`menu-link menu-link-${index + 1}`}>
+                                        <button type='button' className={`menu-link menu-link-${index + 1} ${activeIndex === index ? 'active' : ''}`} onClick={() => handleMenuClick(index)}>
                                             <span className="material-icons">{item.icono}</span>
                                             <h2>{item.categoria}</h2>
                                         </button>
                                     )}
 
-                                    <div className='submenu-container'>
+                                    <div className={`submenu-container ${activeIndex === index ? 'active' : ''}`}>
                                         <section className='submenu'>
                                             <div className='submenu-target submenu-target-1'>
                                                 <p className='submenu-target-title'>{item.categoria}</p>
-                                                {item.menuMessage && item.menuMessage.length > 0 && (
-                                                    <p>{item.menuMessage[0].text}</p>
+                                                {item.menuMensaje && item.menuMensaje.length > 0 && (
+                                                    <p>{item.menuMensaje[0].text}</p>
                                                 )}
                                             </div>
                                             <div className='submenu-target submenu-target-2'>

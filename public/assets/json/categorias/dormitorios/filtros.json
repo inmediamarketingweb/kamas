@@ -1,8 +1,29 @@
 [
     {
         "id": 1,
-        "titulo": "Tamaño",
-        "nombre": "tamaño",
+        "nombre": "Línea",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Americana"
+            },
+            {
+                "id": 2,
+                "nombre": "Americana con cajones"
+            },
+            {
+                "id": 3,
+                "nombre": "Europea"
+            },
+            {
+                "id": 4,
+                "nombre": "Europea con cajones"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Tamaño",
         "lista":[
             {
                 "id": 1,
@@ -27,32 +48,8 @@
         ]
     },
     {
-        "id": 2,
-        "titulo": "Línea",
-        "nombre": "linea",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Americanos"
-            },
-            {
-                "id": 2,
-                "nombre": "Americanos con cajones"
-            },
-            {
-                "id": 3,
-                "nombre": "Europeos"
-            },
-            {
-                "id": 4,
-                "nombre": "Europeos con cajones"
-            }
-        ]
-    },
-    {
         "id": 3,
-        "titulo": "Tipo de cabecera",
-        "nombre": "tipoDeCabecera",
+        "nombre": "Tipo de cabecera",
         "lista":[
             {
                 "id": 1,
@@ -66,8 +63,7 @@
     },
     {
         "id": 4,
-        "titulo": "Modelo de cabecera",
-        "nombre": "modeloDeCabecera",
+        "nombre": "Modelos de cabecera",
         "lista":[
             {
                 "id": 1,
@@ -93,8 +89,7 @@
     },
     {
         "id": 5,
-        "titulo": "Diseño de cabecera",
-        "nombre": "diseñoDeCabecera",
+        "nombre": "Diseños de cabecera",
         "lista":[
             {
                 "id": 1,
@@ -119,29 +114,6 @@
             {
                 "id": 6,
                 "nombre": "Otras formas"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "titulo": "Tipo de brazo",
-        "nombre": "tipoDeBrazo",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Sin brazos"
-            },
-            {
-                "id": 2,
-                "nombre": "Brazo recto"
-            },
-            {
-                "id": 3,
-                "nombre": "Brazo curvo"
-            },
-            {
-                "id": 4,
-                "nombre": "Brazo seahorse"
             }
         ]
     }

@@ -1,0 +1,60 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Cama box tarimas",
+            "ruta": "/productos/colchones/adel/1-plaza-y-media/",
+            "nombre": "COLCHÓN KAMAS ADEL 1 PLAZA Y MEDIA",
+            "nombreCompleto": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 1 PLAZA Y MEDIA",
+            "tamaño": "1 plaza y media",
+            "fotos": "/assets/imagenes/productos/colchones/adel/1-plaza-y-media/",
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 99,
+            "sku": "K1151CN10",
+            "detallesDelProducto":{
+                "modeloColchon": "Adel",
+                "tamaño": "1 plaza y media",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "8 filas de resortes en forma vertical.",
+                "tres": "Tela tricop.",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Uso de ambos lados.",
+                "seis": "Soporte de 55kg. por persona."
+            }
+        },
+        {
+            "id": 2,
+            "categoria": "Cama box tarimas",
+            "ruta": "/productos/colchones/adel/2-plazas/",
+            "tamaño": "2 plazas",
+            "nombre": "COLCHÓN KAMAS ADEL 2 PLAZAS",
+            "nombreCompleto": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 2 PLAZAS",
+            "fotos": "/assets/imagenes/productos/colchones/adel/2-plazas/",
+            "precioNormal": 399,
+            "precioVenta": 299,
+            "stock": 99,
+            "sku": "K121CN10",
+            "detallesDelProducto":{
+                "modeloColchon": "Adel",
+                "tamaño": "2 plazas",
+                "lineaColchones": "Ortopédicos",
+                "nivelDeConfort": "Confortable",
+                "tipoDeResorte": "Bonell"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "12 filas de resortes en forma vertical.",
+                "tres": "Tela tricop.",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Uso de ambos lados.",
+                "seis": "Soporte de 65kg. por persona."
+            }
+        }
+    ]
+}
