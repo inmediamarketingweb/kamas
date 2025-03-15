@@ -2,479 +2,479 @@
     "categorias":[
         {
             "id": 1,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Colchones",
-            "headTitle": "Colchones | Kamas",
-            "route": "/productos/colchones/",
+            "metaTitulo": "Colchones | Kamas",
+            "ruta": "/productos/colchones/",
             "menuMessage":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Lorem Ipsum industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Modelos"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Adel",
-                    "headTitle": "Colchones - Adel | Kamas",
-                    "route": "/productos/colchones/adel/"
+                    "metaTitulo": "Colchones - Adel | Kamas",
+                    "ruta": "/productos/colchones/adel/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Rucay",
-                    "headTitle": "Colchones - Rucay | Kamas",
-                    "route": "/productos/colchones/rucay/"
+                    "metaTitulo": "Colchones - Rucay | Kamas",
+                    "ruta": "/productos/colchones/rucay/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Sarki",
-                    "headTitle": "Colchones - Sarki | Kamas",
-                    "route": "/productos/colchones/sarki/"
+                    "metaTitulo": "Colchones - Sarki | Kamas",
+                    "ruta": "/productos/colchones/sarki/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Safynnte",
-                    "headTitle": "Colchones - Safynnte | Kamas",
-                    "route": "/productos/colchones/safynnte/"
+                    "metaTitulo": "Colchones - Safynnte | Kamas",
+                    "ruta": "/productos/colchones/safynnte/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Der Prinz",
-                    "headTitle": "Colchones - Der Prinz | Kamas",
-                    "route": "/productos/colchones/der-prinz/"
+                    "metaTitulo": "Colchones - Der Prinz | Kamas",
+                    "ruta": "/productos/colchones/der-prinz/"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Thameo pocket",
-                    "headTitle": "Colchones - Thameo pocket | Kamas",
-                    "route": "/productos/colchones/thameo-pocket/"
+                    "metaTitulo": "Colchones - Thameo pocket | Kamas",
+                    "ruta": "/productos/colchones/thameo-pocket/"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Ramat",
-                    "headTitle": "Colchones - Ramat | Kamas",
-                    "route": "/productos/colchones/ramat/"
+                    "metaTitulo": "Colchones - Ramat | Kamas",
+                    "ruta": "/productos/colchones/ramat/"
                 },
                 {
                     "id": 8,
                     "subcategoria": "Nesie",
-                    "headTitle": "Colchones - Nesie | Kamas",
-                    "route": "/productos/colchones/nesie/"
+                    "metaTitulo": "Colchones - Nesie | Kamas",
+                    "ruta": "/productos/colchones/nesie/"
                 },
                 {
                     "id": 9,
                     "subcategoria": "Norole",
-                    "headTitle": "Colchones - Norole | Kamas",
-                    "route": "/productos/colchones/norole/"
+                    "metaTitulo": "Colchones - Norole | Kamas",
+                    "ruta": "/productos/colchones/norole/"
                 },
                 {
                     "id": 10,
                     "subcategoria": "Thaleo",
-                    "headTitle": "Colchones - Thaleo | Kamas",
-                    "route": "/productos/colchones/thaleo/"
+                    "metaTitulo": "Colchones - Thaleo | Kamas",
+                    "ruta": "/productos/colchones/thaleo/"
                 },
                 {
                     "id": 11,
                     "subcategoria": "Konig",
-                    "headTitle": "Colchones - Konig | Kamas",
-                    "route": "/productos/colchones/konig/"
+                    "metaTitulo": "Colchones - Konig | Kamas",
+                    "ruta": "/productos/colchones/konig/"
                 },
                 {
                     "id": 12,
                     "subcategoria": "Yurmale",
-                    "headTitle": "Colchones - Yurmale | Kamas",
-                    "route": "/productos/colchones/yurmale/"
+                    "metaTitulo": "Colchones - Yurmale | Kamas",
+                    "ruta": "/productos/colchones/yurmale/"
                 },
                 {
                     "id": 13,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Colchones | Kamas",
-                    "route": "/productos/colchones/"
+                    "metaTitulo": "Colchones | Kamas",
+                    "ruta": "/productos/colchones/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/colchones/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/colchones/1.jpg",
                     "imgAlt": "Colchones | Kamas"
                 }
             ]
         },
         {
             "id": 2,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Cama box tarimas",
-            "headTitle": "Cama box tarimas | Kamas",
-            "route": "/productos/cama-box-tarimas/",
+            "metaTitulo": "Cama box tarimas | Kamas",
+            "ruta": "/productos/cama-box-tarimas/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Línea"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Americanos",
-                    "headTitle": "Cama box tarimas - Americanos | Kamas",
-                    "route": "/productos/cama-box-tarimas/americanos/"
+                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
+                    "ruta": "/productos/cama-box-tarimas/americanos/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Americanos con cajones",
-                    "headTitle": "Cama box tarimas - Americanos con cajones | Kamas",
-                    "route": "/productos/cama-box-tarimas/americanos-con-cajones/"
+                    "metaTitulo": "Cama box tarimas - Americanos con cajones | Kamas",
+                    "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Europeos",
-                    "headTitle": "Cama box tarimas - Europeos | Kamas",
-                    "route": "/productos/cama-box-tarimas/europeos/"
+                    "metaTitulo": "Cama box tarimas - Europeos | Kamas",
+                    "ruta": "/productos/cama-box-tarimas/europeos/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Europeos con cajones",
-                    "headTitle": "Cama box tarimas - Europeos con cajones | Kamas",
-                    "route": "/productos/cama-box-tarimas/europeos-con-cajones/"
+                    "metaTitulo": "Cama box tarimas - Europeos con cajones | Kamas",
+                    "ruta": "/productos/cama-box-tarimas/europeos-con-cajones/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Cama box tarimas | Kamas",
-                    "route": "/productos/cama-box-tarimas/"
+                    "metaTitulo": "Cama box tarimas | Kamas",
+                    "ruta": "/productos/cama-box-tarimas/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/cama-box-tarimas/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/cama-box-tarimas/1.jpg",
                     "imgAlt": "Cama box tarimas | Kamas"
                 }
             ]
         },
         {
             "id": 3,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Dormitorios",
-            "headTitle": "Dormitorios | Kamas",
-            "route": "/productos/dormitorios/",
+            "metaTitulo": "Dormitorios | Kamas",
+            "ruta": "/productos/dormitorios/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Línea"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Americanos",
-                    "headTitle": "Cama box tarimas - Americanos | Kamas",
-                    "route": "/productos/dormitorios/americanos/"
+                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
+                    "ruta": "/productos/dormitorios/americanos/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Americanos con cajones",
-                    "headTitle": "Cama box tarimas - Americanos con cajones | Kamas",
-                    "route": "/productos/dormitorios/americanos-con-cajones/"
+                    "metaTitulo": "Cama box tarimas - Americanos con cajones | Kamas",
+                    "ruta": "/productos/dormitorios/americanos-con-cajones/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Europeos",
-                    "headTitle": "Cama box tarimas - Europeos | Kamas",
-                    "route": "/productos/dormitorios/europeos/"
+                    "metaTitulo": "Cama box tarimas - Europeos | Kamas",
+                    "ruta": "/productos/dormitorios/europeos/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Europeos con cajones",
-                    "headTitle": "Cama box tarimas - Europeos con cajones | Kamas",
-                    "route": "/productos/dormitorios/europeos-con-cajones/"
+                    "metaTitulo": "Cama box tarimas - Europeos con cajones | Kamas",
+                    "ruta": "/productos/dormitorios/europeos-con-cajones/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Cama box tarimas | Kamas",
-                    "route": "/productos/dormitorios/"
+                    "metaTitulo": "Cama box tarimas | Kamas",
+                    "ruta": "/productos/dormitorios/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/dormitorios/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/dormitorios/1.jpg",
                     "imgAlt": "Dormitorios | Kamas"
                 }
             ]
         },
         {
             "id": 4,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Camas funcionales",
-            "headTitle": "Camas funcionales | Kamas",
-            "route": "/productos/camas-funcionales/",
+            "metaTitulo": "Camas funcionales | Kamas",
+            "ruta": "/productos/camas-funcionales/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Línea"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Box espacios",
-                    "headTitle": "Camas funcionales - Box espacios | Kamas",
-                    "route": "/productos/camas-funcionales/box-espacios/"
+                    "metaTitulo": "Camas funcionales - Box espacios | Kamas",
+                    "ruta": "/productos/camas-funcionales/box-espacios/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Box con baúl",
-                    "headTitle": "Camas funcionales - Box con baúl | Kamas",
-                    "route": "/productos/camas-funcionales/box-con-baul/"
+                    "metaTitulo": "Camas funcionales - Box con baúl | Kamas",
+                    "ruta": "/productos/camas-funcionales/box-con-baul/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Divanes",
-                    "headTitle": "Camas funcionales - Divanes | Kamas",
-                    "route": "/productos/camas-funcionales/divanes/"
+                    "metaTitulo": "Camas funcionales - Divanes | Kamas",
+                    "ruta": "/productos/camas-funcionales/divanes/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Camarotes",
-                    "headTitle": "Camas funcionales - Camarotes | Kamas",
-                    "route": "/productos/camas-funcionales/camarotes/"
+                    "metaTitulo": "Camas funcionales - Camarotes | Kamas",
+                    "ruta": "/productos/camas-funcionales/camarotes/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Cunas",
-                    "headTitle": "Camas funcionales - Cunas | Kamas",
-                    "route": "/productos/camas-funcionales/cunas/"
+                    "metaTitulo": "Camas funcionales - Cunas | Kamas",
+                    "ruta": "/productos/camas-funcionales/cunas/"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Camas infantiles",
-                    "headTitle": "Camas funcionales - Infantiles | Kamas",
-                    "route": "/productos/camas-funcionales/infantiles/"
+                    "metaTitulo": "Camas funcionales - Infantiles | Kamas",
+                    "ruta": "/productos/camas-funcionales/infantiles/"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Camas funcionales | Kamas",
-                    "route": "/productos/camas-funcionales/"
+                    "metaTitulo": "Camas funcionales | Kamas",
+                    "ruta": "/productos/camas-funcionales/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/camas-funcionales/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/camas-funcionales/1.jpg",
                     "imgAlt": "Camas funcionales | Kamas"
                 }
             ]
         },
         {
             "id": 5,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Cabeceras",
-            "headTitle": "Cabeceras | Kamas",
-            "route": "/productos/cabeceras/",
+            "metaTitulo": "Cabeceras | Kamas",
+            "ruta": "/productos/cabeceras/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Tipo"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Aéreas",
-                    "headTitle": "Cabeceras - Aéreas | Kamas",
-                    "route": "/productos/cabeceras/aereas/"
+                    "metaTitulo": "Cabeceras - Aéreas | Kamas",
+                    "ruta": "/productos/cabeceras/aereas/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Pedestales",
-                    "headTitle": "Cabeceras - Pedestales | Kamas",
-                    "route": "/productos/cabeceras/pedestales/"
+                    "metaTitulo": "Cabeceras - Pedestales | Kamas",
+                    "ruta": "/productos/cabeceras/pedestales/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Cabeceras | Kamas",
-                    "route": "/productos/cabeceras/"
+                    "metaTitulo": "Cabeceras | Kamas",
+                    "ruta": "/productos/cabeceras/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/cabeceras/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/cabeceras/1.jpg",
                     "imgAlt": "Cabeceras | Kamas"
                 }
             ]
         },
         {
             "id": 6,
-            "icon": "chair",
+            "icono": "chair",
             "categoria": "Sofás",
-            "headTitle": "Sofás | Kamas",
-            "route": "/productos/sofas/",
+            "metaTitulo": "Sofás | Kamas",
+            "ruta": "/productos/sofas/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Modelos"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Juegos de sala",
-                    "headTitle": "Sofás - Juegos de sala | Kamas",
-                    "route": "/productos/sofas/juegos-de-sala/"
+                    "metaTitulo": "Sofás - Juegos de sala | Kamas",
+                    "ruta": "/productos/sofas/juegos-de-sala/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Seccionales",
-                    "headTitle": "Sofás - Seccionales | Kamas",
-                    "route": "/productos/sofas/seccionales/"
+                    "metaTitulo": "Sofás - Seccionales | Kamas",
+                    "ruta": "/productos/sofas/seccionales/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Sofás camas",
-                    "headTitle": "Sofás - Sofás camas | Kamas",
-                    "route": "/productos/sofas/sofas-camas/"
+                    "metaTitulo": "Sofás - Sofás camas | Kamas",
+                    "ruta": "/productos/sofas/sofas-camas/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Reclinales",
-                    "headTitle": "Sofás - Reclinables | Kamas",
-                    "route": "/productos/sofas/reclinables/"
+                    "metaTitulo": "Sofás - Reclinables | Kamas",
+                    "ruta": "/productos/sofas/reclinables/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Sofás y sillones",
-                    "headTitle": "Sofás - Sofás y sillones | Kamas",
-                    "route": "/productos/sofas/sofas-y-sillones/"
+                    "metaTitulo": "Sofás - Sofás y sillones | Kamas",
+                    "ruta": "/productos/sofas/sofas-y-sillones/"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Mecedoras",
-                    "headTitle": "Sofás - Mecedoras | Kamas",
-                    "route": "/productos/sofas/mecedoras/"
+                    "metaTitulo": "Sofás - Mecedoras | Kamas",
+                    "ruta": "/productos/sofas/mecedoras/"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Butacas",
-                    "headTitle": "Sofás - Butacas | Kamas",
-                    "route": "/productos/sofas/butacas/"
+                    "metaTitulo": "Sofás - Butacas | Kamas",
+                    "ruta": "/productos/sofas/butacas/"
                 },
                 {
                     "id": 8,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Sofás | Kamas",
-                    "route": "/productos/sofas/"
+                    "metaTitulo": "Sofás | Kamas",
+                    "ruta": "/productos/sofas/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/sofas/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/sofas/1.jpg",
                     "imgAlt": "Sofás | Kamas"
                 }
             ]
         },
         {
             "id": 7,
-            "icon": "king_bed",
+            "icono": "king_bed",
             "categoria": "Complementos",
-            "headTitle": "Complementos | Kamas",
-            "route": "/productos/complementos/",
+            "metaTitulo": "Complementos | Kamas",
+            "ruta": "/productos/complementos/",
             "menuMessage":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriesTitle":[
+            "subCategoriasTitle":[
                 {
                     "text": "Categorías"
                 }
             ],
-            "subCategories":[
+            "subCategorias":[
                 {
                     "id": 1,
                     "subcategoria": "Veladores",
-                    "headTitle": "Complementos - Veladores | Kamas",
-                    "route": "/productos/complementos/veladores/"
+                    "metaTitulo": "Complementos - Veladores | Kamas",
+                    "ruta": "/productos/complementos/veladores/"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Baúles",
-                    "headTitle": "Complementos - Baúles | Kamas",
-                    "route": "/productos/complementos/baules/"
+                    "metaTitulo": "Complementos - Baúles | Kamas",
+                    "ruta": "/productos/complementos/baules/"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Bases",
-                    "headTitle": "Complementos - Bases | Kamas",
-                    "route": "/productos/complementos/bases/"
+                    "metaTitulo": "Complementos - Bases | Kamas",
+                    "ruta": "/productos/complementos/bases/"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Puffs",
-                    "headTitle": "Complementos - Puffs | Kamas",
-                    "route": "/productos/complementos/puffs/"
+                    "metaTitulo": "Complementos - Puffs | Kamas",
+                    "ruta": "/productos/complementos/puffs/"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Almohadas",
-                    "headTitle": "Complementos - Almohadas | Kamas",
-                    "route": "/productos/complementos/almohadas/"
+                    "metaTitulo": "Complementos - Almohadas | Kamas",
+                    "ruta": "/productos/complementos/almohadas/"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Sábanas y cobertores",
-                    "headTitle": "Complementos - Sábanas y cobertores | Kamas",
-                    "route": "/productos/complementos/sabanas-y-cobertores/"
+                    "metaTitulo": "Complementos - Sábanas y cobertores | Kamas",
+                    "ruta": "/productos/complementos/sabanas-y-cobertores/"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Cama perro",
-                    "headTitle": "Complementos - Cama perro | Kamas",
-                    "route": "/productos/complementos/cama-perro/"
+                    "metaTitulo": "Complementos - Cama perro | Kamas",
+                    "ruta": "/productos/complementos/cama-perro/"
                 },
                 {
                     "id": 8,
                     "subcategoria": "Ver todos",
-                    "headTitle": "Complementos | Kamas",
-                    "route": "/productos/complementos/"
+                    "metaTitulo": "Complementos | Kamas",
+                    "ruta": "/productos/complementos/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/images/productos/complementos/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/complementos/1.jpg",
                     "imgAlt": "Sofás | Kamas"
                 }
             ]
         },
         {
             "id": 8,
-            "icon": "sell",
+            "icono": "sell",
             "categoria": "Ofertas",
-            "headTitle": "Ofertas | Kamas",
-            "route": "/productos/ofertas/"
+            "metaTitulo": "Ofertas | Kamas",
+            "ruta": "/productos/ofertas/"
         }
     ]
 }
