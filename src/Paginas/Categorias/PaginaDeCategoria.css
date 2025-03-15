@@ -1,0 +1,37 @@
+.product-page-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+
+.product-page-top{
+    grid-column: 1/-1;
+}
+
+.product-page-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .product-page-left > p{
+    font-size: 18px;
+} */
+
+.filter{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: #00000010;
+    border-radius: 5px;
+}
+
+.filter-name{
+    /* font-size: 17px; */
+    margin-bottom: 10px;
+}
+
+.filter ul li{
+    display: flex;
+    gap: 10px;
+}
