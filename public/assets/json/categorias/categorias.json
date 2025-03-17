@@ -472,7 +472,7 @@
         {
             "id": 8,
             "icono": "sell",
-            "categoria": "Ofertas",
+            "categoria": "En oferta",
             "metaTitulo": "Ofertas | Kamas",
             "ruta": "/ofertas/"
         }

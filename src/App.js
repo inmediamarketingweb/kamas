@@ -12,9 +12,10 @@ function App() {
         <HelmetProvider>
             <Router>
                 <Routes>
-                <Route path="/" element={<PaginaPrincipal/>}/>
+                    <Route path="/" element={<PaginaPrincipal/>}/>
 
-                <Route path="/productos/:categoria" element={<PaginaDeCategoria/>}/>
+                    <Route path="/productos/:categoria" element={<PaginaDeCategoria/>}/>
+                    <Route path="/productos/:categoria/:subcategoria" element={<PaginaDeCategoria />}/>
                 </Routes>
             </Router>
         </HelmetProvider>
