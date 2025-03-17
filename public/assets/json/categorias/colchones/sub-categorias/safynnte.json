@@ -11,7 +11,7 @@
             "stock": 99,
             "sku": "K1156IN10",
             "detallesDelProducto":{
-                "modeloColhon": "Safynnte",
+                "modeloColchon": "Safynnte",
                 "tamaño": "1 plaza y media",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
@@ -37,7 +37,7 @@
             "stock": 99,
             "sku": "K126IN10",
             "detallesDelProducto":{
-                "modeloColhon": "Safynnte",
+                "modeloColchon": "Safynnte",
                 "tamaño": "2 plazas",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
@@ -63,7 +63,7 @@
             "stock": 99,
             "sku": "K126IN10",
             "detallesDelProducto":{
-                "modeloColhon": "Safynnte",
+                "modeloColchon": "Safynnte",
                 "tamaño": "Queen",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
@@ -94,7 +94,7 @@
             "stock": 99,
             "sku": "K136IN10",
             "detallesDelProducto":{
-                "modeloColhon": "Safynnte",
+                "modeloColchon": "Safynnte",
                 "tamaño": "King",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",

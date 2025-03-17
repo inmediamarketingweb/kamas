@@ -11,7 +11,7 @@
             "stock": 99,
             "sku": "K1159MFN10",
             "detallesDelProducto":{
-                "modeloColhon": "Norole",
+                "modeloColchon": "Norole",
                 "tamaño": "1 plaza y media",
                 "lineaColchones": "Extra ortopédicos",
                 "nivelDeConfort": "Muy firme",
@@ -38,7 +38,7 @@
             "stock": 99,
             "sku": "K129MFN10",
             "detallesDelProducto":{
-                "modeloColhon": "Norole",
+                "modeloColchon": "Norole",
                 "tamaño": "2 plazas",
                 "lineaColchones": "Extra ortopédicos",
                 "nivelDeConfort": "Muy firme",
@@ -65,7 +65,7 @@
             "stock": 99,
             "sku": "K139MFN10",
             "detallesDelProducto":{
-                "modeloColhon": "Norole",
+                "modeloColchon": "Norole",
                 "tamaño": "Queen",
                 "lineaColchones": "Extra ortopédicos",
                 "nivelDeConfort": "Muy firme",
@@ -97,7 +97,7 @@
             "stock": 99,
             "sku": "K149MFN10",
             "detallesDelProducto":{
-                "modeloColhon": "Norole",
+                "modeloColchon": "Norole",
                 "tamaño": "King",
                 "lineaColchones": "Extra ortopédicos",
                 "nivelDeConfort": "Muy firme",
