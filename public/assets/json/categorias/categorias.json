@@ -178,6 +178,33 @@
                     "ruta": "/productos/cama-box-tarimas/"
                 }
             ],
+            "medidas":[
+                {
+                    "id": 1,
+                    "medida": "1 plaza",
+                    "ruta": "/productos/cama-box-tarimas?tamaño=1-plaza"
+                },
+                {
+                    "id": 2,
+                    "medida": "1 plaza y media",
+                    "ruta": "/productos/cama-box-tarimas?tamaño=1-plaza-y-media"
+                },
+                {
+                    "id": 3,
+                    "medida": "2 plazas",
+                    "ruta": "/productos/cama-box-tarimas?tamaño=2-plazas"
+                },
+                {
+                    "id": 4,
+                    "medida": "Queen",
+                    "ruta": "/productos/cama-box-tarimas?tamaño=queen"
+                },
+                {
+                    "id": 5,
+                    "medida": "King",
+                    "ruta": "/productos/cama-box-tarimas?tamaño=king"
+                }
+            ],
             "menuImg":[
                 {
                     "imgSrc": "/assets/imagenes/productos/cama-box-tarimas/1.jpg",
@@ -231,6 +258,33 @@
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cama box tarimas | Kamas",
                     "ruta": "/productos/dormitorios/"
+                }
+            ],
+            "medidas":[
+                {
+                    "id": 1,
+                    "medida": "1 plaza",
+                    "ruta": "/productos/dormitorios?tamaño=1-plaza"
+                },
+                {
+                    "id": 2,
+                    "medida": "1 plaza y media",
+                    "ruta": "/productos/dormitorios?tamaño=1-plaza-y-media"
+                },
+                {
+                    "id": 3,
+                    "medida": "2 plazas",
+                    "ruta": "/productos/dormitorios?tamaño=2-plazas"
+                },
+                {
+                    "id": 4,
+                    "medida": "Queen",
+                    "ruta": "/productos/dormitorios?tamaño=queen"
+                },
+                {
+                    "id": 5,
+                    "medida": "King",
+                    "ruta": "/productos/dormitorios?tamaño=king"
                 }
             ],
             "menuImg":[

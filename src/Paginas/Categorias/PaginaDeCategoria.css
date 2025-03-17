@@ -119,3 +119,18 @@
 .product-card-prices span{
     margin-left: auto;
 }
+
+@media screen and (max-width: 600px){
+    .category-page-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-card{
+        flex: 1 1 clamp(100px, calc(calc(100% / 2) - calc(10px / 2)), 100%);
+        max-width: calc(calc(100% / 2) - calc(10px / 2));
+    }
+    .product-card-images img{
+        width: 80%;
+    }
+}

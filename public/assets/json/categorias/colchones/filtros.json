@@ -28,6 +28,37 @@
     },
     {
         "id": 2,
+        "titulo": "Linea de colchones",
+        "nombre": "lineaColchones",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Semi ortopédicos"
+            },
+            {
+                "id": 2,
+                "nombre": "Anátomicos"
+            },
+            {
+                "id": 3,
+                "nombre": "Ortopédicos"
+            },
+            {
+                "id": 4,
+                "nombre": "Super ortopédicos"
+            },
+            {
+                "id": 5,
+                "nombre": "Hoteleros"
+            },
+            {
+                "id": 6,
+                "nombre": "Extra ortopédicos"
+            }
+        ]
+    },
+    {
+        "id": 3,
         "titulo": "Modelo de colchón",
         "nombre": "modeloColchon",
         "lista":[
@@ -78,37 +109,6 @@
             {
                 "id": 12,
                 "nombre": "Yurmale"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "titulo": "Linea de colchones",
-        "nombre": "lineaColchones",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Semi ortopédicos"
-            },
-            {
-                "id": 2,
-                "nombre": "Anátomicos"
-            },
-            {
-                "id": 3,
-                "nombre": "Ortopédicos"
-            },
-            {
-                "id": 4,
-                "nombre": "Super ortopédicos"
-            },
-            {
-                "id": 5,
-                "nombre": "Hoteleros"
-            },
-            {
-                "id": 6,
-                "nombre": "Extra ortopédicos"
             }
         ]
     },
