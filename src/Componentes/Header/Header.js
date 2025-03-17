@@ -5,6 +5,7 @@ import './Header.css';
 function Header() {
     const [categorias, setCategorias] = useState([]);
     const [activeIndex, setActiveIndex] = useState(null);
+    const [isMenuActive, setIsMenuActive] = useState(false);
 
     useEffect(() => {
         fetch('/assets/json/categorias/categorias.json')
@@ -24,12 +25,18 @@ function Header() {
         setActiveIndex(activeIndex === index ? null : index);
     };
 
+    const toggleMenu = () => {
+        setIsMenuActive(!isMenuActive);
+    };
+
     return (
         <header>
             <div className='header-top-container'>
                 <section className='header-top'>
                     <div className='margin-auto'>
-                        <p className='color-white font-12 text-center'>Hacemos envíos a todo el Perú por la agencia de tu preferencia 🚚</p>
+                        <p className='color-white font-12 text-center'>
+                            Hacemos envíos a todo el Perú por la agencia de tu preferencia 🚚
+                        </p>
                     </div>
                 </section>
             </div>
@@ -39,7 +46,7 @@ function Header() {
                         <img src="https://www.kamas.pe/img/logo-principal-kamas.webp" alt="Kamas" />
                     </a>
 
-                    <nav className='menu-container'>
+                    <nav className={`menu-container ${isMenuActive ? 'active' : ''}`}>
                         <ul className='menu'>
                             {categorias.map((item, index) => (
                                 <li key={item.id} className='menu-li'>
@@ -84,8 +91,8 @@ function Header() {
                                                         <ul>
                                                             {item.medidas.map((medida) => (
                                                                 <li key={medida.id}>
-                                                                    <Link to={medida.ruta} className='submenu-link'>
-                                                                        {medida.medida}
+                                                                    <Link to={medida.ruta} className="submenu-sub-link">
+                                                                        <p>{medida.medida}</p>
                                                                     </Link>
                                                                 </li>
                                                             ))}
@@ -104,6 +111,15 @@ function Header() {
                             ))}
                         </ul>
                     </nav>
+
+                    <button 
+                        type="button" 
+                        className={`menu-icon ${isMenuActive ? 'active' : ''}`} 
+                        onClick={toggleMenu}
+                    >
+                        <p>Menu</p>
+                        <span className="material-icons">menu</span>
+                    </button>
                 </div>
             </div>
         </header>
