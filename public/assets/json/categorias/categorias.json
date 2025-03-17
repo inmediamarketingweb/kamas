@@ -11,7 +11,7 @@
                     "text": "Lorem Ipsum industry. Lorem Ipsum has been 500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Modelos"
                 }
@@ -96,6 +96,33 @@
                     "ruta": "/productos/colchones/"
                 }
             ],
+            "medidas":[
+                {
+                    "id": 1,
+                    "medida": "1 plaza",
+                    "ruta": "/productos/colchones?tamaño=1-plaza"
+                },
+                {
+                    "id": 2,
+                    "medida": "1 plaza y media",
+                    "ruta": "/productos/colchones?tamaño=1-plaza-y-media"
+                },
+                {
+                    "id": 3,
+                    "medida": "2 plazas",
+                    "ruta": "/productos/colchones?tamaño=2-plazas"
+                },
+                {
+                    "id": 4,
+                    "medida": "Queen",
+                    "ruta": "/productos/colchones?tamaño=queen"
+                },
+                {
+                    "id": 5,
+                    "medida": "King",
+                    "ruta": "/productos/colchones?tamaño=king"
+                }
+            ],
             "menuImg":[
                 {
                     "imgSrc": "/assets/imagenes/productos/colchones/1.jpg",
@@ -114,7 +141,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Línea"
                 }
@@ -169,7 +196,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Línea"
                 }
@@ -224,7 +251,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Línea"
                 }
@@ -291,7 +318,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Tipo"
                 }
@@ -334,7 +361,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Modelos"
                 }
@@ -407,7 +434,7 @@
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
                 }
             ],
-            "subCategoriasTitle":[
+            "subCategoriasTitulo":[
                 {
                     "text": "Categorías"
                 }

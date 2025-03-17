@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import './Header.css';
 
@@ -63,8 +64,8 @@ function Header() {
                                                 )}
                                             </div>
                                             <div className='submenu-target submenu-target-2'>
-                                                {item.subCategoriasTitle && item.subCategoriasTitle.length > 0 && (
-                                                    <p className='submenu-target-title'>{item.subCategoriasTitle[0].text}</p>
+                                                {item.subCategoriasTitulo && item.subCategoriasTitulo.length > 0 && (
+                                                    <p className='submenu-target-title'>{item.subCategoriasTitulo[0].text}</p>
                                                 )}
                                                 <ul>
                                                     {Array.isArray(item.subCategorias) && item.subCategorias.map((sub) => (
@@ -77,6 +78,22 @@ function Header() {
                                                 </ul>
                                             </div>
                                             <div className='submenu-target submenu-target-3'>
+                                                {(index === 0 || index === 1 || index === 2 || index === 4) && item.medidas && item.medidas.length > 0 && (
+                                                    <>
+                                                        <p className='submenu-target-title'>Medidas disponibles</p>
+                                                        <ul>
+                                                            {item.medidas.map((medida) => (
+                                                                <li key={medida.id}>
+                                                                    <Link to={medida.ruta} className='submenu-link'>
+                                                                        {medida.medida}
+                                                                    </Link>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </>
+                                                )}
+                                            </div>
+                                            <div className='submenu-target submenu-target-4'>
                                                 {item.menuImg && item.menuImg.length > 0 && (
                                                     <img src={item.menuImg[0].imgSrc} alt={item.menuImg[0].imgAlt}/>
                                                 )}
