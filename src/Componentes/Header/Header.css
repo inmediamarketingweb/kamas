@@ -137,6 +137,7 @@ header{
 .menu-link-8{
     background: transparent;
     padding: 5px 0;
+    gap: 2.5px;
 }
 
 .menu-link-8::before{
