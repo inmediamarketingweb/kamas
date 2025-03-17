@@ -11,7 +11,7 @@
             "stock": 99,
             "sku": "K1153CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Sarki",
+                "modeloColchon": "Sarki",
                 "tamaño": "1 plaza y media",
                 "lineaColchones": "Ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -38,7 +38,7 @@
             "stock": 99,
             "sku": "K123CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Sarki",
+                "modeloColchon": "Sarki",
                 "tamaño": "2 plazas",
                 "lineaColchones": "Ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -65,7 +65,7 @@
             "stock": 99,
             "sku": "K133CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Sarki",
+                "modeloColchon": "Sarki",
                 "tamaño": "Queen",
                 "lineaColchones": "Ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -95,7 +95,7 @@
             "stock": 99,
             "sku": "K143CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Sarki",
+                "modeloColchon": "Sarki",
                 "tamaño": "King",
                 "lineaColchones": "Ortopédicos",
                 "nivelDeConfort": "Confortable",

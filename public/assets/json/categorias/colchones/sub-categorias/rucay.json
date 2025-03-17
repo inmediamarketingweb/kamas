@@ -11,7 +11,7 @@
             "stock": 99,
             "sku": "K1152CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Rucay",
+                "modeloColchon": "Rucay",
                 "tamaño": "1 plaza y media",
                 "lineaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
@@ -38,7 +38,7 @@
             "stock": 99,
             "sku": "K122CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Rucay",
+                "modeloColchon": "Rucay",
                 "tamaño": "2 plazas",
                 "lineaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
@@ -65,7 +65,7 @@
             "stock": 99,
             "sku": "K132CN10",
             "detallesDelProducto":{
-                "modeloColhon": "Rucay",
+                "modeloColchon": "Rucay",
                 "tamaño": "Queen",
                 "lineaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
@@ -95,7 +95,7 @@
             "stock": 99,
             "sku": "K142CM10",
             "detallesDelProducto":{
-                "modeloColhon": "Rucay",
+                "modeloColchon": "Rucay",
                 "tamaño": "King",
                 "lineaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",

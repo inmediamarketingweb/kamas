@@ -1,0 +1,33 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "Cama box tarimas",
+            "subcategoria": "Americanos con cajones",
+            "ruta": "/productos/cama-box-tarima/americanos-con-cajones/king/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANO KING CON 2 CAJONES LATERALES + CABECERA AEREA CAPITONEADA - PLOMO",
+            "tamaño": "King",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 99,
+            "sku": "K24A2120N10",
+            "detallesDelProducto":{
+                "tamaño": "King",
+                "linea": "Americanos con cajones",
+                "tipoDeCabecera": "Aérea",
+                "modeloDeCabecera": "Americanas",
+                "diseñoDeCabecera": "Capitoneadas",
+                "tipoDeBrazo": "Sin brazos"
+            },
+            "descripcion":{
+                "uno": "Garantía de 1 año.",
+                "dos": "8 filas de resortes en forma vertical.",
+                "tres": "Tela tricop.",
+                "cuatro": "Espuma de alta densidad 16kg/m3.",
+                "cinco": "Uso de ambos lados.",
+                "seis": "Soporte de 55kg. por persona."
+            }
+        }
+    ]
+}

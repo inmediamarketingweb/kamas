@@ -11,7 +11,7 @@
             "stock": 99,
             "sku": "K1155MCN10",
             "detallesDelProducto":{
-                "modeloColhon": "Ramat",
+                "modeloColchon": "Ramat",
                 "tamaño": "1 plaza y media",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -39,7 +39,7 @@
             "stock": 99,
             "sku": "K125MCN10",
             "detallesDelProducto":{
-                "modeloColhon": "Ramat",
+                "modeloColchon": "Ramat",
                 "tamaño": "2 plazas",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -67,7 +67,7 @@
             "stock": 99,
             "sku": "K135MCN10",
             "detallesDelProducto":{
-                "modeloColhon": "Ramat",
+                "modeloColchon": "Ramat",
                 "tamaño": "Queen",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Confortable",
@@ -98,7 +98,7 @@
             "stock": 99,
             "sku": "K145MCN10",
             "detallesDelProducto":{
-                "modeloColhon": "Ramat",
+                "modeloColchon": "Ramat",
                 "tamaño": "King",
                 "lineaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Confortable",
