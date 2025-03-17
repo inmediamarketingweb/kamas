@@ -239,14 +239,14 @@ header{
     color: var(--color-1);
 }
 
-.submenu-target-3{
+.submenu-target:nth-last-child(1){
     margin-left: auto;
     padding: 20px;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 5px;
 }
 
-.submenu-target-3 img{
+.submenu-target:nth-last-child(1) img{
     width: auto;
     height: 100%;
     max-height: 250px;
