@@ -84,20 +84,20 @@ function PaginaDeCategoria() {
     const handleFiltroChange = (categoriaFiltro, opcion) => {
         setFiltrosSeleccionados(prev => {
             const nuevoEstado = { ...prev, [categoriaFiltro]: new Set(prev[categoriaFiltro] || []) };
-
+    
             if (nuevoEstado[categoriaFiltro].has(opcion)) {
                 nuevoEstado[categoriaFiltro].delete(opcion);
             } else {
                 nuevoEstado[categoriaFiltro].add(opcion);
             }
-
+    
             if (nuevoEstado[categoriaFiltro].size === 0) {
                 delete nuevoEstado[categoriaFiltro];
             }
-
+    
             return { ...nuevoEstado };
         });
-    };
+    };    
 
     useEffect(() => {
         if (Object.keys(filtrosSeleccionados).length === 0) {
