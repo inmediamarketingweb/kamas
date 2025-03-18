@@ -1,62 +1,113 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-const PaginaProducto = () => {
-    const { categoria, subcategoria } = useParams();
+import Header from '../../Componentes/Header/Header';
+import Footer from '../../Componentes/Footer/Footer';
+
+function PaginaProducto() {
+    const location = useLocation();
     const [producto, setProducto] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [error, setError] = useState(false);
 
     useEffect(() => {
         const fetchProducto = async () => {
             try {
-                const response = await fetch(`/assets/json/categorias/${categoria}/sub-categorias/${subcategoria}.json`);
-                
-                if (!response.ok) throw new Error("No se pudo cargar el archivo JSON");
+                const categorias = ["colchones", "cama-box-tarimas", "dormitorios", "camas-funcionales", "cabeceras", "sofas", "complementos"];
+                let productoEncontrado = null;
 
-                const data = await response.json();
+                for (const categoria of categorias) {
+                    const subcategorias = await fetch(`/assets/json/categorias/${categoria}/sub-categorias/sub-categorias.json`)
+                        .then(response => response.json())
+                        .catch(() => ({ subcategorias: [] }));
 
-                // Buscar el producto basado en la URL
-                const productoEncontrado = data.productos.find(prod => prod.ruta === window.location.pathname);
+                    for (const subcat of subcategorias.subcategorias || []) {
+                        const subcatNombre = subcat.subcategoria.toLowerCase().replace(/\s+/g, "-");
+                        const jsonPath = `/assets/json/categorias/${categoria}/sub-categorias/${subcatNombre}.json`;
 
-                if (!productoEncontrado) throw new Error("Producto no encontrado");
+                        const data = await fetch(jsonPath).then(response => response.json()).catch(() => null);
 
-                setProducto(productoEncontrado);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setLoading(false);
+                        if (data && data.productos) {
+                            const prod = data.productos.find(p => p.ruta === location.pathname);
+                            if (prod) {
+                                productoEncontrado = prod;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (productoEncontrado) break;
+                }
+
+                if (productoEncontrado) {
+                    setProducto(productoEncontrado);
+                } else {
+                    setError(true);
+                }
+            } catch (error) {
+                console.error("Error al buscar el producto:", error);
+                setError(true);
             }
         };
 
         fetchProducto();
-    }, [categoria, subcategoria]);
+    }, [location.pathname]);
 
-    if (loading) return <p>Cargando producto...</p>;
-    if (error) return <p>Error: {error}</p>;
-    if (!producto) return <p>No se encontró el producto.</p>;
+    useEffect(() => {
+        if (producto) {
+            document.title = producto.nombre;
+        }
+    }, [producto]);
+
+    if (error) {
+        return <p>Error: Producto no encontrado o no se pudo cargar la información.</p>;
+    }
+
+    if (!producto) {
+        return <p>Cargando información del producto...</p>;
+    }
 
     return (
-        <div>
-            <h1>{producto.nombre}</h1>
-            <img src={producto.fotos} alt={producto.nombre} width="300" />
-            <p>Precio Normal: ${producto.precioNormal}</p>
-            <p>Precio Oferta: ${producto.precioVenta}</p>
-            <p>Stock disponible: {producto.stock}</p>
-            <h3>Detalles del Producto</h3>
-            <ul>
-                {Object.entries(producto.detallesDelProducto).map(([key, value]) => (
-                    <li key={key}><strong>{key}:</strong> {value}</li>
-                ))}
-            </ul>
-            <h3>Descripción</h3>
-            <ul>
-                {Object.values(producto.descripcion).map((desc, index) => (
-                    <li key={index}>{desc}</li>
-                ))}
-            </ul>
-        </div>
+        <>
+            <Header/>
+
+            <main>
+                <div className='block-container'>
+                    <div className='block-content'>
+                        <section className="product-details">
+                            <h1>{producto.nombre}</h1>
+                            <div className="product-gallery">
+                                <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
+                            </div>
+                            <div className="product-info">
+                                <h2>Detalles del Producto</h2>
+                                <ul>
+                                    {Object.entries(producto.detallesDelProducto).map(([key, value]) => (
+                                    <li key={key}>{`${key}: ${value}`}</li>
+                                    ))}
+                                </ul>
+                                <h3>Descripción</h3>
+                                <ul>
+                                    {Object.values(producto.descripcion).map((detalle, index) => (
+                                        <li key={index}>{detalle}</li>
+                                    ))}
+                                </ul>
+                                <p className="product-price">
+                                    Precio de venta: <strong>S/.{producto.precioVenta}</strong>
+                                    {producto.precioNormal > producto.precioVenta && (
+                                        <span> (Antes: S/.{producto.precioNormal})</span>
+                                    )}
+                                </p>
+                                <p>Stock disponible: {producto.stock}</p>
+                                <p>SKU: {producto.sku}</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </main>
+
+            <Footer/>
+        </>
     );
-};
+}
 
 export default PaginaProducto;
