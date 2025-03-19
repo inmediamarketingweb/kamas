@@ -59,6 +59,33 @@
     },
     {
         "id": 3,
+        "titulo": "Nivel de confort",
+        "nombre": "nivelDeConfort",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Confortable"
+            },
+            {
+                "id": 2,
+                "nombre": "Intermedio"
+            },
+            {
+                "id": 3,
+                "nombre": "Muy confortable"
+            },
+            {
+                "id": 4,
+                "nombre": "Firme"
+            },
+            {
+                "id": 5,
+                "nombre": "Muy firme"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "titulo": "Modelo de colchón",
         "nombre": "modeloColchon",
         "lista":[
@@ -109,33 +136,6 @@
             {
                 "id": 12,
                 "nombre": "Yurmale"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "titulo": "Nivel de confort",
-        "nombre": "nivelDeConfort",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Confortable"
-            },
-            {
-                "id": 2,
-                "nombre": "Intermedio"
-            },
-            {
-                "id": 3,
-                "nombre": "Muy confortable"
-            },
-            {
-                "id": 4,
-                "nombre": "Firme"
-            },
-            {
-                "id": 5,
-                "nombre": "Muy firme"
             }
         ]
     },
