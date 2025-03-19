@@ -18,9 +18,13 @@
     --header: #FFFFFF;
 
     --white: #FFFFFF;
+    --gray: gray;
     --black: #000000;
 
-    --text: #444444;
+    --whatsapp: #25D366;
+
+    --text: #333333;
+    --f-size-small: 13px;
 
     --container-mx-width: 2000px;
     --content-mx-width: 1600px;
@@ -40,10 +44,13 @@
 
 /**/
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 main{
-    margin: auto;
-    margin-top: calc(var(--header-top) + var(--header-bottom));
     width: 100%;
+    margin-top: 165px;
 }
 
 /**/
@@ -72,12 +79,16 @@ button{
 
 /**/
 
-.font-12{
-    font-size: 12px;
+.font-13{
+    font-size: 13px !important;
 }
 
 .color-white{
-    color: var(--white);
+    color: var(--white) !important;
+}
+
+.color-gray{
+    color: gray !important;
 }
 
 /**/
@@ -110,6 +121,12 @@ button{
 
 .margin-bottom{
     margin-bottom: auto;
+}
+
+/**/
+
+.gap-10{
+    gap: 10px;
 }
 
 /**/
