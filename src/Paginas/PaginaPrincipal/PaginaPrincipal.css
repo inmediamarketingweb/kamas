@@ -1,10 +1,15 @@
 .hero-container{
+    margin: auto;
     width: 100%;
+    /* max-width: var(--content-mx-width); */
     height: calc(100vh - 165px);
     max-height: 600px;
+    position: relative;
 }
 
 .hero{
+    margin: auto;
+    display: flex;
     width: 100%;
     height: 100%;
 }
@@ -31,8 +36,120 @@
     display: flex;
 }
 
+.slider li a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .slider li img{
     width: 100%;
     height: 100%;
     object-fit: contain;
+    /* aspect-ratio: 2/1; */
+}
+
+.hero-slider-button{
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: var(--color-1);
+}
+
+.hero-slider-button span{
+    color: var(--white);
+}
+
+.hero-slider-button-1{
+    left: 20px;
+}
+
+.hero-slider-button-2{
+    right: 20px;
+}
+
+/**/
+
+.homepage-categories{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.homepage-categories li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    /* aspect-ratio: 1/1; */
+    /* gap: 20px; */
+    /* border-radius: 100%; */
+    /* background: orange; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* border: 1px solid var(--gray); */
+    transition: var(--t-200ms);
+}
+
+.homepage-categories li a div{
+    display: flex;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+    border: 1px solid var(--gray);
+    border-radius: 100%;
+    transition: var(--t-200ms);
+    padding: 20px;
+}
+
+.homepage-categories li a:hover div{
+    border: 1px solid var(--color-1);
+}
+
+.homepage-categories li a div img{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.homepage-categories li a p{
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .hero-container{
+        height: auto;
+        max-height: none;
+    }
+    .hero-slider-button{
+        width: 48px;
+        height: 48px;
+    }
+
+    .homepage-categories{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .homepage-categories li a div{
+        padding: 10px;
+    }
 }

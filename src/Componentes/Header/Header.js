@@ -44,7 +44,7 @@ function Header(){
                             <li>
                                 <p>Atención al cliente:</p>
                                 <a href="tel: +51915249176" target="_blank" rel="noopener noreferrer">
-                                    <img className="whatsapp-icon" src="/assets/imagenes/iconos/whatsapp-gris.svg" alt="icono de whatsapp"/>
+                                    <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="icono de whatsapp"/>
                                     <p>915249176</p>
                                 </a>
                                 <a href="mailto: contacto@kamas.pe" target="_blank" rel="noopener noreferrer">
