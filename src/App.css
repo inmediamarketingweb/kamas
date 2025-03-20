@@ -70,7 +70,7 @@ main{
 .block-title-container{
     width: 100%;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .block-title{
@@ -103,6 +103,15 @@ button{
 
 .color-gray{
     color: gray !important;
+}
+
+.text{
+    color: var(--text);
+    transition: var(--t-200ms);
+}
+
+.title{
+    font-size: 20px;
 }
 
 /**/
@@ -150,6 +159,10 @@ button{
 }
 
 @media screen and (max-width: 600px){
+    *{
+        cursor: none !important;
+    }
+    
     main{
         margin-top: 224px;
     }

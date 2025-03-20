@@ -25,10 +25,9 @@ function PaginaDeCategoria() {
         { id: "rango-1", titulo: "S/ 250 - S/ 500", min: 250, max: 500 },
         { id: "rango-2", titulo: "S/ 500 - S/ 1.000", min: 500, max: 1000 },
         { id: "rango-3", titulo: "S/ 1.000 - S/ 2.000", min: 1000, max: 2000 },
-        { id: "rango-5", titulo: "Desde S/ 2.000", min: 2000, max: Infinity },
+        { id: "rango-4", titulo: "Desde S/ 2.000", min: 2000, max: Infinity },
     ];
 
-    // Cargar datos iniciales
     useEffect(() => {
         fetch(`/assets/json/categorias/${categoria}/metadatos.json`)
             .then((response) => response.json())
@@ -211,126 +210,119 @@ function PaginaDeCategoria() {
 
             <Header />
 
-            <main>
-                <div className="block-container">
-                    <section className="block-content">
-                        <div className="category-page-container">
-                            <div className="category-page-left">
-                                <div className="filter">
-                                    <p className="filter-name">Rangos de Precio:</p>
+            <div className="block-container">
+                <section className="block-content">
+                    <div className="category-page-container">
+                        <div className="category-page-left">
+                            <div className="filter">
+                                <p className="filter-name">Rangos de Precio:</p>
+                                <ul>
+                                    {rangosDePrecio.map((rango) => (
+                                        <li key={rango.id}>
+                                            <input type="radio" name="rango-precio" checked={rangoDePrecioSeleccionado === rango.id} onChange={() => handleCambioRangoPrecio(rango.id)}/>
+                                            <label>{rango.titulo}</label>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div
+                                className="filter custom-slider"
+                                onClick={manejarClic}
+                                onMouseMove={(e) =>
+                                    arrastrando && manejarClic(e)
+                                }
+                                onMouseUp={() => setArrastrando(false)}
+                                onMouseLeave={() => setArrastrando(false)}
+                            >
+                                <span className="slider-track"></span>
+                                <span
+                                    className="slider-thumb"
+                                    onMouseDown={() => setArrastrando(true)}
+                                    style={{
+                                        left: `${((valorThumb - rangoPrecios[0]) /
+                                            (rangoPrecios[1] - rangoPrecios[0])) *
+                                            100}%`,
+                                    }}
+                                ></span>
+                                <p>{`S/ ${rangoPrecios[0]} – S/ ${valorThumb}`}</p>
+                            </div>
+                            {filtros.map((filtro) => (
+                                <div className="filter" key={`filtro-${filtro.nombre}`}>
+                                    <p className="filter-name">{filtro.titulo}:</p>
                                     <ul>
-                                        {rangosDePrecio.map((rango) => (
-                                            <li key={rango.id}>
+                                        {filtro.lista.map((opcion) => (
+                                            <li key={`opcion-${filtro.nombre}-${opcion.nombre}`}>
                                                 <input
-                                                    type="radio"
-                                                    name="rango-precio"
-                                                    checked={rangoDePrecioSeleccionado === rango.id}
-                                                    onChange={() => handleCambioRangoPrecio(rango.id)}
+                                                    type="checkbox"
+                                                    checked={
+                                                        filtrosSeleccionados[filtro.nombre]?.has(
+                                                            opcion.nombre.toLowerCase().replace(/\s+/g, "-")
+                                                        ) || false
+                                                    }
+                                                    onChange={() =>
+                                                        handleFiltroChange(filtro.nombre, opcion.nombre)
+                                                    }
                                                 />
-                                                <label>{rango.titulo}</label>
+                                                <label>{opcion.nombre}</label>
                                             </li>
                                         ))}
                                     </ul>
                                 </div>
-                                <div
-                                    className="filter custom-slider"
-                                    onClick={manejarClic}
-                                    onMouseMove={(e) =>
-                                        arrastrando && manejarClic(e)
-                                    }
-                                    onMouseUp={() => setArrastrando(false)}
-                                    onMouseLeave={() => setArrastrando(false)}
-                                >
-                                    <span className="slider-track"></span>
-                                    <span
-                                        className="slider-thumb"
-                                        onMouseDown={() => setArrastrando(true)}
-                                        style={{
-                                            left: `${((valorThumb - rangoPrecios[0]) /
-                                                (rangoPrecios[1] - rangoPrecios[0])) *
-                                                100}%`,
-                                        }}
-                                    ></span>
-                                    <p>{`S/ ${rangoPrecios[0]} – S/ ${valorThumb}`}</p>
-                                </div>
-                                {filtros.map((filtro) => (
-                                    <div className="filter" key={`filtro-${filtro.nombre}`}>
-                                        <p className="filter-name">{filtro.titulo}:</p>
-                                        <ul>
-                                            {filtro.lista.map((opcion) => (
-                                                <li key={`opcion-${filtro.nombre}-${opcion.nombre}`}>
-                                                    <input
-                                                        type="checkbox"
-                                                        checked={
-                                                            filtrosSeleccionados[filtro.nombre]?.has(
-                                                                opcion.nombre.toLowerCase().replace(/\s+/g, "-")
-                                                            ) || false
-                                                        }
-                                                        onChange={() =>
-                                                            handleFiltroChange(filtro.nombre, opcion.nombre)
-                                                        }
-                                                    />
-                                                    <label>{opcion.nombre}</label>
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                ))}
-                            </div>
-                            <div className="category-page-right">
-                                {productosFiltrados.length > 0 ? (
-                                    <div className="category-page-products">
-                                        {productosFiltrados.map((producto) => {
-                                            const descuento = Math.round(
-                                                ((producto.precioNormal - producto.precioVenta) * 100) /
-                                                    producto.precioNormal
-                                            );
-                                            return (
-                                                <a
-                                                    href={producto.ruta}
-                                                    className="product-card"
-                                                    title={producto.nombre}
-                                                    key={uuidv4()}
-                                                >
-                                                    <div className="product-card-images">
-                                                        {descuento > 0 && (
-                                                            <span className="product-card-discount">
-                                                                -{descuento}%
-                                                            </span>
-                                                        )}
-                                                        <img
-                                                            src={`${producto.fotos}/1.jpg`}
-                                                            alt={producto.nombre}
-                                                        />
-                                                    </div>
-                                                    <div className="product-card-content">
-                                                        <span className="product-card-brand">
-                                                            KAMAS
-                                                        </span>
-                                                        <h4 className="product-card-name">
-                                                            {producto.nombre}
-                                                        </h4>
-                                                        <div className="product-card-prices">
-                                                            <span className="product-card-normal-price">
-                                                                S/.{producto.precioNormal}
-                                                            </span>
-                                                            <span className="product-card-sale-price">
-                                                                S/.{producto.precioVenta}
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            );
-                                        })}
-                                    </div>
-                                ) : (
-                                    <p>No se encontraron productos.</p>
-                                )}
-                            </div>
+                            ))}
                         </div>
-                    </section>
-                </div>
-            </main>
+                        <div className="category-page-right">
+                            {productosFiltrados.length > 0 ? (
+                                <div className="category-page-products">
+                                    {productosFiltrados.map((producto) => {
+                                        const descuento = Math.round(
+                                            ((producto.precioNormal - producto.precioVenta) * 100) /
+                                                producto.precioNormal
+                                        );
+                                        return (
+                                            <a
+                                                href={producto.ruta}
+                                                className="product-card"
+                                                title={producto.nombre}
+                                                key={uuidv4()}
+                                            >
+                                                <div className="product-card-images">
+                                                    {descuento > 0 && (
+                                                        <span className="product-card-discount">
+                                                            -{descuento}%
+                                                        </span>
+                                                    )}
+                                                    <img
+                                                        src={`${producto.fotos}/1.jpg`}
+                                                        alt={producto.nombre}
+                                                    />
+                                                </div>
+                                                <div className="product-card-content">
+                                                    <span className="product-card-brand">
+                                                        KAMAS
+                                                    </span>
+                                                    <h4 className="product-card-name">
+                                                        {producto.nombre}
+                                                    </h4>
+                                                    <div className="product-card-prices">
+                                                        <span className="product-card-normal-price">
+                                                            S/.{producto.precioNormal}
+                                                        </span>
+                                                        <span className="product-card-sale-price">
+                                                            S/.{producto.precioVenta}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        );
+                                    })}
+                                </div>
+                            ) : (
+                                <p>No se encontraron productos.</p>
+                            )}
+                        </div>
+                    </div>
+                </section>
+            </div>
 
             <Footer />
         </>
