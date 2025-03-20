@@ -225,23 +225,12 @@ function PaginaDeCategoria() {
                                     ))}
                                 </ul>
                             </div>
-                            <div
-                                className="filter custom-slider"
-                                onClick={manejarClic}
-                                onMouseMove={(e) =>
-                                    arrastrando && manejarClic(e)
-                                }
-                                onMouseUp={() => setArrastrando(false)}
-                                onMouseLeave={() => setArrastrando(false)}
-                            >
+                            <div className="filter custom-slider" onClick={manejarClic} onMouseMove={(e) => arrastrando && manejarClic(e)} onMouseUp={() => setArrastrando(false)} onMouseLeave={() => setArrastrando(false)}>
                                 <span className="slider-track"></span>
-                                <span
-                                    className="slider-thumb"
-                                    onMouseDown={() => setArrastrando(true)}
+                                <span className="slider-thumb" onMouseDown={() => setArrastrando(true)}
                                     style={{
                                         left: `${((valorThumb - rangoPrecios[0]) /
-                                            (rangoPrecios[1] - rangoPrecios[0])) *
-                                            100}%`,
+                                            (rangoPrecios[1] - rangoPrecios[0])) * 100}%`,
                                     }}
                                 ></span>
                                 <p>{`S/ ${rangoPrecios[0]} – S/ ${valorThumb}`}</p>
@@ -252,9 +241,7 @@ function PaginaDeCategoria() {
                                     <ul>
                                         {filtro.lista.map((opcion) => (
                                             <li key={`opcion-${filtro.nombre}-${opcion.nombre}`}>
-                                                <input
-                                                    type="checkbox"
-                                                    checked={
+                                                <input type="checkbox" checked={
                                                         filtrosSeleccionados[filtro.nombre]?.has(
                                                             opcion.nombre.toLowerCase().replace(/\s+/g, "-")
                                                         ) || false
@@ -274,42 +261,23 @@ function PaginaDeCategoria() {
                             {productosFiltrados.length > 0 ? (
                                 <div className="category-page-products">
                                     {productosFiltrados.map((producto) => {
-                                        const descuento = Math.round(
-                                            ((producto.precioNormal - producto.precioVenta) * 100) /
-                                                producto.precioNormal
-                                        );
-                                        return (
-                                            <a
-                                                href={producto.ruta}
-                                                className="product-card"
-                                                title={producto.nombre}
-                                                key={uuidv4()}
-                                            >
+                                        const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
+                                        return(
+                                            <a href={producto.ruta} className="product-card" title={producto.nombre} key={uuidv4()}>
                                                 <div className="product-card-images">
                                                     {descuento > 0 && (
                                                         <span className="product-card-discount">
                                                             -{descuento}%
                                                         </span>
                                                     )}
-                                                    <img
-                                                        src={`${producto.fotos}/1.jpg`}
-                                                        alt={producto.nombre}
-                                                    />
+                                                    <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
                                                 </div>
                                                 <div className="product-card-content">
-                                                    <span className="product-card-brand">
-                                                        KAMAS
-                                                    </span>
-                                                    <h4 className="product-card-name">
-                                                        {producto.nombre}
-                                                    </h4>
+                                                    <span className="product-card-brand">KAMAS</span>
+                                                    <h4 className="product-card-name">{producto.nombre}</h4>
                                                     <div className="product-card-prices">
-                                                        <span className="product-card-normal-price">
-                                                            S/.{producto.precioNormal}
-                                                        </span>
-                                                        <span className="product-card-sale-price">
-                                                            S/.{producto.precioVenta}
-                                                        </span>
+                                                        <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                                                        <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
                                                     </div>
                                                 </div>
                                             </a>

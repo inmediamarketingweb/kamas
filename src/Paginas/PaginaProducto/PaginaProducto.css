@@ -1,0 +1,227 @@
+.product-page-direction{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.product-page-direction a:nth-child(1) span{
+    color: var(--text);
+    transition: var(--t-200ms);
+}
+
+.product-page-direction a:nth-child(1):hover span{
+    color: var(--color-1);
+}
+
+.product-page-direction a,
+.product-page-direction > p{
+    text-transform: uppercase;
+}
+
+.product-page-direction a p{
+    font-size: 14px;
+    color: var(--text);
+}
+
+.product-page-direction a:hover p{
+    color: var(--black);
+}
+
+/**/
+
+.product-page-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.product-page-target{
+    width: 100%;
+}
+
+.product-page-category{
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.product-page-target-1{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+.product-page-target-1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-page-target-1 ul li{
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-page-target-1 ul li img{
+    margin: auto;
+    width: 90%;
+}
+
+.product-page-principal-image{
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    display: flex;
+    gap: 20px;
+}
+
+.product-page-discount{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 2.5px;
+    font-weight: bold;
+    background: var(--color-1);
+    color: var(--white);
+}
+
+.product-page-principal-image img{
+    margin: auto;
+    width: 80%;
+}
+
+.product-page-target-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-page-target-2 h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.product-page-sku{
+    font-size: 13px;
+    color: var(--text);
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-normal{
+    color: var(--gray);
+    text-decoration: line-through;
+}
+
+.price-sell{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-page-gifts{
+    margin-right: auto;
+    border: 1px solid var(--gray);
+    /* background: rgba(0 0 0 / 0.025); */
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.product-page-gifts ul{
+    display: flex;
+    gap: 10px;
+}
+
+.product-page-gifts li img{
+    margin: auto;
+    width: 80px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.product-page-details,
+.product-page-description{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.product-page-gifts h4,
+.product-page-details h4,
+.product-page-description h4{
+    color: var(--black);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-page-gifts ul li,
+.product-page-details ul li,
+.product-page-description ul li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3px;
+}
+
+.product-page-gifts ul li{
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: column;
+}
+
+.product-page-gifts ul li p,
+.product-page-details ul li p,
+.product-page-description ul li p{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.product-page-gifts ul li p::before,
+.product-page-details ul li p::before,
+.product-page-description ul li p::before{
+    content: '>';
+    color: var(--color-1);
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .product-page-container{
+        flex-direction: column;
+    }
+
+    .product-page-target-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .product-page-target-1 ul li{
+        width: 80px;
+        height: 80px;
+    }
+
+    .product-page-gifts li img{
+        width: 60px;
+    }
+}
