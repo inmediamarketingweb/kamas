@@ -27,7 +27,7 @@
     --f-size-small: 13px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1600px;
+    --content-mx-width: 1500px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -65,6 +65,20 @@ main{
     margin: auto;
     width: 100%;
     max-width: var(--content-mx-width);
+}
+
+.block-title-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.block-title{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--black);
 }
 
 /**/
@@ -133,4 +147,10 @@ button{
 
 .text-center{
     text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    main{
+        margin-top: 224px;
+    }
 }
