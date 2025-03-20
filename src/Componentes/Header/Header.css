@@ -230,7 +230,7 @@ header{
     top: unset;
     translate: 0 0;
     position: unset;
-    color: crimson;
+    color: crimson !important;
     scale: 1;
 }
 
@@ -470,6 +470,7 @@ header{
     width: 100%;
     height: 100vh;
     background: rgba(0 0 0 / 0.15);
+    transition: var(--t-200ms-linear);
     z-index: 99;
 
     opacity: 0;
@@ -559,7 +560,7 @@ header{
     }
     .menu-link{
         width: 100%;
-        height: 48px;
+        height: 56px;
         display: flex;
         align-items: center;
         justify-content: left;
@@ -577,6 +578,11 @@ header{
         left: unset;
         top: unset;
         translate: 0 0;
+        color: var(--text);
+    }
+    .menu-link:hover span,
+    .menu-link.active span{
+        color: var(--color-1);
     }
     .menu-link::after{
         content: '>';
@@ -584,6 +590,7 @@ header{
         rotate: 90deg;
         transition: var(--t-200ms-linear);
         color: var(--color-2);
+        font-size: 18px;
     }
     .menu-link.active::after{
         rotate: -90deg;
