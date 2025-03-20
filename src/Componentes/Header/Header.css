@@ -522,7 +522,7 @@ header{
         left: -100%;
         top: 158px;
         width: 100%;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 158px);
         background: var(--white);
         transition: var(--t-200ms-linear);
 
