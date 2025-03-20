@@ -10,6 +10,9 @@
             "precioVenta": 399,
             "stock": 99,
             "sku": "K1157MCN10",
+            "incluye":{
+                "uno": "1 almohoda"
+            },
             "detallesDelProducto":{
                 "modeloColchon": "Der Prinz",
                 "tamaño": "1 plaza y media",

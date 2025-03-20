@@ -78,7 +78,7 @@ main{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    color: var(--black);
+    color: var(--text);
 }
 
 /**/
@@ -125,6 +125,13 @@ button{
     align-items: center;
     justify-content: center;
 }
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
 
 .margin-auto{
     margin: auto;
