@@ -148,6 +148,10 @@ button{
 
 /**/
 
+.gap-5{
+    gap: 5px;
+}
+
 .gap-10{
     gap: 10px;
 }
@@ -159,11 +163,11 @@ button{
 }
 
 @media screen and (max-width: 600px){
-    *{
+    /* *{
         cursor: none !important;
-    }
+    } */
     
     main{
-        margin-top: 224px;
+        margin-top: 222px;
     }
 }

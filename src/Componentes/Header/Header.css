@@ -198,6 +198,7 @@ header{
 }
 
 .menu-link h2{
+    color: var(--text);
     transition: var(--t-200ms-linear);
 }
 
@@ -463,6 +464,18 @@ header{
 
 /**/
 
+.cellphone-header-links{
+    display: none;
+}
+
+/**/
+
+.call-now-container{
+    display: none;
+}
+
+/**/
+
 .body-layer{
     position: fixed;
     left: 0;
@@ -507,6 +520,7 @@ header{
     }
 
     .header-logo{
+        margin-right: auto;
         height: 40px;
     }
 
@@ -521,12 +535,12 @@ header{
     .menu-container{
         position: fixed;
         left: -100%;
-        top: 158px;
+        top: 157px;
         width: 100%;
-        height: calc(100vh - 158px);
+        height: calc(100vh - 157px);
         background: var(--white);
         transition: var(--t-200ms-linear);
-
+        /* padding-bottom: 40px; */
         overflow-y: auto;
     }
     .menu-container.active{
@@ -614,7 +628,7 @@ header{
         interpolate-size: allow-keywords;
     }
     .submenu-container.active{
-        padding: 20px;
+        padding: 10px 20px;
         height: auto;
         box-shadow: none;
     }
@@ -650,6 +664,63 @@ header{
     }
     .submenu-target-4 img{
         max-height: 200px;
+    }
+
+    .cellphone-header-links{
+        margin: 10px 0;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .cellphone-header-links::before,
+    .cellphone-header-links::after{
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: -1px;
+        translate: -50% 0;
+        width: calc(100% - 40px);
+        height: 2px;
+        background: var(--gray);
+        border-radius: 4px;
+    }
+    .cellphone-header-links::after{
+        top: unset;
+        bottom: -1px;
+    }
+    .cellphone-header-links ul li .menu-link::after{
+        display: none;
+    }
+
+    .call-now-container{
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 20px;
+    }
+    .call-now-container p{
+        /* font-weight: bold; */
+        color: var(--text);
+    }
+    .call-now{
+        width: 100%;
+        height: 56px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background: var(--color-1);
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }
+    .call-now span,
+    .call-now h2{
+        color: var(--white);
     }
 
     .header-bottom > ul{
