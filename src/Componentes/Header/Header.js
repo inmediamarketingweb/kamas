@@ -138,6 +138,43 @@ function Header() {
                                         </div>
                                     </li>
                                 ))}
+
+                                <div className="cellphone-header-links">
+                                    <ul>
+                                        <li>
+                                            <a href="/nosotros/" className="menu-link">
+                                                <span className="material-icons">person</span>
+                                                <h2>Acerca de nosotros</h2>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/contacto/" className="menu-link">
+                                                <span className="material-icons">mail</span>
+                                                <h2>Contáctanos</h2>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/" className="menu-link">
+                                                <span className="material-icons">shopping_cart</span>
+                                                <h2>Ventas al por mayor</h2>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="call-now-container">
+                                    <p>Llamar ahora:</p>
+                                    <div className="d-flex gap-5">
+                                        <a href="tel: +51915249176" className="call-now">
+                                            <span className="material-icons">phone_in_talk</span>
+                                            <h2>915249176</h2>
+                                        </a>
+                                        <a href="tel: +51915249176" className="call-now">
+                                            <span className="material-icons">phone_in_talk</span>
+                                            <h2>915249176</h2>
+                                        </a>
+                                    </div>
+                                </div>
                             </ul>
                         </nav>
 
@@ -157,11 +194,27 @@ function Header() {
                         </a>
 
                         <ul>
-                            <li><a href="/nosotros/"><p>Acerca de nosotros</p></a></li>
-                            <li><p className="color-white">|</p></li>
-                            <li><a href="/contacto/"><p>Contáctanos</p></a></li>
-                            <li><p className="color-white">|</p></li>
-                            <li><a href="/"><p>Ventas al por mayor</p></a></li>
+                            <li>
+                                <a href="/nosotros/">
+                                    <p>Acerca de nosotros</p>
+                                </a>
+                            </li>
+                            <li>
+                                <p className="color-white">|</p>
+                            </li>
+                            <li>
+                                <a href="/contacto/">
+                                    <p>Contáctanos</p>
+                                </a>
+                            </li>
+                            <li>
+                                <p className="color-white">|</p>
+                            </li>
+                            <li>
+                                <a href="/">
+                                    <p>Ventas al por mayor</p>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

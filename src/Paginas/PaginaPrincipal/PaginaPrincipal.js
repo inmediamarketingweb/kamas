@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
+import Benefits from '../../Componentes/Benefits/Benefits';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaPrincipal.css';
@@ -57,6 +58,7 @@ function PaginaPrincipal() {
                         </ul>
                     </div>
                 </section>
+
                 <button className='hero-slider-button hero-slider-button-1' onClick={goToPrevSlide}>
                     <span className='material-icons'>chevron_left</span>
                 </button>
@@ -64,6 +66,8 @@ function PaginaPrincipal() {
                     <span className='material-icons'>chevron_right</span>
                 </button>
             </div>
+
+            <Benefits/>
             
             <div className='block-container'>
                 <section className='block-content'>
