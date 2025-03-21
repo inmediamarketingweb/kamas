@@ -27,6 +27,15 @@
                     "nivel-de-confort": "Confortable"
                 }
             ],
+            "detalles-del-producto":[
+                {
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
             "descripcion":[
                 {
                     "resortes": "8 filas en forma vertical",
@@ -35,15 +44,6 @@
                     "tipo-de-uso": "Ambos lados",
                     "soporte-de-peso": "55kg. por persona",
                     "garantía": "1 año"
-                }
-            ],
-            "detalles-del-producto":[
-                {
-                    "modelo-de-colchón": "Adel",
-                    "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable",
-                    "tipo-de-resorte": "Bonell"
                 }
             ]
         },

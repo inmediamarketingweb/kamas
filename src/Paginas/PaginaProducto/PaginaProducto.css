@@ -48,8 +48,9 @@
 }
 
 .product-page-category{
-    color: var(--gray);
+    color: var(--color-1);
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .product-page-target-1{
@@ -138,6 +139,7 @@
 .product-page-sku{
     font-size: 13px;
     color: var(--text);
+    font-weight: bold;
 }
 
 .product-page-more-info{
@@ -179,8 +181,7 @@
 
 /**/
 
-.product-page-gifts,
-.product-page-details{
+.product-page-gifts{
     margin-right: auto;
     display: flex;
     flex-direction: column;
@@ -265,37 +266,43 @@
     width: 100%;
 }
 
-.product-page-bottom .product-page-details ul{
+.product-page-bottom .product-page-details > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-page-bottom .product-page-details > div ul{
     width: 100%;
-    /* border: 1px solid rgba(0 0 0 / 0.03); */
     border: 1px solid #99999925;
     border-radius: 10px;
 }
 
-.product-page-bottom .product-page-details ul li{
+.product-page-bottom .product-page-details > div ul li{
     width: 100%;
     display: grid;
     grid-template-columns: 280px 2fr;
     min-height: 56px;
 }
 
-.product-page-bottom .product-page-details ul li:nth-child(2n){
+.product-page-bottom .product-page-details > div ul li:nth-child(2n){
     background: rgba(0 0 0 / 0.03);
 }
 
-.product-page-bottom .product-page-details ul li div{
+.product-page-bottom .product-page-details > div ul li div{
     display: flex;
     align-items: center;
     justify-content: left;
     padding: 0 20px;
 }
 
-.product-page-bottom .product-page-details ul li div:nth-child(2){
+.product-page-bottom .product-page-details > div ul li div:nth-child(2){
     padding: 0;
 }
 
-.product-page-bottom .product-page-details ul li div strong{
+.product-page-bottom .product-page-details > div ul li div strong{
     color: var(--black);
+    font-weight: bold;
 }
 
 /**/
@@ -321,19 +328,19 @@
 
     /**/
 
-    .product-page-bottom .product-page-details ul li{
+    .product-page-bottom .product-page-details > div ul li{
         width: 100%;
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 
-    .product-page-bottom .product-page-details ul li div{
+    .product-page-bottom .product-page-details > div ul li div{
         /* min-height: 48px; */
         padding: 0;
     }
 
-    .product-page-bottom .product-page-details ul li div:nth-child(2){
+    .product-page-bottom .product-page-details > div ul li div:nth-child(2){
         padding: 0;
     }
 }
