@@ -2,32 +2,42 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "colchones",
+            "categoria": "Colchones",
+            "subCategoria": "Adel",
             "ruta": "/productos/colchones/adel/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/adel/1-plaza-y-media/",
+            "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 99,
             "sku": "K1151CN10",
-            "incluye":{
-                "uno": "1 almohoda"
-            },
-            "detallesDelProducto":{
-                "modeloColchon": "Adel",
-                "tamaño": "1 plaza y media",
-                "lineaColchones": "Ortopédicos",
-                "nivelDeConfort": "Confortable",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "8 filas de resortes en forma vertical.",
-                "tres": "Tela tricop.",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Uso de ambos lados.",
-                "seis": "Soporte de 55kg. por persona."
-            }
+            "incluye":[
+                {
+                    "id": 1,
+                    "texto": "1 almohada",
+                    "img": "https://purepng.com/public/uploads/large/91506162265dltjw9mui4sm5ltvz4stg6gt3brcxlegiivgemj1nqqxgkqbbk0z5rvwhfq07aqp0oykrdrfjfz5uzxetctum0zhovvkkfy5spxs.png"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "55kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
         },
         {
             "id": 2,

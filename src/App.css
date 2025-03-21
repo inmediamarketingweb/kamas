@@ -23,7 +23,7 @@
 
     --whatsapp: #25D366;
 
-    --text: #333333;
+    --text: #555555;
     --f-size-small: 13px;
 
     --container-mx-width: 2000px;
@@ -133,6 +133,18 @@ button{
 
 /**/
 
+.d-grid-2-1fr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.d-grid-auto-1fr{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+/**/
+
 .margin-auto{
     margin: auto;
 }
@@ -163,6 +175,10 @@ button{
     gap: 10px;
 }
 
+.gap-20{
+    gap: 20px;
+}
+
 /**/
 
 .text-center{
@@ -176,5 +192,15 @@ button{
     
     main{
         margin-top: 222px;
+    }
+
+    /**/
+
+    .d-grid-2-1fr{
+        grid-template-columns: 1fr;
+    }
+    
+    .d-grid-auto-1fr{
+        grid-template-columns: 1fr;
     }
 }
