@@ -85,6 +85,10 @@ function PaginaProducto(){
                             <p>{producto.categoria}</p>
                         </a>
                         <p className='color-gray'>/</p>
+                        <a href={`/productos/${producto.categoria}/${producto.subCategoria}/`}>
+                            <p>{producto.subCategoria}</p>
+                        </a>
+                        <p className='color-gray'>/</p>
                         <a href={producto.ruta}>
                             <p>{producto.nombre}</p>
                         </a>
@@ -109,50 +113,63 @@ function PaginaProducto(){
                         </div>
 
                         <div className='product-page-target product-page-target-2'>
-                            <p className='product-page-category'>{producto.categoria}</p>
-
                             <div className='d-flex-column'>
+                                <p className='product-page-category'>{producto.categoria}</p>
                                 <h1>{producto.nombre}</h1>
                                 <span className='product-page-sku'>SKU: {producto.sku}</span>
                             </div>
 
-                            <div className='prices'>
-                                <span className='price-normal'>Antes: S/.{producto.precioNormal}.00</span>
-                                <span className='price-sell'>Ahora: S/.{producto.precioVenta}.00</span>
-                            </div>
+                            <div className='d-grid-2-1fr gap-20'>
+                                <div className='d-flex-column gap-20'>
+                                    <div className='product-page-details'>
+                                        <h4>Detalles del producto:</h4>
+                                        <ul>
+                                            {producto["detalles-del-producto"] && producto["detalles-del-producto"].map((detalle, index) => (
+                                                Object.entries(detalle).map(([key, value]) => (
+                                                    <li key={index + key}>
+                                                        <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
+                                                        <p className='text'>{value}</p>
+                                                    </li>
+                                                ))
+                                            ))}
+                                        </ul>
+                                    </div>
 
-                            <div className='product-page-gifts'>
-                                <h4>De regalo:</h4>
-                                <ul>
-                                    {Object.entries(producto.incluye).map(([key, value]) => (
-                                        <li key={key}>
-                                            <p>{value}</p>
-                                            <img src="https://oechsle.vteximg.com.br/arquivos/ids/17212317-998-998/imageUrl_1.jpg?v=638406548589330000" alt={producto.nombre}/>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
+                                    <div className='product-page-details'>
+                                        <h4>Descripción:</h4>
+                                        <ul>
+                                            {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
+                                                Object.entries(detalle).map(([key, value]) => (
+                                                    <li key={index + key}>
+                                                        <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
+                                                        <p className='text'>{value}</p>
+                                                    </li>
+                                                ))
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
 
-                            <div className='product-page-details'>
-                                <h4>Detalles del producto:</h4>
-                                <ul>
-                                    {Object.entries(producto.detallesDelProducto).map(([key, value]) => (
-                                        <li key={key}>
-                                            <p>{value}</p>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
+                                <div className='d-flex-column gap-20'>
+                                    <div className='product-page-prices'>
+                                        <span className='price-normal'>Antes: S/.{producto.precioNormal}.00</span>
+                                        <span className='price-sell'>Ahora: S/.{producto.precioVenta}.00</span>
+                                    </div>
 
-                            <div className='product-page-description'>
-                                <h4>Descripción de producto:</h4>
-                                <ul>
-                                    {Object.values(producto.descripcion).map((detalle, index) => (
-                                        <li key={index}>
-                                            <p>{detalle}</p>
-                                        </li>
-                                    ))}
-                                </ul>
+                                    <div className='product-page-gifts'>
+                                        <h4>Incluye:</h4>
+                                        <ul>
+                                            {producto.incluye && producto.incluye.map((item) => (
+                                                <li key={item.id}>
+                                                    <p className='text'>{item.texto}</p>
+                                                    <img src={item.img} alt={item.texto} />
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <button type='buton' className=''>botón consulta a whatsapp</button>
+                                </div>
                             </div>
                         </div>
                     </div>
