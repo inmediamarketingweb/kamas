@@ -19,13 +19,12 @@
                     "img": "https://purepng.com/public/uploads/large/91506162265dltjw9mui4sm5ltvz4stg6gt3brcxlegiivgemj1nqqxgkqbbk0z5rvwhfq07aqp0oykrdrfjfz5uzxetctum0zhovvkkfy5spxs.png"
                 }
             ],
-            "detalles-del-producto":[
+            "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Adel",
                     "tamaño": "1 plaza y media",
                     "linea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable",
-                    "tipo-de-resorte": "Bonell"
+                    "nivel-de-confort": "Confortable"
                 }
             ],
             "descripcion":[
@@ -36,6 +35,15 @@
                     "tipo-de-uso": "Ambos lados",
                     "soporte-de-peso": "55kg. por persona",
                     "garantía": "1 año"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
                 }
             ]
         },

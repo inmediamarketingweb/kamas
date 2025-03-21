@@ -75,7 +75,7 @@ function PaginaProducto(){
             <Header/>
 
             <div className='block-container'>
-                <section className='block-content'>
+                <section className='block-content product-page-block-content'>
                     <div className='product-page-direction'>
                         <a href='/'>
                             <span className="material-icons">home</span>
@@ -113,7 +113,7 @@ function PaginaProducto(){
                         </div>
 
                         <div className='product-page-target product-page-target-2'>
-                            <div className='d-flex-column'>
+                            <div className='product-page-top-info d-flex-column'>
                                 <p className='product-page-category'>{producto.categoria}</p>
                                 <h1>{producto.nombre}</h1>
                                 <span className='product-page-sku'>SKU: {producto.sku}</span>
@@ -122,23 +122,9 @@ function PaginaProducto(){
                             <div className='d-grid-2-1fr gap-20'>
                                 <div className='d-flex-column gap-20'>
                                     <div className='product-page-details'>
-                                        <h4>Detalles del producto:</h4>
+                                        <h4>Resumen del producto:</h4>
                                         <ul>
-                                            {producto["detalles-del-producto"] && producto["detalles-del-producto"].map((detalle, index) => (
-                                                Object.entries(detalle).map(([key, value]) => (
-                                                    <li key={index + key}>
-                                                        <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
-                                                        <p className='text'>{value}</p>
-                                                    </li>
-                                                ))
-                                            ))}
-                                        </ul>
-                                    </div>
-
-                                    <div className='product-page-details'>
-                                        <h4>Descripción:</h4>
-                                        <ul>
-                                            {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
+                                            {producto["resumen-del-producto"] && producto["resumen-del-producto"].map((detalle, index) => (
                                                 Object.entries(detalle).map(([key, value]) => (
                                                     <li key={index + key}>
                                                         <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
@@ -150,7 +136,7 @@ function PaginaProducto(){
                                     </div>
                                 </div>
 
-                                <div className='d-flex-column gap-20'>
+                                <div className='product-page-more-info d-flex-column gap-20'>
                                     <div className='product-page-prices'>
                                         <span className='price-normal'>Antes: S/.{producto.precioNormal}.00</span>
                                         <span className='price-sell'>Ahora: S/.{producto.precioVenta}.00</span>
@@ -171,6 +157,26 @@ function PaginaProducto(){
                                     <button type='buton' className=''>botón consulta a whatsapp</button>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className='d-grid-2-1fr product-page-bottom'>
+                        <div className='product-page-details'>
+                            <h4>Descripción:</h4>
+                            <ul>
+                                {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
+                                    Object.entries(detalle).map(([key, value]) => (
+                                        <li key={index + key}>
+                                            <div>
+                                                <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
+                                            </div>
+                                            <div>
+                                                <p className='text'>{value}</p>
+                                            </div>
+                                        </li>
+                                    ))
+                                ))}
+                            </ul>
                         </div>
                     </div>
                 </section>
