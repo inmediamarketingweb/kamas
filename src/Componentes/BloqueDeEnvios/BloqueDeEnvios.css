@@ -1,0 +1,58 @@
+.producto-bloque-de-envios{
+    margin-right: auto;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.producto-bloque-de-envios h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.producto-bloque-de-envios ul{
+    display: flex;
+    gap: 10px;
+}
+
+.producto-bloque-de-envios ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+    background: rgb(173 51 98 / 0.025);
+    border: 1px solid var(--color-2);
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.producto-bloque-de-envios ul li span{
+    color: var(--color-2);
+    font-size: 30px;
+}
+
+.producto-bloque-de-envios ul li p{
+    color: var(--text);
+}
+
+.producto-bloque-de-envios ul li:nth-child(2):before{
+    content: '¡ Llega hoy !';
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: red;
+    color: var(--white);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 8px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px){
+    .producto-bloque-de-envios{
+        padding-right: 0;
+    }
+}
