@@ -14,7 +14,7 @@
 
 .product-page-direction a:nth-child(1) span{
     color: var(--text);
-    transition: var(--t-200ms);
+    transition: var(--t-200ms-linear);
 }
 
 .product-page-direction a:nth-child(1):hover span{
@@ -142,6 +142,30 @@
     font-weight: bold;
 }
 
+.product-page-sizes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.product-page-sizes li a{
+    background: #777777;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: var(--t-200ms-linear);
+}
+
+.product-page-sizes li a:hover{
+    background: var(--color-1);
+}
+
+.product-page-sizes li a p{
+    color: var(--white);
+    font-size: 13px;
+    font-weight: bold;
+}
+
 .product-page-more-info{
     position: relative;
 }
@@ -175,7 +199,7 @@
 
 .price-sell{
     color: #FF0000;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -207,8 +231,8 @@
     border: 1px solid var(--gray);
     border-radius: 6px;
     display: flex;
-    align-items: flex-start;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
     position: relative;
@@ -235,6 +259,29 @@
 
 .product-page-gifts ul li p{
     color: var(--text);
+    position: absolute;
+    left: calc(100% + 5px);
+    top: 0;
+    /* min-width: 100%; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background: var(--color-1);
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 12px;
+    transition: var(--t-100ms-linear);
+    z-index: 1;
+
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.product-page-gifts ul li:hover p{
+    opacity: 1;
 }
 
 .product-page-gifts ul li img{
@@ -250,7 +297,66 @@
 }
 
 .product-page-details ul li strong{
+    font-weight: bold;
     color: var(--black);
+}
+
+/**/
+
+.product-page-counter p{
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.product-page-counter div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2.5px;
+}
+
+.product-page-counter div button{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-2);
+    border-radius: 4px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.product-page-counter div input{
+    width: auto;
+    max-width: 96px;
+    height: 48px;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    outline: 0;
+}
+
+.product-page-whatsapp{
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: auto;
+    min-height: 56px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+.product-page-whatsapp img{
+    width: 30px;
+    height: 30px;
+}
+
+.product-page-whatsapp p{
+    font-weight: bold;
+    color: var(--white);
+    text-transform: uppercase;
 }
 
 /**/

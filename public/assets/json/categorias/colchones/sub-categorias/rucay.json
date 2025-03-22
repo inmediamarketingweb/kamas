@@ -3,29 +3,68 @@
         {
             "id": 1,
             "categoria": "Colchones",
+            "subCategoria": "Rucay",
             "ruta": "/productos/colchones/rucay/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/rucay/1-plaza-y-media/",
+            "precioRegular": 500,
             "precioNormal": 449,
             "precioVenta": 289,
             "stock": 99,
             "sku": "K1152CN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Rucay",
-                "tamaño": "1 plaza y media",
-                "lineaColchones": "Anátomicos",
-                "nivelDeConfort": "Confortable",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "8 filas de resortes en forma vertical.",
-                "tres": "Tela algodón tejido en punto",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Marco sellado",
-                "seis": "Uso de un solo lado",
-                "siete": "Soporte de 60kg. por persona"
-            }
+            "incluye":[
+                {
+                    "id": 1,
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Rucay",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Anátomico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "id": 1,
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/rucay/2-plazas/"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Queen",
+                    "ruta": "/productos/colchones/rucay/queen/"
+                },
+                {
+                    "id": 3,
+                    "nombre": "King",
+                    "ruta": "/productos/colchones/rucay/king/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "Sku": "K1152CN10",
+                    "modelo-de-colchón": "Rucay",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Anátomico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Un solo lado",
+                    "marco": "Sellado",
+                    "soporte-de-peso": "60kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
         },
         {
             "id": 2,

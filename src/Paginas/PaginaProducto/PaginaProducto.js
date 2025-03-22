@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
+import BloqueDeEnvios from '../../Componentes/BloqueDeEnvios/BloqueDeEnvios';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaProducto.css';
@@ -121,7 +122,7 @@ function PaginaProducto(){
 
                             <div className='d-grid-2-1fr gap-20'>
                                 <div className='d-flex-column gap-20'>
-                                    <div className='product-page-details'>
+                                    <div className='product-page-details d-flex-column gap-10'>
                                         <h4>Resumen del producto:</h4>
                                         <ul>
                                             {producto["resumen-del-producto"] && producto["resumen-del-producto"].map((detalle, index) => (
@@ -134,6 +135,22 @@ function PaginaProducto(){
                                             ))}
                                         </ul>
                                     </div>
+
+                                    <div className="product-page-details d-flex-column gap-10">
+                                        <h4>Disponible en:</h4>
+                                        <ul className='product-page-sizes'>
+                                            {producto["tamaños-disponibles"] &&
+                                                producto["tamaños-disponibles"].map((size, index) => (
+                                                <li key={index}>
+                                                    <a href={size.ruta}>
+                                                        <p>{size.nombre}</p>
+                                                    </a>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+
+                                    <BloqueDeEnvios/>
                                 </div>
 
                                 <div className='product-page-more-info d-flex-column gap-20'>
@@ -148,13 +165,25 @@ function PaginaProducto(){
                                             {producto.incluye && producto.incluye.map((item) => (
                                                 <li key={item.id}>
                                                     <p className='text'>{item.texto}</p>
-                                                    <img src={item.img} alt={item.texto} />
+                                                    <img src={item.foto} alt={item.texto} />
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
 
-                                    <button type='buton' className=''>botón consulta a whatsapp</button>
+                                    <div className='product-page-counter'>
+                                        <p>* Envío sujeto a stock</p>
+
+                                        <div>
+                                            <button type="button">+</button>
+                                            <input type='number' placeholder='1'></input>
+                                            <button type="button">-</button>
+                                        </div>
+                                    </div>
+
+                                    <a href='/' title='' className='product-page-whatsapp'>
+                                        <p>Comprar ahora</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +209,7 @@ function PaginaProducto(){
                                 </ul>
                             </div>
                             <div>
-                                <h4>Descripción de producto:</h4>
+                                <h4>Descripción del producto:</h4>
                                 <ul>
                                     {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
                                         Object.entries(detalle).map(([key, value]) => (
