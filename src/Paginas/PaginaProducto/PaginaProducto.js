@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
-// import BloqueDeEnvios from '../../Componentes/BloqueDeEnvios/BloqueDeEnvios';
+import Envios from './Componentes/Envios/Envios';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaProducto.css';
@@ -15,16 +15,30 @@ function PaginaProducto(){
     const [imagenActiva, setImagenActiva] = useState(null);
 
     const containerRef = useRef(null);
+
     const scrollToTop = () => {
-        if (containerRef.current){
+        if (containerRef.current) {
             containerRef.current.scrollTop = 0;
         }
     };
+    
     const scrollToBottom = () => {
-        if (containerRef.current){
+        if (containerRef.current) {
             containerRef.current.scrollTop = containerRef.current.scrollHeight;
         }
     };
+    
+    const scrollToLeft = () => {
+        if (containerRef.current) {
+            containerRef.current.scrollLeft = 0;
+        }
+    };
+    
+    const scrollToRight = () => {
+        if (containerRef.current) {
+            containerRef.current.scrollLeft = containerRef.current.scrollWidth;
+        }
+    };    
 
     useEffect(() => {
         const fetchProducto = async () => {
@@ -43,7 +57,7 @@ function PaginaProducto(){
 
                         const data = await fetch(jsonPath).then(response => response.json()).catch(() => null);
 
-                        if (data && data.productos) {
+                        if (data && data.productos){
                             const prod = data.productos.find(p => p.ruta === location.pathname);
                             if (prod) {
                                 productoEncontrado = prod;
@@ -77,9 +91,6 @@ function PaginaProducto(){
                     imgs.push(path);
                     setImagenes([...imgs]);
                     if (i === 1) setImagenActiva(path);
-                };
-                img.onerror = () => {
-                    console.log(`Imagen ${path} no encontrada`);
                 };
             }
         };
@@ -145,7 +156,19 @@ function PaginaProducto(){
                                 {descuento > 0 && (
                                     <span className="product-page-discount">-{descuento}%</span>
                                 )}
-                                <img src={imagenActiva} alt={producto.nombre} />
+                                <img src={imagenActiva} alt={producto.nombre}/>
+
+                                <ul className='tags'>
+                                    <li>
+                                        <span className="material-icons">local_shipping</span>
+                                        <p>Envío inmediato a provincia</p>
+                                    </li>
+                                    <li>
+                                        <span className="material-icons">near_me</span>
+                                        <p>Lima y Callao</p>
+                                        <b>¡ Llega hoy !</b>
+                                    </li>
+                                </ul>
                             </div>
 
                             <button type='button' className='product-page-images-button product-page-images-button-1' onClick={scrollToTop}>
@@ -154,20 +177,26 @@ function PaginaProducto(){
                             <button type='button' className='product-page-images-button product-page-images-button-2' onClick={scrollToBottom}>
                                 <span className="material-icons">keyboard_arrow_down</span>
                             </button>
+                            <button type='button' className='product-page-images-button product-page-images-button-3' onClick={scrollToLeft}>
+                                <span className="material-icons">chevron_left</span>
+                            </button>
+                            <button type='button' className='product-page-images-button product-page-images-button-4' onClick={scrollToRight}>
+                                <span className="material-icons">chevron_right</span>
+                            </button>
                         </div>
 
                         <div className='product-page-target product-page-target-2'>
-                            <div className='product-page-top-info d-flex-column'>
+                            <div className='product-page-sub-target product-page-sub-target-1'>
                                 <p className='product-page-category'>{producto.categoria}</p>
-                                <h1>{producto.nombre}</h1>
+                                <h1 className='product-page-name'>{producto.nombre}</h1>
                                 <span className='product-page-sku'>SKU: {producto.sku}</span>
                             </div>
 
-                            <div className='d-grid-2-1fr gap-20'>
-                                <div className='d-flex-column gap-20'>
-                                    <div className='product-page-details d-flex-column gap-10'>
-                                        <h4>Resumen del producto:</h4>
-                                        <ul>
+                            <div className='product-page-sub-target product-page-sub-target-2'>
+                                <div>
+                                    <div>
+                                        <h4 className='product-page-subtitle'>Resumen del producto:</h4>
+                                        <ul className='product-page-resume'>
                                             {producto["resumen-del-producto"] && producto["resumen-del-producto"].map((detalle, index) => (
                                                 Object.entries(detalle).map(([key, value]) => (
                                                     <li key={index + key}>
@@ -179,8 +208,8 @@ function PaginaProducto(){
                                         </ul>
                                     </div>
 
-                                    <div className="product-page-details d-flex-column gap-10">
-                                        <h4>Disponible en:</h4>
+                                    <div>
+                                        <h4 className='product-page-subtitle'>Otras medidas disponibles:</h4>
                                         <ul className='product-page-sizes'>
                                             {producto["tamaños-disponibles"] &&
                                                 producto["tamaños-disponibles"].map((size, index) => (
@@ -192,42 +221,56 @@ function PaginaProducto(){
                                             ))}
                                         </ul>
                                     </div>
-
-                                    {/* <BloqueDeEnvios/> */}
                                 </div>
 
-                                <div className='product-page-more-info d-flex-column gap-20'>
+                                <div>
                                     <div className='product-page-prices'>
                                         <span className='price-normal'>Antes: S/.{producto.precioNormal}.00</span>
                                         <span className='price-sell'>Ahora: S/.{producto.precioVenta}.00</span>
                                     </div>
 
                                     <div className='product-page-gifts'>
-                                        <h4>Incluye:</h4>
+                                        <h4 className='product-page-subtitle'>Incluye:</h4>
                                         <ul>
                                             {producto.incluye && producto.incluye.map((item) => (
                                                 <li key={item.id}>
                                                     <p className='text'>{item.texto}</p>
-                                                    <img src={item.foto} alt={item.texto} />
+                                                    <img src={item.foto} alt={item.texto}/>
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
-
-                                    <div className='product-page-counter'>
-                                        <p>* Envío sujeto a stock</p>
-
-                                        <div>
-                                            <button type="button">+</button>
-                                            <input type='number' placeholder='1'></input>
-                                            <button type="button">-</button>
-                                        </div>
-                                    </div>
-
-                                    <a href='/' title='' className='product-page-whatsapp'>
-                                        <p>Comprar ahora</p>
-                                    </a>
                                 </div>
+                            </div>
+                            
+                            <div className='product-page-sub-target product-page-sub-target-3'>
+                                <div>
+                                    <h4 className='product-page-subtitle'>Lugar de envío:</h4>
+
+                                    <div>
+                                        <Envios/>
+
+                                        <div>Renderizar el tipo de envío</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='product-page-sub-target product-page-sub-target-5'>
+                                <div className='product-page-counter'>
+                                    <p>* Envío sujeto a stock</p>
+
+                                    <div>
+                                        <button type="button">+</button>
+                                        <input type='number' placeholder='1'></input>
+                                        <button type="button">-</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='product-page-sub-target product-page-sub-target-6'>
+                                <a href='/' title='' className='product-page-whatsapp'>
+                                    <p>Comprar ahora</p>
+                                </a>
                             </div>
                         </div>
                     </div>

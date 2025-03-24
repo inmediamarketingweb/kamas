@@ -167,6 +167,12 @@ button{
 
 /**/
 
+.padding-right-20-to-0{
+    padding-right: 20px;
+}
+
+/**/
+
 .gap-5{
     gap: 5px;
 }
@@ -202,5 +208,8 @@ button{
     
     .d-grid-auto-1fr{
         grid-template-columns: 1fr;
+    }
+    .padding-right-20-to-0{
+        padding-right: 0;
     }
 }
