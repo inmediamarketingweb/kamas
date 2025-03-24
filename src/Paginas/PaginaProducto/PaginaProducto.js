@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
-import BloqueDeEnvios from '../../Componentes/BloqueDeEnvios/BloqueDeEnvios';
+// import BloqueDeEnvios from '../../Componentes/BloqueDeEnvios/BloqueDeEnvios';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaProducto.css';
@@ -13,6 +13,18 @@ function PaginaProducto(){
     const [error, setError] = useState(false);
     const [imagenes, setImagenes] = useState([]);
     const [imagenActiva, setImagenActiva] = useState(null);
+
+    const containerRef = useRef(null);
+    const scrollToTop = () => {
+        if (containerRef.current){
+            containerRef.current.scrollTop = 0;
+        }
+    };
+    const scrollToBottom = () => {
+        if (containerRef.current){
+            containerRef.current.scrollTop = containerRef.current.scrollHeight;
+        }
+    };
 
     useEffect(() => {
         const fetchProducto = async () => {
@@ -117,7 +129,7 @@ function PaginaProducto(){
 
                     <div className='product-page-container'>
                         <div className='product-page-target product-page-target-1'>
-                            <div className='product-page-images-container'>
+                            <div className='product-page-images-container' ref={containerRef}>
                                 <div className='product-page-images-content'>
                                     <ul className='product-page-images'>
                                         {imagenes.map((img, index) => (
@@ -135,6 +147,13 @@ function PaginaProducto(){
                                 )}
                                 <img src={imagenActiva} alt={producto.nombre} />
                             </div>
+
+                            <button type='button' className='product-page-images-button product-page-images-button-1' onClick={scrollToTop}>
+                                <span className="material-icons">keyboard_arrow_up</span>
+                            </button>
+                            <button type='button' className='product-page-images-button product-page-images-button-2' onClick={scrollToBottom}>
+                                <span className="material-icons">keyboard_arrow_down</span>
+                            </button>
                         </div>
 
                         <div className='product-page-target product-page-target-2'>
@@ -174,7 +193,7 @@ function PaginaProducto(){
                                         </ul>
                                     </div>
 
-                                    <BloqueDeEnvios/>
+                                    {/* <BloqueDeEnvios/> */}
                                 </div>
 
                                 <div className='product-page-more-info d-flex-column gap-20'>
