@@ -11,19 +11,21 @@ function PaginaProducto(){
     const location = useLocation();
     const [producto, setProducto] = useState(null);
     const [error, setError] = useState(false);
+    const [imagenes, setImagenes] = useState([]);
+    const [imagenActiva, setImagenActiva] = useState(null);
 
     useEffect(() => {
         const fetchProducto = async () => {
-            try {
+            try{
                 const categorias = ["colchones", "cama-box-tarimas", "dormitorios", "camas-funcionales", "cabeceras", "sofas", "complementos"];
                 let productoEncontrado = null;
 
-                for (const categoria of categorias) {
+                for (const categoria of categorias){
                     const subcategorias = await fetch(`/assets/json/categorias/${categoria}/sub-categorias/sub-categorias.json`)
                         .then(response => response.json())
                         .catch(() => ({ subcategorias: [] }));
 
-                    for (const subcat of subcategorias.subcategorias || []) {
+                    for (const subcat of subcategorias.subcategorias || []){
                         const subcatNombre = subcat.subcategoria.toLowerCase().replace(/\s+/g, "-");
                         const jsonPath = `/assets/json/categorias/${categoria}/sub-categorias/${subcatNombre}.json`;
 
@@ -43,12 +45,30 @@ function PaginaProducto(){
 
                 if (productoEncontrado) {
                     setProducto(productoEncontrado);
+                    cargarImagenes(productoEncontrado.fotos);
                 } else {
                     setError(true);
                 }
-            } catch (error) {
+            } catch (error){
                 console.error("Error al buscar el producto:", error);
                 setError(true);
+            }
+        };
+
+        const cargarImagenes = (carpetaFotos) => {
+            const imgs = [];
+            for (let i = 1; i <= 5; i++){
+                const path = `${carpetaFotos}${i}.jpg`;
+                const img = new Image();
+                img.src = path;
+                img.onload = () => {
+                    imgs.push(path);
+                    setImagenes([...imgs]);
+                    if (i === 1) setImagenActiva(path);
+                };
+                img.onerror = () => {
+                    console.log(`Imagen ${path} no encontrada`);
+                };
             }
         };
 
@@ -56,7 +76,7 @@ function PaginaProducto(){
     }, [location.pathname]);
 
     useEffect(() => {
-        if (producto) {
+        if (producto){
             document.title = producto.nombre;
         }
     }, [producto]);
@@ -98,18 +118,22 @@ function PaginaProducto(){
                     <div className='product-page-container'>
                         <div className='product-page-target product-page-target-1'>
                             <div className='product-page-images-container'>
-                                <ul className='product-page-images'>
-                                    <li>
-                                        <img src={`${producto.fotos}/2.jpg`} alt={producto.nombre}/>
-                                    </li>
-                                </ul>
+                                <div className='product-page-images-content'>
+                                    <ul className='product-page-images'>
+                                        {imagenes.map((img, index) => (
+                                            <li key={index} className={imagenActiva === img ? 'select' : ''} onClick={() => setImagenActiva(img)}>
+                                                <img src={img} alt={producto.nombre} />
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
+
                             <div className='product-page-principal-image'>
                                 {descuento > 0 && (
                                     <span className="product-page-discount">-{descuento}%</span>
                                 )}
-
-                                <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre}/>
+                                <img src={imagenActiva} alt={producto.nombre} />
                             </div>
                         </div>
 

@@ -7,11 +7,11 @@ function BloqueDeEnvios(){
 
             <ul>
                 <li>
-                    <span class="material-icons">local_shipping</span>
+                    <span className="material-icons">local_shipping</span>
                     <p>Envíos a provincia</p>
                 </li>
                 <li>
-                    <span class="material-icons">near_me</span>
+                    <span className="material-icons">near_me</span>
                     <p>Lima y Callao</p>
                 </li>
             </ul>
