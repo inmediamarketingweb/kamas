@@ -1,34 +1,27 @@
 {
     "departamentos":[
         {
-            "id": 1,
             "departamento": "Amazonas",
             "provincias":[
                 {
-                    "id": 1,
                     "provincia": "Chachapoyas",
                     "distritos":[
                         {
-                            "id": 1,
                             "distrito": "Carabayllo",
                             "tipos-de-envio":[
                                 {
-                                    "id": 1,
                                     "tipo-de-envio": "Gratis",
-                                    "precio": 0
+                                    "precio": "Gratis"
                                 },
                                 {
-                                    "id": 2,
-                                    "tipo-de-envio": "Envío referente",
+                                    "tipo-de-envio": "Envío preferente",
                                     "precio": 25
                                 },
                                 {
-                                    "id": 3,
                                     "tipo-de-envio": "Envío aplicado",
                                     "precio": 40
                                 },
                                 {
-                                    "id": 4,
                                     "tipo-de-envio": "Envío express",
                                     "precio": 70
                                 }
@@ -37,8 +30,43 @@
                     ],
                     "agencias-recomendadas":[
                         {
-                            "id": 1,
-                            "nombre": "Nombre agencia 1"
+                            "nombre": "Shalom",
+                            "sedes":[
+                                {
+                                    "sede": "Olivos",
+                                    "tipos-de-envio":[
+                                        {
+                                            "tipo-de-envio": "Envío preferente",
+                                            "precio": 25
+                                        },
+                                        {
+                                            "tipo-de-envio": "Envío aplicado",
+                                            "precio": 40
+                                        },
+                                        {
+                                            "tipo-de-envio": "Envío express",
+                                            "precio": 70
+                                        }
+                                    ]
+                                },
+                                {
+                                    "sede": "Comas",
+                                    "tipos-de-envio":[
+                                        {
+                                            "tipo-de-envio": "Envío preferente",
+                                            "precio": 123
+                                        },
+                                        {
+                                            "tipo-de-envio": "Envío aplicado",
+                                            "precio": 45
+                                        },
+                                        {
+                                            "tipo-de-envio": "Envío express",
+                                            "precio": 709
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "id": 2,
@@ -49,34 +77,27 @@
             ]
         },
         {
-            "id": 2,
             "departamento": "Lima",
             "provincias":[
                 {
-                    "id": 1,
                     "provincia": "Lima metropolitana",
                     "distritos":[
                         {
-                            "id": 1,
                             "distrito": "Carabayllo",
                             "tipos-de-envio":[
                                 {
-                                    "id": 1,
                                     "tipo-de-envio": "Gratis",
                                     "precio": 0
                                 },
                                 {
-                                    "id": 2,
-                                    "tipo-de-envio": "Envío referente",
+                                    "tipo-de-envio": "Envío preferente",
                                     "precio": 25
                                 },
                                 {
-                                    "id": 3,
                                     "tipo-de-envio": "Envío aplicado",
                                     "precio": 40
                                 },
                                 {
-                                    "id": 4,
                                     "tipo-de-envio": "Envío express",
                                     "precio": 70
                                 }
