@@ -161,7 +161,8 @@ function PaginaProducto(){
                                 <ul className='tags'>
                                     <li>
                                         <span className="material-icons">local_shipping</span>
-                                        <p>Envío inmediato a provincia</p>
+                                        <p>Envíos a provincia</p>
+                                        <b>¡ Inmediatos !</b>
                                     </li>
                                     <li>
                                         <span className="material-icons">near_me</span>
@@ -247,30 +248,8 @@ function PaginaProducto(){
                                 <div>
                                     <h4 className='product-page-subtitle'>Lugar de envío:</h4>
 
-                                    <div>
-                                        <Envios/>
-
-                                        <div>Renderizar el tipo de envío</div>
-                                    </div>
+                                    {producto && <Envios tipoDeEnvioProducto={producto["tipo-de-envio"]} />}
                                 </div>
-                            </div>
-
-                            <div className='product-page-sub-target product-page-sub-target-5'>
-                                <div className='product-page-counter'>
-                                    <p>* Envío sujeto a stock</p>
-
-                                    <div>
-                                        <button type="button">+</button>
-                                        <input type='number' placeholder='1'></input>
-                                        <button type="button">-</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='product-page-sub-target product-page-sub-target-6'>
-                                <a href='/' title='' className='product-page-whatsapp'>
-                                    <p>Comprar ahora</p>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -278,7 +257,7 @@ function PaginaProducto(){
                     <div className='product-page-bottom'>
                         <div className='product-page-details d-grid-2-1fr gap-20'>
                             <div>
-                                <h4>Detalles del producto:</h4>
+                                <h4 className='product-page-subtitle'>Detalles del producto:</h4>
                                 <ul>
                                     {producto["detalles-del-producto"] && producto["detalles-del-producto"].map((detalle, index) => (
                                         Object.entries(detalle).map(([key, value]) => (
@@ -295,7 +274,7 @@ function PaginaProducto(){
                                 </ul>
                             </div>
                             <div>
-                                <h4>Descripción del producto:</h4>
+                                <h4 className='product-page-subtitle'>Descripción del producto:</h4>
                                 <ul>
                                     {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
                                         Object.entries(detalle).map(([key, value]) => (
