@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Colchones",
-            "subCategoria": "Adel",
+            "categoria": "colchones",
+            "subCategoria": "adel",
             "ruta": "/productos/colchones/adel/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/adel/1-plaza-y-media/",
@@ -14,7 +14,6 @@
             "sku": "K1151CN10",
             "incluye":[
                 {
-                    "id": 1,
                     "texto": "1 almohada",
                     "foto": "/assets/imagenes/productos/almohada.png"
                 }

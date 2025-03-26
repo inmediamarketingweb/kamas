@@ -340,6 +340,7 @@
     height: 20px;
     color: var(--color-1);
     font-size: 20px;
+    z-index: 1;
 }
 
 .product-page-gifts ul li:nth-last-child(1):before{
@@ -357,6 +358,7 @@
     color: var(--white);
     font-size: 11px;
     transition: var(--t-200ms-linear);
+    z-index: 2;
 
     opacity: 0;
     pointer-events: none;
