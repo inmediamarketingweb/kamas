@@ -35,7 +35,7 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "Sku": "K1151CN10",
+                    "sku": "K1151CN10",
                     "modelo-de-colchón": "Adel",
                     "tamaño": "1 plaza y media",
                     "linea-de-colchón": "Semi ortopédico",
@@ -89,7 +89,7 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "Sku": "K1151CN10",
+                    "sku": "K1151CN10",
                     "modelo-de-colchón": "Adel",
                     "tamaño": "2 plazas",
                     "linea-de-colchón": "Semi ortopédico",
