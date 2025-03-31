@@ -5980,34 +5980,1894 @@
             "departamento": "Áncash",
             "provincias":[
                 {
-                    "provincia": "Aija"
+                    "provincia": "Aija",
+                    "distritos":[
+                        {
+                            "distrito": "Aija",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Coris",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huacllán",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "La Merced",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Succha",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Antonio Raymondi"
+                    "provincia": "Antonio Raymondi",
+                    "distritos":[
+                        {
+                            "distrito": "Aczo",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Chaccho",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Chingas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Llamellín",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Mirgas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Juan de Rontoy",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Asunción"
+                    "provincia": "Asunción",
+                    "distritos":[
+                        {
+                            "distrito": "Acochaca",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Chacas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Bolognesi"
+                    "provincia": "Bolognesi",
+                    "distritos":[
+                        {
+                            "distrito": "Abelardo Pardo",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Antonio Raymondi",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Aquia",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Cajacay",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Canis",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Chiquián",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Cólquioc",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huallanca",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huasta",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huayllacayán",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "La Primavera",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Mangas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pacllón",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Miguel",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Ticllos",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Carhuaz"
+                    "provincia": "Carhuaz",
+                    "distritos":[
+                        {
+                            "distrito": "Acopampa",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Amasha",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Anta",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Ataquero",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Carhuaz",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Macará",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pariahuanca",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Miguel de Aco",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Shilla",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Tinco",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Yungar",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Carlos F. Fitzacarrald"
+                    "provincia": "Carlos F. Fitzacarrald",
+                    "distritos":[
+                        {
+                            "distrito": "San Luis",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Nicolás",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Yauya",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Casma"
+                    "provincia": "Casma",
+                    "distritos":[
+                        {
+                            "distrito": "Casma",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Buena Vista Alta",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Comandante Noel",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Yaután",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Corongo"
+                    "provincia": "Corongo",
+                    "distritos":[
+                        {
+                            "distrito": "Aco",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Bambas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Corongo",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Cusca",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "La Pampa",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Yánac",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Yupán",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Huaraz"
+                    "provincia": "Huaraz",
+                    "distritos":[
+                        {
+                            "distrito": "Cochabamba",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Colcabamba",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huanchay",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huaraz",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Independencia",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Jangas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "La Libertad",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Olleros",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pampa grande",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pariacoto",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pira",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Tarica",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "provincia": "Huari"
+                    "provincia": "Huari",
+                    "distritos":[
+                        {
+                            "distrito": "Anra",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Cajay",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Chavín de Huántar",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huacachi",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huachis",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huántar",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Huari",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Masin",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Paucas",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Pontó",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Rahuapampa",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Rapayán",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Marcos",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "San Pedro de Chaná",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "distrito": "Uco",
+                            "agencias-recomendadas":[
+                                {
+                                    "nombre": "Nombre agencia",
+                                    "sedes":[
+                                        {
+                                            "sede": "Sede de la agencia",
+                                            "tipos-de-envio":[
+                                                {
+                                                    "tipo-de-envio": "Envío preferente",
+                                                    "precio": 0
+                                                },
+                                                {
+                                                    "tipo-de-envio": "Envío aplicado",
+                                                    "precio": 0
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "provincia": "Huarmey"
