@@ -248,7 +248,7 @@ function PaginaProducto(){
                                 <div>
                                     <h4 className='product-page-subtitle'>Lugar de envío:</h4>
 
-                                    {producto && <Envios tipoDeEnvioProducto={producto["tipo-de-envio"]} />}
+                                    <Envios producto={producto} />
                                 </div>
                             </div>
                         </div>
