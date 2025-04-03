@@ -70,39 +70,31 @@ function Envios({ producto }) {
     const selectedDistritoObj = distritos.find(dist => dist.distrito === selectedDistrito);
     const tieneAgencias = selectedDistritoObj?.['agencias-recomendadas'];
 
-    // Variables para los mensajes de envío
-    let mensajeEnvioDirecto = '';
-    let mensajeEnvioProducto = '';
-    let mensajeEnvioExpress = '';
+    // Helper para generar la clase a partir del tipo de envío
+    const getShippingClass = (tipo) => tipo.toLowerCase().replace(/\s+/g, '-');
 
+    // Definir el texto de ubicación según la provincia seleccionada
+    const deliveryLocation = (selectedProvincia.toLowerCase() === "lima metropolitana" ||
+                              selectedProvincia.toLowerCase() === "provincia constitucional del callao")
+        ? "Hasta tu domicilio"
+        : "Hasta la agencia";
+    // Para envío directo, forzamos "Hasta tu domicilio"
+    const deliveryLocationDirect = "Hasta tu domicilio";
+
+    // Variables para almacenar los objetos de envío (si existen)
+    const envioDirectoObj = selectedDistritoObj?.['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío directo");
+    const envioExpressObj = selectedDistritoObj?.['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío express");
+
+    // Calcular el costo para el tipo de envío del producto
+    let productShippingCost = null;
     if (selectedDistritoObj && selectedDistrito) {
-        const envioDirectoObj = selectedDistritoObj['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío directo");
-        if (envioDirectoObj) {
-            const costoDirecto = envioDirectoObj.precio || envioDirectoObj.costos || 0;
-            mensajeEnvioDirecto = `Envío directo: S/ ${costoDirecto}`;
-        }
-
-        const envioExpressObj = selectedDistritoObj['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío express");
-        if (envioExpressObj) {
-            const costoExpress = envioExpressObj.precio || envioExpressObj.costos || 0;
-            mensajeEnvioExpress = `Envío express: S/ ${costoExpress}`;
-        }
-
-        const labelEnvio = selectedProvincia.toLowerCase() === "lima metropolitana"
-            ? `${producto['tipo-de-envio']} (Hasta tu domicilio)`
-            : `${producto['tipo-de-envio']} (Hasta la agencia)`;
-
         if (tieneAgencias) {
             const agenciaSeleccionada = selectedDistritoObj['agencias-recomendadas'].find(agencia => agencia.agencia === selectedAgencia);
             const sedes = agenciaSeleccionada ? agenciaSeleccionada.sedes || [] : [];
             const sedeSeleccionada = sedes.find(sede => sede.sede === selectedSede);
-
             if (sedeSeleccionada) {
                 const matchTipoEnvio = sedeSeleccionada['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === producto['tipo-de-envio']);
-                const costoProducto = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
-                mensajeEnvioProducto = `${labelEnvio}: S/ ${costoProducto}`;
-            } else {
-                mensajeEnvioProducto = 'Selecciona una sede para ver el costo del envío del producto.';
+                productShippingCost = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
             }
         } else {
             const matchTipoEnvio = selectedDistritoObj['tipos-de-envio']?.find(tipo =>
@@ -110,8 +102,7 @@ function Envios({ producto }) {
                 tipo['tipo-de-envio'] !== "Envío directo" &&
                 tipo['tipo-de-envio'] !== "Envío express"
             );
-            const costoProducto = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
-            mensajeEnvioProducto = `${labelEnvio}: S/ ${costoProducto}`;
+            productShippingCost = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
         }
     }
 
@@ -122,7 +113,11 @@ function Envios({ producto }) {
                     <label>Departamento:</label>
                     <select value={selectedDepartamento} onChange={handleDepartamentoChange}>
                         <option value="">-- Selecciona Departamento --</option>
-                        {departamentos.map(dep => <option key={dep.departamento} value={dep.departamento}>{dep.departamento}</option>)}
+                        {departamentos.map(dep => (
+                            <option key={dep.departamento} value={dep.departamento}>
+                                {dep.departamento}
+                            </option>
+                        ))}
                     </select>
                 </div>
 
@@ -131,7 +126,11 @@ function Envios({ producto }) {
                         <label>Provincia:</label>
                         <select value={selectedProvincia} onChange={handleProvinciaChange}>
                             <option value="">-- Selecciona Provincia --</option>
-                            {provincias.map(prov => <option key={prov.provincia} value={prov.provincia}>{prov.provincia}</option>)}
+                            {provincias.map(prov => (
+                                <option key={prov.provincia} value={prov.provincia}>
+                                    {prov.provincia}
+                                </option>
+                            ))}
                         </select>
                     </div>
                 )}
@@ -141,7 +140,11 @@ function Envios({ producto }) {
                         <label>Distrito:</label>
                         <select value={selectedDistrito} onChange={handleDistritoChange}>
                             <option value="">-- Selecciona Distrito --</option>
-                            {distritos.map(dist => <option key={dist.distrito} value={dist.distrito}>{dist.distrito}</option>)}
+                            {distritos.map(dist => (
+                                <option key={dist.distrito} value={dist.distrito}>
+                                    {dist.distrito}
+                                </option>
+                            ))}
                         </select>
                     </div>
                 )}
@@ -152,7 +155,11 @@ function Envios({ producto }) {
                             <label>Agencia:</label>
                             <select value={selectedAgencia} onChange={handleAgenciaChange}>
                                 <option value="">-- Selecciona Agencia --</option>
-                                {selectedDistritoObj['agencias-recomendadas'].map(agencia => <option key={agencia.agencia} value={agencia.agencia}>{agencia.agencia}</option>)}
+                                {selectedDistritoObj['agencias-recomendadas'].map(agencia => (
+                                    <option key={agencia.agencia} value={agencia.agencia}>
+                                        {agencia.agencia}
+                                    </option>
+                                ))}
                             </select>
                         </div>
 
@@ -161,7 +168,13 @@ function Envios({ producto }) {
                                 <label>Sede:</label>
                                 <select value={selectedSede} onChange={handleSedeChange}>
                                     <option value="">-- Selecciona Sede --</option>
-                                    {selectedDistritoObj['agencias-recomendadas'].find(agencia => agencia.agencia === selectedAgencia)?.sedes.map(sede => <option key={sede.sede} value={sede.sede}>{sede.sede}</option>)}
+                                    {selectedDistritoObj['agencias-recomendadas']
+                                        .find(agencia => agencia.agencia === selectedAgencia)
+                                        ?.sedes.map(sede => (
+                                            <option key={sede.sede} value={sede.sede}>
+                                                {sede.sede}
+                                            </option>
+                                        ))}
                                 </select>
                             </div>
                         )}
@@ -169,10 +182,42 @@ function Envios({ producto }) {
                 )}
             </div>
 
-            <div className="envio-details">
-                {mensajeEnvioDirecto && <p>{mensajeEnvioDirecto}</p>}
-                {mensajeEnvioExpress && <p>{mensajeEnvioExpress}</p>}
-                {mensajeEnvioProducto && <p>{mensajeEnvioProducto}</p>}
+            <div className="envio-details d-flex-column gap-20">
+                {/* Renderizado del tipo de envío del producto */}
+                {productShippingCost !== null && (
+                    <div className={`delivery-type ${getShippingClass(producto['tipo-de-envio'])}`}>
+                        <div className="d-flex-column">
+                            <span className="material-icons">local_shipping</span>
+                            <p>{producto['tipo-de-envio']}</p>
+                        </div>
+                        <p>S/.{productShippingCost}</p>
+                        <span className="delivery-type-span">{deliveryLocation}</span>
+                    </div>
+                )}
+
+                {/* Renderizado del Envío directo */}
+                {envioDirectoObj && (
+                    <div className={`delivery-type ${getShippingClass(envioDirectoObj['tipo-de-envio'])}`}>
+                        <div className="d-flex-column">
+                            <span className="material-icons">local_shipping</span>
+                            <p>{envioDirectoObj['tipo-de-envio']}</p>
+                        </div>
+                        <p>S/.{envioDirectoObj.precio || envioDirectoObj.costos || 0}</p>
+                        <span className="delivery-type-span">{deliveryLocationDirect}</span>
+                    </div>
+                )}
+
+                {/* Renderizado del Envío express */}
+                {envioExpressObj && (
+                    <div className={`delivery-type ${getShippingClass(envioExpressObj['tipo-de-envio'])}`}>
+                        <div className="d-flex-column">
+                            <span className="material-icons">local_shipping</span>
+                            <p>{envioExpressObj['tipo-de-envio']}</p>
+                        </div>
+                        <p>S/.{envioExpressObj.precio || envioExpressObj.costos || 0}</p>
+                        <span className="delivery-type-span">{deliveryLocation}</span>
+                    </div>
+                )}
             </div>
         </div>
     );

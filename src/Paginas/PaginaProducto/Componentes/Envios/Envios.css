@@ -1,4 +1,4 @@
-/* .envios-container{
+/* .envíos-container{
     display: flex;
     flex-direction: column;
 } */
@@ -6,4 +6,136 @@
 .select-group{
     display: flex;
     flex-direction: column;
+}
+
+/**/
+
+.delivery-type{
+    position: relative;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delivery-type .d-flex-column span{
+    font-size: 36px;
+}
+
+.delivery-type > p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.delivery-type-span{
+    position: absolute;
+    right: 16px;
+    bottom: calc(100% - 10px);
+    padding: 0 8px;
+    width: auto;
+    height: 20px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.delivery-type.envío-express{
+    border: 1px solid orangered;
+    background: rgba(255 165 0 / 0.25);
+}
+
+.delivery-type.envío-express .d-flex-column span,
+.delivery-type.envío-express .d-flex-column p{
+    color: orangered;
+}
+
+.delivery-type.envío-express > p{
+    color: orangered;
+}
+
+.delivery-type.envío-express .delivery-type-span{
+    background: orangered;
+    color: var(--white);
+}
+
+.delivery-type.gratis{
+    border: 1px solid green;
+    background: rgb(144 238 144 / 0.25);
+}
+
+.delivery-type.gratis .d-flex-column span,
+.delivery-type.gratis .d-flex-column p{
+    color: green;
+}
+
+.delivery-type.gratis > p{
+    color: green;
+}
+
+.delivery-type.gratis .delivery-type-span{
+    background: green;
+    color: var(--white);
+}
+
+.delivery-type.envío-preferente{
+    border: 1px solid blue;
+    background: rgba(0 0 255 / 0.05);
+}
+
+.delivery-type.envío-preferente .d-flex-column span,
+.delivery-type.envío-preferente .d-flex-column p{
+    color: blue;
+}
+
+.delivery-type.envío-preferente > p{
+    color: blue;
+}
+
+.delivery-type.envío-preferente .delivery-type-span{
+    background: blue;
+    color: var(--white);
+}
+
+.delivery-type.envío-aplicado{
+    border: 1px solid orange;
+    background: yellow;
+}
+
+.delivery-type.envío-aplicado .d-flex-column span,
+.delivery-type.envío-aplicado .d-flex-column p{
+    color: orange;
+}
+
+.delivery-type.envío-aplicado > p{
+    color: orange;
+}
+
+.delivery-type.envío-aplicado .delivery-type-span{
+    background: yellow;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.delivery-type.envío-directo{
+    border: 1px solid var(--color-2);
+    background: rgb(173 51 98 / 0.2);
+}
+
+.delivery-type.envío-directo .d-flex-column span,
+.delivery-type.envío-directo .d-flex-column p{
+    color: var(--color-2);
+}
+
+.delivery-type.envío-directo > p{
+    color: var(--color-2);
+}
+
+.delivery-type.envío-directo .delivery-type-span{
+    background: var(--color-2);
+    color: var(--white);
 }
