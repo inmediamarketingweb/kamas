@@ -510,6 +510,10 @@
         flex-direction: column-reverse;
     }
 
+    .product-page-sub-target-3 > div > div{
+        flex-direction: column;
+    }
+
     /**/
 
     .product-page-bottom .product-page-details > div ul li{
