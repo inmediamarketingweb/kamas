@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams, useParams } from "react-router-dom";
 
 function Filtros({ productos, setProductosFiltrados }) {
-    const { categoria } = useParams(); // Obtiene la categoría desde la URL
+    const { categoria } = useParams();
     const [searchParams, setSearchParams] = useSearchParams();
     const [filtros, setFiltros] = useState([]);
     const [filtrosSeleccionados, setFiltrosSeleccionados] = useState({});
@@ -112,12 +112,7 @@ function Filtros({ productos, setProductosFiltrados }) {
                 <ul>
                     {rangosDePrecio.map((rango) => (
                         <li key={rango.id}>
-                            <input
-                                type="radio"
-                                name="rango-precio"
-                                checked={rangoDePrecioSeleccionado === rango.id}
-                                onChange={() => handleCambioRangoPrecio(rango.id)}
-                            />
+                            <input type="radio" name="rango-precio" checked={rangoDePrecioSeleccionado === rango.id} onChange={() => handleCambioRangoPrecio(rango.id)}/>
                             <label>{rango.titulo}</label>
                         </li>
                     ))}
@@ -131,10 +126,7 @@ function Filtros({ productos, setProductosFiltrados }) {
                         {Array.isArray(filtro.lista) ? (
                             filtro.lista.map((opcion) => (
                                 <li key={opcion.id}>
-                                    <input
-                                        type="checkbox"
-                                        onChange={() => handleFiltroChange(filtro.nombre, opcion.nombre)}
-                                    />
+                                    <input type="checkbox" onChange={() => handleFiltroChange(filtro.nombre, opcion.nombre)}/>
                                     <label>{opcion.nombre}</label>
                                 </li>
                             ))

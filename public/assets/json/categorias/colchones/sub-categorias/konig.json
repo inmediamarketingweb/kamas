@@ -66,6 +66,7 @@
         {
             "id": 2,
             "categoria": "colchones",
+            "subCategoria": "konig",
             "ruta": "/productos/colchones/konig/2-plazas/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/konig/2-plazas/",
@@ -128,6 +129,7 @@
         {
             "id": 3,
             "categoria": "colchones",
+            "subCategoria": "konig",
             "ruta": "/productos/colchones/konig/queen/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/konig/queen/",
@@ -194,6 +196,7 @@
         {
             "id": 4,
             "categoria": "colchones",
+            "subCategoria": "konig",
             "ruta": "/productos/colchones/konig/king/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG KING",
             "fotos": "/assets/imagenes/productos/colchones/konig/king/",
@@ -226,7 +229,7 @@
                     "ruta": "/productos/colchones/konig/2-plazas/"
                 },
                 {
-                    "nombre": "queen",
+                    "nombre": "Queen",
                     "ruta": "/productos/colchones/konig/queen/"
                 }
             ],
