@@ -28,39 +28,39 @@
     },
     {
         "id": 2,
-        "titulo": "Linea de colchones",
-        "nombre": "lineaColchones",
+        "titulo": "Linea de colchón",
+        "nombre": "linea-de-colchón",
         "lista":[
             {
                 "id": 1,
-                "nombre": "Semi ortopédicos"
+                "nombre": "Semi ortopédico"
             },
             {
                 "id": 2,
-                "nombre": "Anátomicos"
+                "nombre": "Anátomico"
             },
             {
                 "id": 3,
-                "nombre": "Ortopédicos"
+                "nombre": "Ortopédico"
             },
             {
                 "id": 4,
-                "nombre": "Super ortopédicos"
+                "nombre": "Súper ortopédico"
             },
             {
                 "id": 5,
-                "nombre": "Hoteleros"
+                "nombre": "Hotelero"
             },
             {
                 "id": 6,
-                "nombre": "Extra ortopédicos"
+                "nombre": "Extra ortopédico"
             }
         ]
     },
     {
         "id": 3,
         "titulo": "Nivel de confort",
-        "nombre": "nivelDeConfort",
+        "nombre": "nivel-de-confort",
         "lista":[
             {
                 "id": 1,
@@ -87,7 +87,7 @@
     {
         "id": 4,
         "titulo": "Modelo de colchón",
-        "nombre": "modeloColchon",
+        "nombre": "modelo-de-colchón",
         "lista":[
             {
                 "id": 1,
@@ -142,7 +142,7 @@
     {
         "id": 5,
         "titulo": "Tipo de resorte",
-        "nombre": "tipoDeResorte",
+        "nombre": "tipo-de-resorte",
         "lista":[
             {
                 "id": 1,
