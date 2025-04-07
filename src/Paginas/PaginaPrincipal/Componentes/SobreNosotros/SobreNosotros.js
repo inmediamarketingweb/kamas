@@ -10,6 +10,21 @@ function SobreNosotros(){
                     <p className='title'>KAMAS</p>
                     <p className='title'>Diseñamos tus sueños</p>
                 </div>
+
+                <ul className='homepage-about-us-images'>
+                    <li>
+                        <img src="/assets/imagenes/homepage/about-us/1.jpg" alt=""/>
+                    </li>
+                    <li>
+                        <img src="/assets/imagenes/homepage/about-us/2.jpg" alt=""/>
+                    </li>
+                    <li>
+                        <img src="/assets/imagenes/homepage/about-us/3.jpg" alt=""/>
+                    </li>
+                    <li>
+                        <img src="/assets/imagenes/homepage/about-us/4.jpg" alt=""/>
+                    </li>
+                </ul>
             </section>
         </div>
     );

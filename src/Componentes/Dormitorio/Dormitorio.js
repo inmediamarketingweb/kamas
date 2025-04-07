@@ -8,7 +8,7 @@ function Dormitorio(){
                     <h2 className='block-title'>Más productos</h2>
                 </div>
 
-                <img src="/assets/imagenes/componentes/dormitorio/fondo.jpg" alt="" className='fondo'/>
+                {/* <img src="/assets/imagenes/componentes/dormitorio/fondo.jpg" alt="" className='fondo'/> */}
 
                 <img src="/assets/imagenes/componentes/dormitorio/dormitorio.png" alt="" className='dormitorio'/>
                 <div className='dormitorio-button-container'>
