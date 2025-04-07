@@ -74,29 +74,31 @@ function PaginaDeCategoria() {
 
                         <div className="category-page-right">
                             {productosFiltrados.length > 0 ? (
-                                <div className="category-page-products">
+                                <ul className="category-page-products">
                                     {productosFiltrados.map((producto) => {
                                         const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
-                                        return (
-                                            <a href={producto.ruta} className="product-card" title={producto.nombre} key={uuidv4()}>
-                                                <div className="product-card-images">
-                                                    {descuento > 0 && (
-                                                        <span className="product-card-discount">-{descuento}%</span>
-                                                    )}
-                                                    <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
-                                                </div>
-                                                <div className="product-card-content">
-                                                    <span className="product-card-brand">KAMAS</span>
-                                                    <h4 className="product-card-name">{producto.nombre}</h4>
-                                                    <div className="product-card-prices">
-                                                        <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
-                                                        <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
+                                        return(
+                                            <li>
+                                                <a href={producto.ruta} className="product-card" title={producto.nombre} key={uuidv4()}>
+                                                    <div className="product-card-images">
+                                                        {descuento > 0 && (
+                                                            <span className="product-card-discount">-{descuento}%</span>
+                                                        )}
+                                                        <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
                                                     </div>
-                                                </div>
-                                            </a>
+                                                    <div className="product-card-content">
+                                                        <span className="product-card-brand">KAMAS</span>
+                                                        <h4 className="product-card-name">{producto.nombre}</h4>
+                                                        <div className="product-card-prices">
+                                                            <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                                                            <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
                                         );
                                     })}
-                                </div>
+                                </ul>
                             ) : (
                                 <p>No se encontraron productos.</p>
                             )}

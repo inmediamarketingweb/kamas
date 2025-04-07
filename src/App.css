@@ -59,10 +59,12 @@ main{
     width: 100%;
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block-content{
-    margin: auto;
+    /* margin: 0 auto; */
     width: 100%;
     max-width: var(--content-mx-width);
 }
@@ -70,7 +72,7 @@ main{
 .block-title-container{
     width: 100%;
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .block-title{
@@ -78,7 +80,7 @@ main{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    color: var(--text);
+    color: var(--black);
 }
 
 /**/

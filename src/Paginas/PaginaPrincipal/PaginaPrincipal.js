@@ -1,17 +1,18 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
-import Benefits from '../../Componentes/Benefits/Benefits';
+import Slider from './Componentes/Slider/Slider';
+// import Benefits from '../../Componentes/Benefits/Benefits';
+import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
+import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
+import LosMasVendidos from './Componentes/LosMasVendidos/LosMasVendidos';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaPrincipal.css';
 
-function PaginaPrincipal() {
+function PaginaPrincipal(){
     const [categorias, setCategorias] = useState([]);
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const sliderRef = useRef(null);
-    const totalSlides = 4;
 
     useEffect(() => {
         fetch('/assets/json/categorias/categorias.json')
@@ -22,21 +23,7 @@ function PaginaPrincipal() {
             .catch(error => console.error('Error cargando categorías:', error));
     }, []);
 
-    useEffect(() => {
-        if (sliderRef.current) {
-            sliderRef.current.style.marginLeft = `-${currentIndex * 100}%`;
-        }
-    }, [currentIndex]);
-
-    const goToNextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-    };
-
-    const goToPrevSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides);
-    };
-
-    return (
+    return(
         <>
             <Helmet>
                 <title>Kamas | Fabricantes de colchones, camas y dormitorios.</title>
@@ -44,31 +31,8 @@ function PaginaPrincipal() {
 
             <Header/>
 
-            <div className='hero-container'>
-                <section className='hero'>
-                    <div className='slider-container'>
-                        <ul className='slider' ref={sliderRef}>
-                            {[1, 2, 3, 4].map((num) => (
-                                <li key={num}>
-                                    <a href='/' title={num.toString()}>
-                                        <img src={`/assets/imagenes/componentes/slider/${num}.jpg`} alt={`Slide ${num}`} />
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </section>
+            <Slider/>
 
-                <button className='hero-slider-button hero-slider-button-1' onClick={goToPrevSlide}>
-                    <span className='material-icons'>chevron_left</span>
-                </button>
-                <button className='hero-slider-button hero-slider-button-2' onClick={goToNextSlide}>
-                    <span className='material-icons'>chevron_right</span>
-                </button>
-            </div>
-
-            <Benefits/>
-            
             <div className='block-container'>
                 <section className='block-content'>
                     <div className='block-title-container'>
@@ -81,7 +45,7 @@ function PaginaPrincipal() {
                                     <div>
                                         <img src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
                                     </div>
-                                    <p>{categoria.categoria}</p>
+                                    <p className='text'>{categoria.categoria}</p>
                                 </a>
                             </li>
                         ))}
@@ -89,7 +53,13 @@ function PaginaPrincipal() {
                 </section>
             </div>
 
-            <Footer />
+            <SoloPorHoras/>
+
+            <LosMasVendidos/>
+
+            <SobreNosotros/>
+
+            <Footer/>
         </>
     );
 }
