@@ -1,0 +1,113 @@
+.block-content-sale{
+    background: #121212;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.block-content-sale .block-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block-content-sale .block-title-container .block-title{
+    margin: unset;
+    color: var(--white);
+}
+
+.sale-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sale-time div{
+    position: relative;
+    width: 48px;
+    height: 64px;
+    background: crimson;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.sale-time div span{
+    font-weight: bold;
+    color: var(--white);
+}
+
+.sale-time div p{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    translate: -50% 0;
+    color: var(--white);
+    font-size: 13px;
+}
+
+/**/
+
+.sale-products-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sale-products-content{
+    width: 100%;
+}
+
+.sale-products{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.sale-products li{
+    width: 100%;
+    flex: 1 1 clamp(200px, calc(calc(100% / 4) - calc(30px / 4)), 100%);
+    max-width: calc(calc(100% / 4) - calc(30px / 4));
+}
+
+.sale-products li a{
+    max-width: none;
+    border: 0;
+    background: var(--white);
+}
+
+.block-content-sale .product-card-discount{
+    background: crimson;
+}
+
+@media screen and (max-width: 600px){
+    .block-title-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .block-content-sale .block-title-container{
+        margin-bottom: 40px;
+    }
+    
+    .sale-products-container{
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+
+    .sale-products-container::-webkit-scrollbar{
+        background: rgba(235 235 235 / 0.5);
+        border-radius: 10px;
+        height: 4px;
+    }
+
+    .sale-products-container::-webkit-scrollbar-thumb{
+        background: crimson;
+        border-radius: 10px;
+    }
+
+    .sale-products-content{
+        width: 360%;
+    }
+}

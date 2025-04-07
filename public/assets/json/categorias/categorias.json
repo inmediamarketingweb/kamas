@@ -2,7 +2,8 @@
     "categorias":[
         {
             "id": 1,
-            "icono": "king_bed",
+            "icono": "/assets/imagenes/componentes/header/colchon.svg",
+            "iconoAlt": "Colchón vector",
             "categoria": "Colchones",
             "metaTitulo": "Colchones | Kamas",
             "ruta": "/productos/colchones/",
@@ -132,7 +133,8 @@
         },
         {
             "id": 2,
-            "icono": "king_bed",
+            "icono": "/assets/imagenes/componentes/header/cama-box-tarimas.svg",
+            "iconoAlt": "Cama box tarima vector",
             "categoria": "Cama box tarimas",
             "metaTitulo": "Cama box tarimas | Kamas",
             "ruta": "/productos/cama-box-tarimas/",
@@ -296,8 +298,9 @@
         },
         {
             "id": 4,
-            "icono": "king_bed",
             "categoria": "Camas funcionales",
+            "icono": "/assets/imagenes/componentes/header/camas-funcionales.svg",
+            "iconoAlt": "Box espacio vector",
             "metaTitulo": "Camas funcionales | Kamas",
             "ruta": "/productos/camas-funcionales/",
             "menuMensaje":[
@@ -363,7 +366,8 @@
         },
         {
             "id": 5,
-            "icono": "king_bed",
+            "icono": "/assets/imagenes/componentes/header/cabeceras.svg",
+            "iconoAlt": "Cabecera vector",
             "categoria": "Cabeceras",
             "metaTitulo": "Cabeceras | Kamas",
             "ruta": "/productos/cabeceras/",
@@ -406,7 +410,8 @@
         },
         {
             "id": 6,
-            "icono": "chair",
+            "icono": "/assets/imagenes/componentes/header/sofa.svg",
+            "iconoAlt": "Sofá vector",
             "categoria": "Sofás",
             "metaTitulo": "Sofás | Kamas",
             "ruta": "/productos/sofas/",
@@ -479,7 +484,8 @@
         },
         {
             "id": 7,
-            "icono": "king_bed",
+            "icono": "/assets/imagenes/componentes/header/complementos.svg",
+            "iconoAlt": "Velador vector",
             "categoria": "Complementos",
             "metaTitulo": "Complementos | Kamas",
             "ruta": "/productos/complementos/",

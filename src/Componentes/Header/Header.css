@@ -181,9 +181,9 @@ header{
     width: 100%;
 }
 
-.menu-link span{
+.menu-link span,
+.menu-link img{
     position: absolute;
-    /* left: 10px; */
     left: -24px;
     top: 50%;
     translate: 0 -50%;
@@ -192,9 +192,18 @@ header{
     color: var(--color-1);
 }
 
-.menu-link.active span{
+.menu-link.active span,
+.menu-link.active img{
     scale: 1;
     left: 0;
+}
+
+.menu-link img{
+    /* scale: 1; */
+    width: auto;
+    height: 24px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .menu-link h2{

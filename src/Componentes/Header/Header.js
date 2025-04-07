@@ -92,7 +92,8 @@ function Header() {
                                             </a>
                                         ) : (
                                             <button type='button' className={`menu-link ${activeIndex === index ? 'active' : ''}`} onClick={() => handleMenuClick(index)}>
-                                                <span className="material-icons">{item.icono}</span>
+                                                {/* <span className="material-icons">{item.icono}</span> */}
+                                                <img src={item.icono} alt={item.iconoAlt} />
                                                 <h2>{item.categoria}</h2>
                                             </button>
                                         )}
