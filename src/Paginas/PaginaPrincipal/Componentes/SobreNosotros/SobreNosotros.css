@@ -9,6 +9,27 @@
     border-radius: 10px;
 }
 
+.homepage-about-us-images{
+    grid-column: 1/-1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.homepage-about-us-images li{
+    width: 100%;
+}
+
+.homepage-about-us-images li img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    /* height: 200px; */
+    /* object-fit: contain; */
+}
+
 @media screen and (max-width: 600px){
     .block-container-homepage-about-us section{
         grid-template-columns: 1fr;

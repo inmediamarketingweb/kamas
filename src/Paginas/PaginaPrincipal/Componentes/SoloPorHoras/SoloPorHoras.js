@@ -5,9 +5,9 @@ import './SoloPorHoras.css';
 function SoloPorHoras(){
     const [productos, setProductos] = useState([]);
     const [timeLeft, setTimeLeft] = useState({
-        hours: 5,
-        minutes: 48,
-        seconds: 8,
+        hours: 48,
+        minutes: 23,
+        seconds: 45,
     });
 
     useEffect(() => {
@@ -21,38 +21,36 @@ function SoloPorHoras(){
             });
     }, []);
 
-    // Cuenta regresiva ⏳
     useEffect(() => {
-        const countdown = setInterval(() => {
-            setTimeLeft((prevTime) => {
-                let { hours, minutes, seconds } = prevTime;
+        let endTime = localStorage.getItem('soloPorHoras-endTime');
 
-                if (hours === 0 && minutes === 0 && seconds === 0) {
-                    clearInterval(countdown);
-                    return prevTime;
-                }
+        if (!endTime) {
+            const now = new Date();
+            // Setea una duración de 5h 48m 08s desde el momento actual
+            const future = new Date(now.getTime() + (48 * 60 * 60 + 23 * 60 + 45) * 1000);
+            localStorage.setItem('soloPorHoras-endTime', future.toISOString());
+            endTime = future.toISOString();
+        }
 
-                if (seconds === 0) {
-                    if (minutes === 0) {
-                        hours -= 1;
-                        minutes = 59;
-                        seconds = 59;
-                    } else {
-                        minutes -= 1;
-                        seconds = 59;
-                    }
-                } else {
-                    seconds -= 1;
-                }
+        const interval = setInterval(() => {
+            const now = new Date();
+            const end = new Date(endTime);
+            const diff = Math.max(0, Math.floor((end - now) / 1000));
 
-                return { hours, minutes, seconds };
-            });
+            const hours = Math.floor(diff / 3600);
+            const minutes = Math.floor((diff % 3600) / 60);
+            const seconds = diff % 60;
+
+            setTimeLeft({ hours, minutes, seconds });
+
+            if (diff === 0) {
+                clearInterval(interval);
+            }
         }, 1000);
 
-        return () => clearInterval(countdown);
+        return () => clearInterval(interval);
     }, []);
 
-    // Formateo con cero a la izquierda
     const format = (num) => String(num).padStart(2, '0');
 
     return(
