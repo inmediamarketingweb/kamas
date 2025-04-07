@@ -57,7 +57,7 @@ main{
 
 .block-container{
     width: 100%;
-    padding: 20px;
+    padding: 40px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,15 +72,35 @@ main{
 .block-title-container{
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
 .block-title{
-    margin: auto;
     text-align: center;
     font-weight: bold;
-    font-size: 24px;
-    color: var(--black);
+    font-size: 28px;
+    color: #333333;
+}
+
+.block-title-buttons{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.block-title-buttons button{
+    width: 56px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: var(--white);
+    background: var(--color-1);
 }
 
 /**/

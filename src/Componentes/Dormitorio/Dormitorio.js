@@ -4,6 +4,10 @@ function Dormitorio(){
     return(
         <div className='block-container dormitorio-block-container'>
             <div className='block-content dormitorio-block-content'>
+                <div className='block-title-container'>
+                    <h2 className='block-title'>Más productos</h2>
+                </div>
+
                 <img src="/assets/imagenes/componentes/dormitorio/fondo.jpg" alt="" className='fondo'/>
 
                 <img src="/assets/imagenes/componentes/dormitorio/dormitorio.png" alt="" className='dormitorio'/>
