@@ -2,29 +2,16 @@ import './SobreNosotros.css';
 
 function SobreNosotros(){
     return(
-        <>
-            <div className='block-container about-us-block-video-container'>
-                <div className='block-content'>
-                    <img src="/assets/imagenes/homepage/homepage-video.jpg" alt=""/>
+        <div className='block-container block-container-homepage-about-us'>
+            <section className='block-content d-grid-2-1fr gap-20'>
+                <img src="/assets/imagenes/homepage/homepage-video.jpg" alt="" />
 
-                    <div className='about-us-video-button'>
-                        <button type='button' className=''>
-                            <span class="material-icons play">play_arrow</span>
-                            <span class="material-icons pause">pause</span>
-                        </button>
-                    </div>
+                <div className='d-flex-column gap-10'>
+                    <p className='title'>KAMAS</p>
+                    <p className='title'>Diseñamos tus sueños</p>
                 </div>
-            </div>
-
-            <div className='block-container about-us-block-container'>
-                <div className='block-content d-grid-auto-1fr'>
-                    <img src="/assets/imagenes/homepage/homepage-about-us.jpeg" alt=""/>
-                    <div className=''>
-                        <p>texto</p>
-                    </div>
-                </div>
-            </div>
-        </>
+            </section>
+        </div>
     );
 }
 

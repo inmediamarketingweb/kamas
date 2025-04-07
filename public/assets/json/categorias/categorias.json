@@ -2,7 +2,7 @@
     "categorias":[
         {
             "id": 1,
-            "icono": "/assets/imagenes/componentes/header/colchon.svg",
+            "icono": "/assets/imagenes/componentes/header/colchones.svg",
             "iconoAlt": "Colchón vector",
             "categoria": "Colchones",
             "metaTitulo": "Colchones | Kamas",

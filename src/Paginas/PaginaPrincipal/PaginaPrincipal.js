@@ -8,6 +8,7 @@ import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import LosMasVendidos from './Componentes/LosMasVendidos/LosMasVendidos';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
+import Dormitorio from '../../Componentes/Dormitorio/Dormitorio';
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaPrincipal.css';
@@ -61,6 +62,8 @@ function PaginaPrincipal(){
             <SobreNosotros/>
 
             <Distribuidores/>
+
+            <Dormitorio/>
 
             <Footer/>
         </>
