@@ -3,10 +3,9 @@ import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
 import Slider from './Componentes/Slider/Slider';
-// import Benefits from '../../Componentes/Benefits/Benefits';
 import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
+import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
-import LosMasVendidos from './Componentes/LosMasVendidos/LosMasVendidos';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 import Dormitorio from '../../Componentes/Dormitorio/Dormitorio';
 import Footer from '../../Componentes/Footer/Footer';
@@ -38,7 +37,7 @@ function PaginaPrincipal(){
             <div className='block-container'>
                 <section className='block-content'>
                     <div className='block-title-container'>
-                        <p className='block-title'>Nuestros productos</p>
+                        <p className='block-title margin-auto'>Nuestros productos</p>
                     </div>
                     <ul className='homepage-categories'>
                         {categorias.map((categoria) => (
@@ -57,7 +56,7 @@ function PaginaPrincipal(){
 
             <SoloPorHoras/>
 
-            <LosMasVendidos/>
+            <UltimasNovedades/>
 
             <SobreNosotros/>
 

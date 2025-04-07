@@ -1,0 +1,32 @@
+.distribuidores{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.distribuidores li{
+    display: flex;
+}
+
+.distribuidores li a{
+    display: flex;
+}
+
+.distribuidores li a img{
+    width: 170px;
+    height: 60px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px){
+    .distribuidores{
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .distribuidores li a img{
+        width: 150px;
+    }
+}

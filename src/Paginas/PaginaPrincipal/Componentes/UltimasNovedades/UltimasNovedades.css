@@ -1,0 +1,21 @@
+.ultimas-novedades-container{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.ultimas-novedades-container::-webkit-scrollbar{
+    display: none;
+}
+
+.ultimas-novedades-content{
+    width: calc(200% + 10px);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .ultimas-novedades-container{
+        padding-bottom: 20px;
+    }
+}
