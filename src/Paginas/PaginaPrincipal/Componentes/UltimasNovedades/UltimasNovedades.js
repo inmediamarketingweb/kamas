@@ -6,7 +6,7 @@ function UltimasNovedades() {
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        fetch('/assets/json/categorias/los-mas-vendidos.json')
+        fetch('/assets/json/categorias/ultimas-novedades.json')
             .then((res) => res.json())
             .then((data) => {
                 setProductos(data.productos);
@@ -24,10 +24,10 @@ function UltimasNovedades() {
 
                     <div className='block-title-buttons'>
                         <button type='button' className=''>
-                            <span class="material-icons">chevron_left</span>
+                            <span className="material-icons">chevron_left</span>
                         </button>
                         <button type='button' className=''>
-                            <span class="material-icons">chevron_right</span>
+                            <span className="material-icons">chevron_right</span>
                         </button>
                     </div>
                 </div>
@@ -38,15 +38,15 @@ function UltimasNovedades() {
                             <li key={producto.id}>
                                 <a href={producto.ruta} className='product-card' title={producto.nombre}>
                                     <div className='product-card-images'>
-                                        <img src={`${producto.fotos}1.jpg`} alt={producto.nombre} />
+                                        <img src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                                     </div>
 
                                     <div className="product-card-content">
                                         <span className="product-card-brand">KAMAS</span>
                                         <h4 className="product-card-name">{producto.nombre}</h4>
                                         <div className="product-card-prices">
-                                            <span className="product-card-normal-price">S/ {producto.precioNormal}</span>
-                                            <span className="product-card-sale-price">S/ {producto.precioVenta}</span>
+                                            <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                                            <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
                                         </div>
                                     </div>
                                 </a>

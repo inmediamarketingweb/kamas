@@ -14,8 +14,17 @@
     gap: 10px;
 }
 
+.ultimas-novedades-content li .product-card{
+    flex: unset;
+    max-width: none;
+}
+
 @media screen and (max-width: 600px){
     .ultimas-novedades-container{
         padding-bottom: 20px;
+    }
+    
+    .ultimas-novedades-content{
+        width: 600%;
     }
 }
