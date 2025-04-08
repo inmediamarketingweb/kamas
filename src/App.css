@@ -46,6 +46,7 @@
 
 body::-webkit-scrollbar{
     display: none;
+    transition: all 200ms linear;
 }
 
 main{
@@ -75,6 +76,7 @@ main{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
+    grid-column: 1/-1;
 }
 
 .block-title{
@@ -129,7 +131,7 @@ button{
 
 .text{
     color: var(--text);
-    transition: var(--t-200ms);
+    transition: var(--t-200ms-linear);
 }
 
 .title{
@@ -212,6 +214,37 @@ button{
 .text-center{
     text-align: center;
 }
+
+/**/
+
+.button-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--t-200ms-linear);
+    gap: 5px;
+}
+
+.button-link-text,
+.button-link span{
+    transition: var(--t-200ms-linear);
+}
+
+.button-link-1{
+    background: transparent;
+}
+
+.button-link-1 .button-link-text,
+.button-link-1 span{
+    color: var(--gray);
+}
+
+.button-link-1:hover .button-link-text,
+.button-link-1:hover span{
+    color: var(--color-1);
+}
+
+/**/
 
 @media screen and (max-width: 600px){
     /* *{
