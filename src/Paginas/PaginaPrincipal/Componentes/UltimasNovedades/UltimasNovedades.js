@@ -102,11 +102,7 @@ function UltimasNovedades() {
                 <div className='ultimas-novedades-container' ref={scrollRef}>
                     <ul className="ultimas-novedades-content">
                         {productos.map((producto) => {
-                            const{
-                                id, ruta, nombre, fotos,
-                                precioRegular, precioNormal, precioVenta
-                            } = producto;
-
+                            const{ id, ruta, nombre, fotos, precioNormal, precioVenta } = producto;
                             const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
 
                             return(
@@ -120,7 +116,6 @@ function UltimasNovedades() {
                                             <span className="product-card-brand">KAMAS</span>
                                             <h4 className="product-card-name">{nombre}</h4>
                                             <div className="product-card-prices">
-                                                <span className="product-card-regular-price">S/.{precioRegular}</span>
                                                 <span className="product-card-normal-price">S/.{precioNormal}</span>
                                                 <span className="product-card-sale-price">S/.{precioVenta}</span>
                                             </div>
