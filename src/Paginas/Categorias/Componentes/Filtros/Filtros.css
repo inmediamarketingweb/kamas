@@ -15,15 +15,17 @@
 .filter ul li{
     position: relative;
     cursor: pointer;
-    border-radius: 5px;
-    background: rgba(173 51 98 / 0.35);
-    padding: 3px 9px;
+    border-radius: 3px;
+    background: rgba(0 0 0 / 0.15);
+    border: 1px solid gray;
+    padding: 2px 9px;
     overflow: hidden;
     transition: var(--t-200ms-linear);
 }
 
 .filter ul li:hover,
 .filter ul li.active{
+    border: 1px solid var(--color-2);
     background: var(--color-2);
 }
 
