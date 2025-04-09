@@ -85,9 +85,13 @@
 
 .sale-products li a{
     max-width: none;
-    border: 0;
+    border: 2px solid #121212;
     width: 280px;
     background: var(--white);
+}
+
+.sale-products li a:hover{
+    border: 2px solid crimson !important;
 }
 
 .block-content-sale .product-card-discount{

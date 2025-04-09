@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSearchParams, useParams } from "react-router-dom";
 
+import './Filtros.css';
+
 function Filtros({ productos, setProductosFiltrados }) {
     const { categoria } = useParams();
     const [searchParams, setSearchParams] = useSearchParams();
@@ -107,7 +109,7 @@ function Filtros({ productos, setProductosFiltrados }) {
 
     return (
         <div className="filters-container">
-            <div className="filter">
+            <div className="price-range">
                 <p>Rangos de Precio:</p>
                 <ul>
                     {rangosDePrecio.map((rango) => (
@@ -120,13 +122,13 @@ function Filtros({ productos, setProductosFiltrados }) {
             </div>
 
             {filtros.map((filtro) => (
-                <div className="filter" key={filtro.nombre}>
-                    <p>{filtro.titulo}:</p>
+                <div className="filter d-flex-column gap-10" key={filtro.nombre}>
+                    <p className="title">{filtro.titulo}:</p>
                     <ul>
                         {Array.isArray(filtro.lista) ? (
                             filtro.lista.map((opcion) => (
-                                <li key={opcion.id}>
-                                    <input type="checkbox" onChange={() => handleFiltroChange(filtro.nombre, opcion.nombre)}/>
+                                <li key={opcion.id} className={filtrosSeleccionados[filtro.nombre]?.has(opcion.nombre.toLowerCase().replace(/\s+/g, "-")) ? "active" : ""} onClick={() => handleFiltroChange(filtro.nombre, opcion.nombre)}>
+                                    <input type="checkbox" readOnly checked={filtrosSeleccionados[filtro.nombre]?.has(opcion.nombre.toLowerCase().replace(/\s+/g, "-")) || false}/>
                                     <label>{opcion.nombre}</label>
                                 </li>
                             ))

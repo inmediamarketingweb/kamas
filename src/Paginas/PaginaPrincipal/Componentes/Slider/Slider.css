@@ -1,9 +1,23 @@
+.slider-general-container{
+    background: #6c0c2c;
+}
+
+.slider-general-container > img{
+    margin: 0 auto;
+    width: auto;
+    max-width: var(--content-mx-width);
+    height: auto;
+    max-height: 56px;
+    /* height: 40px; */
+}
+
 .hero-container{
     margin: auto;
     width: 100%;
     height: calc(100vh - 165px);
     max-height: 600px;
     position: relative;
+    overflow: hidden;
 }
 
 .hero{
@@ -74,8 +88,13 @@
 }
 
 @media screen and (max-width: 600px){
-    .hero-container{
+    .slider-general-container > img{
+        width: 100%;
         height: auto;
         max-height: none;
+    }
+    .hero-container{
+        height: auto;
+        max-height: 200px;
     }
 }
