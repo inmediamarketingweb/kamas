@@ -16,7 +16,7 @@
     position: relative;
     cursor: pointer;
     border-radius: 3px;
-    background: rgba(0 0 0 / 0.15);
+    background: rgba(0 0 0 / 0.1);
     border: 1px solid gray;
     padding: 2px 9px;
     overflow: hidden;
