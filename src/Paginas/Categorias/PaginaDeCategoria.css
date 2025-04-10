@@ -1,5 +1,5 @@
 :root{
-    --product-card-images-height: 240px;
+    --product-card-images-height: 200px;
 }
 
 .category-page-container{
@@ -87,8 +87,8 @@
 
 .product-card-discount{
     position: absolute;
-    left: 10px;
-    top: 10px;
+    left: 0;
+    top: 0;
     background: var(--color-2);
     font-size: 13px;
     font-weight: bold;

@@ -25,8 +25,8 @@
 
 .filter ul li:hover,
 .filter ul li.active{
-    border: 1px solid var(--color-2);
-    background: var(--color-2);
+    border: 1px solid var(--color-1);
+    background: var(--color-1);
 }
 
 .filter ul li input{

@@ -1,6 +1,29 @@
 [
     {
         "id": 1,
+        "titulo": "Línea",
+        "nombre": "linea",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Americanos"
+            },
+            {
+                "id": 2,
+                "nombre": "Americanos con cajones"
+            },
+            {
+                "id": 3,
+                "nombre": "Europeos"
+            },
+            {
+                "id": 4,
+                "nombre": "Europeos con cajones"
+            }
+        ]
+    },
+    {
+        "id": 2,
         "titulo": "Tamaño",
         "nombre": "tamaño",
         "lista":[
@@ -23,29 +46,6 @@
             {
                 "id": 5,
                 "nombre": "King"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "titulo": "Línea",
-        "nombre": "linea",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Americanos"
-            },
-            {
-                "id": 2,
-                "nombre": "Americanos con cajones"
-            },
-            {
-                "id": 3,
-                "nombre": "Europeos"
-            },
-            {
-                "id": 4,
-                "nombre": "Europeos con cajones"
             }
         ]
     },

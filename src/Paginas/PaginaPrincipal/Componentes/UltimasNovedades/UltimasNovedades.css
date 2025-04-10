@@ -11,8 +11,7 @@
 
 .ultimas-novedades-content{
     width: auto;
-    display: grid;
-    grid-template-columns: repeat(10, auto);
+    display: flex;
     gap: 10px;
 }
 
@@ -20,6 +19,21 @@
     flex: unset;
     max-width: none;
     width: 280px;
+}
+
+.product-card-target{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.product-card-target span{
+    background: lightgreen;
+    padding: 3px 9px;
+    font-size: 13px;
+    border-radius: 3px;
+    color: green;
 }
 
 @media screen and (max-width: 600px){

@@ -2,31 +2,47 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Cama box tarimas",
-            "subcategoria": "Americanos con cajones",
+            "categoria": "cama box tarimas",
+            "subCategoria": "americanos con cajones",
             "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING CON 2 CAJONES LATERALES + CABECERA AEREA CAPITONEADA - PLOMO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
+            "novedades": "no",
+            "solo-por-horas": "si",
+            "oferta": "no",
+            "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 99,
             "sku": "K24A2120N10",
-            "detallesDelProducto":{
-                "tamaño": "King",
-                "linea": "Americanos con cajones",
-                "tipoDeCabecera": "Aérea",
-                "modeloDeCabecera": "Americanas",
-                "diseñoDeCabecera": "Capitoneadas",
-                "tipoDeBrazo": "Sin brazos"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "8 filas de resortes en forma vertical.",
-                "tres": "Tela tricop.",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Uso de ambos lados.",
-                "seis": "Soporte de 55kg. por persona."
-            }
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano con cajones",
+                    "tamaño": "King",
+                    "cabecera": "Aérea capitoneada"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K24A2120N10",
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "55kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
         }
     ]
 }
