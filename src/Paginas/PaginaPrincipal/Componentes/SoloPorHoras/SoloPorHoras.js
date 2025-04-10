@@ -4,11 +4,12 @@ import './SoloPorHoras.css';
 
 function SoloPorHoras(){
     const [productos, setProductos] = useState([]);
+    const [stockProductos, setStockProductos] = useState([]);
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-12T16:00:00');
+    const targetDate = new Date('2025-04-10T17:45:00');
 
     const format = (num) => String(num).padStart(2, '0');
 
@@ -16,11 +17,14 @@ function SoloPorHoras(){
     useEffect(() => {
         fetch('/assets/json/categorias/solo-por-horas.json')
             .then((res) => res.json())
-            .then((data) => setProductos(data.productos))
+            .then((data) => {
+                setProductos(data.productos);
+                setStockProductos(data.productos.map(p => ({ id: p.id, stock: p.stock })));
+            })
             .catch((err) => console.error('Error cargando productos:', err));
     }, []);
 
-    // ⏳ Cuenta regresiva
+    // ⏳ Actualizar cuenta regresiva
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date();
@@ -90,30 +94,34 @@ function SoloPorHoras(){
         };
     }, []);
 
-    // ▶️ Scroll con los botones
     const scrollSmooth = (direction) => {
         const container = scrollRef.current;
         if (!container) return;
-    
-        const scrollAmount = 290; // <- Aquí defines cuánto se mueve
-    
+
+        const scrollAmount = 290;
+
         container.scrollBy({
-            left: direction === 'right' ? scrollAmount : -scrollAmount, behavior: 'smooth'
+            left: direction === 'right' ? scrollAmount : -scrollAmount,
+            behavior: 'smooth'
         });
     };
-    
 
-    if (expired){
-        return(
+    const getStockById = (id) => {
+        const producto = stockProductos.find(p => p.id === id);
+        return producto ? producto.stock : 0;
+    };
+
+    if (expired) {
+        return (
             <div className='block-container block-container-sale expired'>
                 <div className='block-content block-content-sale'>
-                    <h2 className='block-title color-white'>¡ La oferta terminó 😢 !</h2>
+                    <h2 className='block-title color-white'>¡ La promoción terminó 😢 !</h2>
                 </div>
             </div>
         );
     }
 
-    return(
+    return (
         <div className='block-container block-container-sale'>
             <div className='block-content block-content-sale'>
                 <div className='block-title-container'>
@@ -130,17 +138,26 @@ function SoloPorHoras(){
                     <div className='sale-products-content'>
                         <ul className='sale-products'>
                             {productos.map((producto) => {
-                                const{ id, ruta, nombre, fotos, precioRegular, precioNormal, precioVenta } = producto;
+                                const { id, ruta, nombre, fotos, precioRegular, precioNormal, precioVenta } = producto;
+                                const stockActual = getStockById(id);
+                                const agotado = stockActual <= 0;
                                 const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
 
-                                return(
+                                return (
                                     <li key={id}>
-                                        <a href={ruta} className='product-card' title={nombre}>
+                                        <a href={ruta} className={`product-card ${agotado ? 'agotado' : ''}`} title={nombre}>
                                             <div className='product-card-images'>
                                                 <span className="product-card-discount">-{descuento}%</span>
                                                 <img src={`${fotos}1.jpg`} alt={nombre} />
                                             </div>
                                             <div className="product-card-content">
+                                                <div className='product-card-stock'>
+                                                    {agotado ? (
+                                                        <span>Agotado 🚚</span>
+                                                    ) : (
+                                                        <span>¡ Solo quedan <b>{stockActual}</b> 🔥!</span>
+                                                    )}
+                                                </div>
                                                 <span className="product-card-brand">KAMAS</span>
                                                 <h4 className="product-card-name">{nombre}</h4>
                                                 <div className="product-card-prices">

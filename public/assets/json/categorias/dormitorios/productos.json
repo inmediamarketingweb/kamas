@@ -2,57 +2,55 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Dormitorios",
+            "categoria": "dormitorios",
+            "subCategoria": "americanos",
             "ruta": "/productos/dormitorios/americanos/king/1/",
             "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - MORO",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/aereas/king/cuadros/1/",
+            "novedades": "si",
+            "solo-por-horas": "no",
+            "oferta": "no",
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 99,
             "sku": "K34A13C10N1",
-            "detallesDelProducto":{
-                "tamaño": "King",
-                "linea": "Americanos",
-                "lineaDeColchon": "Ortopédicos",
-                "modeloDeColchon": "Sarki",
-                "tipoDeCabecera": "Aérea",
-                "modeloDeCabecera": "Bloques"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "8 filas de resortes en forma vertical.",
-                "tres": "Tela tricop.",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Uso de ambos lados.",
-                "seis": "Soporte de 55kg. por persona."
-            }
-        },
-        {
-            "id": 2,
-            "categoria": "Dormitorios",
-            "ruta": "/productos/dormitorios/americanos-con-cajones/king/1/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS 2 CAJONES AL PIE + COLCHON KAMAS SARKI + CABECERA PEDESTAL CAPITONEADA - HUESO",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/pedestales/capitoneados/2-plazas/1/",
-            "precioNormal": 379,
-            "precioVenta": 249,
-            "stock": 99,
-            "sku": "K34A13C10N1",
-            "detallesDelProducto":{
-                "tamaño": "2 plazas",
-                "linea": "Americanos",
-                "lineaDeColchon": "Ortopédicos",
-                "modeloDeColchon": "Sarki",
-                "tipoDeCabecera": "Pedestal",
-                "modeloDeCabecera": "Capitoneada"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "8 filas de resortes en forma vertical.",
-                "tres": "Tela tricop.",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Uso de ambos lados.",
-                "seis": "Soporte de 55kg. por persona."
-            }
+            "incluye":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "modelo": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K34A13C10N1",
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "linea-de-colchón": "Ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell",
+                    "tipo-de-cabecera": "Áerea",
+                    "modelo-de-cabecera": "Bloques"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "55kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
         }
     ]
 }

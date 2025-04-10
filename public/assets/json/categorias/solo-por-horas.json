@@ -10,7 +10,7 @@
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
-            "stock": 99,
+            "stock": 10,
             "sku": "K1151CN10",
             "incluye":[
                 {
@@ -61,10 +61,10 @@
             "ruta": "/productos/colchones/adel/2-plazas/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/adel/2-plazas/",
-            "precioRegular": 425,
-            "precioNormal": 379,
-            "precioVenta": 249,
-            "stock": 99,
+            "precioRegular": 445,
+            "precioNormal": 399,
+            "precioVenta": 299,
+            "stock": 9,
             "sku": "K1151CN10",
             "incluye":[
                 {

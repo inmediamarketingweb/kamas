@@ -113,6 +113,9 @@ function UltimasNovedades() {
                                             <img src={`${fotos}1.jpg`} alt={nombre} />
                                         </div>
                                         <div className="product-card-content">
+                                            <div className='product-card-target'>
+                                                <span>¡ Lo más nuevo !</span>
+                                            </div>
                                             <span className="product-card-brand">KAMAS</span>
                                             <h4 className="product-card-name">{nombre}</h4>
                                             <div className="product-card-prices">
