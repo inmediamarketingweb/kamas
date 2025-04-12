@@ -23,7 +23,7 @@
                 {
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Anátomico",
+                    "línea-de-colchón": "Anátomico",
                     "nivel-de-confort": "Confortable"
                 }
             ],
@@ -50,7 +50,7 @@
                     "Sku": "K1152CN10",
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Anátomico",
+                    "línea-de-colchón": "Anátomico",
                     "nivel-de-confort": "Confortable",
                     "tipo-de-resorte": "Bonell"
                 }
@@ -80,7 +80,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Rucay",
                 "tamaño": "2 plazas",
-                "lineaColchones": "Anátomicos",
+                "líneaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
                 "tipoDeResorte": "Bonell"
             },
@@ -107,7 +107,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Rucay",
                 "tamaño": "Queen",
-                "lineaColchones": "Anátomicos",
+                "líneaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
                 "tipoDeResorte": "Bonell"
             },
@@ -137,7 +137,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Rucay",
                 "tamaño": "King",
-                "lineaColchones": "Anátomicos",
+                "líneaColchones": "Anátomicos",
                 "nivelDeConfort": "Confortable",
                 "tipoDeResorte": "Bonell"
             },

@@ -82,6 +82,10 @@
     gap: 10px;
 }
 
+.sale-products li{
+    display: flex;
+}
+
 .sale-products li .product-card{
     max-width: none;
     border: 2px solid #121212;

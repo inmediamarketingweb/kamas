@@ -22,7 +22,7 @@
                 {
                     "modelo-de-colchón": "Konig",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme"
                 }
             ],
@@ -46,7 +46,7 @@
                     "sku": "K11511MFN10",
                     "modelo-de-colchón": "Konig",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme",
                     "tipo-de-resorte": "Bonell"
                 }
@@ -85,7 +85,7 @@
                 {
                     "modelo-de-colchón": "Konig",
                     "tamaño": "2 plazas",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme"
                 }
             ],
@@ -109,7 +109,7 @@
                     "sku": "K1211MFN10",
                     "modelo-de-colchón": "Konig",
                     "tamaño": "2 plazas",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme",
                     "tipo-de-resorte": "Bonell"
                 }
@@ -148,7 +148,7 @@
                 {
                     "modelo-de-colchón": "Konig",
                     "tamaño": "Queen",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme"
                 }
             ],
@@ -172,7 +172,7 @@
                     "sku": "K137MCN10",
                     "modelo-de-colchón": "Konig",
                     "tamaño": "Queen",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme",
                     "tipo-de-resorte": "Bonell"
                 }
@@ -215,7 +215,7 @@
                 {
                     "modelo-de-colchón": "Konig",
                     "tamaño": "King",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme"
                 }
             ],
@@ -239,7 +239,7 @@
                     "sku": "K1411MFN10",
                     "modelo-de-colchón": "Konig",
                     "tamaño": "King",
-                    "linea-de-colchón": "Extra ortopédico",
+                    "línea-de-colchón": "Extra ortopédico",
                     "nivel-de-confort": "Muy firme",
                     "tipo-de-resorte": "Bonell"
                 }
