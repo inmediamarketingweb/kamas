@@ -1,3 +1,7 @@
+.main-product-page .block-container{
+    padding: 20px !important;
+}
+
 .product-page-block-content{
     display: flex;
     flex-direction: column;

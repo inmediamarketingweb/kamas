@@ -17,6 +17,8 @@
 
     --header: #FFFFFF;
 
+    --body: #FFFFFF;
+
     --white: #FFFFFF;
     --gray: gray;
     --black: #000000;
@@ -44,10 +46,16 @@
 
 /**/
 
+body{
+    background: var(--body);
+}
+
 body::-webkit-scrollbar{
     display: none;
     transition: all 200ms linear;
 }
+
+/**/
 
 main{
     width: 100%;

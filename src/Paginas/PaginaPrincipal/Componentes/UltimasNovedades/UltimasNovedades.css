@@ -22,18 +22,18 @@
 }
 
 .product-card-target{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
+    position: absolute;
+    right: 10px;
+    bottom: 100%;
+    background: lightgreen;
+    padding: 2px 8px;
+    border-radius: 3px;
 }
 
 .product-card-target span{
-    background: lightgreen;
-    padding: 3px 9px;
     font-size: 13px;
-    border-radius: 3px;
     color: green;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px){

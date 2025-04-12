@@ -7,8 +7,8 @@ import PaginaProducto from './Paginas/PaginaProducto/PaginaProducto';
 
 import './App.css';
 
-function App() {
-    return (
+function App(){
+    return(
         <HelmetProvider>
             <Router>
                 <Routes>

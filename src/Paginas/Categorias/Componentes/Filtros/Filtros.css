@@ -4,8 +4,65 @@
     gap: 20px;
 }
 
-/* .filter */
+.price-range{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.price-range ul{
+    gap: 5px;
+}
+
+.price-range ul li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.radio-input{
+    display: none;
+}
+
+.radio-label{
+    position: relative;
+    padding-left: 22px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.radio-label::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate: 0 -50%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--color-1);
+    border-radius: 100%;
+    transition: var(--t-200ms-linear) !important;
+}
+
+.radio-input:checked + .radio-label::after{
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    translate: 0 -50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: var(--color-1);
+    opacity: 0;
+    transition: var(--t-200ms-linear) !important;
+}
+
+.radio-input:checked + .radio-label::after{
+    opacity: 1;
+}
+  
 .filter ul{
     display: flex;
     flex-wrap: wrap;

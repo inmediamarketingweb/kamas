@@ -32,37 +32,39 @@ function PaginaPrincipal(){
 
             <Header/>
 
-            <Slider/>
+            <main>
+                <Slider/>
 
-            <div className='block-container'>
-                <section className='block-content'>
-                    <div className='block-title-container'>
-                        <p className='block-title margin-auto'>Nuestros productos</p>
-                    </div>
-                    <ul className='homepage-categories'>
-                        {categorias.map((categoria) => (
-                            <li key={categoria.id}>
-                                <a href={categoria.ruta}>
-                                    <div>
-                                        <img src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
-                                    </div>
-                                    <p className='text'>{categoria.categoria}</p>
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
-                </section>
-            </div>
+                <div className='block-container'>
+                    <section className='block-content'>
+                        <div className='block-title-container'>
+                            <p className='block-title margin-auto'>Nuestros productos</p>
+                        </div>
+                        <ul className='homepage-categories'>
+                            {categorias.map((categoria) => (
+                                <li key={categoria.id}>
+                                    <a href={categoria.ruta}>
+                                        <div>
+                                            <img src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
+                                        </div>
+                                        <p className='text'>{categoria.categoria}</p>
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                </div>
 
-            <SoloPorHoras/>
+                <SoloPorHoras/>
 
-            <UltimasNovedades/>
+                <UltimasNovedades/>
 
-            <SobreNosotros/>
+                <SobreNosotros/>
 
-            <Distribuidores/>
+                <Distribuidores/>
 
-            <Dormitorio/>
+                <Dormitorio/>
+            </main>
 
             <Footer/>
         </>

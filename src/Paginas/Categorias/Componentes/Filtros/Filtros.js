@@ -13,10 +13,10 @@ function Filtros({ productos, setProductosFiltrados }) {
     const [valorThumb, setValorThumb] = useState(0);
 
     const rangosDePrecio = [
-        { id: "rango-1", titulo: "S/ 249 - S/ 500", min: 249, max: 500 },
-        { id: "rango-2", titulo: "S/ 500 - S/ 1.000", min: 500, max: 1000 },
-        { id: "rango-3", titulo: "S/ 1.000 - S/ 2.000", min: 1000, max: 2000 },
-        { id: "rango-4", titulo: "Desde S/ 2.000", min: 2000, max: Infinity },
+        { id: "rango-1", titulo: "S/.249 - S/500", min: 249, max: 500 },
+        { id: "rango-2", titulo: "S/.500 - S/1000", min: 500, max: 1000 },
+        { id: "rango-3", titulo: "S/.1000 - S/2000", min: 1000, max: 2000 },
+        { id: "rango-4", titulo: "Desde S/ 2000", min: 2000, max: Infinity },
     ];
 
     // Efecto para cargar los filtros desde el JSON
@@ -109,13 +109,13 @@ function Filtros({ productos, setProductosFiltrados }) {
 
     return (
         <div className="filters-container">
-            <div className="price-range">
-                <p>Rangos de Precio:</p>
-                <ul>
+            <div className="price-range d-flex-column">
+                <p className="title">Rangos de Precio:</p>
+                <ul className="d-flex-column">
                     {rangosDePrecio.map((rango) => (
                         <li key={rango.id}>
-                            <input type="radio" name="rango-precio" checked={rangoDePrecioSeleccionado === rango.id} onChange={() => handleCambioRangoPrecio(rango.id)}/>
-                            <label>{rango.titulo}</label>
+                            <input type="radio" id={`rango-${rango.id}`} name="rango-precio" checked={rangoDePrecioSeleccionado === rango.id} onChange={() => handleCambioRangoPrecio(rango.id)} className="radio-input"/>
+                            <label htmlFor={`rango-${rango.id}`} className="radio-label">{rango.titulo}</label>
                         </li>
                     ))}
                 </ul>
