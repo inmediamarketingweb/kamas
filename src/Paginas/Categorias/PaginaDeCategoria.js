@@ -70,7 +70,7 @@ function PaginaDeCategoria(){
 
             <Header />
 
-            <main>
+            <main className="main-category">
                 <div className="block-container">
                     <section className="block-content">
                         <div className="category-page-container">

@@ -13,7 +13,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Safynnte",
                 "tamaño": "1 plaza y media",
-                "lineaColchones": "Super ortopédicos",
+                "líneaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
                 "tipoDeResorte": "Bonell"
             },
@@ -39,7 +39,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Safynnte",
                 "tamaño": "2 plazas",
-                "lineaColchones": "Super ortopédicos",
+                "líneaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
                 "tipoDeResorte": "Bonell"
             },
@@ -65,7 +65,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Safynnte",
                 "tamaño": "Queen",
-                "lineaColchones": "Super ortopédicos",
+                "líneaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
                 "tipoDeResorte": "Bonell"
             },
@@ -96,7 +96,7 @@
             "detallesDelProducto":{
                 "modeloColchon": "Safynnte",
                 "tamaño": "King",
-                "lineaColchones": "Super ortopédicos",
+                "líneaColchones": "Super ortopédicos",
                 "nivelDeConfort": "Intermedio",
                 "tipoDeResorte": "Bonell"
             },

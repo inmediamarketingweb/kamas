@@ -107,6 +107,13 @@ function Filtros({ productos, setProductosFiltrados }) {
         setProductosFiltrados(filtrados);
     };
 
+    useEffect(() => {
+        if (productos && productos.length > 0) {
+          filtrarProductos(filtrosSeleccionados, valorThumb, rangoDePrecioSeleccionado);
+        }
+      }, [filtrosSeleccionados, productos, valorThumb, rangoDePrecioSeleccionado]);
+      
+
     return (
         <div className="filters-container">
             <div className="price-range d-flex-column">

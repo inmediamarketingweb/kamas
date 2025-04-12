@@ -2,6 +2,10 @@
     --product-card-images-height: 200px;
 }
 
+.main-category > .block-container{
+    padding: 20px;
+}
+
 .category-page-container{
     display: grid;
     grid-template-columns: 280px 1fr;
