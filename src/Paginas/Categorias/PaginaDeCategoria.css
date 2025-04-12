@@ -173,6 +173,12 @@
     }
 } */
 
+.product-card-tipo-de-envio{
+    position: absolute;
+    right: 10px;
+    bottom: 100%;
+}
+
 /**/
 
 @media screen and (max-width: 600px){
