@@ -82,10 +82,6 @@
     gap: 10px;
 }
 
-.sale-products li{
-    width: 100%;
-}
-
 .sale-products li .product-card{
     max-width: none;
     border: 2px solid #121212;
@@ -98,7 +94,9 @@
 }
 
 .product-card-stock{
-    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -118,6 +116,7 @@
 .product-card-stock span,
 .product-card-stock span b{
     color: var(--white);
+    font-weight: bold;
 }
 
 .block-content-sale > .d-flex > .block-title-buttons button{

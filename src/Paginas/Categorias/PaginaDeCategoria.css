@@ -5,7 +5,7 @@
 .category-page-container{
     display: grid;
     grid-template-columns: 280px 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 
 .category-page-top{
@@ -37,9 +37,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
 
-    border: 1px solid rgba(0 0 0 / 0.5);
+    border: 2px solid rgba(0 0 0 / 0.15);
     background: var(--white);
     border-radius: 8px;
     overflow: hidden;
@@ -47,7 +47,7 @@
 }
 
 .product-card:hover{
-    border: 1px solid var(--color-1);
+    border: 2px solid var(--color-1);
 }
 
 .product-card-images{
@@ -60,6 +60,19 @@
     overflow: hidden;
 }
 
+.product-card-discount{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--color-2);
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--white);
+    padding: 3px 8px;
+    border-radius: 25px;
+    z-index: 2;
+}
+
 .product-card-images img{
     position: absolute;
     left: 50%;
@@ -70,6 +83,7 @@
     object-fit: contain;
     transition: var(--t-200ms-linear);
     aspect-ratio: 1/1;
+    z-index: 0;
 }
 
 .product-card:hover .product-card-images img{
@@ -83,19 +97,23 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    position: relative;
 }
 
-.product-card-discount{
+.product-card-ofert{
     position: absolute;
-    left: 0;
-    top: 0;
-    background: var(--color-2);
-    font-size: 13px;
-    font-weight: bold;
-    color: var(--white);
-    padding: 3px 8px;
-    border-radius: 25px;
+    right: 10px;
+    bottom: 100%;
+    background: red;
+    padding: 3px 9px;
+    border-radius: 3px;
     z-index: 10;
+}
+
+.product-card-ofert span{
+    font-size: 13px;
+    color: var(--white);
+    font-weight: bold;
 }
 
 .product-card-brand{
@@ -125,7 +143,7 @@
 }
 
 .product-card-normal-price{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .product-card-sale-price{
@@ -133,12 +151,12 @@
     right: 0;
     top: 50%;
     translate: 0 -50%;
-    color: red;
-    font-size: 24px;
+    color: var(--color-1);
+    font-size: 25px;
     font-weight: bold;
 }
 
-.product-card:hover .product-card-sale-price{
+/* .product-card:hover .product-card-sale-price{
     animation: priceShake 500ms linear infinite;
 }
 
@@ -149,7 +167,7 @@
     50%{
         rotate: -2deg;
     }
-}
+} */
 
 /**/
 

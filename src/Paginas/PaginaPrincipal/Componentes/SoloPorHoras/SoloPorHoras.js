@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { v4 as uuidv4 } from "uuid";
 
 import './SoloPorHoras.css';
 
@@ -9,45 +10,83 @@ function SoloPorHoras(){
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-10T17:45:00');
-
+    const targetDate = new Date('2025-04-12T16:00:00');
     const format = (num) => String(num).padStart(2, '0');
 
-    // 🛍️ Cargar productos
     useEffect(() => {
-        fetch('/assets/json/categorias/solo-por-horas.json')
-            .then((res) => res.json())
-            .then((data) => {
-                setProductos(data.productos);
-                setStockProductos(data.productos.map(p => ({ id: p.id, stock: p.stock })));
-            })
-            .catch((err) => console.error('Error cargando productos:', err));
+        // Paso 1: Cargar el manifest que contiene las rutas de los JSON
+        fetch('/assets/json/manifest.json')
+        .then((res) => res.json())
+        .then((manifest) => {
+            // El manifest debería tener una propiedad "files" con un array de rutas
+            return Promise.all(
+                manifest.files.map((fileUrl) =>
+                fetch(fileUrl)
+                .then((res) => res.json())
+                .then((jsonData) => {
+                    // Extraer la categoría a partir de la URL.
+                    // Ejemplo de fileUrl: "/assets/json/categorias/colchones/sub-categorias/adel.json"
+                    const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
+                    const categoria = match ? match[1] : null;
+
+                    // Si existe una propiedad "productos", adjunta la categoría a cada producto
+                    if (jsonData.productos && Array.isArray(jsonData.productos)){
+                        jsonData.productos = jsonData.productos.map((producto) => ({ ...producto, categoria,}));
+                    }
+                    return jsonData;
+                })
+                .catch((err) => {
+                    console.error(`Error cargando ${fileUrl}:`, err);
+                    return { productos: [] };
+                })
+                )
+            );
+        })
+        .then((jsonFilesData) => {
+            // Unifica todos los productos de cada JSON
+            const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
+                if (jsonData.productos && Array.isArray(jsonData.productos)){
+                    return acum.concat(jsonData.productos);
+                }
+                return acum;
+            }, []);
+
+            // Filtra los productos que tengan "solo-por-horas": "si"
+            const productosSoloPorHoras = todosProductos.filter(
+                (producto) => producto["solo-por-horas"] === "si"
+            );
+            setProductos(productosSoloPorHoras);
+            setStockProductos(
+                productosSoloPorHoras.map((prod) => ({ id: prod.id, stock: prod.stock }))
+            );
+        })
+        .catch((error) => console.error('Error cargando el manifest o los JSON:', error));
     }, []);
 
-    // ⏳ Actualizar cuenta regresiva
+    // Cuenta regresiva para la promoción
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date();
             const diff = Math.max(0, Math.floor((targetDate - now) / 1000));
 
-            if (diff === 0) {
+            if (diff === 0){
                 setExpired(true);
                 clearInterval(interval);
                 return;
             }
 
-            const days = Math.floor(diff / (3600 * 24));
-            const hours = Math.floor((diff % (3600 * 24)) / 3600);
-            const minutes = Math.floor((diff % 3600) / 60);
-            const seconds = diff % 60;
-
-            setTimeLeft({ days, hours, minutes, seconds });
+            setTimeLeft({
+                days: Math.floor(diff / (3600 * 24)),
+                hours: Math.floor((diff % (3600 * 24)) / 3600),
+                minutes: Math.floor((diff % 3600) / 60),
+                seconds: diff % 60,
+            });
         }, 1000);
 
         return () => clearInterval(interval);
     });
 
-    // 🖱️ Scroll con el mouse (drag)
+    // Manejo de scroll (drag)
     useEffect(() => {
         const container = scrollRef.current;
         if (!container) return;
@@ -99,67 +138,80 @@ function SoloPorHoras(){
         if (!container) return;
 
         const scrollAmount = 290;
-
         container.scrollBy({
             left: direction === 'right' ? scrollAmount : -scrollAmount,
-            behavior: 'smooth'
+            behavior: 'smooth',
         });
     };
 
-    const getStockById = (id) => {
-        const producto = stockProductos.find(p => p.id === id);
-        return producto ? producto.stock : 0;
-    };
+    const getStockById = (id) => (stockProductos.find((p) => p.id === id) || { stock: 0 }).stock;
 
-    if (expired) {
-        return (
-            <div className='block-container block-container-sale expired'>
-                <div className='block-content block-content-sale'>
-                    <h2 className='block-title color-white'>¡ La promoción terminó 😢 !</h2>
+    if(expired){
+        return(
+            <div className="block-container block-container-sale expired">
+                <div className="block-content block-content-sale">
+                    <h2 className="block-title color-white">¡ La promoción terminó 😢 !</h2>
                 </div>
             </div>
         );
     }
 
-    return (
-        <div className='block-container block-container-sale'>
-            <div className='block-content block-content-sale'>
-                <div className='block-title-container'>
-                    <h2 className='block-title'>¡ Solo por horas ⏰ !</h2>
-                    <div className='sale-time'>
-                        <div className='sale-time-days'><span>{format(timeLeft.days)}</span><p>Días</p></div>
-                        <div className='sale-time-hours'><span>{format(timeLeft.hours)}</span><p>Hor.</p></div>
-                        <div className='sale-time-minutes'><span>{format(timeLeft.minutes)}</span><p>Min.</p></div>
-                        <div className='sale-time-seconds'><span>{format(timeLeft.seconds)}</span><p>Seg.</p></div>
+    const truncate = (str, maxLength) => {
+        if (str.length <= maxLength){ return str; }
+        return str.slice(0, maxLength) + '...';
+    };
+
+    return(
+        <div className="block-container block-container-sale">
+            <div className="block-content block-content-sale">
+                <div className="block-title-container">
+                    <h2 className="block-title">¡ Solo por horas ⏰ !</h2>
+                    <div className="sale-time">
+                        <div className="sale-time-days">
+                            <span>{format(timeLeft.days)}</span>
+                            <p>Días</p>
+                        </div>
+                        <div className="sale-time-hours">
+                            <span>{format(timeLeft.hours)}</span>
+                            <p>Hor.</p>
+                        </div>
+                        <div className="sale-time-minutes">
+                            <span>{format(timeLeft.minutes)}</span>
+                            <p>Min.</p>
+                        </div>
+                        <div className="sale-time-seconds">
+                            <span>{format(timeLeft.seconds)}</span>
+                            <p>Seg.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div className='sale-products-container' ref={scrollRef}>
-                    <div className='sale-products-content'>
-                        <ul className='sale-products'>
+                <div className="sale-products-container" ref={scrollRef}>
+                    <div className="sale-products-content">
+                        <ul className="sale-products">
                             {productos.map((producto) => {
-                                const { id, ruta, nombre, fotos, precioRegular, precioNormal, precioVenta } = producto;
+                                const { id, ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, } = producto;
                                 const stockActual = getStockById(id);
                                 const agotado = stockActual <= 0;
-                                const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
+                                const descuento = Math.round( ((precioNormal - precioVenta) * 100) / precioNormal );
 
-                                return (
-                                    <li key={id}>
+                                return(
+                                    <li key={uuidv4()}>
                                         <a href={ruta} className={`product-card ${agotado ? 'agotado' : ''}`} title={nombre}>
-                                            <div className='product-card-images'>
+                                            <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
                                                 <img src={`${fotos}1.jpg`} alt={nombre} />
                                             </div>
                                             <div className="product-card-content">
-                                                <div className='product-card-stock'>
+                                                <div className="product-card-stock">
                                                     {agotado ? (
-                                                        <span>Agotado 🚚</span>
+                                                    <span>Agotado 🚚</span>
                                                     ) : (
-                                                        <span>¡ Solo quedan <b>{stockActual}</b> 🔥!</span>
+                                                    <span>¡ Solo quedan <b>{stockActual}</b> 🔥 !</span>
                                                     )}
                                                 </div>
                                                 <span className="product-card-brand">KAMAS</span>
-                                                <h4 className="product-card-name">{nombre}</h4>
+                                                <h4 className="product-card-name">{truncate(nombre, 52)}</h4>
                                                 <div className="product-card-prices">
                                                     <span className="product-card-regular-price">S/.{precioRegular}</span>
                                                     <span className="product-card-normal-price">S/.{precioNormal}</span>
@@ -174,12 +226,12 @@ function SoloPorHoras(){
                     </div>
                 </div>
 
-                <div className='d-flex'>
-                    <div className='block-title-buttons margin-left'>
-                        <button type='button' onClick={() => scrollSmooth('left')}>
+                <div className="d-flex">
+                    <div className="block-title-buttons margin-left">
+                        <button type="button" onClick={() => scrollSmooth('left')}>
                             <span className="material-icons solo-por-horas-left">chevron_left</span>
                         </button>
-                        <button type='button' onClick={() => scrollSmooth('right')}>
+                        <button type="button" onClick={() => scrollSmooth('right')}>
                             <span className="material-icons solo-por-horas-right">chevron_right</span>
                         </button>
                     </div>

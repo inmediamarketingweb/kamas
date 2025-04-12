@@ -23,8 +23,6 @@ function Slider(){
 
     return(
         <div className='slider-general-container d-flex-column'>
-            <img src="/assets/imagenes/componentes/slider/banner-1.png" alt=""/>
-
             <div className='hero-container'>
                 <section className='hero'>
                     <div className='slider-container'>

@@ -8,7 +8,7 @@ function SobreNosotros(){
                     <h2 className='block-title'>KAMAS</h2>
                 </div>
 
-                <div className='d-grid-2-1fr gap-20'>
+                <div className='d-grid-2-1fr gap-10'>
                     <iframe src="https://www.youtube.com/embed/RFriIgxzw5k?si=q6JLawi7221KlpjR" title="Kamas | YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                     <div className='d-flex-column gap-5'>
