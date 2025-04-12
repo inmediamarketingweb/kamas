@@ -165,13 +165,12 @@ function Envios({ producto }){
         const numeroWhatsApp = "+51907057521";
         const mensaje = `Hola Kamas! Vengo de su sitio web y estoy interesado en adquirir:*\n${producto.nombre}*.\n\n`
             + `Link: https://prototipo-kamas.vercel.app${producto.ruta}\n`
-            + `https://prototipo-kamas.vercel.app${producto.fotos}1.jpg\n`
             + `Cantidad: ${quantity}\n`
             + `Departamento: ${selectedDepartamento}\nProvincia: ${selectedProvincia}\nDistrito: ${selectedDistrito}\n`
             + (selectedAgencia ? `Agencia recomendada: ${selectedAgencia}\n` : "")
             + (selectedSede ? `Sede: ${selectedSede}\n` : "")
-            + `\nTipo de envío seleccionado: *${selectedShippingType}*`
-            + (shippingCost !== null ? ` (Costo: S/.${shippingCost})` : "");
+            + `Tipo de envío seleccionado: ${selectedShippingType}\n`
+            + (shippingCost !== null ? `Costo: S/.${shippingCost}` : "");
   
         return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
@@ -271,8 +270,7 @@ function Envios({ producto }){
                 )}
   
                 {envioDirectoObj && (
-                    <div className={`delivery-type ${getShippingClass(envioDirectoObj['tipo-de-envio'])} ${selectedShippingType === envioDirectoObj['tipo-de-envio'] ? "active" : ""}`}
-                        onClick={() => handleShippingSelection(envioDirectoObj['tipo-de-envio'], envioDirectoObj.precio || envioDirectoObj.costos || 0)}>
+                    <div className={`delivery-type ${getShippingClass(envioDirectoObj['tipo-de-envio'])} ${selectedShippingType === envioDirectoObj['tipo-de-envio'] ? "active" : ""}`} onClick={() => handleShippingSelection(envioDirectoObj['tipo-de-envio'], envioDirectoObj.precio || envioDirectoObj.costos || 0)}>
                         <div className="d-flex-column">
                             <span className="material-icons">local_shipping</span>
                             <p>{envioDirectoObj['tipo-de-envio']}</p>
@@ -283,8 +281,7 @@ function Envios({ producto }){
                 )}
   
                 {envioExpressObj && (
-                    <div className={`delivery-type ${getShippingClass(envioExpressObj['tipo-de-envio'])} ${selectedShippingType === envioExpressObj['tipo-de-envio'] ? "active" : ""}`}
-                        onClick={() => handleShippingSelection(envioExpressObj['tipo-de-envio'], envioExpressObj.precio || envioExpressObj.costos || 0)}>
+                    <div className={`delivery-type ${getShippingClass(envioExpressObj['tipo-de-envio'])} ${selectedShippingType === envioExpressObj['tipo-de-envio'] ? "active" : ""}`} onClick={() => handleShippingSelection(envioExpressObj['tipo-de-envio'], envioExpressObj.precio || envioExpressObj.costos || 0)}>
                         <div className="d-flex-column">
                             <span className="material-icons">local_shipping</span>
                             <p>{envioExpressObj['tipo-de-envio']}</p>
@@ -305,11 +302,7 @@ function Envios({ producto }){
                     </div>
                 </div>
   
-                <a className="shop-button" 
-                   href={getWhatsAppLink()} 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   onClick={handleShopButtonClick}>
+                <a className="shop-button" href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer" onClick={handleShopButtonClick}>
                     <span className="material-icons">shopping_cart</span>
                     <p>Comprar ahora</p>
                 </a>

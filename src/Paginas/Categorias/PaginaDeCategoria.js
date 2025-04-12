@@ -96,19 +96,29 @@ function PaginaDeCategoria(){
                                                         <div className="product-card-content">
                                                             {producto.novedades === 'si' && (
                                                                 <div className="product-card-target">
-                                                                    <span>¡ Lo más nuevo !</span>
+                                                                    <span>¡Lo más nuevo!</span>
                                                                 </div>
                                                             )}
 
                                                             {producto["solo-por-horas"] === 'si' && (
                                                                 <div className="product-card-stock">
-                                                                    <span>¡ Solo por horas 🔥 !</span>
+                                                                    <span>¡Solo quedan <b>{producto.stock}</b> 🔥!</span>
                                                                 </div>
                                                             )}
 
                                                             {producto.oferta === 'si' && (
                                                                 <div className="product-card-ofert">
-                                                                    <span>¡ En oferta !</span>
+                                                                    <span>En oferta</span>
+                                                                </div>
+                                                            )}
+
+                                                            {producto.novedades !== 'si' && producto["solo-por-horas"] !== 'si' && producto.oferta !== 'si' && (
+                                                                <div className="product-card-tipo-de-envio">
+                                                                    <span>
+                                                                        {producto["tipo-de-envio"] === "Gratis"
+                                                                            ? `Envío ${producto["tipo-de-envio"]}`
+                                                                            : `${producto["tipo-de-envio"] || "No especificado"}`}
+                                                                    </span>
                                                                 </div>
                                                             )}
 
