@@ -28,20 +28,17 @@
     background: lightgreen;
     padding: 2px 8px;
     border-radius: 3px;
+    display: flex;
 }
 
 .product-card-target span{
     font-size: 13px;
     color: green;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 @media screen and (max-width: 600px){
     .ultimas-novedades-container{
         padding-bottom: 20px;
-    }
-    
-    .ultimas-novedades-content{
-        width: 750%;
     }
 }

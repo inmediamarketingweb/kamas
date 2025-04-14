@@ -104,6 +104,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
+    display: flex;
 }
 
 .product-card-stock span{
@@ -113,14 +114,10 @@
     border-radius: 3px;
 }
 
-.product-card-stock span b{
-    font-weight: bold;
-}
-
 .product-card-stock span,
 .product-card-stock span b{
     color: var(--white);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .block-content-sale > .d-flex > .block-title-buttons button{
@@ -165,9 +162,5 @@
     .sale-products-container::-webkit-scrollbar-thumb{
         background: crimson;
         border-radius: 10px;
-    }
-
-    .sale-products-content{
-        width: 800%;
     }
 }
