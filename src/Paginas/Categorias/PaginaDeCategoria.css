@@ -177,6 +177,31 @@
     position: absolute;
     right: 10px;
     bottom: 100%;
+    display: flex;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+.product-card-tipo-de-envio span{
+    font-size: 13px;
+    /* font-weight: bold; */
+}
+
+.product-card-tipo-de-envio.envio-gratis{
+    background: lightgreen;
+}
+
+.product-card-tipo-de-envio.envio-gratis span{
+    color: green;
+    /* font-weight: bold; */
+}
+
+.product-card-tipo-de-envio.envio-preferente{
+    background: rgb(29, 67, 236);
+}
+
+.product-card-tipo-de-envio.envio-preferente span{
+    color: white;
 }
 
 /**/

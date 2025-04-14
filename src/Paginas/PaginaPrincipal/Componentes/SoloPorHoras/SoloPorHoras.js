@@ -10,7 +10,7 @@ function SoloPorHoras(){
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-12T16:00:00');
+    const targetDate = new Date('2025-04-14T17:45:00');
     const format = (num) => String(num).padStart(2, '0');
 
     useEffect(() => {

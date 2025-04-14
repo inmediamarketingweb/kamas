@@ -81,7 +81,7 @@ function PaginaDeCategoria(){
                             <div className="category-page-right">
                                 {productosFiltrados.length > 0 ? (
                                     <ul className="category-page-products">
-                                        {productosFiltrados.map((producto) => {
+                                        {/* {productosFiltrados.map((producto) => {
                                             const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
                                             return(
                                                 <li key={uuidv4()}>
@@ -103,6 +103,7 @@ function PaginaDeCategoria(){
                                                             {producto["solo-por-horas"] === 'si' && (
                                                                 <div className="product-card-stock">
                                                                     <span>¡Solo quedan <b>{producto.stock}</b> 🔥!</span>
+                                                                    <span>¡ Solo por horas ⌛ !</span>
                                                                 </div>
                                                             )}
 
@@ -118,6 +119,73 @@ function PaginaDeCategoria(){
                                                                         {producto["tipo-de-envio"] === "Gratis"
                                                                             ? `Envío ${producto["tipo-de-envio"]}`
                                                                             : `${producto["tipo-de-envio"] || "No especificado"}`}
+                                                                    </span>
+                                                                </div>
+                                                            )}
+
+                                                            <span className="product-card-brand">KAMAS</span>
+                                                            <h4 className="product-card-name">{truncate(producto.nombre, 50)}</h4>
+                                                            <div className="product-card-prices">
+                                                                <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                                                                <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            );
+                                        })} */}
+
+                                        {productosFiltrados.map((producto) => {
+                                            const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
+
+                                            // Determinar clase dinámica para tipo de envío
+                                            const tipoEnvioClase = 
+                                                producto["tipo-de-envio"] === "Gratis" ? "envio-gratis" :
+                                                producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente" :
+                                                producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado" : "";
+
+                                            return(
+                                                <li key={uuidv4()}>
+                                                    <a href={producto.ruta} className="product-card" title={producto.nombre}>
+                                                        <div className="product-card-images">
+                                                            {descuento > 0 && (
+                                                                <span className="product-card-discount">-{descuento}%</span>
+                                                            )}
+                                                            <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
+                                                        </div>
+
+                                                        <div className="product-card-content">
+                                                            {producto.novedades === 'si' && (
+                                                                <div className="product-card-target">
+                                                                    <span>¡Lo más nuevo!</span>
+                                                                </div>
+                                                            )}
+
+                                                            {producto["solo-por-horas"] === 'si' && (
+                                                                <div className="product-card-stock">
+                                                                    <span>¡ Solo por horas ⌛ !</span>
+                                                                </div>
+                                                            )}
+
+                                                            {producto.oferta === 'si' && (
+                                                                <div className="product-card-ofert">
+                                                                    <span>En oferta</span>
+                                                                </div>
+                                                            )}
+
+                                                            {/* Renderizar tipo de envío dinámico con clase */}
+                                                            {/* {producto.novedades !== 'si' && producto["solo-por-horas"] !== 'si' && producto.oferta !== 'si' && (
+                                                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                                                                    <span>{producto["tipo-de-envio"] || "No especificado"}</span>
+                                                                </div>
+                                                            )} */}
+
+                                                            {producto.novedades !== 'si' && producto["solo-por-horas"] !== 'si' && producto.oferta !== 'si' && (
+                                                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                                                                    <span>
+                                                                        {producto["tipo-de-envio"] === "Gratis"
+                                                                            ? "¡ Envío gratis 🚚 !"
+                                                                            : producto["tipo-de-envio"] || "No especificado"}
                                                                     </span>
                                                                 </div>
                                                             )}
