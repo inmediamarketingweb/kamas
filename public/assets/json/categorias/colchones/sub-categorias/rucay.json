@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Colchones",
-            "subCategoria": "Rucay",
+            "categoria": "colchones",
+            "subCategoria": "rucay",
             "ruta": "/productos/colchones/rucay/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/rucay/1-plaza-y-media/",

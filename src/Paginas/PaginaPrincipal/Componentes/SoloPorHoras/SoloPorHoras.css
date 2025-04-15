@@ -109,14 +109,14 @@
 
 .product-card-stock span{
     background: crimson;
-    padding: 3px 9px;
-    font-size: 13px;
+    padding: 3px 8px;
     border-radius: 3px;
 }
 
 .product-card-stock span,
 .product-card-stock span b{
     color: var(--white);
+    font-size: 12px;
     /* font-weight: bold; */
 }
 
@@ -126,14 +126,6 @@
 
 .sale-products .product-card-sale-price{
     color: crimson !important;
-}
-
-/**/
-
-.sale-products li a.agotado{
-    filter: grayscale(1);
-    user-select: none;
-    pointer-events: none;
 }
 
 /**/

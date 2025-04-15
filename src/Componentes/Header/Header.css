@@ -525,7 +525,6 @@ header{
         grid-template-rows: repeat(2, auto);
         column-gap: 0;
         row-gap: 10px;
-        /* height: 70px; */
     }
 
     .header-logo{
@@ -545,11 +544,10 @@ header{
         position: fixed;
         left: -100%;
         top: 157px;
-        width: 100%;
+        width: 100vw;
         height: calc(100vh - 157px);
         background: var(--white);
-        transition: var(--t-200ms-linear);
-        /* padding-bottom: 40px; */
+        transition: var(--t-300ms-linear);
         overflow-y: auto;
     }
     .menu-container.active{
@@ -733,6 +731,10 @@ header{
     }
 
     .header-bottom > ul{
+        display: none;
+    }
+
+    .body-layer{
         display: none;
     }
 }

@@ -92,7 +92,6 @@ function Header() {
                                             </a>
                                         ) : (
                                             <button type='button' className={`menu-link ${activeIndex === index ? 'active' : ''}`} onClick={() => handleMenuClick(index)}>
-                                                {/* <span className="material-icons">{item.icono}</span> */}
                                                 <img src={item.icono} alt={item.iconoAlt} />
                                                 <h2>{item.categoria}</h2>
                                             </button>
@@ -160,6 +159,12 @@ function Header() {
                                                 <h2>Ventas al por mayor</h2>
                                             </a>
                                         </li>
+                                        <li>
+                                            <a href="/mis-favoritos/" className="menu-link">
+                                                <span className="material-icons">favorite</span>
+                                                <h2>Mis favoritos</h2>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -214,6 +219,14 @@ function Header() {
                             <li>
                                 <a href="/">
                                     <p>Ventas al por mayor</p>
+                                </a>
+                            </li>
+                            <li>
+                                <p className="color-white">|</p>
+                            </li>
+                            <li>
+                                <a href="/mis-favoritos/">
+                                    <h2>Mis favoritos</h2>
                                 </a>
                             </li>
                         </ul>

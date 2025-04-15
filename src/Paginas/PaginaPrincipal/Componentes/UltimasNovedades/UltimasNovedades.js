@@ -8,47 +8,38 @@ function UltimasNovedades(){
     const scrollRef = useRef(null);
 
     useEffect(() => {
-        // Paso 1: Cargar el manifest que contiene las rutas a los JSON (ubicados en public)
         fetch('/assets/json/manifest.json')
         .then((res) => res.json())
         .then((manifest) => {
-        // Se realizan fetch a cada uno de los archivos listados en el manifest
-        return Promise.all(
-            manifest.files.map((fileUrl) =>
-            fetch(fileUrl)
-            .then((res) => res.json())
-            .then((jsonData) => {
-            // Extraemos la categoría a partir de la URL, por si queremos agregarla al producto
-            // Ejemplo de fileUrl: "/assets/json/categorias/colchones/sub-categorias/adel.json"
-            const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
-            const categoria = match ? match[1] : null;
+            return Promise.all(
+                manifest.files.map((fileUrl) =>
+                fetch(fileUrl)
+                .then((res) => res.json())
+                .then((jsonData) => {
+                    const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
+                    const categoria = match ? match[1] : null;
 
-            if (jsonData.productos && Array.isArray(jsonData.productos)){
-                jsonData.productos = jsonData.productos.map((producto) => ({
-                    ...producto,
-                    categoria, // Se adjunta la categoría extraída (opcional)
-                }));
-            }
+                    if (jsonData.productos && Array.isArray(jsonData.productos)){
+                        jsonData.productos = jsonData.productos.map((producto) => ({ ...producto, categoria }));
+                    }
 
-            return jsonData;
-            })
-            .catch((err) => {
-                console.error(`Error cargando ${fileUrl}:`, err);
-                    return { productos: [] };
+                    return jsonData;
                 })
-            )
-        );
+                .catch((err) => {
+                    console.error(`Error cargando ${fileUrl}:`, err);
+                        return { productos: [] };
+                    })
+                )
+            );
         })
         .then((jsonFilesData) => {
-            // Se unifican todos los productos de cada JSON
             const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
-                if (jsonData.productos && Array.isArray(jsonData.productos)) {
+                if (jsonData.productos && Array.isArray(jsonData.productos)){
                     return acum.concat(jsonData.productos);
                 }
                 return acum;
             }, []);
 
-            // Se filtran aquellos productos que tengan "novedades": "si"
             const productosNovedades = todosProductos.filter(
                 (producto) =>
                 producto.novedades &&
@@ -62,7 +53,6 @@ function UltimasNovedades(){
         );
     }, []);
 
-    // 🖱️ Drag con el mouse
     useEffect(() => {
         const container = scrollRef.current;
         if (!container) return;
@@ -109,7 +99,6 @@ function UltimasNovedades(){
         };
     }, []);
 
-    // ▶️ Scroll con botones
     const scrollSmooth = (direction) => {
         const container = scrollRef.current;
         if (!container) return;
@@ -123,7 +112,7 @@ function UltimasNovedades(){
         let currentStep = 0;
 
         const interval = setInterval(() => {
-            if (currentStep >= totalSteps) {
+            if (currentStep >= totalSteps){
                 clearInterval(interval);
                 return;
             }
@@ -140,27 +129,16 @@ function UltimasNovedades(){
 
     return(
         <div className="block-container ultimas-novedades-block-container">
-            <div className="block-content ultimas-novedades-block-content">
+            <section className="block-content ultimas-novedades-block-content">
                 <div className="block-title-container">
                     <h2 className="block-title">Últimas novedades</h2>
-                    <div className="block-title-buttons">
-                        <button type="button" onClick={() => scrollSmooth("left")} className="ultimas-novedades-left">
-                            <span className="material-icons">chevron_left</span>
-                        </button>
-
-                        <button type="button" onClick={() => scrollSmooth("right")} className="ultimas-novedades-right">
-                            <span className="material-icons">chevron_right</span>
-                        </button>
-                    </div>
                 </div>
 
                 <div className="ultimas-novedades-container" ref={scrollRef}>
                     <ul className="ultimas-novedades-content">
                         {productos.map((producto) => {
                             const { ruta, nombre, fotos, precioNormal, precioVenta } = producto;
-                            const descuento = Math.round(
-                                ((precioNormal - precioVenta) * 100) / precioNormal
-                            );
+                            const descuento = Math.round( ((precioNormal - precioVenta) * 100) / precioNormal );
 
                             return(
                                 <li key={uuidv4()}>
@@ -186,7 +164,17 @@ function UltimasNovedades(){
                         })}
                     </ul>
                 </div>
-            </div>
+
+                <div className="block-title-buttons margin-left">
+                    <button type="button" onClick={() => scrollSmooth("left")} className="ultimas-novedades-left">
+                        <span className="material-icons">chevron_left</span>
+                    </button>
+
+                    <button type="button" onClick={() => scrollSmooth("right")} className="ultimas-novedades-right">
+                        <span className="material-icons">chevron_right</span>
+                    </button>
+                </div>
+            </section>
         </div>
     );
 }
