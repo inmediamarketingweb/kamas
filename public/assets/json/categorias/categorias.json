@@ -559,8 +559,7 @@
         {
             "id": 8,
             "icono": "sell",
-            "categoria": "En oferta",
-            "metaTitulo": "Ofertas | Kamas",
+            "categoria": "Ofertas",
             "ruta": "/ofertas/"
         }
     ]

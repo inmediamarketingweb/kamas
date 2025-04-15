@@ -7,13 +7,11 @@
             "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING CON 2 CAJONES LATERALES + CABECERA AEREA CAPITONEADA - PLOMO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
-            "novedades": "no",
             "solo-por-horas": "si",
-            "oferta": "no",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
-            "stock": 99,
+            "stock": 0,
             "sku": "K24A2120N10",
             "resumen-del-producto":[
                 {

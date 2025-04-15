@@ -1,0 +1,24 @@
+.favorites-products{
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.favorites-products li{
+    width: 100% !important;
+}
+
+.favorites-products li .product-card{
+    width: 100% !important;
+    max-width: none !important;
+}
+
+
+.remove-favorite{
+    opacity: 1 !important;
+}
+
+.remove-favorite:hover{
+    background: red;
+}

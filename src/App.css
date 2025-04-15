@@ -29,7 +29,7 @@
     --f-size-small: 13px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1500px;
+    --content-mx-width: 1520px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -66,7 +66,7 @@ main{
 
 .block-container{
     width: 100%;
-    padding: 40px 20px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +143,8 @@ button{
 }
 
 .title{
-    font-size: 20px;
+    font-size: 18px;
+    color: var(--black);
 }
 
 /**/
@@ -161,6 +162,11 @@ button{
 .d-flex-column{
     display: flex;
     flex-direction: column;
+}
+
+.d-flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /**/
@@ -250,6 +256,27 @@ button{
 .button-link-1:hover .button-link-text,
 .button-link-1:hover span{
     color: var(--color-1);
+}
+
+
+/**/
+
+.product-card{
+    width: 100%;
+    max-width: 280px !important;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0 0 0 / 0.15);
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--t-200ms-linear);
+}
+
+.product-card.agotado{
+    filter: grayscale(1);
+    user-select: none;
+    pointer-events: none;
 }
 
 /**/

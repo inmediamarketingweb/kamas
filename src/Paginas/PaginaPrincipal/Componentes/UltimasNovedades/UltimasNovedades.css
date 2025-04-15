@@ -37,6 +37,11 @@
     /* font-weight: bold; */
 }
 
+.ultimas-novedades-block-content .block-title-buttons{
+    margin-top: 20px;
+    justify-content: right;
+}
+
 @media screen and (max-width: 600px){
     .ultimas-novedades-container{
         padding-bottom: 20px;

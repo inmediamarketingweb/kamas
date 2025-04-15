@@ -5,45 +5,38 @@ import './SoloPorHoras.css';
 
 function SoloPorHoras(){
     const [productos, setProductos] = useState([]);
-    const [stockProductos, setStockProductos] = useState([]);
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-14T17:45:00');
+    const targetDate = new Date('2025-04-15T17:45:00');
     const format = (num) => String(num).padStart(2, '0');
 
     useEffect(() => {
-        // Paso 1: Cargar el manifest que contiene las rutas de los JSON
         fetch('/assets/json/manifest.json')
         .then((res) => res.json())
         .then((manifest) => {
-            // El manifest debería tener una propiedad "files" con un array de rutas
             return Promise.all(
-                manifest.files.map((fileUrl) =>
-                fetch(fileUrl)
-                .then((res) => res.json())
-                .then((jsonData) => {
-                    // Extraer la categoría a partir de la URL.
-                    // Ejemplo de fileUrl: "/assets/json/categorias/colchones/sub-categorias/adel.json"
-                    const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
-                    const categoria = match ? match[1] : null;
+                manifest.files.map(
+                    (fileUrl) => fetch(fileUrl)
+                    .then((res) => res.json())
+                    .then((jsonData) => {
+                        const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
+                        const categoria = match ? match[1] : null;
 
-                    // Si existe una propiedad "productos", adjunta la categoría a cada producto
-                    if (jsonData.productos && Array.isArray(jsonData.productos)){
-                        jsonData.productos = jsonData.productos.map((producto) => ({ ...producto, categoria,}));
-                    }
-                    return jsonData;
-                })
-                .catch((err) => {
-                    console.error(`Error cargando ${fileUrl}:`, err);
-                    return { productos: [] };
-                })
+                        if (jsonData.productos && Array.isArray(jsonData.productos)){
+                            jsonData.productos = jsonData.productos.map((producto) => ({ ...producto, categoria,}));
+                        }
+                        return jsonData;
+                    })
+                    .catch((err) => {
+                        console.error(`Error cargando ${fileUrl}:`, err);
+                        return { productos: [] };
+                    })
                 )
             );
         })
         .then((jsonFilesData) => {
-            // Unifica todos los productos de cada JSON
             const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
                 if (jsonData.productos && Array.isArray(jsonData.productos)){
                     return acum.concat(jsonData.productos);
@@ -51,19 +44,14 @@ function SoloPorHoras(){
                 return acum;
             }, []);
 
-            // Filtra los productos que tengan "solo-por-horas": "si"
             const productosSoloPorHoras = todosProductos.filter(
                 (producto) => producto["solo-por-horas"] === "si"
             );
             setProductos(productosSoloPorHoras);
-            setStockProductos(
-                productosSoloPorHoras.map((prod) => ({ id: prod.id, stock: prod.stock }))
-            );
         })
         .catch((error) => console.error('Error cargando el manifest o los JSON:', error));
     }, []);
 
-    // Cuenta regresiva para la promoción
     useEffect(() => {
         const interval = setInterval(() => {
             const now = new Date();
@@ -86,7 +74,6 @@ function SoloPorHoras(){
         return () => clearInterval(interval);
     });
 
-    // Manejo de scroll (drag)
     useEffect(() => {
         const container = scrollRef.current;
         if (!container) return;
@@ -144,8 +131,6 @@ function SoloPorHoras(){
         });
     };
 
-    const getStockById = (id) => (stockProductos.find((p) => p.id === id) || { stock: 0 }).stock;
-
     if(expired){
         return(
             <div className="block-container block-container-sale expired">
@@ -157,13 +142,15 @@ function SoloPorHoras(){
     }
 
     const truncate = (str, maxLength) => {
-        if (str.length <= maxLength){ return str; }
+        if (str.length <= maxLength){
+            return str;
+        }
         return str.slice(0, maxLength) + '...';
     };
 
     return(
         <div className="block-container block-container-sale">
-            <div className="block-content block-content-sale">
+            <section className="block-content block-content-sale">
                 <div className="block-title-container">
                     <h2 className="block-title">¡ Solo por horas ⏰ !</h2>
                     <div className="sale-time">
@@ -190,9 +177,8 @@ function SoloPorHoras(){
                     <div className="sale-products-content">
                         <ul className="sale-products">
                             {productos.map((producto) => {
-                                const { id, ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, } = producto;
-                                const stockActual = getStockById(id);
-                                const agotado = stockActual <= 0;
+                                const { ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock } = producto;
+                                const agotado = stock <= 0;
                                 const descuento = Math.round( ((precioNormal - precioVenta) * 100) / precioNormal );
 
                                 return(
@@ -205,9 +191,9 @@ function SoloPorHoras(){
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
                                                     {agotado ? (
-                                                    <span>Agotado 🚚</span>
+                                                        <span>Agotado 🚚</span>
                                                     ) : (
-                                                    <span>¡ Solo quedan <b>{stockActual}</b> 🔥 !</span>
+                                                    <   span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
                                                     )}
                                                 </div>
                                                 <span className="product-card-brand">KAMAS</span>
@@ -236,7 +222,7 @@ function SoloPorHoras(){
                         </button>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     );
 }
