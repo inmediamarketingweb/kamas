@@ -1,0 +1,119 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/1/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CUADROS 2",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/aereas/cuadros/1/",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "novedades": "si",
+            "stock": 9,
+            "sku": "K1151CN10",
+            "incluye":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/adel/2-plazas/"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K1151CN10",
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "línea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "55kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "subCategoria": "americanos",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/2/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CUADROS 2 - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/1/",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 10,
+            "sku": "K1151CN10",
+            "incluye":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/puff.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/adel/2-plazas/"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K1151CN10",
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "línea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "8 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "55kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "subcategorias":[
+        {
+            "id": 1,
+            "subcategoria": "Americanos",
+            "metaTitulo": "Dormitorios - Americanos | Kamas",
+            "ruta": "/productos/dormitorios/americanos/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Americanos con cajones",
+            "metaTitulo": "Dormitorios - Americanos con cajones | Kamas",
+            "ruta": "/productos/dormitorios/americanos/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "Europeos",
+            "metaTitulo": "Dormitorios - Europeos | Kamas",
+            "ruta": "/productos/dormitorios/europeos/"
+        },
+        {
+            "id": 4,
+            "subcategoria": "Europeos con cajones",
+            "metaTitulo": "Dormitorios - Europeos con cajones | Kamas",
+            "ruta": "/productos/dormitorios/europeos-con-cajones/"
+        }
+    ]
+}

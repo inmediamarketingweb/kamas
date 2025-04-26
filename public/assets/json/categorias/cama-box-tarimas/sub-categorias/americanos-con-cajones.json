@@ -13,20 +13,33 @@
             "precioVenta": 610,
             "stock": 0,
             "sku": "K24A2120N10",
+            "incluye":[
+                {
+                    "texto": "2 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
             "resumen-del-producto":[
                 {
-                    "línea": "Americano con cajones",
-                    "tamaño": "King",
-                    "cabecera": "Aérea capitoneada"
+                    "modelo-de-colchón": "Adel",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Semi ortopédico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/adel/2-plazas/"
                 }
             ],
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K24A2120N10",
+                    "sku": "K1151CN10",
                     "modelo-de-colchón": "Adel",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
+                    "línea-de-colchón": "Semi ortopédico",
                     "nivel-de-confort": "Confortable",
                     "tipo-de-resorte": "Bonell"
                 }

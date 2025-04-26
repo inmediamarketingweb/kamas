@@ -22,3 +22,9 @@
 .remove-favorite:hover{
     background: red;
 }
+
+@media screen and (max-width: 600px){
+    .favorites-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

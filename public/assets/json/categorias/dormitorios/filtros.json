@@ -1,6 +1,29 @@
 [
     {
         "id": 1,
+        "titulo": "Línea",
+        "nombre": "linea",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Americanos"
+            },
+            {
+                "id": 2,
+                "nombre": "Americanos con cajones"
+            },
+            {
+                "id": 3,
+                "nombre": "Europeos"
+            },
+            {
+                "id": 4,
+                "nombre": "Europeos con cajones"
+            }
+        ]
+    },
+    {
+        "id": 2,
         "titulo": "Tamaño",
         "nombre": "tamaño",
         "lista":[
@@ -27,116 +50,7 @@
         ]
     },
     {
-        "id": 2,
-        "titulo": "Línea",
-        "nombre": "linea",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Americanos"
-            },
-            {
-                "id": 2,
-                "nombre": "Americanos con cajones"
-            },
-            {
-                "id": 3,
-                "nombre": "Europeos"
-            },
-            {
-                "id": 4,
-                "nombre": "Europeos con cajones"
-            }
-        ]
-    },
-    {
         "id": 3,
-        "titulo": "Línea de colchón",
-        "nombre": "lineaDeColchon",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Semi ortopédicos"
-            },
-            {
-                "id": 2,
-                "nombre": "Anátomicos"
-            },
-            {
-                "id": 3,
-                "nombre": "Ortopédicos"
-            },
-            {
-                "id": 4,
-                "nombre": "Super ortopédicos"
-            },
-            {
-                "id": 5,
-                "nombre": "Hoteleros"
-            },
-            {
-                "id": 6,
-                "nombre": "Extra ortopédicos"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "titulo": "Modelo de colchón",
-        "nombre": "modeloDeColchon",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Adel"
-            },
-            {
-                "id": 2,
-                "nombre": "Rucay"
-            },
-            {
-                "id": 3,
-                "nombre": "Sarki"
-            },
-            {
-                "id": 4,
-                "nombre": "Safynnte"
-            },
-            {
-                "id": 5,
-                "nombre": "Der Prinz"
-            },
-            {
-                "id": 6,
-                "nombre": "Thameo Pocket"
-            },
-            {
-                "id": 7,
-                "nombre": "Ramat"
-            },
-            {
-                "id": 8,
-                "nombre": "Nesie"
-            },
-            {
-                "id": 9,
-                "nombre": "Norole"
-            },
-            {
-                "id": 10,
-                "nombre": "Thaleo Pocket"
-            },
-            {
-                "id": 11,
-                "nombre": "Konig"
-            },
-            {
-                "id": 12,
-                "nombre": "Yurmale"
-            }
-        ]
-    },
-    {
-        "id": 5,
         "titulo": "Tipo de cabecera",
         "nombre": "tipoDeCabecera",
         "lista":[
@@ -151,7 +65,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 4,
         "titulo": "Modelo de cabecera",
         "nombre": "modeloDeCabecera",
         "lista":[
@@ -174,6 +88,60 @@
             {
                 "id": 5,
                 "nombre": "Coronas"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Diseño de cabecera",
+        "nombre": "diseñoDeCabecera",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Capitoneadas"
+            },
+            {
+                "id": 2,
+                "nombre": "Clásicas"
+            },
+            {
+                "id": 3,
+                "nombre": "Cuadros"
+            },
+            {
+                "id": 4,
+                "nombre": "Líneales"
+            },
+            {
+                "id": 5,
+                "nombre": "Infantiles"
+            },
+            {
+                "id": 6,
+                "nombre": "Otras formas"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Tipo de brazo",
+        "nombre": "tipoDeBrazo",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Sin brazos"
+            },
+            {
+                "id": 2,
+                "nombre": "Brazo recto"
+            },
+            {
+                "id": 3,
+                "nombre": "Brazo curvo"
+            },
+            {
+                "id": 4,
+                "nombre": "Brazo seahorse"
             }
         ]
     }

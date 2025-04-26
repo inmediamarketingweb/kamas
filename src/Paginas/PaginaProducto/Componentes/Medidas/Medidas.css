@@ -1,0 +1,26 @@
+.product-page-sizes li{
+    display: flex;
+}
+
+.product-page-sizes li a{
+    display: flex;
+    padding: 4px 8px;
+    background: rgba(0 0 0 / 0.05);
+    border: 1px solid rgba(0 0 0 / 0.1);
+    transition: var(--t-200ms-linear);
+    border-radius: 3px;
+}
+
+.product-page-sizes li a:hover{
+    background: var(--color-1);
+    border: 1px solid var(--color-1);
+}
+
+.product-page-sizes li a p{
+    color: var(--text);
+    font-size: 13px;
+}
+
+.product-page-sizes li a:hover p{
+    color: var(--white);
+}

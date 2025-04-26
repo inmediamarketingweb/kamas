@@ -152,7 +152,7 @@ function UltimasNovedades(){
                                                 <span>¡ Lo más nuevo !</span>
                                             </div>
                                             <span className="product-card-brand">KAMAS</span>
-                                            <h4 className="product-card-name">{truncate(nombre, 50)}</h4>
+                                            <h4 className="product-card-name">{truncate(nombre, 56)}</h4>
                                             <div className="product-card-prices">
                                                 <span className="product-card-normal-price">S/.{precioNormal}</span>
                                                 <span className="product-card-sale-price">S/.{precioVenta}</span>

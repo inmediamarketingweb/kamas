@@ -1,0 +1,39 @@
+.product-page-direction{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.product-page-direction ul li{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+}
+
+.product-page-direction ul li::after{
+    content: '/';
+    color: var(--text);
+    font-size: 14px;
+}
+
+.product-page-direction a span,
+.product-page-direction p,
+.product-page-direction a p{
+    color: var(--text);
+    transition: var(--t-200ms-linear);
+}
+
+.product-page-direction a p{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.product-page-direction a:hover p{
+    color: var(--black);
+}
+
+.product-page-direction ul li:nth-last-child(1):after{
+    display: none;
+}

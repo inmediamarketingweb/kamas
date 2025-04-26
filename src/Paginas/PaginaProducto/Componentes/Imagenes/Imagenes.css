@@ -1,0 +1,129 @@
+.product-page-images-container{
+    width: 100%;
+    overflow: hidden;
+    touch-action: pan-y;
+}
+
+.product-page-images-content{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.product-page-images-content::-webkit-scrollbar{
+    display: none;
+}
+
+.product-page-images{
+    display: flex;
+    width: auto;
+    height: 100%;
+    user-select: none;
+    pointer-events: none;
+    transition: var(--t-200ms-linear);
+    will-change: transform;
+}
+
+.product-page-images > li{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    user-select: none;
+    pointer-events: none;
+    scroll-snap-align: start;
+}
+
+.product-page-images > li > img{
+    margin: auto;
+    width: 70%;
+    aspect-ratio: 1/1;
+    user-select: none;
+    pointer-events: none;
+}
+
+/**/
+
+.product-page-images-button{
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0 0 0 / 0.05);
+    border-radius: 4px;
+    transition: var(--t-200ms-linear);
+}
+
+.product-page-images-button-1{
+    left: 0;
+}
+
+.product-page-images-button-2{
+    right: 0;
+}
+
+.product-page-images-button span{
+    color: gray;
+    transition: var(--t-200ms-linear);
+}
+
+.product-page-images-button:hover span{
+    color: var(--color-1);
+}
+
+.product-page-images-miniatures-container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.product-page-images-miniatures{
+    display: flex;
+}
+
+.product-page-images-miniatures li{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    position: relative
+}
+
+.product-page-images-miniatures li::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    translate: -50% 0;
+    background: var(--color-1);
+    width: 50%;
+    height: 4px;
+    border-radius: 10px;
+    transition: var(--t-200ms-linear);
+    opacity: 0;
+}
+
+.product-page-images-miniatures li:hover::before{
+    opacity: 0.5;
+}
+
+.product-page-images-miniatures li.active::before{
+    opacity: 1;
+}
+
+.product-page-images-miniatures li img{
+    margin: auto;
+    width: 90px;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 600px){
+    .product-page-images > li > img{
+        width: 80%;
+    }
+}

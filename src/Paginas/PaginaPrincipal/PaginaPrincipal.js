@@ -2,14 +2,16 @@ import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
+
 import Slider from './Componentes/Slider/Slider';
 import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
 import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
 import Ofertas from './Componentes/Ofertas/Ofertas';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
-// import Dormitorio from '../../Componentes/Dormitorio/Dormitorio';
+import Dormitorio from '../../Componentes/Dormitorio/Dormitorio';
 import ModalDatos from './Componentes/ModalDatos/ModalDatos';
+
 import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaPrincipal.css';
@@ -67,7 +69,7 @@ function PaginaPrincipal(){
 
                 <Distribuidores/>
 
-                {/* <Dormitorio/> */}
+                <Dormitorio/>
 
                 <ModalDatos/>
             </main>
