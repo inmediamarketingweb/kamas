@@ -8,7 +8,7 @@ const Error404 = () => {
     return(
         <>
             <Helmet>
-                <title>Página no encontrada</title>
+                <title>Página no encontrada | Kamas</title>
             </Helmet>
 
             <Header/>

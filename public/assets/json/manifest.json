@@ -6,6 +6,8 @@
         "/assets/json/categorias/colchones/sub-categorias/norole.json",
         "/assets/json/categorias/colchones/sub-categorias/ramat.json",
 
-        "/assets/json/categorias/cama-box-tarimas/sub-categorias/americanos-con-cajones.json"
+        "/assets/json/categorias/cama-box-tarimas/sub-categorias/americanos-con-cajones.json",
+
+        "/assets/json/categorias/dormitorios/sub-categorias/americanos.json"
     ]
-}  
+}

@@ -1,0 +1,26 @@
+.search-products-content{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+}
+
+.filters-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .search-products-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}

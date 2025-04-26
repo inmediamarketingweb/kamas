@@ -70,25 +70,27 @@ function PaginaDeCategoria(){
 
     const handleCloseFilters = () => {
         setFiltersActive(false);
-      };
+    };
+
+    const toggleFavorite = (producto) => {
+        const exists = favorites.some((fav) => fav.ruta === producto.ruta);
+
+        let updatedFavorites;
+        if(exists){
+            updatedFavorites = favorites.filter((fav) => fav.ruta !== producto.ruta);
+        } else {
+            updatedFavorites = [...favorites, producto];
+        }
+
+        setFavorites(updatedFavorites);
+        localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
+    };
 
     const truncate = (str, maxLength) => {
         if (str.length <= maxLength){
             return str;
         }
         return str.slice(0, maxLength) + "...";
-    };
-
-    const toggleFavorite = (producto) => {
-        const exists = favorites.some((fav) => fav.ruta === producto.ruta);
-        let updatedFavorites;
-        if(exists){
-          updatedFavorites = favorites.filter((fav) => fav.ruta !== producto.ruta);
-        } else {
-          updatedFavorites = [...favorites, producto];
-        }
-        setFavorites(updatedFavorites);
-        localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
     };
 
     return(
@@ -132,7 +134,7 @@ function PaginaDeCategoria(){
 
                                                 return(
                                                     <li key={uuidv4()}>
-                                                        <div className="product-card" title={producto.nombre}>
+                                                        <div className={`product-card ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
                                                             <div className="product-card-images">
                                                                 {descuento > 0 && (
                                                                     <span className="product-card-discount">-{descuento}%</span>
@@ -142,41 +144,52 @@ function PaginaDeCategoria(){
                                                                     <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
                                                                 </a>
 
-                                                                <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos">
+                                                                <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
                                                                     <span className="material-icons">favorite</span>
                                                                 </button>
                                                             </div>
 
                                                             <a href={producto.ruta} className="product-card-content">
-                                                                {producto.novedades === "si" && (
-                                                                    <div className="product-card-target">
-                                                                        <span>¡Lo más nuevo!</span>
+                                                                {producto.stock === 0 ? (
+                                                                    <div className="product-card-agotado product-card-target">
+                                                                        <span>Sin stock 😥</span>
                                                                     </div>
-                                                                )}
+                                                                ) : (
+                                                                    <>
+                                                                        {producto.novedades === "si" && (
+                                                                            <div className="product-card-target">
+                                                                                <span>¡Lo más nuevo!</span>
+                                                                            </div>
+                                                                        )}
 
-                                                                {producto["solo-por-horas"] === "si" && (
-                                                                    <div className="product-card-stock">
-                                                                        <span>¡ Solo por horas ⌛ !</span>
-                                                                    </div>
-                                                                )}
+                                                                        {producto["solo-por-horas"] === "si" && (
+                                                                            <div className="product-card-stock">
+                                                                                <span>¡ Solo por horas ⌛ !</span>
+                                                                            </div>
+                                                                        )}
 
-                                                                {producto.oferta === "si" && (
-                                                                    <div className="product-card-ofert">
-                                                                        <span>En oferta</span>
-                                                                    </div>
-                                                                )}
+                                                                        {producto.oferta === "si" && (
+                                                                            <div className="product-card-ofert">
+                                                                                <span>En oferta</span>
+                                                                            </div>
+                                                                        )}
 
-                                                                {producto.novedades !== "si" && producto["solo-por-horas"] !== "si" && producto.oferta !== "si" && (
-                                                                    <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
-                                                                        <span>
-                                                                            {producto["tipo-de-envio"] === "Gratis" ? "¡ Envío gratis 🚚 !"
-                                                                            : producto["tipo-de-envio"] || "No especificado"}
-                                                                        </span>
-                                                                    </div>
+                                                                        {producto.novedades !== "si" &&
+                                                                            producto["solo-por-horas"] !== "si" &&
+                                                                            producto.oferta !== "si" && (
+                                                                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                                                                                    <span>
+                                                                                        {producto["tipo-de-envio"] === "Gratis"
+                                                                                            ? "¡ Envío gratis 🚚 !"
+                                                                                            : producto["tipo-de-envio"] || "No especificado"}
+                                                                                    </span>
+                                                                                </div>
+                                                                            )}
+                                                                    </>
                                                                 )}
 
                                                                 <span className="product-card-brand">KAMAS</span>
-                                                                <h4 className="product-card-name">{truncate(producto.nombre, 50)}</h4>
+                                                                <h4 className="product-card-name">{truncate(producto.nombre, 62)}</h4>
                                                                 <div className="product-card-prices">
                                                                     <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
                                                                     <span className="product-card-sale-price">S/.{producto.precioVenta}</span>

@@ -145,7 +145,7 @@ function ModalDatos(){
 
                             <li>
                                 <button type="button" className="modal-datos-confirm" onClick={handleConfirm}>
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p>Confirmar</p>
                                 </button>
                             </li>

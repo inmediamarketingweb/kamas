@@ -27,7 +27,7 @@ function Ofertas(){
                 }, []);
 
                 const productosOferta = allProducts.filter(
-                (producto) => producto.oferta === "si"
+                    (producto) => producto.oferta === "si"
                 );
                 setProductos(productosOferta);
             })
@@ -88,25 +88,14 @@ function Ofertas(){
                                                 </div>
 
                                                 <a href={producto.ruta} className="product-card-content">
-                                                    {producto.novedades === "si" && (
-                                                        <div className="product-card-target">
-                                                            <span>¡Lo más nuevo!</span>
-                                                        </div>
-                                                    )}
-
-                                                    {producto["solo-por-horas"] === "si" && (
-                                                        <div className="product-card-stock">
-                                                            <span>¡Solo por horas ⌛!</span>
-                                                        </div>
-                                                    )}
-
-                                                    <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
-                                                        <span>{producto["tipo-de-envio"] === "Gratis" ? "¡Envío gratis 🚚!" : producto["tipo-de-envio"] || "No especificado"}</span>
+                                                    <div className="product-card-stock">
+                                                        <span>¡ Solo quedan <b>{producto.stock}</b> 🔥 !</span>
                                                     </div>
 
                                                     <span className="product-card-brand">KAMAS</span>
                                                     <h4 className="product-card-name">{truncate(producto.nombre, 50)}</h4>
                                                     <div className="product-card-prices">
+                                                        <span className="product-card-regular-price">S/.{producto.precioRegular}</span>
                                                         <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
                                                         <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
                                                     </div>

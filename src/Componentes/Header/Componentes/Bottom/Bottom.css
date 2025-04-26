@@ -1,0 +1,45 @@
+.header-bottom-container{
+    width: 100%;
+    display: flex;
+    background: var(--color-2);
+    height: 40px;
+    padding: 0 20px;
+}
+
+.header-bottom{
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--content-mx-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom > p:hover a{
+    text-decoration: underline;
+}
+
+.header-bottom > ul li a h2{
+    color: var(--white);
+    font-size: 14px;
+}
+
+.header-bottom > ul li a:hover h2{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+    .header-bottom-container{
+        height: 50px;
+    }
+    .header-bottom > p{
+        text-align: center;
+    }
+    .header-bottom > p a{
+        font-size: 14px;
+    }
+
+    .header-bottom > ul{
+        display: none;
+    }
+}

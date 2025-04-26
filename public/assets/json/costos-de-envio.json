@@ -2741,165 +2741,25 @@
                             ]
                         },
                         {
-                            "distrito": "Sangallaya",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Sangallaya"
                         },
                         {
-                            "distrito": "Santa Cruz de Cocachacra",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Santa Cruz de Cocachacra"
                         },
                         {
-                            "distrito": "Santa Eulila",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Santa Eulila"
                         },
                         {
-                            "distrito": "Santiago de Anchucaya",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Santiago de Anchucaya"
                         },
                         {
-                            "distrito": "Santiago de Tuna",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Santiago de Tuna"
                         },
                         {
-                            "distrito": "Santo Domingo de los Olleros",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Santo Domingo de los Olleros"
                         },
                         {
-                            "distrito": "Surco",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Surco"
                         }
                     ]
                 },
@@ -10571,188 +10431,28 @@
                             ]
                         },
                         {
-                            "distrito": "Chacoche",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Chacoche"
                         },
                         {
-                            "distrito": "Circa",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Circa"
                         },
                         {
-                            "distrito": "Curahuasi",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Curahuasi"
                         },
                         {
-                            "distrito": "Huaicapa",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Huaicapa"
                         },
                         {
-                            "distrito": "Lambrama",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Lambrama"
                         },
                         {
-                            "distrito": "Pichirgua",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Pichirgua"
                         },
                         {
-                            "distrito": "San Pedro de Cachora",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "San Pedro de Cachora"
                         },
                         {
-                            "distrito": "Tamburco",
-                            "agencias-recomendadas":[
-                                {
-                                    "agencia": "Nombre agencia",
-                                    "sedes":[
-                                        {
-                                            "sede": "Sede de la agencia",
-                                            "tipos-de-envio":[
-                                                {
-                                                    "tipo-de-envio": "Envío preferente",
-                                                    "precio": 0
-                                                },
-                                                {
-                                                    "tipo-de-envio": "Envío aplicado",
-                                                    "precio": 0
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
+                            "distrito": "Tamburco"
                         }
                     ]
                 },

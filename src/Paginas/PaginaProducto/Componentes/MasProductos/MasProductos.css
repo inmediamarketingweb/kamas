@@ -1,0 +1,8 @@
+.product-page-more-products-content ul .product-card{
+    width: 100%;
+    max-width: none !important;
+}
+
+.product-page-more-products-content ul .product-card a{
+    width: 100%;
+}

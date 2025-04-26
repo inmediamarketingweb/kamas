@@ -38,19 +38,18 @@
 
 .category-page-products{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
 .category-page-products li{
-    width: 100%;
-    flex: 1 1 clamp(200px, calc(calc(100% / 4) - calc(30px / 4)), 100%);
-    max-width: calc(calc(100% / 4) - calc(30px / 4));
+    width: auto;
 }
 
-.product-card:hover{
-    border: 1px solid var(--color-1);
+.category-page-products li .product-card{
+    width: 100% !important;
+    max-width: none !important;
 }
 
 .product-card-images{
@@ -105,8 +104,8 @@
 .product-card-favorite,
 .remove-favorite{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     width: 32px;
     height: 32px;
     border-radius: 100%;
@@ -143,6 +142,8 @@
     padding: 0 10px 10px 10px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 5px;
     position: relative;
 }
@@ -169,11 +170,6 @@
     font-weight: 600;
 }
 
-.product-card-name{
-    color: var(--text);
-    font-size: 14px;
-}
-
 .product-card-prices{
     width: 100%;
     display: flex;
@@ -183,14 +179,19 @@
     position: relative;
 }
 
+.product-card-regular-price{
+    font-size: 14px;
+    color: red;
+}
+
 .product-card-regular-price,
 .product-card-normal-price{
     text-decoration: line-through;
-    color: var(--text);
 }
 
 .product-card-normal-price{
     font-size: 17px;
+    color: var(--text);
 }
 
 .product-card-sale-price{
@@ -199,7 +200,7 @@
     top: 50%;
     translate: 0 -50%;
     color: var(--color-1);
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -218,7 +219,7 @@
 
 .product-card-tipo-de-envio{
     position: absolute;
-    right: 10px;
+    right: 20px;
     bottom: 100%;
     display: flex;
     padding: 3px 8px;
@@ -268,6 +269,10 @@
         justify-content: right;
     }
 
+    .category-page-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .open-filters{
         width: auto;
         height: 40px;
@@ -286,11 +291,5 @@
     .category-page-right-top button:hover span{
         color: var(--white);
         transition: var(--t-200ms-linear);
-    }
-
-    .category-page-products li{
-        width: 100%;
-        flex: 1 1 clamp(200px, calc(calc(100% / 2) - calc(10px / 2)), 100%);
-        max-width: calc(calc(100% / 2) - calc(10px / 2));
     }
 }

@@ -9,7 +9,7 @@
             "ruta": "/productos/colchones/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum industry. Lorem Ipsum has been 500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Contamos con una amplia gama de colchones en tamaños, nivel de confort y modelos."
                 }
             ],
             "subCategoriasTitulo":[
@@ -122,6 +122,11 @@
                     "id": 5,
                     "medida": "King",
                     "ruta": "/productos/colchones?tamaño=king"
+                },
+                {
+                    "id": 6,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/colchones/"
                 }
             ],
             "menuImg":[
@@ -216,13 +221,14 @@
         },
         {
             "id": 3,
-            "icono": "king_bed",
+            "icono": "/assets/imagenes/componentes/header/cama-box-tarimas.svg",
+            "iconoAlt": "dormitorio vector",
             "categoria": "Dormitorios",
             "metaTitulo": "Dormitorios | Kamas",
             "ruta": "/productos/dormitorios/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Dormitorios clásicos, americanos, europeos con o sin cajones en todos los tamaños del mercado."
                 }
             ],
             "subCategoriasTitulo":[
@@ -374,6 +380,38 @@
             "menuMensaje":[
                 {
                     "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                }
+            ],
+            "medidas":[
+                {
+                    "id": 1,
+                    "medida": "1 plaza",
+                    "ruta": "/productos/cabeceras?tamaño=1-plaza"
+                },
+                {
+                    "id": 2,
+                    "medida": "1 plaza y media",
+                    "ruta": "/productos/cabeceras?tamaño=1-plaza-y-media"
+                },
+                {
+                    "id": 3,
+                    "medida": "2 plazas",
+                    "ruta": "/productos/cabeceras?tamaño=2-plazas"
+                },
+                {
+                    "id": 4,
+                    "medida": "Queen",
+                    "ruta": "/productos/cabeceras?tamaño=queen"
+                },
+                {
+                    "id": 5,
+                    "medida": "King",
+                    "ruta": "/productos/cabeceras?tamaño=king"
+                },
+                {
+                    "id": 6,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/cabeceras/"
                 }
             ],
             "subCategoriasTitulo":[

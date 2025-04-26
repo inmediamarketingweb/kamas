@@ -1,313 +1,702 @@
-import React, { useState, useEffect } from 'react';
+// // import React, { useState, useEffect } from 'react';
 
+// // import './Envios.css';
+
+// // function Envios({ onConfirm }){
+// //     const [costosEnvioData, setCostosEnvioData] = useState(null);
+
+// //     const [selected, setSelected] = useState({
+// //         departamento: localStorage.getItem('departamento') || '',
+// //         provincia: localStorage.getItem('provincia') || '',
+// //         distrito: localStorage.getItem('distrito') || '',
+// //         agencia: localStorage.getItem('agencia') || '',
+// //         sede: localStorage.getItem('sede') || ''
+// //     });
+
+// //     const [openDropdown, setOpenDropdown] = useState(null);
+
+// //     const departamentoData = costosEnvioData?.departamentos.find(d => d.departamento === selected.departamento);
+// //     const provinciaData = departamentoData?.provincias.find(p => p.provincia === selected.provincia);
+// //     const selectedDistrict = provinciaData?.distritos.find(dist => dist.distrito === selected.distrito) || null;
+// //     const agencies = selectedDistrict?.['agencias-recomendadas'] || [];
+// //     const selectedAgency = agencies.find(a => a.agencia === selected.agencia) || null;
+
+// //     const provinciaSinAgencia = ['Lima metropolitana', 'Provincia constitucional del Callao'].includes(selected.provincia);
+// //     const noAgencias = agencies.length === 0;
+
+// //     const isComplete = selected.departamento && selected.provincia && selected.distrito && (provinciaSinAgencia || noAgencias || (selected.agencia && selected.sede));
+
+// //     const toggleModal = open => {
+// //         const layer = document.querySelector('.envios-layer');
+// //         const container = document.querySelector('.envios-container');
+// //         if (layer && container) {
+// //             layer.classList[open ? 'add' : 'remove']('active');
+// //             container.classList[open ? 'add' : 'remove']('active');
+// //             if (!open) setOpenDropdown(null);
+// //         }
+// //     };
+
+// //     const handleOpen = () => toggleModal(true);
+// //     const handleClose = () => toggleModal(false);
+
+// //     const handleConfirm = () => {
+// //         toggleModal(false);
+// //         if (onConfirm) onConfirm(selected);
+// //     };
+
+// //     useEffect(() => {
+// //         fetch('/assets/json/costos-de-envio.json')
+// //             .then(res => res.json())
+// //             .then(json => {
+// //                 setCostosEnvioData(json);
+// //             })
+// //             .catch(err => console.error('Error al cargar JSON de costos de envío:', err));
+// //     }, []);    
+
+// //     const handleSelection = (key, value) => {
+// //         setSelected(prev => {
+// //             const newSel = { ...prev, [key]: value };
+// //             if (key === 'departamento') {
+// //                 newSel.provincia = '';
+// //                 newSel.distrito = '';
+// //                 newSel.agencia = '';
+// //                 newSel.sede = '';
+// //             } else if (key === 'provincia') {
+// //                 newSel.distrito = '';
+// //                 newSel.agencia = '';
+// //                 newSel.sede = '';
+// //             } else if (key === 'distrito') {
+// //                 newSel.agencia = '';
+// //                 newSel.sede = '';
+// //             } else if (key === 'agencia') { newSel.sede = ''; }
+
+// //             localStorage.setItem(key, value);
+// //             return newSel;
+// //         });
+// //         setOpenDropdown(null);
+// //     };
+
+// //     const toggleDropdown = key => setOpenDropdown(prev => (prev === key ? null : key));
+
+// //     const getLocationText = () => {
+// //         if (!isComplete) return 'Selecciona lugar de envío';
+
+// //         let locationString = `Para ${selected.departamento}, ${selected.provincia}, ${selected.distrito}`;
+
+// //         if (selected.agencia && selected.sede && agencies.length > 0) {
+// //             locationString += ` envío por la agencia ${selected.agencia} con sede en ${selected.sede}`;
+// //         }
+
+// //         return locationString;
+// //     };
+
+// //     return(
+// //         <>
+// //             <div className="d-flex-column gap-10">
+// //                 <div className="d-flex-center-left gap-5">
+// //                     <span className="material-icons color-color-1">local_shipping</span>
+// //                     <p className="title color-color-1">Lugar y tipo de envío</p>
+// //                 </div>
+
+// //                 <button type="button" className="envios-button-open" onClick={handleOpen}>
+// //                     <div className="d-flex-center-left gap-5">
+// //                         <span className="material-icons">location_on</span>
+// //                         <p>{getLocationText()}</p>
+// //                     </div>
+// //                     <span className="material-icons margin-left">keyboard_arrow_down</span>
+// //                 </button>
+// //             </div>
+
+// //             <div className="envios-container gap-20">
+// //                 <div className="d-flex-center-between">
+// //                     <p className="title">Lugar de envío</p>
+// //                     <button type="button" className="envios-button-close" onClick={handleClose}>
+// //                         <span className="material-icons">close</span>
+// //                     </button>
+// //                 </div>
+
+// //                 <div className="envios-content d-flex-column gap-10">
+// //                     <div className="envios-select">
+// //                         <div className="envios-select-top" onClick={() => toggleDropdown('departamento')}>
+// //                             <p>{selected.departamento || '-- Selecciona departamento --'}</p>
+// //                             <span className="material-icons">keyboard_arrow_down</span>
+// //                         </div>
+// //                         <div className={`envios-select-options-container${openDropdown === 'departamento' ? ' active' : ''}`}>
+// //                             {(costosEnvioData?.departamentos || []).map((dep, idx) => (
+// //                                 <div key={idx} className="envios-select-options-content" onClick={() => handleSelection('departamento', dep.departamento)}>
+// //                                     <p>{dep.departamento}</p>
+// //                                 </div>
+// //                             ))}
+// //                         </div>
+// //                     </div>
+
+// //                     {selected.departamento && (
+// //                         <div className="envios-select">
+// //                             <div className="envios-select-top" onClick={() => toggleDropdown('provincia')}>
+// //                                 <p>{selected.provincia || '-- Selecciona provincia --'}</p>
+// //                                 <span className="material-icons">keyboard_arrow_down</span>
+// //                             </div>
+// //                             <div className={`envios-select-options-container${openDropdown === 'provincia' ? ' active' : ''}`}>
+// //                                 {(departamentoData?.provincias || []).map((prov, idx) => (
+// //                                     <div key={idx} className="envios-select-options-content" onClick={() => handleSelection('provincia', prov.provincia)}>
+// //                                         <p>{prov.provincia}</p>
+// //                                     </div>
+// //                                 ))}
+// //                             </div>
+// //                         </div>
+// //                     )}
+
+// //                     {selected.provincia && (
+// //                         <div className="envios-select">
+// //                             <div className="envios-select-top" onClick={() => toggleDropdown('distrito')}>
+// //                                 <p>{selected.distrito || '-- Selecciona distrito --'}</p>
+// //                                 <span className="material-icons">keyboard_arrow_down</span>
+// //                             </div>
+// //                             <div className={`envios-select-options-container${openDropdown === 'distrito' ? ' active' : ''}`}>
+// //                                 {(provinciaData?.distritos || []).map((dist, idx) => (
+// //                                     <div key={idx} className="envios-select-options-content" onClick={() => handleSelection('distrito', dist.distrito)}>
+// //                                         <p>{dist.distrito}</p>
+// //                                     </div>
+// //                                 ))}
+// //                             </div>
+// //                         </div>
+// //                     )}
+
+// //                     {selected.distrito && !provinciaSinAgencia && (
+// //                         <>
+// //                             <p className="title">Agencias recomendadas</p>
+// //                             {noAgencias ? (
+// //                                 <div className="message message-warning">
+// //                                     <span className="material-icons">warning</span>
+// //                                     <p>No contamos con agencias recomendadas para el distrito seleccionado, sin embargo podemos ayudarte a elegir la mejor opción.</p>
+// //                                     <p>El precio que le aparece en pantalla es referencial.</p>
+// //                                 </div>
+// //                             ) : (
+// //                                 <div className="envios-select">
+// //                                     <div className="envios-select-top" onClick={() => toggleDropdown('agencia')}>
+// //                                         <p>{selected.agencia || '-- Selecciona agencia --'}</p>
+// //                                         <span className="material-icons">keyboard_arrow_down</span>
+// //                                     </div>
+// //                                     <div className={`envios-select-options-container${openDropdown === 'agencia' ? ' active' : ''}`}>
+// //                                         {agencies.map((agency, idx) => (
+// //                                             <div key={idx} className="envios-select-options-content" onClick={() => handleSelection('agencia', agency.agencia)}>
+// //                                                 <p>{agency.agencia}</p>
+// //                                             </div>
+// //                                         ))}
+// //                                     </div>
+// //                                 </div>
+// //                             )}
+// //                         </>
+// //                     )}
+
+// //                     {selected.agencia && (
+// //                         <>
+// //                             <div className="envios-select">
+// //                                 <div className="envios-select-top" onClick={() => toggleDropdown('sede')}>
+// //                                     <p>{selected.sede || '-- Selecciona sede --'}</p>
+// //                                     <span className="material-icons">keyboard_arrow_down</span>
+// //                                 </div>
+// //                                 <div className={`envios-select-options-container${openDropdown === 'sede' ? ' active' : ''}`}>
+// //                                         {(selectedAgency?.sedes || []).map((sede, idx) => (
+// //                                         <div key={idx} className="envios-select-options-content" onClick={() => handleSelection('sede', sede.sede)}>
+// //                                             <p>{sede.sede}</p>
+// //                                         </div>
+// //                                     ))}
+// //                                 </div>
+// //                             </div>
+
+// //                             {selected.sede && (
+// //                                 <div className="message message-warning">
+// //                                     <span className="material-icons">warning</span>
+// //                                     <p>El costo de envío lo determina la agencia seleccionada.</p>
+// //                                 </div>
+// //                             )}
+// //                         </>
+// //                     )}
+// //                 </div>
+
+// //                 <div className="d-flex-center-right gap-5">
+// //                     <button type="button" className="button-link button-link-3 envios-button-close" onClick={handleClose}>
+// //                         <p className="button-link-text">Cancelar</p>
+// //                     </button>
+// //                     <button type="button" className="button-link button-link-2" disabled={!isComplete} onClick={handleConfirm}>
+// //                         <span className="material-icons">check</span>
+// //                         <p className="button-link-text">Confirmar</p>
+// //                     </button>
+// //                 </div>
+// //             </div>
+
+// //             <div>
+// //                 <p>tipos de envío</p>
+// //             </div>
+
+// //             <div className="envios-layer" onClick={handleClose}></div>
+// //         </>
+// //     );
+// // }
+
+// // export default Envios;
+
+// import React, { useState, useEffect } from 'react';
+
+// import './Envios.css';
+
+// const initialSelection = {
+//     departamento: localStorage.getItem('departamento') || '',
+//     provincia: localStorage.getItem('provincia') || '',
+//     distrito: localStorage.getItem('distrito') || '',
+//     agencia: localStorage.getItem('agencia') || '',
+//     sede: localStorage.getItem('sede') || ''
+// };
+
+// const Dropdown = ({ label, value, options, onSelect, isOpen, toggle }) => (
+//     <div className="envios-select">
+//         <div className="envios-select-top" onClick={toggle}>
+//             <p>{value || `-- Selecciona ${label} --`}</p>
+//             <span className="material-icons">keyboard_arrow_down</span>
+//         </div>
+//         <div className={`envios-select-options-container${isOpen ? ' active' : ''}`}>
+//             {options.map((item, idx) => (
+//                 <div key={idx} className="envios-select-options-content" onClick={() => onSelect(item)}>
+//                     <p>{item}</p>
+//                 </div>
+//             ))}
+//         </div>
+//     </div>
+// );
+
+// const ModalSection = ({ title, children }) => (
+//     <div className="envios-content d-flex-column gap-10">
+//         <div className="d-flex-center-between">
+//             <p className="title">{title}</p>
+//         </div>
+//         {children}
+//     </div>
+// );
+
+// function Envios({ producto, onConfirm }){
+//     const [costosEnvioData, setCostosEnvioData] = useState(null);
+//     const [selected, setSelected] = useState(initialSelection);
+//     const [openDropdown, setOpenDropdown] = useState(null);
+//     const [isModalOpen, setIsModalOpen] = useState(false);
+
+//     const departamentoData = costosEnvioData?.departamentos.find(d => d.departamento === selected.departamento);
+//     const provinciaData = departamentoData?.provincias.find(p => p.provincia === selected.provincia);
+//     const distritoData = provinciaData?.distritos.find(d => d.distrito === selected.distrito);
+//     const agencies = distritoData?.['agencias-recomendadas'] || [];
+//     const selectedAgency = agencies.find(a => a.agencia === selected.agencia);
+//     const provinciaSinAgencia = ['Lima metropolitana', 'Provincia constitucional del Callao'].includes(selected.provincia);
+//     const noAgencias = agencies.length === 0;
+//     const isComplete = selected.departamento && selected.provincia && selected.distrito &&  (provinciaSinAgencia || noAgencias || (selected.agencia && selected.sede));
+
+//     useEffect(() => {
+//         const fetchData = async () => {
+//             try{
+//                 const response = await fetch('/assets/json/costos-de-envio.json');
+//                 setCostosEnvioData(await response.json());
+//             } catch (error) {
+//                 console.error('Error al cargar JSON de costos de envío:', error);
+//             }
+//         };
+
+//         fetchData();
+//     }, []);
+
+//     const handleSelection = (key, value) => {
+//         const resetMap = {
+//             departamento: ['provincia', 'distrito', 'agencia', 'sede'],
+//             provincia: ['distrito', 'agencia', 'sede'],
+//             distrito: ['agencia', 'sede'],
+//             agencia: ['sede'],
+//             sede: []
+//         };
+
+//         setSelected(prev => {
+//             const newSel = { ...prev, [key]: value };
+//             resetMap[key].forEach(field => {
+//                 newSel[field] = '';
+//                 localStorage.removeItem(field);
+//             });
+
+//             localStorage.setItem(key, value);
+
+//             return newSel;
+//         });
+//         setOpenDropdown(null);
+//     };
+
+//     const getLocationText = () => {
+//         if (!isComplete) return 'Selecciona lugar de envío';
+
+//         const base = `Para ${selected.departamento}, ${selected.provincia}, ${selected.distrito}`;
+//         return selected.agencia && selected.sede ? `${base} - ${selected.agencia} (${selected.sede})` : base;
+//     };
+
+//     const getOptions = (dataType) => {
+//         switch(dataType){
+//             case 'departamento': return costosEnvioData?.departamentos.map(d => d.departamento) || [];
+//             case 'provincia': return departamentoData?.provincias.map(p => p.provincia) || [];
+//             case 'distrito': return provinciaData?.distritos.map(d => d.distrito) || [];
+//             case 'agencia': return agencies.map(a => a.agencia);
+//             case 'sede': return selectedAgency?.sedes.map(s => s.sede) || [];
+//             default: return [];
+//         }
+//     };
+
+//     //
+
+//     const [shippingPrice, setShippingPrice] = useState(null);
+
+//     useEffect(() => {
+//         if (distritoData) {
+//             if (provinciaSinAgencia || noAgencias) {
+//                 setShippingPrice(distritoData.precio);
+//             } else if (selectedAgency && selected.sede) {
+//                 const sedeData = selectedAgency.sedes.find(s => s.sede === selected.sede);
+//                 setShippingPrice(sedeData?.precio || distritoData.precio);
+//             }
+//         }
+//     }, [distritoData, selected.agencia, selected.sede, provinciaSinAgencia, noAgencias, selectedAgency]);
+
+//     const handleConfirm = () => {
+//         setIsModalOpen(false);
+//         onConfirm?.({
+//             distritoData: distritoData,
+//             agencia: selected.agencia,
+//             sede: selected.sede
+//         });
+//     };
+
+//     return(
+//         <>
+//             <div className="d-flex-column gap-10">
+//                 <div className="d-flex-center-left gap-5">
+//                     <span className="material-icons color-color-1">local_shipping</span>
+//                     <p className="title color-color-1">Lugar y tipo de envío</p>
+//                 </div>
+
+//                 <button type="button" className="envios-button-open" onClick={() => setIsModalOpen(true)}>
+//                     <div className="d-flex-center-left gap-5">
+//                         <span className="material-icons">location_on</span>
+//                         <p>{getLocationText()}</p>
+//                     </div>
+//                     <span className="material-icons margin-left">keyboard_arrow_down</span>
+//                 </button>
+//             </div>
+
+//             {isModalOpen && (
+//                 <>
+//                     <div className="envios-container gap-10 active">
+//                         <div className="d-flex-center-between">
+//                             <p className="title">Lugar de envío</p>
+//                             <button type="button" className="envios-button-close" onClick={() => setIsModalOpen(false)}>
+//                                 <span className="material-icons">close</span>
+//                             </button>
+//                         </div>
+
+//                         <Dropdown label="departamento" value={selected.departamento} options={getOptions('departamento')} onSelect={(value) => handleSelection('departamento', value)} isOpen={openDropdown === 'departamento'} toggle={() => setOpenDropdown(prev => prev === 'departamento' ? null : 'departamento')} />
+
+//                         {selected.departamento && (
+//                             <Dropdown label="provincia" value={selected.provincia} options={getOptions('provincia')} onSelect={(value) => handleSelection('provincia', value)} isOpen={openDropdown === 'provincia'} toggle={() => setOpenDropdown(prev => prev === 'provincia' ? null : 'provincia')} />
+//                         )}
+
+//                         {selected.provincia && (
+//                             <Dropdown label="distrito" value={selected.distrito} options={getOptions('distrito')} onSelect={(value) => handleSelection('distrito', value)} isOpen={openDropdown === 'distrito'} toggle={() => setOpenDropdown(prev => prev === 'distrito' ? null : 'distrito')} />
+//                         )}
+
+//                         {selected.distrito && !provinciaSinAgencia && (
+//                             <ModalSection title="Agencias recomendadas">
+//                                 {noAgencias ? (
+//                                     <div className="message message-warning">
+//                                         <span className="material-icons">warning</span>
+//                                         <p>No contamos con agencias recomendadas para el distrito seleccionado.</p>
+//                                         <p>El precio mostrado es referencial.</p>
+//                                     </div>
+//                                 ) : (
+//                                     <Dropdown label="agencia" value={selected.agencia} options={getOptions('agencia')} onSelect={(value) => handleSelection('agencia', value)} isOpen={openDropdown === 'agencia'} toggle={() => setOpenDropdown(prev => prev === 'agencia' ? null : 'agencia')} />
+//                                 )}
+
+//                                 {selected.agencia && (
+//                                     <Dropdown label="sede" value={selected.sede} options={getOptions('sede')} onSelect={(value) => handleSelection('sede', value)} isOpen={openDropdown === 'sede'} toggle={() => setOpenDropdown(prev => prev === 'sede' ? null : 'sede')} />
+//                                 )}
+
+//                                 {selected.sede && (
+//                                     <div className="message message-warning">
+//                                         <span className="material-icons">warning</span>
+//                                         <p>El costo de envío lo determina la agencia seleccionada.</p>
+//                                     </div>
+//                                 )}
+//                             </ModalSection>
+//                         )}
+
+//                         <div className="d-flex-center-right gap-5">
+//                             <button type="button" className="button-link button-link-3" onClick={() => setIsModalOpen(false)}>
+//                                 <p className="button-link-text">Cancelar</p>
+//                             </button>
+
+//                             <button type="button" className="button-link button-link-2" disabled={!isComplete} onClick={handleConfirm}>                                <span className="material-icons">check</span>
+//                                 <p className="button-link-text">Confirmar</p>
+//                             </button>
+//                         </div>
+//                     </div>
+
+//                     <div className="envios-layer active" onClick={() => setIsModalOpen(false)}></div>
+//                 </>
+//             )}
+//         </>
+//     );
+// }
+
+// export default Envios;
+
+import React, { useState, useEffect } from 'react';
 import './Envios.css';
 
-function Envios({ producto }){
+const initialSelection = {
+    departamento: localStorage.getItem('departamento') || '',
+    provincia: localStorage.getItem('provincia') || '',
+    distrito: localStorage.getItem('distrito') || '',
+    agencia: localStorage.getItem('agencia') || '',
+    sede: localStorage.getItem('sede') || ''
+};
+
+const Dropdown = ({ label, value, options, onSelect, isOpen, toggle }) => (
+    <div className="envios-select">
+        <div className="envios-select-top" onClick={toggle}>
+            <p>{value || `-- Selecciona ${label} --`}</p>
+            <span className="material-icons">keyboard_arrow_down</span>
+        </div>
+        <div className={`envios-select-options-container${isOpen ? ' active' : ''}`}>
+            {options.map((item, idx) => (
+                <div key={idx} className="envios-select-options-content" onClick={() => onSelect(item)}>
+                    <p>{item}</p>
+                </div>
+            ))}
+        </div>
+    </div>
+);
+
+const ModalSection = ({ title, children }) => (
+    <div className="envios-content d-flex-column gap-10">
+        <div className="d-flex-center-between">
+            <p className="title">{title}</p>
+        </div>
+        {children}
+    </div>
+);
+
+function Envios({ producto, onConfirm }){
     const [costosEnvioData, setCostosEnvioData] = useState(null);
-    const [selectedDepartamento, setSelectedDepartamento] = useState(localStorage.getItem('departamento') || '');
-    const [selectedProvincia, setSelectedProvincia] = useState(localStorage.getItem('provincia') || '');
-    const [selectedDistrito, setSelectedDistrito] = useState(localStorage.getItem('distrito') || '');
-    const [selectedAgencia, setSelectedAgencia] = useState(localStorage.getItem('agencia') || '');
-    const [selectedSede, setSelectedSede] = useState(localStorage.getItem('sede') || '');
-    const [selectedShippingType, setSelectedShippingType] = useState(null);
-    const [shippingCost, setShippingCost] = useState(null);
-    const [quantity, setQuantity] = useState(1);
+    const [selected, setSelected] = useState(initialSelection);
+    const [openDropdown, setOpenDropdown] = useState(null);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const departamentoData = costosEnvioData?.departamentos.find(d => d.departamento === selected.departamento);
+    const provinciaData = departamentoData?.provincias.find(p => p.provincia === selected.provincia);
+    const distritoData = provinciaData?.distritos.find(d => d.distrito === selected.distrito);
+    const agencies = distritoData?.['agencias-recomendadas'] || [];
+    const selectedAgency = agencies.find(a => a.agencia === selected.agencia);
+    const provinciaSinAgencia = ['Lima metropolitana', 'Provincia constitucional del Callao'].includes(selected.provincia);
+    const noAgencias = agencies.length === 0;
+    const isComplete = selected.departamento && selected.provincia && selected.distrito &&  (provinciaSinAgencia || noAgencias || (selected.agencia && selected.sede));
 
     useEffect(() => {
-        fetch('/assets/json/costos-de-envio.json')
-          .then((res) => res.json())
-          .then((json) => setCostosEnvioData(json))
-          .catch((err) => console.error('Error al cargar el JSON de costos de envío:', err));
+        const fetchData = async () => {
+            try{
+                const response = await fetch('/assets/json/costos-de-envio.json');
+                setCostosEnvioData(await response.json());
+            } catch (error) {
+                console.error('Error al cargar JSON de costos de envío:', error);
+            }
+        };
+        fetchData();
     }, []);
 
-    useEffect(() => { localStorage.setItem('departamento', selectedDepartamento); }, [selectedDepartamento]);
-    useEffect(() => { localStorage.setItem('provincia', selectedProvincia); }, [selectedProvincia]);
-    useEffect(() => { localStorage.setItem('distrito', selectedDistrito); }, [selectedDistrito]);
-    useEffect(() => { localStorage.setItem('agencia', selectedAgencia); }, [selectedAgencia]);
-    useEffect(() => { localStorage.setItem('sede', selectedSede); }, [selectedSede]);
+    const handleSelection = (key, value) => {
+        const resetMap = {
+            departamento: ['provincia', 'distrito', 'agencia', 'sede'],
+            provincia: ['distrito', 'agencia', 'sede'],
+            distrito: ['agencia', 'sede'],
+            agencia: ['sede'],
+            sede: []
+        };
 
-    const handleQuantityChange = (value) => {
-        if (value >= 1 && value <= 10) setQuantity(value);
+        setSelected(prev => {
+            const newSel = { ...prev, [key]: value };
+            resetMap[key].forEach(field => {
+                newSel[field] = '';
+                localStorage.removeItem(field);
+            });
+            localStorage.setItem(key, value);
+            return newSel;
+        });
+        setOpenDropdown(null);
     };
 
-    const handleDepartamentoChange = (e) => {
-        setSelectedDepartamento(e.target.value);
-        setSelectedProvincia('');
-        setSelectedDistrito('');
-        setSelectedAgencia('');
-        setSelectedSede('');
-        setSelectedShippingType(null);
-        setShippingCost(null);
+    const getLocationText = () => {
+        if (!isComplete) return 'Selecciona lugar de envío';
+        const base = `Para ${selected.departamento}, ${selected.provincia}, ${selected.distrito}`;
+        return selected.agencia && selected.sede ? `${base} - ${selected.agencia} (${selected.sede})` : base;
     };
 
-    const handleProvinciaChange = (e) => {
-        setSelectedProvincia(e.target.value);
-        setSelectedDistrito('');
-        setSelectedAgencia('');
-        setSelectedSede('');
-        setSelectedShippingType(null);
-        setShippingCost(null);
+    const getOptions = (dataType) => {
+        switch(dataType){
+            case 'departamento': return costosEnvioData?.departamentos.map(d => d.departamento) || [];
+            case 'provincia': return departamentoData?.provincias.map(p => p.provincia) || [];
+            case 'distrito': return provinciaData?.distritos.map(d => d.distrito) || [];
+            case 'agencia': return agencies.map(a => a.agencia);
+            case 'sede': return selectedAgency?.sedes.map(s => s.sede) || [];
+            default: return [];
+        }
     };
 
-    const handleDistritoChange = (e) => {
-        setSelectedDistrito(e.target.value);
-        setSelectedAgencia('');
-        setSelectedSede('');
-        setSelectedShippingType(null);
-        setShippingCost(null);
-    };
+    const calculateShippingOptions = () => {
+        let productShippingCost = null;
+        const tieneAgencias = agencies.length > 0;
 
-    const handleAgenciaChange = (e) => {
-        setSelectedAgencia(e.target.value);
-        setSelectedSede('');
-        setSelectedShippingType(null);
-        setShippingCost(null);
-    };
-
-    const handleSedeChange = (e) => {
-        setSelectedSede(e.target.value);
-        setSelectedShippingType(null);
-        setShippingCost(null);
-    };
-
-    // Al hacer clic en un tipo de envío, se guarda el tipo y su precio
-    const handleShippingSelection = (tipoEnvio, precio) => {
-        setSelectedShippingType(tipoEnvio);
-        setShippingCost(precio);
-    };
-
-    const departamentos = costosEnvioData?.departamentos || [];
-    const provincias = selectedDepartamento ? departamentos.find(dep => dep.departamento === selectedDepartamento)?.provincias || [] : [];
-    const distritos = selectedProvincia ? provincias.find(prov => prov.provincia === selectedProvincia)?.distritos || [] : [];
-
-    const selectedDistritoObj = distritos.find(dist => dist.distrito === selectedDistrito);
-    const tieneAgencias = selectedDistritoObj?.['agencias-recomendadas'];
-    // const agencias = tieneAgencias ? selectedDistritoObj['agencias-recomendadas'] : [];
-    // const sedes = selectedAgencia ? agencias.find(agencia => agencia.agencia === selectedAgencia)?.sedes || [] : [];
-
-    const getShippingClass = (tipo) => tipo.toLowerCase().replace(/\s+/g, '-');
-
-    const deliveryLocation = (selectedProvincia.toLowerCase() === "lima metropolitana" || selectedProvincia.toLowerCase() === "provincia constitucional del callao") ? "Hasta tu domicilio" : "Hasta la agencia";
-    const deliveryLocationDirect = "Hasta tu domicilio";
-
-    const envioDirectoObj = selectedDistritoObj?.['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío directo");
-    // Si el producto tiene tipo "Gratis", no se renderiza envío express.
-    const envioExpressObj = (producto['tipo-de-envio'] !== "Gratis") 
-        ? selectedDistritoObj?.['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === "Envío express")
-        : null;
-
-    // Calcular el precio según la lógica:
-    // - Si tiene agencias, se toma el precio desde la agencia (si ya se seleccionaron agencia y sede).
-    // - Si no tiene agencias, se revisa si existe el tipo de envío en el JSON; si existe se usa ese precio.
-    //   De lo contrario, se usan los valores de fallback (35 para "Envío preferente", 70 para "Envío aplicado").
-    let productShippingCost = null;
-    if(selectedDistritoObj && selectedDistrito){
-        if(tieneAgencias){
-            if(selectedAgencia && selectedSede){
-                const agenciaSeleccionada = selectedDistritoObj['agencias-recomendadas'].find(agencia => agencia.agencia === selectedAgencia);
-                const sedesList = agenciaSeleccionada ? agenciaSeleccionada.sedes || [] : [];
-                const sedeSeleccionada = sedesList.find(sede => sede.sede === selectedSede);
-                if(sedeSeleccionada){
-                    const matchTipoEnvio = sedeSeleccionada['tipos-de-envio']?.find(tipo => tipo['tipo-de-envio'] === producto['tipo-de-envio']);
-                    productShippingCost = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
-                }
+        if (distritoData) {
+            if (tieneAgencias && selected.agencia && selected.sede) {
+                const agenciaSeleccionada = agencies.find(a => a.agencia === selected.agencia);
+                const sedeSeleccionada = agenciaSeleccionada?.sedes.find(s => s.sede === selected.sede);
+                const matchTipoEnvio = sedeSeleccionada?.['tipos-de-envio']?.find(t => t['tipo-de-envio'] === producto['tipo-de-envio']);
+                productShippingCost = matchTipoEnvio ? (matchTipoEnvio.precio || matchTipoEnvio.costos || 0) : 0;
+            } else if (!tieneAgencias) {
+                const tipoCorrespondiente = distritoData['tipos-de-envio']?.find(t => t['tipo-de-envio'] === producto['tipo-de-envio']);
+                productShippingCost = tipoCorrespondiente 
+                    ? (tipoCorrespondiente.precio || tipoCorrespondiente.costos || 0)
+                    : producto['tipo-de-envio'] === "Envío preferente" ? 35 
+                    : producto['tipo-de-envio'] === "Envío aplicado" ? 70 
+                    : 0;
             }
-        } else {
-            const tiposDeEnvio = selectedDistritoObj?.['tipos-de-envio'];
-            const tipoCorrespondiente = tiposDeEnvio?.find(tipo => tipo['tipo-de-envio'] === producto['tipo-de-envio']);
-            if (tipoCorrespondiente) {
-                productShippingCost = tipoCorrespondiente.precio || tipoCorrespondiente.costos || 0;
-            } else {
-                if (producto['tipo-de-envio'] === "Envío preferente") {
-                    productShippingCost = 35;
-                } else if (producto['tipo-de-envio'] === "Envío aplicado") {
-                    productShippingCost = 70;
-                } else {
-                    productShippingCost = 0;
-                }
-            }
-        }        
-    }
+        }
 
-    // Mostrar mensaje "No contamos con agencias..." solo si se ha seleccionado el distrito, no hay agencias y la provincia no es Lima ni Callao.
-    const noAgenciasMessage = (selectedDistrito && !tieneAgencias && 
-        (selectedProvincia.toLowerCase() !== "lima metropolitana" && selectedProvincia.toLowerCase() !== "provincia constitucional del callao"))
-        ? "No contamos con agencias recomendadas para el distrito seleccionado, sin embargo podemos ayudarte a encontrar la mejor opción."
-        : null;
+        const envioDirectoObj = distritoData?.['tipos-de-envio']?.find(t => t['tipo-de-envio'] === "Envío directo");
+        const envioExpressObj = producto['tipo-de-envio'] !== "Gratis" 
+            ? distritoData?.['tipos-de-envio']?.find(t => t['tipo-de-envio'] === "Envío express")
+            : null;
 
-    // Calculamos las opciones de envío disponibles (para el auto-seleccionado si solo hay una)
-    const shippingOptions = [];
-    if(selectedDistrito){
-        if(productShippingCost !== null) {
-            shippingOptions.push({ tipo: producto['tipo-de-envio'], precio: productShippingCost });
+        const shippingOptions = [];
+        if (productShippingCost !== null) {
+            shippingOptions.push({ 
+                tipo: producto['tipo-de-envio'], 
+                precio: productShippingCost 
+            });
         }
-        if(envioDirectoObj) {
-            shippingOptions.push({ tipo: envioDirectoObj['tipo-de-envio'], precio: envioDirectoObj.precio || envioDirectoObj.costos || 0 });
+        if (envioDirectoObj) {
+            shippingOptions.push({ 
+                tipo: envioDirectoObj['tipo-de-envio'], 
+                precio: envioDirectoObj.precio || envioDirectoObj.costos || 0 
+            });
         }
-        if(envioExpressObj) {
-            shippingOptions.push({ tipo: envioExpressObj['tipo-de-envio'], precio: envioExpressObj.precio || envioExpressObj.costos || 0 });
+        if (envioExpressObj) {
+            shippingOptions.push({ 
+                tipo: envioExpressObj['tipo-de-envio'], 
+                precio: envioExpressObj.precio || envioExpressObj.costos || 0 
+            });
         }
-    }
 
-    // Si solo hay una opción disponible y no se ha seleccionado aún, la seleccionamos automáticamente.
-    if(selectedDistrito && shippingOptions.length === 1 && !selectedShippingType){
-        const option = shippingOptions[0];
-        setSelectedShippingType(option.tipo);
-        setShippingCost(option.precio);
-    }
-  
-    // El enlace de WhatsApp usará el precio del tipo de envío seleccionado (almacenado en shippingCost).
-    const getWhatsAppLink = () => {
-        // No permite enviar mensaje si no se ha seleccionado un tipo de envío.
-        if(!selectedShippingType) {
-            return "#";
-        }
-        const numeroWhatsApp = "+51907057521";
-        const mensaje = `Hola Kamas! Vengo de su sitio web y estoy interesado en adquirir:*\n${producto.nombre}*.\n\n`
-            + `Link: https://prototipo-kamas.vercel.app${producto.ruta}\n`
-            + `Cantidad: ${quantity}\n`
-            + `Departamento: ${selectedDepartamento}\nProvincia: ${selectedProvincia}\nDistrito: ${selectedDistrito}\n`
-            + (selectedAgencia ? `Agencia recomendada: ${selectedAgencia}\n` : "")
-            + (selectedSede ? `Sede: ${selectedSede}\n` : "")
-            + `Tipo de envío seleccionado: ${selectedShippingType}\n`
-            + (shippingCost !== null ? `Costo: S/.${shippingCost}` : "");
-  
-        return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+        return shippingOptions;
     };
 
-    // Si no se ha seleccionado un tipo de envío, evitamos que se envíe el mensaje al hacer click.
-    const handleShopButtonClick = (e) => {
-        if(!selectedShippingType){
-            e.preventDefault();
-            alert("Por favor, selecciona un tipo de envío.");
-        }
+    const handleConfirm = () => {
+        const shippingOptions = calculateShippingOptions();
+        setIsModalOpen(false);
+        onConfirm?.({
+            distritoData,
+            hasAgency: !!selected.agencia,
+            shippingOptions,
+            selectedAgency: selected.agencia,
+            selectedSede: selected.sede,
+            locationData: {
+                departamento: selected.departamento,
+                provincia: selected.provincia,
+                distrito: selected.distrito
+            }    
+        });
     };
 
     return(
-        <div className="envios-container">
+        <>
             <div className="d-flex-column gap-10">
-                <div className="select-group">
-                    <label>Departamento:</label>
-                    <select value={selectedDepartamento} onChange={handleDepartamentoChange}>
-                        <option value="">-- Selecciona Departamento --</option>
-                        {departamentos.map(dep => (
-                            <option key={dep.departamento} value={dep.departamento}>{dep.departamento}</option>
-                        ))}
-                    </select>
+                <div className="d-flex-center-left gap-5">
+                    <span className="material-icons color-color-1">local_shipping</span>
+                    <p className="title color-color-1">Lugar y tipo de envío</p>
                 </div>
-  
-                {selectedDepartamento && (
-                    <div className="select-group">
-                        <label>Provincia:</label>
-                        <select value={selectedProvincia} onChange={handleProvinciaChange}>
-                            <option value="">-- Selecciona Provincia --</option>
-                            {provincias.map(prov => (
-                                <option key={prov.provincia} value={prov.provincia}>{prov.provincia}</option>
-                            ))}
-                        </select>
+
+                <button type="button" className="envios-button-open" onClick={() => setIsModalOpen(true)}>
+                    <div className="d-flex-center-left gap-5">
+                        <span className="material-icons">location_on</span>
+                        <p>{getLocationText()}</p>
                     </div>
-                )}
-  
-                {selectedProvincia && (
-                    <div className="select-group">
-                        <label>Distrito:</label>
-                        <select value={selectedDistrito} onChange={handleDistritoChange}>
-                            <option value="">-- Selecciona Distrito --</option>
-                            {distritos.map(dist => (
-                                <option key={dist.distrito} value={dist.distrito}>{dist.distrito}</option>
-                            ))}
-                        </select>
-                    </div>
-                )}
-  
-                {tieneAgencias && selectedDistrito && (
-                    <>
-                        <div className="select-group">
-                            <label>Agencias recomendadas:</label>
-                            <select value={selectedAgencia} onChange={handleAgenciaChange}>
-                                <option value="">-- Selecciona Agencia --</option>
-                                {selectedDistritoObj['agencias-recomendadas'].map(agencia => (
-                                    <option key={agencia.agencia} value={agencia.agencia}>{agencia.agencia}</option>
-                                ))}
-                            </select>
-                        </div>
-  
-                        {selectedAgencia && (
-                            <div className="select-group">
-                                <label>Sede:</label>
-                                <select value={selectedSede} onChange={handleSedeChange}>
-                                    <option value="">-- Selecciona Sede --</option>
-                                    {selectedDistritoObj['agencias-recomendadas']
-                                        .find(agencia => agencia.agencia === selectedAgencia)
-                                        ?.sedes.map(sede => (
-                                            <option key={sede.sede} value={sede.sede}>{sede.sede}</option>
-                                        ))}
-                                </select>
-                            </div>
-                        )}
-                    </>
-                )}
-  
-                {noAgenciasMessage && (
-                    <p>{noAgenciasMessage}</p>
-                )}
+                    <span className="material-icons margin-left">keyboard_arrow_down</span>
+                </button>
             </div>
-  
-            <div className="envio-details d-flex-column">
-                <h4 className='product-page-subtitle'>Tipos de envío:</h4>
-                {selectedDistrito && (
-                    <div className={`delivery-type ${getShippingClass(producto['tipo-de-envio'])} ${selectedShippingType === producto['tipo-de-envio'] ? "active" : ""}`}
-                        onClick={() => handleShippingSelection(producto['tipo-de-envio'], productShippingCost)}>
-                        <div className="d-flex-column">
-                            <span className="material-icons">local_shipping</span>
-                            <p>{producto['tipo-de-envio']}</p>
+
+            {isModalOpen && (
+                <>
+                    <div className="envios-container gap-10 active">
+                        <div className="d-flex-center-between">
+                            <p className="title">Lugar de envío</p>
+                            <button type="button" className="envios-button-close" onClick={() => setIsModalOpen(false)}>
+                                <span className="material-icons">close</span>
+                            </button>
                         </div>
-                        {((!tieneAgencias) || (tieneAgencias && selectedAgencia && selectedSede)) && (
-                            <p>S/.{productShippingCost !== null ? productShippingCost : ""}</p>
+
+                        <Dropdown label="departamento" value={selected.departamento} options={getOptions('departamento')} 
+                            onSelect={(value) => handleSelection('departamento', value)} 
+                            isOpen={openDropdown === 'departamento'} 
+                            toggle={() => setOpenDropdown(prev => prev === 'departamento' ? null : 'departamento')} 
+                        />
+
+                        {selected.departamento && (
+                            <Dropdown label="provincia" value={selected.provincia} options={getOptions('provincia')} 
+                                onSelect={(value) => handleSelection('provincia', value)} 
+                                isOpen={openDropdown === 'provincia'} 
+                                toggle={() => setOpenDropdown(prev => prev === 'provincia' ? null : 'provincia')} 
+                            />
                         )}
-                        <span className="delivery-type-span">{deliveryLocation}</span>
-                    </div>
-                )}
-  
-                {envioDirectoObj && (
-                    <div className={`delivery-type ${getShippingClass(envioDirectoObj['tipo-de-envio'])} ${selectedShippingType === envioDirectoObj['tipo-de-envio'] ? "active" : ""}`} onClick={() => handleShippingSelection(envioDirectoObj['tipo-de-envio'], envioDirectoObj.precio || envioDirectoObj.costos || 0)}>
-                        <div className="d-flex-column">
-                            <span className="material-icons">local_shipping</span>
-                            <p>{envioDirectoObj['tipo-de-envio']}</p>
+
+                        {selected.provincia && (
+                            <Dropdown label="distrito" value={selected.distrito} options={getOptions('distrito')} 
+                                onSelect={(value) => handleSelection('distrito', value)} 
+                                isOpen={openDropdown === 'distrito'} 
+                                toggle={() => setOpenDropdown(prev => prev === 'distrito' ? null : 'distrito')} 
+                            />
+                        )}
+
+                        {selected.distrito && !provinciaSinAgencia && (
+                            <ModalSection title="Agencias recomendadas">
+                                {(noAgencias || selected.distrito === 'Santa Rosa de Quivez') ? (
+                                    <div className="message message-warning">
+                                        <span className="material-icons">warning</span>
+                                        <p>No contamos con agencias recomendadas para el distrito seleccionado.</p>
+                                        <p>El precio mostrado es referencial.</p>
+                                    </div>
+                                ) : (
+                                    <Dropdown label="agencia" value={selected.agencia} options={getOptions('agencia')} onSelect={(value) => handleSelection('agencia', value)} isOpen={openDropdown === 'agencia'} toggle={() => setOpenDropdown(prev => prev === 'agencia' ? null : 'agencia')} />
+                                )}
+
+                                {selected.agencia && (
+                                    <Dropdown label="sede" value={selected.sede} options={getOptions('sede')} onSelect={(value) => handleSelection('sede', value)} isOpen={openDropdown === 'sede'} toggle={() => setOpenDropdown(prev => prev === 'sede' ? null : 'sede')} />
+                                )}
+                            </ModalSection>
+                        )}
+
+                        <div className="d-flex-center-right gap-5">
+                            <button type="button" className="button-link button-link-3" onClick={() => setIsModalOpen(false)}>
+                                <p className="button-link-text">Cancelar</p>
+                            </button>
+                            <button type="button" className="button-link button-link-2" disabled={!isComplete} onClick={handleConfirm}>
+                                <span className="material-icons">check</span>
+                                <p className="button-link-text">Confirmar</p>
+                            </button>
                         </div>
-                        <p>S/.{envioDirectoObj.precio || envioDirectoObj.costos || 0}</p>
-                        <span className="delivery-type-span">{deliveryLocationDirect}</span>
                     </div>
-                )}
-  
-                {envioExpressObj && (
-                    <div className={`delivery-type ${getShippingClass(envioExpressObj['tipo-de-envio'])} ${selectedShippingType === envioExpressObj['tipo-de-envio'] ? "active" : ""}`} onClick={() => handleShippingSelection(envioExpressObj['tipo-de-envio'], envioExpressObj.precio || envioExpressObj.costos || 0)}>
-                        <div className="d-flex-column">
-                            <span className="material-icons">local_shipping</span>
-                            <p>{envioExpressObj['tipo-de-envio']}</p>
-                        </div>
-                        <p>S/.{envioExpressObj.precio || envioExpressObj.costos || 0}</p>
-                        <span className="delivery-type-span">{deliveryLocationDirect}</span>
-                    </div>
-                )}
-  
-                <div className='d-flex-column'>
-                    <h4 className='product-page-subtitle'>Cantidad:</h4>
-                    <div className='product-counter'>
-                        <button onClick={() => handleQuantityChange(quantity - 1)} disabled={quantity <= 1}>-</button>
-                        <div>
-                            <span>{quantity}</span>
-                        </div>
-                        <button onClick={() => handleQuantityChange(quantity + 1)} disabled={quantity >= 10}>+</button>
-                    </div>
-                </div>
-  
-                <a className="shop-button" href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer" onClick={handleShopButtonClick}>
-                    <span className="material-icons">shopping_cart</span>
-                    <p>Comprar ahora</p>
-                </a>
-            </div>
-        </div>
+
+                    <div className="envios-layer active" onClick={() => setIsModalOpen(false)}></div>
+                </>
+            )}
+        </>
     );
 }
 

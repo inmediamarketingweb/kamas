@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 import Header from "../../Componentes/Header/Header";
 import Footer from "../../Componentes/Footer/Footer";
@@ -13,11 +14,17 @@ function Favoritos(){
         setFavoritos(favStorage);
     }, []);
 
-    // Función para remover un producto de favoritos
     const removeFavorite = (producto) => {
-        const updatedFavorites = favoritos.filter((fav) => fav.id !== producto.id);
+        const updatedFavorites = favoritos.filter((fav) => fav.ruta !== producto.ruta);
         setFavoritos(updatedFavorites);
         localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
+    };
+
+    const truncate = (str, maxLength) => {
+        if (str.length <= maxLength){
+            return str;
+        }
+        return str.slice(0, maxLength) + "...";
     };
 
     return(
@@ -37,7 +44,7 @@ function Favoritos(){
                             {favoritos.length > 0 ? (
                                 <ul className="favorites-products">
                                     {favoritos.map((producto) => (
-                                        <li key={producto.id}>
+                                        <li key={uuidv4()}>
                                             <div className="product-card">
                                                 <div className="product-card-images">
                                                     <button type="button" className="remove-favorite" onClick={() => removeFavorite(producto)} title="Eliminar de favoritos">
@@ -49,13 +56,13 @@ function Favoritos(){
                                                     </a>
                                                 </div>
 
-                                                <div className="product-card-content">
-                                                    <h4>{producto.nombre}</h4>
+                                                <a href={producto.ruta} className="product-card-content">
+                                                    <h4 className="product-card-name">{truncate(producto.nombre, 51)}</h4>
                                                     <div className="product-card-prices">
                                                         <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
                                                         <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
                                                     </div>
-                                                </div>
+                                                </a>
                                             </div>
                                         </li>
                                     ))}

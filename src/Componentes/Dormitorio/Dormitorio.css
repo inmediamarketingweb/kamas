@@ -71,7 +71,7 @@
 
 .dormitorio-velador-container{
     position: absolute;
-    left: 400px;
+    left: 0;
     bottom: 100px;
     z-index: 0;
 }
@@ -91,4 +91,10 @@
 
 .dormitorio-puff img{
     width: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .dormitorio-content img{
+        width: 80px;
+    }
 }

@@ -9,7 +9,8 @@ function SoloPorHoras(){
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-15T17:45:00');
+    //Acá se define cuando acaban las promociones en "Solo por horas"
+    const targetDate = new Date('2025-04-26T16:00:00');
     const format = (num) => String(num).padStart(2, '0');
 
     useEffect(() => {
@@ -191,13 +192,13 @@ function SoloPorHoras(){
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
                                                     {agotado ? (
-                                                        <span>Agotado 🚚</span>
+                                                        <span>Agotado 😥</span>
                                                     ) : (
                                                     <   span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
                                                     )}
                                                 </div>
                                                 <span className="product-card-brand">KAMAS</span>
-                                                <h4 className="product-card-name">{truncate(nombre, 52)}</h4>
+                                                <h4 className="product-card-name">{truncate(nombre, 50)}</h4>
                                                 <div className="product-card-prices">
                                                     <span className="product-card-regular-price">S/.{precioRegular}</span>
                                                     <span className="product-card-normal-price">S/.{precioNormal}</span>
