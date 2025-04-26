@@ -67,7 +67,7 @@ function SoloPorHoras() {
                 <div className="block-container">
                     <section className="block-content">
                         <div className="block-title-container">
-                            <h1 className="block-title">Solo por horas</h1>
+                            <h1 className="block-title">Solo por horas leosopapuco</h1>
                         </div>
 
                         {productos.length > 0 ? (
