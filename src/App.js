@@ -12,6 +12,7 @@ import Ofertas from "./Paginas/Ofertas/Ofertas";
 import Favoritos from "./Paginas/Favoritos/Favoritos";
 
 import Nosotros from "./Paginas/Nosotros/Nosotros";
+import Contacto from "./Paginas/Contacto/Contacto";
 
 import Busqueda from "./Paginas/Busqueda/Busqueda";
 
@@ -40,6 +41,7 @@ function App(){
                     <Route path="/mis-favoritos/" element={<Favoritos/>} />
 
                     <Route path="/nosotros/" element={<Nosotros/>} />
+                    <Route path="/contacto/" element={<Contacto/>} />
 
                     <Route path="/busqueda/" element={<Busqueda/>} />
 
