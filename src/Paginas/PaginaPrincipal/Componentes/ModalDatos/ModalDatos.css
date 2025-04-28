@@ -6,6 +6,10 @@
     max-width: 400px;
     display: flex;
     transition: var(--t-300ms-linear);
+    border: 1px solid rgba(0 0 0 / 0.25);
+    box-shadow: 0 0 6px rgba(0 0 0 / 0.25);
+    border-radius: 10px;
+    overflow: hidden;
     z-index: 200;
 }
 
@@ -19,27 +23,7 @@
     width: 100%;
     background: var(--white);
     padding: 20px;
-    border: 1px solid rgba(0 0 0 / 0.25);
-    border-radius: 10px;
     position: relative;
-}
-
-.modal-datos-close{
-    position: absolute;
-    right: -16px;
-    top: -16px;
-    width: 32px;
-    height: 32px;
-    background: var(--color-1);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modal-datos-close span{
-    color: var(--white);
-    font-size: 16px;
 }
 
 .modal-datos{
@@ -54,7 +38,6 @@
 }
 
 .modal-datos ul li label{
-    /* font-size: 13px; */
     color: var(--text);
 }
 
@@ -62,6 +45,9 @@
     padding: 0 20px;
     width: 100%;
     height: 56px;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid var(--gray);
 }
 
 .modal-datos ul li select{
@@ -69,25 +55,48 @@
     height: 56px;
     cursor: pointer;
     padding: 0 20px;
+    border-radius: 4px;
+    border: 1px solid var(--gray);
 }
 
-.modal-datos-confirm{
+.modal-datos-buttons button{
     width: 100%;
     height: 56px;
-    background: var(--color-2);
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: var(--t-200ms-linear);
-    border-radius: 4px;
     gap: 10px;
+    padding: 0 20px;
+    border-radius: 4px;
+}
+
+.modal-datos-close{
+    background: rgba(0 0 0 / 0.1);
+}
+
+.modal-datos-close span,
+.modal-datos-close p{
+    color: var(--text);
+}
+
+.modal-datos-confirm{
+    background: var(--color-1);
+    transition: var(--t-200ms-linear);
 }
 
 .modal-datos-confirm:hover{
-    background: var(--color-1);
+    background: var(--color-2);
 }
 
 .modal-datos-confirm span,
 .modal-datos-confirm p{
     color: var(--white);
+}
+
+.modal-datos > p a{
+    color: var(--color-1);
+}
+
+.modal-datos > p a:hover{
+    text-decoration: underline;
 }

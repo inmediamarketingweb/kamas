@@ -55,8 +55,8 @@ function Center(){
                     <button type='button' className={`menu-button ${isMenuOpen ? 'active' : ''}`} onClick={handleMenuClick}>
                         <p>Menu</p>
                         <div>
-                            <span class="material-icons">menu</span>
-                            <span class="material-icons">close</span>
+                            <span className="material-icons">menu</span>
+                            <span className="material-icons">close</span>
                         </div>
                     </button>
 

@@ -358,6 +358,8 @@ button{
     border: 1px solid var(--color-1);
 }
 
+/**/
+
 .product-card.agotado{
     filter: grayscale(1);
     user-select: none;
@@ -371,6 +373,8 @@ button{
 .product-card-agotado span{
     color: var(--white);
 }
+
+/**/
 
 .product-card-name{
     transition: var(--t-200ms-linear);
