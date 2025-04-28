@@ -163,7 +163,7 @@ function PaginaProducto(){
     return(
         <>
             <Helmet>
-                <meta property="og:image" content={`${producto.fotos}1.jpg`}/>
+                <meta property="og:image" content={`https://leosoplapuco.com${producto.fotos}1.jpg`}/>
             </Helmet>
 
             <Header/>
