@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
@@ -9,6 +10,8 @@ import Regalos from './Componentes/Regalos/Regalos';
 import Medidas from './Componentes/Medidas/Medidas';
 import Envios from './Componentes/Envios/Envios';
 import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
+import Beneficios from './Componentes/Beneficios/Beneficios';
+import Descripcion from './Componentes/Descripcion/Descripcion';
 
 import MasProductos from './Componentes/MasProductos/MasProductos';
 
@@ -24,6 +27,7 @@ function PaginaProducto(){
     const [producto, setProducto] = useState(null);
     const [error, setError] = useState(false);
     const [imagenes, setImagenes] = useState([]);
+    const [quantity, setQuantity] = useState(1);
 
     const handleCopy = () => {
         const skuElement = document.querySelector('.sku');
@@ -122,6 +126,18 @@ function PaginaProducto(){
         }
     };
 
+    const handleRemove = () => {
+        if (quantity > 0) {
+            setQuantity(quantity - 1);
+        }
+    };
+
+    const handleAdd = () => {
+        if (quantity < 10) {
+            setQuantity(quantity + 1);
+        }
+    };
+
     const getWhatsAppLink = () => {
         if (!selectedShipping.tipo) return "#";
 
@@ -129,7 +145,9 @@ function PaginaProducto(){
         const userName = localStorage.getItem('nombre') || '';
 
         const mensaje = `Hola KAMAS! Vengo de su sitio web y estoy interesado en adquirir:\n`
-            + `*${producto.nombre}*\n\n`
+            + `*${producto.nombre}*\n`
+            + `Precio: ${producto.precioVenta}\n\n`
+            + `Cantidad: ${quantity}\n\n`
             + `Cliente: ${userName}\n`
             + `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n`
             + `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n`
@@ -144,6 +162,10 @@ function PaginaProducto(){
 
     return(
         <>
+            <Helmet>
+                <meta property="og:image" content={`${producto.fotos}1.jpg`}/>
+            </Helmet>
+
             <Header/>
 
             <main>
@@ -153,7 +175,7 @@ function PaginaProducto(){
 
                         <div className='product-page-container'>
                             <div className='product-page-target product-page-target-1'>
-                                <Imagenes imagenes={imagenes}/>
+                                <Imagenes imagenes={imagenes} producto={producto}/>
                             </div>
 
                             <div className='product-page-target product-page-target-2 d-flex-column gap-20'>
@@ -215,6 +237,7 @@ function PaginaProducto(){
                                     <div className='d-flex-column gap-20'>
                                         <Envios producto={producto} onConfirm={(data) => {
                                             setShippingInfo(data); setShippingOptions(data.shippingOptions);
+
                                             if (data.shippingOptions.length === 1) {setSelectedShipping({
                                                     tipo: data.shippingOptions[0].tipo,
                                                     precio: data.shippingOptions[0].precio
@@ -234,11 +257,11 @@ function PaginaProducto(){
                                         <div className='d-flex-center-center gap-10'>
                                             <div className='d-flex-column gap-10'>
                                                 <div className='quantity'>
-                                                    <button type='button'>
+                                                    <button type="button" onClick={handleRemove} disabled={quantity <= 0}>
                                                         <span className="material-icons">remove</span>
                                                     </button>
-                                                    <div className='quantity-input'>1</div>
-                                                    <button type='button'>
+                                                    <div className="quantity-input">{quantity}</div>
+                                                    <button type="button" onClick={handleAdd} disabled={quantity >= 10}>
                                                         <span className="material-icons">add</span>
                                                     </button>
                                                 </div>
@@ -250,77 +273,13 @@ function PaginaProducto(){
                                             </a>
                                         </div>
 
-                                        <div className='product-page-beneficts'>
-                                            <div>
-                                                <div className='d-flex-column'>
-                                                    <p>Compras</p>
-                                                    <p>seguras</p>
-                                                </div>
-                                                <span className="material-icons">verified_user</span>
-                                            </div>
-                                            <div>
-                                                <div className='d-flex-column'>
-                                                    <p>Envios</p>
-                                                    <p>inmediatos</p>
-                                                </div>
-                                                <span className="material-icons">local_shipping</span>
-                                            </div>
-                                            <div>
-                                                <div className='d-flex-column'>
-                                                    <p>Entregas</p>
-                                                    <p>seguras</p>
-                                                </div>
-                                                <span className="material-icons">inventory_2</span>
-                                            </div>
-                                            <div>
-                                                <div className='d-flex-column'>
-                                                    <p>Entregas</p>
-                                                    <p>seguras</p>
-                                                </div>
-                                                <span className="material-icons">inventory_2</span>
-                                            </div>
-                                        </div>
+                                        <Beneficios/>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className='product-page-description d-grid-2-1fr gap-20'>
-                            <div>
-                                <h4 className='title'>Detalles del producto:</h4>
-                                <ul>
-                                    {producto["detalles-del-producto"] && producto["detalles-del-producto"].map((detalle, index) => (
-                                        Object.entries(detalle).map(([key, value]) => (
-                                            <li key={index + key}>
-                                                <div>
-                                                    <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
-                                                </div>
-                                                <div>
-                                                    <p className='text'>{value}</p>
-                                                </div>
-                                            </li>
-                                        ))
-                                    ))}
-                                </ul>
-                            </div>
-                            <div>
-                                <h4 className='title'>Descripción del producto:</h4>
-                                <ul>
-                                    {producto["descripcion"] && producto["descripcion"].map((detalle, index) => (
-                                        Object.entries(detalle).map(([key, value]) => (
-                                            <li key={index + key}>
-                                                <div>
-                                                    <strong>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</strong>
-                                                </div>
-                                                <div>
-                                                    <p className='text'>{value}</p>
-                                                </div>
-                                            </li>
-                                        ))
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
+                        <Descripcion producto={producto}/>
                     </section>
                 </div>
 

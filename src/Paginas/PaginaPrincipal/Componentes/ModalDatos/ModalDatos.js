@@ -98,19 +98,15 @@ function ModalDatos(){
     return(
         <div className={`modal-datos-container ${!modalVisible ? 'desactive' : ''}`}>
             <section className="modal-datos-content">
-                <button type="button" className="modal-datos-close" onClick={handleCloseModal}>
-                    <span className="material-icons">close</span>
-                </button>
-
                 <div className="modal-datos">
                     <p className="title">¡Hola 👋! Bienvenido a KAMAS</p>
-                    <p className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p className="text">Antes de explorar, ayúdanos con tu nombre y tu ubicación.</p>
 
                     <div className="modal-datos-form">
                         <ul className='d-flex-column gap-10'>
                             <li>
                                 <label>Nombres:</label>
-                                <input type="text" placeholder="Nombres" onChange={handleNombreChange} value={selectedValues.nombre}/>
+                                <input type="text" placeholder="Juan Perez" onChange={handleNombreChange} value={selectedValues.nombre}/>
                             </li>
 
                             <li>
@@ -143,12 +139,17 @@ function ModalDatos(){
                                 </select>
                             </li>
 
-                            <li>
+                            <div className='d-flex-center-center gap-10 modal-datos-buttons'>
+                                <button type="button" className="modal-datos-close" onClick={handleCloseModal}>
+                                    <span className="material-icons">close</span>
+                                    <p>Cancelar</p>
+                                </button>
+
                                 <button type="button" className="modal-datos-confirm" onClick={handleConfirm}>
                                     <span className="material-icons">check</span>
                                     <p>Confirmar</p>
                                 </button>
-                            </li>
+                            </div>
                         </ul>
                     </div>
 

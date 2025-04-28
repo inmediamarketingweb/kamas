@@ -4,6 +4,19 @@
     touch-action: pan-y;
 }
 
+.product-page-discount{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--color-1);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 24px;
+    font-weight: bold;
+
+    z-index: 1;
+}
+
 .product-page-images-content{
     width: 100%;
     aspect-ratio: 1/1;
@@ -91,7 +104,7 @@
     padding: 10px;
     display: flex;
     cursor: pointer;
-    position: relative
+    position: relative;
 }
 
 .product-page-images-miniatures li::before{

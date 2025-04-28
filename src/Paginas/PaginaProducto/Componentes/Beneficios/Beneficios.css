@@ -1,0 +1,35 @@
+.product-page-beneficts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    background: rgba(0 0 0 / 0.025);
+    border-radius: 6px;
+}
+
+.product-page-beneficts > div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 5px;
+}
+
+.product-page-beneficts > div > div p{
+    text-align: center;
+    color: var(--text);
+}
+
+.product-page-beneficts > div span{
+    font-size: 34px;
+    color: var(--color-1);
+}
+
+@media screen and (max-width: 600px){
+    .product-page-beneficts > div:nth-last-child(1){
+        display: none;
+    }
+}

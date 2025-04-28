@@ -130,6 +130,37 @@
 
 /**/
 
+.product-card.expired{
+    position: relative;
+    pointer-events: none;
+    user-select: none;
+}
+
+.product-card.expired::before{
+    content: 'La promoción terminó';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    translate: 0 -50%;
+    width: 100%;
+    text-align: center;
+    background: crimson;
+    padding: 16px 0;
+    color: var(--white);
+    z-index: 1;
+    filter: grayscale(0) !important;
+}
+
+.product-card.expired .product-card-images{
+    filter: grayscale(1);
+}
+
+.product-card.expired .product-card-content{
+    filter: grayscale(1);
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .block-title-container{
         flex-direction: column;

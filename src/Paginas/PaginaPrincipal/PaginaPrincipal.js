@@ -32,6 +32,21 @@ function PaginaPrincipal(){
         <>
             <Helmet>
                 <title>Kamas | Fabricantes de colchones, camas y dormitorios.</title>
+                <meta name="description" content="Somos fabricante de camas, juegos de dormitoriosajsljalñjk" />
+
+                <meta property="og:title" content="Kamas | Fabricantes de colchones, camas y dormitorios."/>
+                <meta property="og:description" content="Meta descripción"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://www.kamas.pe/"/>
+                <meta property="og:image" content="/assets/imagenes/paginas/pagina-principal/homepage-video.jpg"/>
+                <meta property="og:site_name" content="Kamas"/>
+
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name="twitter:site" content="@TuCuenta"/>
+                <meta name="twitter:creator" content="@AutorPagina"/>
+                <meta name="twitter:title" content="Título para Twitter"/>
+                <meta name="twitter:description" content="Descripción para Twitter"/>
+                <meta name="twitter:image" content="https://www.tudominio.com/path/imagen-twitter.jpg"></meta>
             </Helmet>
 
             <Header/>
@@ -44,6 +59,7 @@ function PaginaPrincipal(){
                         <div className='block-title-container'>
                             <p className='block-title margin-auto'>Nuestros productos</p>
                         </div>
+
                         <ul className='homepage-categories'>
                             {categorias.map((categoria) => (
                                 <li key={categoria.id}>

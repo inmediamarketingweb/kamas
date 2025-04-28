@@ -48,6 +48,7 @@
     justify-content: center;
     text-align: center;
     width: 100%;
+    font-weight: bold;
 }
 
 .homepage-categories li a:hover p{

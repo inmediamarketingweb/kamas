@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './Imagenes.css';
 
-function Imagenes({ imagenes }){
+function Imagenes({ imagenes, producto }){
     const [currentIndex, setCurrentIndex] = useState(0);
     const [dragStartX, setDragStartX] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -49,8 +49,12 @@ function Imagenes({ imagenes }){
         }
     };
 
+    const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
+
     return(
         <div className='product-page-target'>
+            <span className="product-page-discount">-{descuento}%</span>
+
             <div className='product-page-images-container'>
                 <div className='product-page-images-content' style={{ cursor: isDragging ? 'grabbing' : 'grab' }} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} >
                     <ul className='product-page-images' style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
