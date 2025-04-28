@@ -10,7 +10,14 @@ function Nosotros(){
         <>
             <Helmet>
                 <title>Nosotros | Kamas</title>
-                <meta name="description" content="Descubre las mejores ofertas en productos seleccionados." />
+                <meta name="description" content="Sobre nosotros"/>
+
+                <meta property="og:title" content="Nosotros | Kamas"/>
+                <meta property="og:site_name" content="Nosotros"/>
+                <meta property="og:description" content="Sobre nosotros"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://www.kamas.pe/nosotros/"/>
+                <meta property="og:image" content="https://kamas.pe/assets/imagenes/paginas/pagina-principal/homepage-video.jpg"/>
             </Helmet>
 
             <Header/>

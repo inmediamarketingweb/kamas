@@ -163,7 +163,15 @@ function PaginaProducto(){
     return(
         <>
             <Helmet>
-                <meta property="og:image" content={`${producto.fotos}1.jpg`}/>
+                <title>{producto.nombre}</title>
+                <meta name="description" content={producto.nombre}/>
+
+                <meta property="og:image" content={`https://kamas.pe${producto.fotos}1.jpg`}/>
+                <meta property="og:title" content={producto.nombre}/>
+                <meta property="og:site_name" content={producto.nombre}/>
+                <meta property="og:description" content={producto.nombre}/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content={`https://kamas.pe${producto.ruta}`}/>
             </Helmet>
 
             <Header/>
