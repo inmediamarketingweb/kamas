@@ -208,7 +208,7 @@ function PaginaProducto(){
 
                                         <Regalos producto={producto} />
 
-                                        <div className='d-grid-auto-1fr gap-20'>
+                                        <div className='d-grid-2-1fr gap-20'>
                                             <div className='d-flex-column gap-10'>
                                                 <p className='text title'>Resumen:</p>
 
@@ -275,7 +275,7 @@ function PaginaProducto(){
                                                 </div>
                                             </div>
 
-                                            <a href={getWhatsAppLink()} className='product-page-whatsapp' target="_blank" rel="noopener noreferrer" onClick={handleContinuarClick}>
+                                            <a href={getWhatsAppLink()} className={`product-page-whatsapp${producto.stock === 0 ? ' sin-stock' : ''}`} target="_blank" rel="noopener noreferrer" onClick={handleContinuarClick}>
                                                 <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | Kamas"/>
                                                 <p>Continuar</p>
                                             </a>

@@ -1,30 +1,10 @@
-.homepage-offers-container{
-    display: flex;
-    flex-direction: column;
-    overflow-x: auto;
-}
-
 .homepage-offers-content{
-    width: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
 }
 
-.homepage-offers-content li{
-    width: auto;
-}
-
-.homepage-offers-content li a{
-    width: 280px;
-    height: 400px;
-    display: flex;
-    border: 1px solid rgba(0 0 0 / 0.25);
-    overflow: hidden;
-    border-radius: 8px;
-}
-
 .homepage-offers-content li a img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 280px;
+    height: auto;
 }

@@ -247,6 +247,14 @@
 
 /**/
 
+.sin-stock{
+    filter: grayscale(1) !important;
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .product-page-container{
         display: flex;

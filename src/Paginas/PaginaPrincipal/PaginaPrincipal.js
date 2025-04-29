@@ -9,7 +9,6 @@ import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
 import Ofertas from './Componentes/Ofertas/Ofertas';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
-import Dormitorio from '../../Componentes/Dormitorio/Dormitorio';
 import ModalDatos from './Componentes/ModalDatos/ModalDatos';
 
 import Footer from '../../Componentes/Footer/Footer';
@@ -40,13 +39,6 @@ function PaginaPrincipal(){
                 <meta property="og:url" content="https://www.kamas.pe/"/>
                 <meta property="og:image" content="/assets/imagenes/paginas/pagina-principal/homepage-video.jpg"/>
                 <meta property="og:site_name" content="Kamas"/>
-
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name="twitter:site" content="@TuCuenta"/>
-                <meta name="twitter:creator" content="@AutorPagina"/>
-                <meta name="twitter:title" content="Título para Twitter"/>
-                <meta name="twitter:description" content="Descripción para Twitter"/>
-                <meta name="twitter:image" content="https://www.tudominio.com/path/imagen-twitter.jpg"></meta>
             </Helmet>
 
             <Header/>
@@ -83,9 +75,13 @@ function PaginaPrincipal(){
 
                 <SobreNosotros/>
 
-                <Distribuidores/>
+                <div className='block-container'>
+                    <section className='block-content'>
+                        <img src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras" className='page-banner-img' />
+                    </section>
+                </div>
 
-                <Dormitorio/>
+                <Distribuidores/>
 
                 <ModalDatos/>
             </main>

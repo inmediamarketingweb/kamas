@@ -1,3 +1,7 @@
+.distribuidores-container{
+    overflow: hidden;
+}
+
 .distribuidores{
     width: 100%;
     display: flex;
@@ -21,12 +25,30 @@
 }
 
 @media screen and (max-width: 600px){
-    .distribuidores{
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    .distribuidores-container{
+        width: 100%;
     }
+
+    .distribuidores-content{
+        width: 200%;
+            animation: scrollX 10s linear infinite alternate;
+    }
+
+    @keyframes scrollX{
+        0%, 10%{
+            margin-left: 0;
+        }
+        90%, 100%{
+            margin-left: -126%;
+        }
+    }
+
+    .distribuidores{
+        display: flex;
+    }
+
     .distribuidores li a img{
-        width: 100px;
+        width: auto;
+        height: 36px;
     }
 }

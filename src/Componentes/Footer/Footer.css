@@ -22,18 +22,39 @@
 
 footer{
     width: 100%;
-    display: flex;
-    padding: 40px 20px;
-    background: var(--color-2);
+    /* padding: 40px 20px; */
+    /* background: var(--color-2); */
+    background: #121212;
 }
 
-.footer{
-    margin: auto;
+.footer-block-container{
+    width: 100%;
+    padding: 40px 20px;
+    display: flex;
+}
+
+.footer-block-content{
+    margin: 0 auto;
     width: 100%;
     max-width: var(--content-mx-width);
 }
 
-.footer .block-title-container .block-title{
+.footer-block-content .block-title-container{
+    position: relative;
+}
+
+.footer-block-content .block-title-container::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: calc(100% + 8px);
+    width: 200px;
+    height: 4px;
+    background: var(--color-1);
+    border-radius: 10px;
+}
+
+.footer-block-content .block-title-container .block-title{
     color: var(--white);
 }
 
@@ -41,53 +62,201 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .footer-target{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .footer-target .title{
+    font-size: 22px;
     color: var(--white);
 }
 
-.footer-target ul{
+/**/
+
+.footer-list{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 3px;
 }
 
-.footer-target ul li{
+.footer-list li{
     display: flex;
 }
 
-.footer-target ul li a{
+.footer-list li a{
     display: flex;
     align-items: center;
     justify-content: left;
     gap: 3px;
 }
 
-.footer-target ul li a::before{
+.footer-list li a::before{
     content: '>';
-    color: var(--gray);
-    transition: var(--t-200ms);
+    color: var(--color-1);
+    transition: var(--t-100ms-linear);
 }
 
-.footer-target ul li a p{
-    color: var(--gray);
-    transition: var(--t-200ms);
+.footer-list li a p{
+    color: var(--white);
+    transition: var(--t-100ms-linear);
 }
 
-.footer-target ul li a:hover::before,
-.footer-target ul li a:hover p{
+.footer-list li a:hover::before,
+.footer-list li a:hover p{
     color: var(--white);
 }
 
+.footer-list li a:hover p{
+    color: var(--color-1);
+}
+
+/**/
+
+.social-networks li a{
+    width: auto;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    background: rgba(235 235 235 / 0.1);
+    transition: var(--t-200ms-linear);
+    border-radius: 100%;
+    display: flex;
+}
+
+.social-networks li a:hover{
+    background: rgba(235 235 235 / 0.2);
+}
+
+.social-networks li a img{
+    display: flex;
+    width: auto;
+    height: 20px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+/**/
+
+.form-suscribe{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.form-suscribe input{
+    width: 100%;
+    height: 48px;
+    border: 0;
+    outline: 0;
+    padding: 0 16px;
+    color: var(--text);
+    background: var(--white);
+    border-radius: 4px 0 0 4px;
+}
+
+.form-suscribe button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+}
+
+/**/
+
+.complaints-book{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 20px;
+    background: rgba(235 235 235 / 0.1);
+    transition: var(--t-200ms-linear);
+    border-radius: 4px;
+    gap: 10px;
+}
+
+.complaints-book:hover{
+    background: rgba(235 235 235 / 0.2);
+}
+
+.complaints-book span,
+.complaints-book p{
+    color: var(--white);
+}
+
+/**/
+
+.footer-bottom-container{
+    background: var(--black);
+    padding: 10px 20px;
+}
+
+.footer-bottom{
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--content-mx-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-bottom > ul li{
+    display: flex;
+}
+
+.footer-bottom > ul li img{
+    width: auto;
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer-bottom > p{
+    text-align: center;
+}
+
+.footer-bottom > p a{
+    text-decoration: underline;
+}
+
+/**/
+
 @media screen and (max-width: 600px){
+    footer{
+        gap: 0 !important;
+    }
+
+    /**/
+
+    .footer-block-container{
+        padding: 20px;
+        padding-top: 60px;
+    }
+
+    .footer .block-title-container::before{
+        width: 180px;
+    }
+
     .footer-targets{
         grid-template-columns: 1fr;
+    }
+
+    /**/
+
+    .footer-bottom-container{
+        padding: 40px 20px;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+    }
+
+    .footer-bottom ul{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

@@ -51,6 +51,61 @@
     },
     {
         "id": 3,
+        "titulo": "Modelo",
+        "nombre": "modelo",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Adel"
+            },
+            {
+                "id": 2,
+                "nombre": "Rucay"
+            },
+            {
+                "id": 3,
+                "nombre": "Sarki"
+            },
+            {
+                "id": 4,
+                "nombre": "Safynnte"
+            },
+            {
+                "id": 5,
+                "nombre": "Der Prinz"
+            },
+            {
+                "id": 6,
+                "nombre": "Thameo Pocket"
+            },
+            {
+                "id": 7,
+                "nombre": "Ramat"
+            },
+            {
+                "id": 8,
+                "nombre": "Nesie"
+            },
+            {
+                "id": 9,
+                "nombre": "Norole"
+            },
+            {
+                "id": 10,
+                "nombre": "Thaleo Pocket"
+            },
+            {
+                "id": 11,
+                "nombre": "Konig"
+            },
+            {
+                "id": 12,
+                "nombre": "Yurmale"
+            }
+        ]
+    },
+    {
+        "id": 4,
         "titulo": "Tipo de cabecera",
         "nombre": "tipoDeCabecera",
         "lista":[
@@ -65,7 +120,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "titulo": "Modelo de cabecera",
         "nombre": "modeloDeCabecera",
         "lista":[
@@ -92,7 +147,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "titulo": "Diseño de cabecera",
         "nombre": "diseñoDeCabecera",
         "lista":[
@@ -123,7 +178,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "titulo": "Tipo de brazo",
         "nombre": "tipoDeBrazo",
         "lista":[

@@ -3,19 +3,20 @@
         {
             "id": 1,
             "categoria": "dormitorios",
+            "subcategoria": "americanos",
             "linea": "americanos",
             "tamaño": "king",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/king/sarki/1/",
             "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CUADROS 2",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/aereas/cuadros/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas/cuadros/1/",
+            "novedades": "si",
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
-            "novedades": "si",
             "stock": 9,
             "sku": "K1151CN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohadas.png"
@@ -23,10 +24,10 @@
             ],
             "resumen-del-producto":[
                 {
-                    "modelo-de-colchón": "Adel",
-                    "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable"
+                    "modelo-de-colchón": "Sarki",
+                    "tamaño": "King",
+                    "linea-de-colchón": "Ortopédico",
+                    "cabecera": "Aérea cuadros 2"
                 }
             ],
             "tamaños-disponibles":[
@@ -39,8 +40,8 @@
             "detalles-del-producto":[
                 {
                     "sku": "K1151CN10",
-                    "modelo-de-colchón": "Adel",
-                    "tamaño": "1 plaza y media",
+                    "modelo-de-colchón": "Sarki",
+                    "tamaño": "King",
                     "línea-de-colchón": "Semi ortopédico",
                     "nivel-de-confort": "Confortable",
                     "tipo-de-resorte": "Bonell"
@@ -60,31 +61,33 @@
         {
             "id": 2,
             "categoria": "dormitorios",
-            "subCategoria": "americanos",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/king/sarki/2/",
-            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CUADROS 2 - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/1/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CAPITONEADA - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas/capitoneadas/1/",
+            "novedades": "si",
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
-            "stock": 10,
+            "stock": 9,
             "sku": "K1151CN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohadas.png"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/puff.png"
                 }
             ],
             "resumen-del-producto":[
                 {
-                    "modelo-de-colchón": "Adel",
-                    "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable"
+                    "tamaño": "King",
+                    "línea": "Americanos",
+                    "modelo-de-colchón": "Sarki",
+                    "linea-de-colchón": "Ortopédico",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo": "Capitoneada"
                 }
             ],
             "tamaños-disponibles":[
@@ -97,8 +100,8 @@
             "detalles-del-producto":[
                 {
                     "sku": "K1151CN10",
-                    "modelo-de-colchón": "Adel",
-                    "tamaño": "1 plaza y media",
+                    "modelo-de-colchón": "Sarki",
+                    "tamaño": "King",
                     "línea-de-colchón": "Semi ortopédico",
                     "nivel-de-confort": "Confortable",
                     "tipo-de-resorte": "Bonell"

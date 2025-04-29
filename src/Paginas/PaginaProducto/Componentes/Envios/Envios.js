@@ -173,7 +173,7 @@ function Envios({ producto, onConfirm }){
                     <p className="title color-color-1">Lugar y tipo de envío</p>
                 </div>
 
-                <button type="button" className="envios-button-open" onClick={() => setIsModalOpen(true)}>
+                <button type="button" className={`envios-button-open${producto.stock === 0 ? ' sin-stock' : ''}`} onClick={() => setIsModalOpen(true)}>
                     <div className="d-flex-center-left gap-5">
                         <span className="material-icons">location_on</span>
                         <p>{getLocationText()}</p>
