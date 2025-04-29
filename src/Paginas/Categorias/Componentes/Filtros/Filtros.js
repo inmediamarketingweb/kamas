@@ -130,7 +130,9 @@ function Filtros({productos, setProductosFiltrados, filtersActive, onClose, }){
         if (productos && productos.length > 0){
             filtrarProductos(filtrosSeleccionados, valorThumb, rangoDePrecioSeleccionado);
         }
-    }, [filtrosSeleccionados, productos, valorThumb, rangoDePrecioSeleccionado, envioGratisSeleccionado]);
+    },
+        [filtrosSeleccionados, productos, valorThumb, rangoDePrecioSeleccionado, envioGratisSeleccionado]
+    );
 
     return(
         <>

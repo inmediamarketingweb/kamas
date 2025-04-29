@@ -9,22 +9,26 @@ function SoloPorHoras(){
     const [expired, setExpired] = useState(false);
     const scrollRef = useRef(null);
 
-    const targetDate = new Date('2025-04-28T17:45:00');
+    const autoSlideIntervalRef = useRef(null);
+    const autoSlideTimeoutRef = useRef(null);
+    const autoDirRef = useRef("right");
+
+    const targetDate = new Date('2025-05-03T16:00:00');
     const format = (num) => String(num).padStart(2, '0');
 
     useEffect(() => {
         fetch('/assets/json/manifest.json').then((res) => res.json()).then((manifest) => {
             return Promise.all(
                 manifest.files.map(
-                    (fileUrl) =>
-                    fetch(fileUrl)
-                    .then((res) => res.json())
-                    .then((jsonData) => {
+                    (fileUrl) => fetch(fileUrl).then((res) => res.json()).then((jsonData) => {
                         const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
                         const categoria = match ? match[1] : null;
 
-                        if (jsonData.productos && Array.isArray(jsonData.productos)) {
-                            jsonData.productos = jsonData.productos.map((producto) => ({...producto,categoria,}));
+                        if (jsonData.productos && Array.isArray(jsonData.productos)){
+                            jsonData.productos = jsonData.productos.map((producto) => ({
+                                ...producto,
+                                categoria,
+                            }));
                         }
                         return jsonData;
                     })
@@ -35,9 +39,10 @@ function SoloPorHoras(){
                 )
             );
         })
+
         .then((jsonFilesData) => {
             const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
-                if (jsonData.productos && Array.isArray(jsonData.productos)) {
+                if (jsonData.productos && Array.isArray(jsonData.productos)){
                     return acum.concat(jsonData.productos);
                 }
                 return acum;
@@ -55,7 +60,6 @@ function SoloPorHoras(){
         const interval = setInterval(() => {
             const now = new Date();
             const diffInSec = Math.max(0, Math.floor((targetDate - now) / 1000));
-
             if (diffInSec === 0) {
                 setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
                 setExpired(true);
@@ -131,6 +135,57 @@ function SoloPorHoras(){
         });
     };
 
+    const autoScroll = () => {
+        const container = scrollRef.current;
+        if (!container) return;
+
+        if (autoDirRef.current === "right" && container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+            autoDirRef.current = "left";
+        }
+        else if (autoDirRef.current === "left" && container.scrollLeft <= 0) {
+            autoDirRef.current = "right";
+        }
+        scrollSmooth(autoDirRef.current);
+    };
+
+    const startAutoSlide = () => {
+        if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
+        autoSlideIntervalRef.current = setInterval(() => {
+            autoScroll();
+        }, 2000);
+    };
+
+    const pauseAutoSlide = () => {
+        if (autoSlideIntervalRef.current) {
+            clearInterval(autoSlideIntervalRef.current);
+            autoSlideIntervalRef.current = null;
+        }
+        if (autoSlideTimeoutRef.current) clearTimeout(autoSlideTimeoutRef.current);
+        autoSlideTimeoutRef.current = setTimeout(() => {
+            startAutoSlide();
+        }, 2000);
+    };
+
+    const handleLeftButtonClick = () => {
+        autoDirRef.current = "left";
+        scrollSmooth("left");
+        pauseAutoSlide();
+    };
+
+    const handleRightButtonClick = () => {
+        autoDirRef.current = "right";
+        scrollSmooth("right");
+        pauseAutoSlide();
+    };
+
+    useEffect(() => {
+        startAutoSlide();
+        return () => {
+            if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
+            if (autoSlideTimeoutRef.current) clearTimeout(autoSlideTimeoutRef.current);
+        };
+    }, []);
+
     const truncate = (str, maxLength) => {
         if (str.length <= maxLength) {
             return str;
@@ -167,7 +222,7 @@ function SoloPorHoras(){
                     <div className="sale-products-content">
                         <ul className="sale-products">
                             {productos.map((producto) => {
-                                const{ ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock, } = producto;
+                                const {ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock} = producto;
                                 const agotado = stock <= 0;
                                 const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
                                 const cardClass = `product-card ${agotado ? 'agotado' : expired ? 'expired' : ''}`;
@@ -182,9 +237,9 @@ function SoloPorHoras(){
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
                                                     {agotado ? (
-                                                        <span>Agotado 😥</span>
+                                                    <span>Agotado 😥</span>
                                                     ) : (
-                                                        <span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
+                                                    <span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
                                                     )}
                                                 </div>
                                                 <span className="product-card-brand">KAMAS</span>
@@ -203,16 +258,13 @@ function SoloPorHoras(){
                     </div>
                 </div>
 
-                <div className="d-flex">
-                    <div className="block-title-buttons margin-left">
-                        <button type="button" onClick={() => scrollSmooth('left')}>
-                            <span className="material-icons solo-por-horas-left">chevron_left</span>
-                        </button>
-                        <button type="button" onClick={() => scrollSmooth('right')}>
-                            <span className="material-icons solo-por-horas-right">chevron_right</span>
-                        </button>
-                    </div>
-                </div>
+                <button type="button" onClick={handleLeftButtonClick} className="solo-por-horas-button solo-por-horas-button-1">
+                    <span className="material-icons solo-por-horas-left">chevron_left</span>
+                </button>
+
+                <button type="button" onClick={handleRightButtonClick} className="solo-por-horas-button solo-por-horas-button-2">
+                    <span className="material-icons solo-por-horas-right">chevron_right</span>
+                </button>
             </section>
         </div>
     );

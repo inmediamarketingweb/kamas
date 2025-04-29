@@ -10,20 +10,12 @@ function Jerarquia({ producto }){
     breadcrumbKeys.forEach(key => {
         if (producto[key]) {
             cumulativePath += `/${producto[key]}`;
-            crumbs.push({
-                key,
-                label: producto[key],
-                path: cumulativePath
-            });
+            crumbs.push({ key, label: producto[key], path: cumulativePath });
         }
     });
 
-    if (producto.nombre && producto.ruta) {
-        crumbs.push({
-            key: 'nombre',
-            label: producto.nombre,
-            path: producto.ruta
-        });
+    if(producto.nombre && producto.ruta){
+        crumbs.push({ key: 'nombre', label: producto.nombre, path: `/productos/${producto.ruta}`});
     }
 
     return(

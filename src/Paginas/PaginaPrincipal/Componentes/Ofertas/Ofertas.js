@@ -11,48 +11,33 @@ function Ofertas(){
                 <div className='homepage-offers-container'>
                     <ul className='homepage-offers-content'>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/1.jpg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/2.jpg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/3.jpg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/4.jpg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/5.jpg" alt="" />
                             </a>
                         </li>
                         <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href='/'>
-                                <img src="https://www.shutterstock.com/shutterstock/videos/1104426675/thumb/1.jpg?ip=x480" alt="" />
+                            <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                                <img src="/assets/imagenes/paginas/pagina-principal/ofertas/6.jpg" alt="" />
                             </a>
                         </li>
                     </ul>

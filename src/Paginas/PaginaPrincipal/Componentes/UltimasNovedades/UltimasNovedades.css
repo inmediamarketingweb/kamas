@@ -9,6 +9,10 @@
     display: none;
 }
 
+.ultimas-novedades-block-content{
+    position: relative;
+}
+
 .ultimas-novedades-content{
     width: auto;
     display: flex;
@@ -42,8 +46,36 @@
     justify-content: right;
 }
 
+/**/
+
+.ultimas-novedades-button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background: var(--color-1);
+    bottom: 173px;
+}
+
+.ultimas-novedades-button span{
+    color: var(--white);
+}
+
+.ultimas-novedades-button-1{
+    left: 10px;
+}
+
+.ultimas-novedades-button-2{
+    right: 10px;
+}
+
+/**/
+
 @media screen and (max-width: 600px){
-    .ultimas-novedades-container{
-        padding-bottom: 20px;
+    .ultimas-novedades-button{
+        bottom: 123px;
     }
 }

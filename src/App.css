@@ -13,7 +13,7 @@
 
 :root{
     --color-1: #AD3362;
-    --color-2: #641534;
+    --color-2: #6C0C2C;
 
     --header: #FFFFFF;
 
@@ -110,6 +110,15 @@ main{
     border-radius: 25px;
     color: var(--white);
     background: var(--color-1);
+}
+
+/**/
+
+.page-banner-img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
 }
 
 /**/
@@ -432,7 +441,7 @@ button{
 
     .block-title{
         margin-right: auto;
-        font-size: 20px;
+        /* font-size: 20px; */
         text-align: left !important;
     }
 

@@ -2,6 +2,7 @@
     background: #121212;
     border-radius: 10px;
     padding: 20px;
+    position: relative;
 }
 
 .block-content-sale .block-title-container{
@@ -54,7 +55,6 @@
 .sale-products-container{
     width: 100%;
     overflow-x: scroll;
-    margin-bottom: 20px;
     cursor: grabbing;
 }
 
@@ -130,6 +130,38 @@
 
 /**/
 
+.sale-products-content{
+    position: relative;
+}
+
+/**/
+
+.solo-por-horas-button{
+    position: absolute;
+    bottom: 183px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: crimson;
+}
+
+.solo-por-horas-button-1{
+    left: 10px;
+}
+
+.solo-por-horas-button-2{
+    right: 10px;
+}
+
+.solo-por-horas-button span{
+    color: var(--white);
+}
+
+/**/
+
 .product-card.expired{
     position: relative;
     pointer-events: none;
@@ -180,6 +212,10 @@
         background: rgba(235 235 235 / 0.75);
         border-radius: 10px;
         height: 4px;
+    }
+
+    .solo-por-horas-button{
+        bottom: 185px;
     }
 
     .sale-products-container::-webkit-scrollbar-thumb{
