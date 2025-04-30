@@ -1,0 +1,36 @@
+{
+    "metadatos":[
+        {
+            "metatitulo": "Horarios de entrega y envíos",
+            "metadescripcion": "Metadescripcion"
+        }
+    ],
+    "contenido":[
+        {
+            "lista":[
+                {
+                    "texto": "En Lima y Callao ofrecemos excelentes horarios de entrega"
+                },
+                {
+                    "texto": "De lunes a sábados de 11:00 a.m. a 10:00 p.m."
+                },
+                {
+                    "texto": "Usted puede elegir si desea la entega en la mañana, tarde o noche"
+                }
+            ]
+        },
+        {
+            "lista":[
+                {
+                    "texto": "Turno mañana: De 11:00 a.m. a 2:00 p.m."
+                },
+                {
+                    "texto": "Turno tarde: De 2:00 p.m. a 6:00 p.m."
+                },
+                {
+                    "texto": "Turno noche: De 6:00 p.m. a 10:00 p.m."
+                }
+            ]
+        }
+    ]
+}

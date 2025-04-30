@@ -31,6 +31,14 @@ import PoliticaDeCambiosYDevoluciones from "./Paginas/ServicioAlCliente/Politica
 
 import PrivacidadYSeguridad from './Paginas/ServicioAlCliente/PrivacidadYSeguridad';
 
+import TerminosYCondiciones from './Paginas/ServicioAlCliente/TerminosYCondiciones';
+
+import HorariosDeEntrega from './Paginas/ServicioAlCliente/HorariosDeEntrega';
+
+import ProgramaDeInfluencers from './Paginas/Novedades/ProgramaDeInfluencers';
+
+import ProgramaDeReferencias from './Paginas/Novedades/ProgramaDeReferencias';
+
 import Contacto from "./Paginas/Contacto/Contacto";
 
 import Busqueda from "./Paginas/Busqueda/Busqueda";
@@ -79,6 +87,13 @@ function App(){
                     <Route path="/servicio-al-cliente/politica-de-cambios-y-devoluciones/" element={<PoliticaDeCambiosYDevoluciones/>}/>
 
                     <Route path="/servicio-al-cliente/privacidad-y-seguridad/" element={<PrivacidadYSeguridad/>}/>
+
+                    <Route path="/servicio-al-cliente/terminos-y-condiciones/" element={<TerminosYCondiciones/>}/>
+
+                    <Route path="/servicio-al-cliente/horarios-de-entrega-y-envios/" element={<HorariosDeEntrega/>}/>
+
+                    <Route path="/novedades/programa-de-influencers/" element={<ProgramaDeInfluencers/>}/>
+                    <Route path="/novedades/programa-de-referencias/" element={<ProgramaDeReferencias/>}/>
 
                     <Route path="/contacto/" element={<Contacto/>} />
 

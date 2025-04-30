@@ -1,0 +1,107 @@
+{
+    "metadatos":[
+        {
+            "metatitulo": "Programa de influencers",
+            "metadescripcion": "Metadescripcion"
+        }
+    ],
+    "contenido":[
+        {
+            "title": "¡ Gana con nosotros !"
+        },
+        {
+            "title": "Progama para influencers"
+        },
+        {
+            "textos":[
+                {
+                    "texto": "¡Únete al programa de influenciadores de Kamas con tu cuenta de Facebook, Instagram, Twitter, Youtube y Tik Tok calificada!"
+                },
+                {
+                    "texto": "LA CONQUISTA DE KAMAS"
+                },
+                {
+                    "texto": "¿Te gustan las redes sociales, subes contenido con regularidad y tienes un buen número de seguidores? ¡Perfecto!… Podrías ganar dinero con nuestro NUEVO programa para influenciadores."
+                },
+                {
+                    "texto": "“La Conquista de Kamas”"
+                },
+                {
+                    "texto": "En Kamas nos hemos propuesto llegar a todos los rincones del país, queremos estar presentes en la vida de cada uno de los peruanos abasteciendo sus necesidades en lo que refiere al descanso en general. Kamas ofrece lo calidad y todos los nuevos modelos del mercado en productos de dormitorio y sala dentro de todas las categorías y ofrece un práctico sistema de venta, donde el cliente paga el producto que pide al momento que lo recibe."
+                },
+                {
+                    "texto": "Queremos que todos conozcan y disfruten de estos beneficios y sabemos que a través de influenciadores como tú podemos llegar a más personas."
+                }
+            ]
+        },
+        {
+            "title": "Recompensa para nuestros influencers:",
+            "textos":[
+                {
+                    "texto": "Cada influenciador tendrá un enlace diferente para publicar y compartir en sus redes sociales."
+                },
+                {
+                    "texto": "Por medio de ese enlace sus seguidores podrán acceder a nuestra página web y comprar las mejores marcas al mejor precio."
+                },
+                {
+                    "texto": "Por cada uno de sus seguidores que realicen compras en Kamas, el influenciador podrá ganar comisiones que van de los S/40 hasta los S/120 nuevos soles, así que entre más seguidores tenga el influenciador mayor será su ganancia."
+                },
+                {
+                    "texto": "Una vez concluida la compra por parte del influenciado se procederá a ingresar el dinero (comisión) a su cuenta personal del influenciador de forma inmediata mediante una transferencia bancaria."
+                },
+                {
+                    "texto": "La Información suministrada a la audiencia debe ser verídica y comprobada."
+                },
+                {
+                    "texto": "Por esa razón un especialista de atención al cliente estará disponible siempre para resolver cualquier duda o ampliar cualquier información que requiera el influenciador por vía telefónica, correo electrónico o nuestro chat de whatsapp."
+                }
+            ]
+        },
+        {
+            "title": "Estos son los requisitos que debe tener el influenciador:",
+            "lista":[
+                {
+                    "texto": "1.- Tener una cuenta de Facebook, instagram, twitter, Youtube o Tik Tok calificada."
+                },
+                {
+                    "texto": "2.- Ser mayor de 18 años."
+                },
+                {
+                    "texto": "3.- Contar con Seguidores reales: Usuarios que comentan, comparten, reaccionan o interactúan con sus publicaciones diariamente"
+                },
+                {
+                    "texto": "4.- Su audiencia se debe encontrar principalmente en el territorio Peruano"
+                },
+                {
+                    "texto": "5.- Tener publicaciones de calidad."
+                },
+                {
+                    "texto": "6.- Publicar con regularidad."
+                },
+                {
+                    "texto": "7.- Ser un excelente comunicador."
+                }
+            ]
+        },
+        {
+            "title": "Si cumples las anteriores condiciones enviamos un correo electrónico a marketing@kamas.pe o escribenos al whatsapp 915249176 con la siguiente información:",
+            "lista":[
+                {
+                    "texto": "1.- Nombre Completo"
+                },
+                {
+                    "texto": "2.- Ciudad de residencia"
+                },
+                {
+                    "texto": "3.- Link a tus redes sociales."
+                },
+                {
+                    "texto": "4.- Video formato MP4 de menos de 1 minuto contandonos un poco de tu experiencia como influenciador, tu comunidad y cómo puedes atraer nuevos clientes a Kamas."
+                },
+                {
+                    "texto": "Te informaremos si aplicas para ser uno de nuestros influenciadores en máximo 3 días hábiles."
+                }
+            ]
+        }
+    ]
+}
