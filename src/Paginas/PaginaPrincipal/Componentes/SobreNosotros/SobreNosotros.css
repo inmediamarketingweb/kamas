@@ -14,8 +14,11 @@
     border-radius: 6px;
 }
 
-.homepage-about-us-images{
+.homepage-about-us-images-container{
     grid-column: 1/-1;
+}
+
+.homepage-about-us-images{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -44,11 +47,26 @@
         height: 200px;
     }
 
+    .homepage-about-us-images-container{
+        overflow-x: auto;
+        padding-bottom: 20px;
+    }
+
+    .homepage-about-us-images-container::-webkit-scrollbar{
+        background: rgba(0 0 0 / 0.15);
+        height: 4px;
+        border-radius: 5px;
+    }
+
+    .homepage-about-us-images-container::-webkit-scrollbar-thumb{
+        background: var(--color-1);
+    }
+
     .homepage-about-us-images{
+        width: 200%;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
         gap: 5px;
     }
     .homepage-about-us-images li{
@@ -56,6 +74,5 @@
     }
     .homepage-about-us-images li img{
         height: 100px;
-        border-radius: 6px;
     }
 }

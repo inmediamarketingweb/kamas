@@ -1,0 +1,21 @@
+.garantia-ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.garantia-ul li a img{
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .garantia-ul li a img{
+        width: 100px;
+    }
+}

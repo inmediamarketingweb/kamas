@@ -15,6 +15,22 @@ import Nosotros from "./Paginas/Nosotros/Nosotros";
 import PropiedadIntelectual from "./Paginas/Nosotros/Paginas/PropiedadIntelectual";
 import RazonesParaComprar from "./Paginas/Nosotros/Paginas/RazonesParaComprar";
 
+import MediosDePago from './Paginas/ServicioAlCliente/MediosDePago';
+
+import GarantiaDeProductos from "./Paginas/ServicioAlCliente/GarantiaDeProductos/GarantiaDeProductos";
+import GarantiaColchones from "./Paginas/ServicioAlCliente/GarantiaDeProductos/Paginas/Colchones";
+import GarantiaTarimas from "./Paginas/ServicioAlCliente/GarantiaDeProductos/Paginas/Tarimas";
+import GarantiaCabeceras from "./Paginas/ServicioAlCliente/GarantiaDeProductos/Paginas/Cabeceras";
+
+import RecomendacionesDeUso from "./Paginas/ServicioAlCliente/RecomendacionesDeUso/RecomendacionesDeUso";
+import RecomendacionesColchones from "./Paginas/ServicioAlCliente/RecomendacionesDeUso/Paginas/Colchones";
+import RecomendacionesTarimas from "./Paginas/ServicioAlCliente/RecomendacionesDeUso/Paginas/Tarimas";
+import RecomendacionesCabeceras from "./Paginas/ServicioAlCliente/RecomendacionesDeUso/Paginas/Cabeceras";
+
+import PoliticaDeCambiosYDevoluciones from "./Paginas/ServicioAlCliente/PoliticaDeCambiosYDevoluciones";
+
+import PrivacidadYSeguridad from './Paginas/ServicioAlCliente/PrivacidadYSeguridad';
+
 import Contacto from "./Paginas/Contacto/Contacto";
 
 import Busqueda from "./Paginas/Busqueda/Busqueda";
@@ -44,8 +60,25 @@ function App(){
                     <Route path="/mis-favoritos/" element={<Favoritos/>} />
 
                     <Route path="/nosotros/" element={<Nosotros/>} />
-                    <Route path="/nosotros/propiedad-intelectual" element={<PropiedadIntelectual/>}/>
-                    <Route path="/nosotros/razones-para-comprar" element={<RazonesParaComprar/>}/>
+                    <Route path="/nosotros/propiedad-intelectual/" element={<PropiedadIntelectual/>}/>
+                    <Route path="/nosotros/razones-para-comprar/" element={<RazonesParaComprar/>}/>
+
+                    <Route path="/servicio-al-cliente/medios-de-pago/" element={<MediosDePago/>}/>
+
+                    <Route path="/servicio-al-cliente/garantia-de-productos/" element={<GarantiaDeProductos/>}/>
+                    <Route path="/servicio-al-cliente/garantia-de-productos/colchones/" element={<GarantiaColchones/>}/>
+                    <Route path="/servicio-al-cliente/garantia-de-productos/box-tarimas/" element={<GarantiaTarimas/>}/>
+                    <Route path="/servicio-al-cliente/garantia-de-productos/cabeceras/" element={<GarantiaCabeceras/>}/>
+
+                    
+                    <Route path="/servicio-al-cliente/recomendaciones-de-uso/" element={<RecomendacionesDeUso/>}/>
+                    <Route path="/servicio-al-cliente/recomendaciones-de-uso/colchones/" element={<RecomendacionesColchones/>}/>
+                    <Route path="/servicio-al-cliente/recomendaciones-de-uso/box-tarimas/" element={<RecomendacionesTarimas/>}/>
+                    <Route path="/servicio-al-cliente/recomendaciones-de-uso/cabeceras/" element={<RecomendacionesCabeceras/>}/>
+
+                    <Route path="/servicio-al-cliente/politica-de-cambios-y-devoluciones/" element={<PoliticaDeCambiosYDevoluciones/>}/>
+
+                    <Route path="/servicio-al-cliente/privacidad-y-seguridad/" element={<PrivacidadYSeguridad/>}/>
 
                     <Route path="/contacto/" element={<Contacto/>} />
 

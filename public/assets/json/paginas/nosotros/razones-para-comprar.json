@@ -12,41 +12,73 @@
     ],
     "contenido":[
         {
-            "texto": "En KAMAS fabricamos productos de calidad que garantizan una larga duración y nos preocupamos siempre por ofrecer excelentes acabados, asimismo tenemos todos los modelos del mercado y somos líderes en innovación ofreciendo a nuestros clientes siempre productos en tendencia a un excelente precio y con un servicio de venta practico, donde el cliente puede comprar desde la comodidad de su hogar y pagar al momento que recibe el producto."
+            "textos":[
+                {
+                    "texto": "En KAMAS fabricamos productos de calidad que garantizan una larga duración y nos preocupamos siempre por ofrecer excelentes acabados, asimismo tenemos todos los modelos del mercado y somos líderes en innovación ofreciendo a nuestros clientes siempre productos en tendencia a un excelente precio y con un servicio de venta practico, donde el cliente puede comprar desde la comodidad de su hogar y pagar al momento que recibe el producto."
+                }
+            ]
         },
         {
             "titulo": "Calidad en el diseño y en el producto",
-            "texto": "Nuestra cuidadosa selección de proveedores y materia prima nos permiten ofrecer productos de excelente acabado y de duración garantizada para nuestros clientes."
-        },
-        {
-            "texto": "En KAMAS trabajamos con madera 100% seca, asimismo con espuma Paraíso Zebra en todos nuestros productos."
+            "textos":[
+                {
+                    "texto": "Nuestra cuidadosa selección de proveedores y materia prima nos permiten ofrecer productos de excelente acabado y de duración garantizada para nuestros clientes."
+                },
+                {
+                    "texto": "En KAMAS trabajamos con madera 100% seca, asimismo con espuma Paraíso Zebra en todos nuestros productos."
+                }
+            ]
         },
         {
             "titulo": "Nuestros envíos son realmente inmediatos",
-            "texto": "Nuestro sistema de entrega a domicilio es realmente flexible, tú eres quien elige el día y el rango de hora de entrega. Realizamos envíos en menos de 24 horas a nivel nacional."
+            "textos":[
+                {
+                    "texto": "Nuestro sistema de entrega a domicilio es realmente flexible, tú eres quien elige el día y el rango de hora de entrega. Realizamos envíos en menos de 24 horas a nivel nacional."
+                }
+            ]
         },
         {
             "titulo": "Compras en Lima y Callao",
-            "texto": "Por promoción el envió es gratis en Lima y callao ¡Llevamos el producto a tu casa y lo pagas al momento de la entrega! *Consultar productos que aplican a la promoción."
+            "textos":[
+                {
+                    "texto": "Por promoción el envió es gratis en Lima y callao ¡Llevamos el producto a tu casa y lo pagas al momento de la entrega! *Consultar productos que aplican a la promoción."
+                }
+            ]
         },
         {
             "titulo": "Compras en Provincias",
-            "texto": "Hacemos envíos a nivel nacional por Marvisur, Shalom o la agencia que el cliente prefiera. Nuestros envíos son realmente inmediatos. No le cobramos por el embalaje ni la movilidad a la agencia."
+            "textos":[
+                {
+                    "texto": "Hacemos envíos a nivel nacional por Marvisur, Shalom o la agencia que el cliente prefiera. Nuestros envíos son realmente inmediatos. No le cobramos por el embalaje ni la movilidad a la agencia."
+                }
+            ]
         },
         {
             "titulo": "Sitio 100% seguro",
-            "texto": "kamas.pe garantiza la seguridad transaccional de sus clientes, pues utiliza el sistema SSL (Security Socket Layer) uno de los estándares de protección de datos más rigurosos del mundo."
+            "textos":[
+                {
+                    "texto": "kamas.pe garantiza la seguridad transaccional de sus clientes, pues utiliza el sistema SSL (Security Socket Layer) uno de los estándares de protección de datos más rigurosos del mundo."
+                }
+            ]
         },
         {
             "titulo": "Soluciones rápidas y sencillas",
-            "texto": "Ofrecemos soluciones rápidas y sencillas para una mejor experiencia de compra de nuestros clientes."
+            "textos":[
+                {
+                    "texto": "Ofrecemos soluciones rápidas y sencillas para una mejor experiencia de compra de nuestros clientes."
+                }
+            ]
         },
         {
             "titulo": "Garantía por defectos de fábrica",
-            "texto": "Garantía 100% real ofrecida por defectos de fábrica en todos nuestros productos."
-        },
-        {
-            "texto": "Revisar y/o pedir condiciones de garantía."
+            "textos":[
+                {
+                    "texto": "Garantía 100% real ofrecida por defectos de fábrica en todos nuestros productos."
+                },
+                {
+                    "texto": "Revisar y/o pedir condiciones de garantía."
+                }
+            ]
         }
     ]
 }

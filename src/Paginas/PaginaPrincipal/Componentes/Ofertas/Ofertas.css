@@ -1,3 +1,11 @@
+.homepage-offers-container{
+    overflow: hidden;
+}
+
+.homepage-ofertas-content{
+    position: relative;
+}
+
 .homepage-offers-content{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -7,4 +15,32 @@
 .homepage-offers-content li a img{
     width: 280px;
     height: auto;
+    border-radius: 6px;
+}
+
+/**/
+
+.homepage-ofertas-button{
+    position: absolute;
+    bottom: 196px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 100%;
+    background: var(--white);
+}
+
+.homepage-ofertas-button-1{
+    left: 10px;
+}
+
+.homepage-ofertas-button-2{
+    right: 10px;
+}
+
+.homepage-ofertas-button span{
+    color: var(--color-1);
 }
