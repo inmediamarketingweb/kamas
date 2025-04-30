@@ -1,0 +1,63 @@
+{
+    "metadatos":[
+        {
+            "metatitulo": "Medios de pago",
+            "metadescripcion": "Metadescripcion"
+        }
+    ],
+    "banner":[
+        {
+            "banner": "/assets/imagenes/paginas/servicio-al-cliente/medios-de-pago/medios-de-pago.jpg"
+        }
+    ],
+    "contenido":[
+        {
+            "title": "Políticas de cambios y devoluciones kamas.pe",
+            "textos":[
+                {
+                    "texto": "Para realizar cambios o devoluciones, el cliente deberá comunicarse al número de atención al cliente."
+                },
+                {
+                    "texto": "El producto tendrá que encontrarse en perfectas condiciones, contar con empaques originales y el comprobante de pago correspondiente a la compra."
+                },
+                {
+                    "texto": "Se recomienda revisar el estado de los productos al momento de la recepción y antes de firmar la constancia de entrega (Guía de remisión) a fin de evitar posibles inconvenientes."
+                },
+                {
+                    "texto": "*Nota: Las devoluciones se harán efectivas de acuerdo al mismo medio de pago utilizado en la transacción original de compra."
+                },
+                {
+                    "texto": "Cambios y devoluciones de kamas.pe"
+                }
+            ]
+        },
+        {
+            "title": "Recuerda",
+            "textos":[
+                {
+                    "texto": "Todo cambio y/o devolución del producto debe realizarse presentando el comprobante de compra con empaque y etiquetas originales."
+                },
+                {
+                    "texto": "La única manera de aceptar una devolución es determinando un error propio de la fábrica o manipulación por nuestras parte en el proceso de venta, una vez el producto llega a manos del cliente, se le brinda un plazo de 24 horas para poder comunicar cualquier inconveniente."
+                }
+            ]
+        },
+        {
+            "title": "Condiciones",
+            "textos":[
+                {
+                    "texto": "1.- El producto debe encontrarse sin uso (sellado de fábrica) y contar con todos sus accesorios."
+                },
+                {
+                    "texto": "2.-  El producto debe contar con todos sus empaques originales y en perfectas condiciones."
+                },
+                {
+                    "texto": "3.- Al momento de realizar el cambio se debe presentar la boleta o factura respectiva."
+                },
+                {
+                    "texto": "4.- En el caso de devolución de prendas íntimas, estas serán destruidas para su salida definitiva del mercado."
+                }
+            ]
+        }
+    ]
+}

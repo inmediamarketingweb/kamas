@@ -29,20 +29,22 @@ function SobreNosotros(){
                     </div>
                 </div>
 
-                <ul className='homepage-about-us-images'>
-                    <li>
-                        <img src="/assets/imagenes/paginas/nosotros/1.jpg" alt="Imagenes de Kamas"/>
-                    </li>
-                    <li>
-                        <img src="/assets/imagenes/paginas/nosotros/2.jpg" alt="Imagenes de Kamas"/>
-                    </li>
-                    <li>
-                        <img src="/assets/imagenes/paginas/nosotros/3.jpg" alt="Imagenes de Kamas"/>
-                    </li>
-                    <li>
-                        <img src="/assets/imagenes/paginas/nosotros/4.jpg" alt="Imagenes de Kamas"/>
-                    </li>
-                </ul>
+                <div className='homepage-about-us-images-container w-100'>
+                    <ul className='homepage-about-us-images'>
+                        <li>
+                            <img src="/assets/imagenes/paginas/nosotros/1.jpg" alt="Imagenes de Kamas"/>
+                        </li>
+                        <li>
+                            <img src="/assets/imagenes/paginas/nosotros/2.jpg" alt="Imagenes de Kamas"/>
+                        </li>
+                        <li>
+                            <img src="/assets/imagenes/paginas/nosotros/3.jpg" alt="Imagenes de Kamas"/>
+                        </li>
+                        <li>
+                            <img src="/assets/imagenes/paginas/nosotros/4.jpg" alt="Imagenes de Kamas"/>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </div>
     );

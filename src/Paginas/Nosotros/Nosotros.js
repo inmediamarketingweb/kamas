@@ -25,13 +25,11 @@ function Nosotros(){
             <main>
                 <div className="block-container">
                     <section className="block-content">
-                        <img src="/assets/imagenes/paginas/nosotros/banner.jpg" alt="" className="page-banner-img"/>
-
-                        <div className="block-title-container">
-                            <h1 className="block-title">Nosotros</h1>
-                        </div>
-
                         <div className="d-flex-column gap-20">
+                            <img src="/assets/imagenes/paginas/nosotros/banner.jpg" alt="" className="page-banner-img"/>
+
+                            <h1 className="block-title d-flex margin-right">Nosotros</h1>
+
                             <div className="d-flex-column gap-10">
                                 <p className="title">Nuestra empresa</p>
                                 <p className="text">En Kamas fabricamos y diseñamos productos de dormitorio de la más alta calidad, nuestras alianzas estratégicas con proveedores nacionales e internacionales de materia prima, nuestro personal capacitado constantemente y nuestras maquinarias de última tecnología nos permiten trabajar con un norte de calidad en todas las etapas de  producción y servicio al consumidor.</p>

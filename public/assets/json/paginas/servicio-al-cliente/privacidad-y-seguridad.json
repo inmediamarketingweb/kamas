@@ -1,0 +1,88 @@
+{
+    "metadatos":[
+        {
+            "metatitulo": "Privacidad y seguridad",
+            "metadescripcion": "Metadescripcion"
+        }
+    ],
+    "banner":[
+        {
+            "banner": "/assets/imagenes/paginas/servicio-al-cliente/privacidad-y-seguridad/privacidad-y-seguridad.jpg"
+        }
+    ],
+    "contenido":[
+        {
+            "title": "Cuidado con los emails fraudulentos",
+            "textos":[
+                {
+                    "texto": "Estos correos electrónicos aparentan venir de una empresa reconocida, utilizando su marca o logo."
+                },
+                {
+                    "texto": "Pero en realidad son diseñados para obtener datos personales con el fin de cometer fraude o involucrar a los clientes en actos ilícitos."
+                },
+                {
+                    "texto": "En algunos casos, los emails te solicitarán que ingreses datos como tu correo, clave o número de cuenta y Pin Pass."
+                },
+                {
+                    "texto": "En otros casos, el mensaje puede contener un virus que detecta información privada."
+                },
+                {
+                    "texto": "Para evitar estos últimos, te recomendamos mantener tu antivirus actualizado."
+                }
+            ]
+        },
+        {
+            "textos":[
+                {
+                    "texto": "A continuación te damos algunos consejos para que identifiques estos emails y evites caer en el engaño de algunos inescrupulosos."
+                }
+            ]
+        },
+        {
+            "title": "1.- Cosas que nunca te preguntaremos por email:",
+            "lista":[
+                {
+                    "texto": "El número de tu tarjeta de crédito o clave."
+                },
+                {
+                    "texto": "La clave de tu cuenta kamas."
+                }
+            ]
+        },
+        {
+            "title": "2.- Solicitud de actualizar tus datos o la información de tu cuenta:",
+            "lista":[
+                {
+                    "texto": "Nunca te pediremos que actualices tu información en un sitio distinto a www.kamas.pe."
+                },
+                {
+                    "texto": "En caso de concursos o campañas que tengan como fin actualizar nuestras bases de datos, el email que te enviaremos te llevará directamente al home de Kamas o a su portal de registro alojado en una dirección de www.kamas.pe"
+                }
+            ]
+        },
+        {
+            "title": "3.- Archivos adjuntos sospechosos en el email:",
+            "lista":[
+                {
+                    "texto": "En Productos Kamas del Peru s.a.c y Corporacion Tairo s.a.c nunca enviaremos archivos adjuntos en sus emails ni tampoco se lo permitirá a negocios asociados, a menos que tú solicites recibir en el correo documentos como, por ejemplo, estados de cuenta."
+                },
+                {
+                    "texto": "Te recomendamos nunca abrir un archivo adjunto de un remitente desconocido."
+                },
+                {
+                    "texto": "Si llegaras a recibir un correo que supuestamente venga de Kamas y contenga un archivo adjunto, reenvíalo a contactenos@kamas.pe."
+                },
+                {
+                    "texto": "Si por alguna razón llegaras a abrir el archivo sospechoso adjunto, haz correr tu antivirus de inmediato."
+                }
+            ]
+        },
+        {
+            "textos":[
+                {
+                    "texto": "Todo correo que Kamas podemos enviar tienen que contener esta dirección de correo ejemplo@kamas.pe, caso no contenta el dominio mencionado pedimos que no abran dicho correo."
+                }
+            ]
+        }
+    ]
+}
