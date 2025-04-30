@@ -7,7 +7,7 @@ git pull
 echo "📦 Instalando dependencias..."
 npm install
 
-echo "🛠️ Construyendo proyecto (npm run build)..."
+echo "🛠️ Ejecutando -> npm run build..."
 npm run build
 
 echo "🧹 Limpiando /var/www/kamas..."
@@ -18,6 +18,6 @@ sudo cp -r /opt/proyectos/kamas/build/* /var/www/kamas/
 
 echo "🔒 Ajustando permisos..."
 sudo chown -R www-data:www-data /var/www/kamas
-sudo chmod -R 755 /var/www/kamas
+sudo chmod -R 777 /var/www/kamas
 
 echo "✅ ¡Despliegue completado!"

@@ -14,7 +14,7 @@ function PaginaContenido({ data }){
     return(
         <>
             <Helmet>
-                <title>{metadatos?.metatitulo || "Kamas"}</title>
+                <title>{metadatos?.metatitulo} | Kamas</title>
                 <meta name="description" content={metadatos?.metadescripcion || ""} />
                 <meta property="og:title" content={metadatos?.metatitulo || ""} />
                 <meta property="og:site_name" content={metadatos?.metatitulo || ""} />

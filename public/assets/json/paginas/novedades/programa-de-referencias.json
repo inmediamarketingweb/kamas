@@ -1,0 +1,55 @@
+{
+    "metadatos":[
+        {
+            "metatitulo": "Programa de referencias",
+            "metadescripcion": "Metadescripcion"
+        }
+    ],
+    "contenido":[
+        {
+            "title": "¡ Gana con nosotros !"
+        },
+        {
+            "title": "Progama de referencias"
+        },
+        {
+            "textos":[
+                {
+                    "texto": "Lanzamos el “Programa de referencias” que te otorga ingresos por cada venta referida (recomendada) que  va de los S/30 a los S/70 nuevos soles."
+                },
+                {
+                    "texto": "Con este sistema ofrecemos a más personas la posibilidad de incrementar sus ingresos compartiendo y recomendando nuestros productos."
+                },
+                {
+                    "texto": "Para ser parte del “Programa de referencias” tendrás que seguir tres simples pasos."
+                }
+            ]
+        },
+        {
+            "lista":[
+                {
+                    "texto": "Convertirse en miembro: Sólo proporciona tu nombre y dirección de correo electrónico."
+                },
+                {
+                    "texto": "Comparte y recomienda: Comparte y recomienda a más personas para incrementar tus ingresos."
+                },
+                {
+                    "texto": "Gana buenas comisiones: Luego de que el cliente recomendado realice la compra en Kamas.pe, recibirás el pago de tu comisión de forma inmediata."
+                }
+            ]
+        },
+        {
+            "textos":[
+                {
+                    "texto": "Además, recibirás códigos de descuento a medida que continúas con las recomendaciones. Tus referidos obtienen un 10% de descuento en su segunda compra."
+                },
+                {
+                    "texto": "Para saber más sobre el plan de beneficios y sobre el Programa de Referencias."
+                },
+                {
+                    "texto": "Escríbenos a: programadereferencias@kamas.pe o escribenos al whatsapp 915249176."
+                }
+            ]
+        }
+    ]
+}
