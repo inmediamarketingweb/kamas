@@ -87,12 +87,12 @@ function TiposDeEnvio({ shippingOptions, selectedTipo, onSelect, provincia, dist
     );
 }
 
-    TiposDeEnvio.propTypes = {
-        shippingOptions: PropTypes.array.isRequired,
-        selectedTipo: PropTypes.string,
-        onSelect: PropTypes.func,
-        provincia: PropTypes.string.isRequired,
-        distrito: PropTypes.string.isRequired
-    };
+TiposDeEnvio.propTypes = {
+    shippingOptions: PropTypes.array.isRequired,
+    selectedTipo: PropTypes.string,
+    onSelect: PropTypes.func,
+    provincia: PropTypes.string.isRequired,
+    distrito: PropTypes.string.isRequired
+};
 
 export default TiposDeEnvio;
