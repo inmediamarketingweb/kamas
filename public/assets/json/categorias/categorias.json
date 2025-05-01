@@ -210,6 +210,11 @@
                     "id": 5,
                     "medida": "King",
                     "ruta": "/productos/cama-box-tarimas?tamaño=king"
+                },
+                {
+                    "id": 6,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/cama-box-tarimas/"
                 }
             ],
             "menuImg":[
@@ -266,6 +271,11 @@
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cama box tarimas | Kamas",
                     "ruta": "/productos/dormitorios/"
+                },
+                {
+                    "id": 6,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/dormitorios/"
                 }
             ],
             "medidas":[
@@ -293,6 +303,11 @@
                     "id": 5,
                     "medida": "King",
                     "ruta": "/productos/dormitorios?tamaño=king"
+                },
+                {
+                    "id": 6,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/dormitorios/"
                 }
             ],
             "menuImg":[
@@ -511,6 +526,11 @@
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Sofás | Kamas",
                     "ruta": "/productos/sofas/"
+                },
+                {
+                    "id": 9,
+                    "medida": "Ver todos",
+                    "ruta": "/productos/sofas/"
                 }
             ],
             "menuImg":[
@@ -584,6 +604,11 @@
                     "id": 8,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Complementos | Kamas",
+                    "ruta": "/productos/complementos/"
+                },
+                {
+                    "id": 9,
+                    "medida": "Ver todos",
                     "ruta": "/productos/complementos/"
                 }
             ],

@@ -245,7 +245,7 @@
     top: 50%;
     translate: 0 -50%;
     width: calc(100% - 40px);
-    max-width: 480px;
+    max-width: 440px;
     height: auto;
     max-height: calc(100vh - 40px);
     overflow-y: auto;
@@ -295,7 +295,7 @@
     flex: 1 1 clamp(100px, calc(calc(100% / 2) - calc(10px / 2)), 100%);
     /* max-width: calc(calc(100% / 2) - calc(10px / 2)); */
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid rgba(0 0 0 / 0.1);
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -307,9 +307,33 @@
 }
 
 .tipos-de-envios-ask-content ul li .title{
-    color: var(--text);
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.tipos-de-envios-ask-content ul li:nth-child(1) span,
+.tipos-de-envios-ask-content ul li:nth-child(1) .title{
+    color: var(--gratis);
+}
+
+.tipos-de-envios-ask-content ul li:nth-child(2) span,
+.tipos-de-envios-ask-content ul li:nth-child(2) .title{
+    color: var(--preferente);
+}
+
+.tipos-de-envios-ask-content ul li:nth-child(3) span,
+.tipos-de-envios-ask-content ul li:nth-child(3) .title{
+    color: var(--aplicado);
+}
+
+.tipos-de-envios-ask-content ul li:nth-child(4) span,
+.tipos-de-envios-ask-content ul li:nth-child(4) .title{
+    color: var(--express);
+}
+
+.tipos-de-envios-ask-content ul li:nth-child(5) span,
+.tipos-de-envios-ask-content ul li:nth-child(5) .title{
+    color: var(--color-1);
 }
 
 /**/

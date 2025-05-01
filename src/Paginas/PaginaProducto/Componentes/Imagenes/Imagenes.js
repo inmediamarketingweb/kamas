@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import Colores from '../Colores/Colores';
+
 import './Imagenes.css';
 
 function Imagenes({ imagenes, producto }){
@@ -84,6 +86,8 @@ function Imagenes({ imagenes, producto }){
                     ))}
                 </ul>
             </div>
+
+            <Colores/>
         </div>
     );
 }
