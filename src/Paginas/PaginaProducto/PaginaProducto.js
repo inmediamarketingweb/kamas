@@ -27,6 +27,7 @@ function PaginaProducto(){
     const [producto, setProducto] = useState(null);
     const [error, setError] = useState(false);
     const [imagenes, setImagenes] = useState([]);
+    const [selectedColor, setSelectedColor] = useState(null);
     const [quantity, setQuantity] = useState(1);
 
     const handleCopy = () => {
@@ -144,8 +145,14 @@ function PaginaProducto(){
         const numeroWhatsApp = "+51907057521";
         const userName = localStorage.getItem('nombre') || '';
 
+        const productImage = selectedColor?.img 
+        ? `https://kamas.pe${selectedColor.img}`
+        : `https://kamas.pe${producto.fotos}1.jpg`;
+
         const mensaje = `Hola KAMAS! Vengo de su sitio web y estoy interesado en adquirir:\n`
+            + `${productImage}\n`
             + `*${producto.nombre}*\n`
+            + `Color seleccionado: ${selectedColor ? selectedColor.color : 'No especificado'}\n`
             + `Precio: ${producto.precioVenta}\n\n`
             + `Cantidad: ${quantity}\n\n`
             + `Cliente: ${userName}\n`
@@ -183,7 +190,7 @@ function PaginaProducto(){
 
                         <div className='product-page-container'>
                             <div className='product-page-target product-page-target-1'>
-                                <Imagenes imagenes={imagenes} producto={producto}/>
+                                <Imagenes imagenes={imagenes} producto={producto} onSelectColor={setSelectedColor} />
                             </div>
 
                             <div className='product-page-target product-page-target-2 d-flex-column gap-20'>

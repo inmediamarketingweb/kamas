@@ -4,7 +4,7 @@ import Colores from '../Colores/Colores';
 
 import './Imagenes.css';
 
-function Imagenes({ imagenes, producto }){
+function Imagenes({ imagenes, producto, onSelectColor }){
     const [currentIndex, setCurrentIndex] = useState(0);
     const [dragStartX, setDragStartX] = useState(0);
     const [touchStartX, setTouchStartX] = useState(0);
@@ -87,7 +87,9 @@ function Imagenes({ imagenes, producto }){
                 </ul>
             </div>
 
-            {producto.colores && <Colores producto={producto} />}
+            {producto.colores && (
+                <Colores producto={producto} onSelectColor={onSelectColor} />
+            )}
         </div>
     );
 }
