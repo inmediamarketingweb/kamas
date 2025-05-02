@@ -4,14 +4,14 @@
             "id": 1,
             "categoria": "colchones",
             "subCategoria": "der prinz",
-            "ruta": "/ofertas/solo-por-horas/colchones/der-prinz/1-plaza-y-media/",
+            "modelo": "der pinz",
+            "ruta": "/productos/colchones/der-prinz/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/1-plaza-y-media/",
-            "solo-por-horas": "si",
             "precioRegular": 720,
             "precioNormal": 599,
             "precioVenta": 399,
-            "stock": 99,
+            "stock": 24,
             "sku": "K1157MCN10",
             "incluye":[
                 {
@@ -71,11 +71,10 @@
             "ruta": "/productos/colchones/der-prinz/2-plazas/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/2-plazas/",
-            "solo-por-horas": "si",
             "precioRegular": 920,
             "precioNormal": 799,
             "precioVenta": 499,
-            "stock": 99,
+            "stock": 31,
             "sku": "K127MCN10",
             "incluye":[
                 {
@@ -135,11 +134,10 @@
             "ruta": "/productos/colchones/der-prinz/queen/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/queen/",
-            "solo-por-horas": "si",
             "precioRegular": 1569,
             "precioNormal": 1149,
             "precioVenta": 799,
-            "stock": 99,
+            "stock": 25,
             "sku": "K137MCN10",
             "incluye":[
                 {
@@ -206,7 +204,7 @@
             "precioRegular": 1650,
             "precioNormal": 1399,
             "precioVenta": 999,
-            "stock": 99,
+            "stock": 13,
             "sku": "K147MCN10",
             "incluye":[
                 {

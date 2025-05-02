@@ -5,75 +5,75 @@
             "colores":[
                 {
                     "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/acero.png"
                 },
                 {
                     "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/amarillo.png"
                 },
                 {
                     "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/arena-oscuro.png"
                 },
                 {
                     "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/azul-noche.png"
                 },
                 {
                     "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/beige-oscuro.png"
                 },
                 {
                     "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/camello.png"
                 },
                 {
                     "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/cobalto.png"
                 },
                 {
                     "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/fucsia.png"
                 },
                 {
                     "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/ibory.png"
                 },
                 {
                     "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/lila.png"
                 },
                 {
                     "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/naranja.png"
                 },
                 {
                     "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/negro.png"
                 },
                 {
                     "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/plomo-plata.png"
                 },
                 {
                     "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/rojo.png"
                 },
                 {
                     "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/rosado-bebe.png"
                 },
                 {
                     "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/turquesa-opalo.png"
                 },
                 {
                     "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
+                    "img": "/assets/imagenes/colores/piel-de-potro/uva.png"
                 },
                 {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
+                    "color": "Verde loro",
+                    "img": "/assets/imagenes/colores/piel-de-potro/verde-loro.png"
                 }
             ]
         },
@@ -81,149 +81,68 @@
             "tela": "Piel de durazno",
             "colores":[
                 {
-                    "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
-                },
-                {
-                    "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
-                },
-                {
                     "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
+                    "img": "/assets/imagenes/colores/piel-de-durazno/azul-noche.png"
                 },
                 {
-                    "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
+                    "color": "Beige",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/beige.png"
+                },
+                {
+                    "color": "Camello oscuro",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/camello-oscuro.png"
                 },
                 {
                     "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
+                    "img": "/assets/imagenes/colores/piel-de-durazno/camello.png"
                 },
                 {
-                    "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
+                    "color": "Chocolate",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/chocolate.png"
                 },
                 {
-                    "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
+                    "color": "Hueso",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/hueso.png"
                 },
                 {
-                    "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
-                },
-                {
-                    "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
-                },
-                {
-                    "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
+                    "color": "Lila fandango",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/lila-fandango.png"
                 },
                 {
                     "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
+                    "img": "/assets/imagenes/colores/piel-de-durazno/negro.png"
+                },
+                {
+                    "color": "Palo rosa",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/palo-rosa.png"
                 },
                 {
                     "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
+                    "img": "/assets/imagenes/colores/piel-de-durazno/plomo-plata.png"
+                },
+                {
+                    "color": "Plomo rata",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/plomo-rata.png"
                 },
                 {
                     "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
+                    "img": "/assets/imagenes/colores/piel-de-durazno/rojo.png"
                 },
                 {
-                    "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
+                    "color": "Verde cerceta",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/verde-cerceta.png"
                 },
                 {
-                    "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
+                    "color": "Verde esmeralda",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/verde-esmeralda.png"
                 },
                 {
-                    "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
+                    "color": "Vino claro",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/vino-claro.png"
                 },
                 {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
-                }
-            ]
-        },
-        {
-            "tela": "Cuero",
-            "colores":[
-                {
-                    "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
-                },
-                {
-                    "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
-                },
-                {
-                    "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
-                },
-                {
-                    "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
-                },
-                {
-                    "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
-                },
-                {
-                    "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
-                },
-                {
-                    "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
-                },
-                {
-                    "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
-                },
-                {
-                    "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
-                },
-                {
-                    "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
-                },
-                {
-                    "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
-                },
-                {
-                    "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
-                },
-                {
-                    "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
-                },
-                {
-                    "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
-                },
-                {
-                    "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
-                },
-                {
-                    "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
-                },
-                {
-                    "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
-                },
-                {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
+                    "color": "Vino",
+                    "img": "/assets/imagenes/colores/piel-de-durazno/vino.png"
                 }
             ]
         },
@@ -231,76 +150,16 @@
             "tela": "Iker",
             "colores":[
                 {
-                    "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
-                },
-                {
-                    "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
-                },
-                {
-                    "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
-                },
-                {
-                    "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
-                },
-                {
-                    "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
-                },
-                {
-                    "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
-                },
-                {
-                    "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
-                },
-                {
-                    "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
-                },
-                {
-                    "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
+                    "color": "Gris ratón",
+                    "img": "/assets/imagenes/colores/iker/gris-raton.png"
                 },
                 {
                     "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
+                    "img": "/assets/imagenes/colores/iker/lila.png"
                 },
                 {
-                    "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
-                },
-                {
-                    "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
-                },
-                {
-                    "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
-                },
-                {
-                    "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
-                },
-                {
-                    "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
-                },
-                {
-                    "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
-                },
-                {
-                    "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
-                },
-                {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
+                    "color": "Verde jade",
+                    "img": "/assets/imagenes/colores/iker/verde-jade.png"
                 }
             ]
         },
@@ -308,76 +167,24 @@
             "tela": "Antifluidos",
             "colores":[
                 {
-                    "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
-                },
-                {
-                    "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
-                },
-                {
-                    "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
-                },
-                {
-                    "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
-                },
-                {
-                    "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
-                },
-                {
-                    "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
-                },
-                {
-                    "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
-                },
-                {
-                    "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
+                    "color": "Beige",
+                    "img": "/assets/imagenes/colores/antifluidos/beige.png"
                 },
                 {
                     "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
+                    "img": "/assets/imagenes/colores/antifluidos/ibory.png"
                 },
                 {
-                    "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
+                    "color": "Plata",
+                    "img": "/assets/imagenes/colores/antifluidos/plata.png"
                 },
                 {
-                    "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
+                    "color": "Plomo oscuro",
+                    "img": "/assets/imagenes/colores/antifluidos/plomo-oscuro.png"
                 },
                 {
-                    "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
-                },
-                {
-                    "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
-                },
-                {
-                    "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
-                },
-                {
-                    "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
-                },
-                {
-                    "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
-                },
-                {
-                    "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
-                },
-                {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
+                    "color": "Verde pacay",
+                    "img": "/assets/imagenes/colores/antifluidos/verde-pacay.png"
                 }
             ]
         },
@@ -385,76 +192,48 @@
             "tela": "Tejido",
             "colores":[
                 {
-                    "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
-                },
-                {
-                    "color": "Amarillo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
-                },
-                {
-                    "color": "Arena oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ARENA-OSCURO.png"
-                },
-                {
-                    "color": "Azul noche",
-                    "img": "/assets/imagenes/colores/piel-de-potro/AZUL-NOCHE.png"
-                },
-                {
                     "color": "Beige oscuro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/BEIGE-OSCURO.png"
+                    "img": "/assets/imagenes/colores/tejido/beige-oscuro.png"
                 },
                 {
-                    "color": "Camello",
-                    "img": "/assets/imagenes/colores/piel-de-potro/CAMELLO.png"
+                    "color": "Beige",
+                    "img": "/assets/imagenes/colores/tejido/beige.png"
                 },
                 {
-                    "color": "Cobalto",
-                    "img": "/assets/imagenes/colores/piel-de-potro/COBALTO.png"
+                    "color": "Cenizo",
+                    "img": "/assets/imagenes/colores/tejido/cenizo-new.png"
                 },
                 {
-                    "color": "Fucsia",
-                    "img": "/assets/imagenes/colores/piel-de-potro/FUCSIA.png"
+                    "color": "Chocolate",
+                    "img": "/assets/imagenes/colores/tejido/chocolate.png"
                 },
                 {
-                    "color": "Ibory",
-                    "img": "/assets/imagenes/colores/piel-de-potro/IBORY.png"
+                    "color": "Gris new",
+                    "img": "/assets/imagenes/colores/tejido/gris-new.png"
                 },
                 {
-                    "color": "Lila",
-                    "img": "/assets/imagenes/colores/piel-de-potro/LILA.png"
+                    "color": "Palo rosa",
+                    "img": "/assets/imagenes/colores/tejido/palo-rosa.png"
                 },
                 {
-                    "color": "Naranja",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NARANJA.png"
+                    "color": "Plata oscuro",
+                    "img": "/assets/imagenes/colores/tejido/plata-oscuro.png"
                 },
                 {
-                    "color": "Negro",
-                    "img": "/assets/imagenes/colores/piel-de-potro/NEGRO.png"
+                    "color": "Plata",
+                    "img": "/assets/imagenes/colores/tejido/plata.png"
                 },
                 {
                     "color": "Plomo plata",
-                    "img": "/assets/imagenes/colores/piel-de-potro/PLOMO-PLATA.png"
+                    "img": "/assets/imagenes/colores/tejido/plomo-plata.png"
                 },
                 {
-                    "color": "Rojo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROJO.png"
+                    "color": "Plomo",
+                    "img": "/assets/imagenes/colores/tejido/plomo.png"
                 },
                 {
-                    "color": "Rosado bebé",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ROSADO-BEBE.png"
-                },
-                {
-                    "color": "Turquesa ópalo",
-                    "img": "/assets/imagenes/colores/piel-de-potro/TURQUESA-ÓPALO.png"
-                },
-                {
-                    "color": "Uva",
-                    "img": "/assets/imagenes/colores/piel-de-potro/UVA.png"
-                },
-                {
-                    "color": "Verde loros",
-                    "img": "/assets/imagenes/colores/piel-de-potro/VERDE-LORO.png"
+                    "color": "Tabaco",
+                    "img": "/assets/imagenes/colores/tejido/tabaco.png"
                 }
             ]
         }

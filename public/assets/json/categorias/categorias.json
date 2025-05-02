@@ -521,11 +521,6 @@
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Sofás | Kamas",
                     "ruta": "/productos/sofas/"
-                },
-                {
-                    "id": 9,
-                    "medida": "Ver todos",
-                    "ruta": "/productos/sofas/"
                 }
             ],
             "menuImg":[
@@ -599,11 +594,6 @@
                     "id": 8,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Complementos | Kamas",
-                    "ruta": "/productos/complementos/"
-                },
-                {
-                    "id": 9,
-                    "medida": "Ver todos",
                     "ruta": "/productos/complementos/"
                 }
             ],

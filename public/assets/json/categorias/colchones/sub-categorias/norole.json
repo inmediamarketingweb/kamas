@@ -7,13 +7,12 @@
             "ruta": "/productos/colchones/norole/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO NOROLE 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/norole/1-plaza-y-media/",
-            "solo-por-horas": "si",
             "precioRegular": 1349,
             "precioNormal": 1199,
             "precioVenta": 699,
             "stock": 99,
             "sku": "K1159MFN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "1 almohada",
                     "foto": "/assets/imagenes/productos/almohada.png"
@@ -76,7 +75,7 @@
             "precioVenta": 849,
             "stock": 99,
             "sku": "K129MFN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "1 almohada",
                     "foto": "/assets/imagenes/productos/almohada.png"
@@ -139,7 +138,7 @@
             "precioVenta": 1149,
             "stock": 99,
             "sku": "K139MFN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/2-almohadas.png"
@@ -206,7 +205,7 @@
             "precioVenta": 1399,
             "stock": 99,
             "sku": "K149MFN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/2-almohadas.png"
