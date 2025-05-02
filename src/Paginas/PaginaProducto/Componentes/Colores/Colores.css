@@ -42,11 +42,23 @@
     max-width: 1000px;
     height: auto;
     max-height: calc(100vh - 40px);
+    overflow-y: auto;
     padding: 20px;
     background: var(--white);
     border: 1px solid rgba(0 0 0 / 0.2);
+    transition: var(--t-200ms-linear);
     border-radius: 6px;
     z-index: 102;
+
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.product-page-colors-content.active{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
 }
 
 /**/
@@ -109,8 +121,8 @@
 
 .product-page-colors-results li{
     display: flex;
-    flex: 1 1 clamp(auto, calc(calc(100% / 4) - calc(30px / 4)), 100%);
-    max-width: calc(calc(100% / 4) - calc(30px / 4));
+    flex: 1 1 clamp(auto, calc(calc(100% / 5) - calc(40px / 5)), 100%);
+    max-width: calc(calc(100% / 5) - calc(40px / 5));
     padding: 10px;
     /* border-radius: 5px; */
     overflow: hidden;
@@ -131,7 +143,7 @@
 .product-page-colors-results li button img{
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /**/
@@ -145,4 +157,14 @@
     background: rgba(0 0 0 / 0.1);
     backdrop-filter: blur(2px);
     z-index: 101;
+
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.product-page-colors-layer.active{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
 }
