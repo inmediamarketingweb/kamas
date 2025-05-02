@@ -25,13 +25,9 @@
     transition: var(--t-200ms-linear);
 }
 
-.product-page-direction a p{
+.product-page-direction p{
     font-size: 14px;
     text-transform: uppercase;
-}
-
-.product-page-direction a:hover p{
-    color: var(--black);
 }
 
 .product-page-direction ul li:nth-last-child(1):after{

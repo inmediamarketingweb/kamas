@@ -27,11 +27,9 @@ function Jerarquia({ producto }){
                     </a>
                 </li>
 
-                {crumbs.map(({ key, label, path }) => (
+                {crumbs.map(({ key, label }) => (
                     <li key={key}>
-                        <a href={path}>
-                            <p>{label}</p>
-                        </a>
+                        <p>{label}</p>
                     </li>
                 ))}
             </ul>

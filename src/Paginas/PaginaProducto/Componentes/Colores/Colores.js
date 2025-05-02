@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import './Colores.css';
 
-function Colores({ onSelectColor }){
+function Colores({ onSelectColor }) {
     const [data, setData] = useState(null);
     const [activeTelaIndex, setActiveTelaIndex] = useState(0);
     const [isColorsActive, setIsColorsActive] = useState(false);
@@ -23,18 +23,18 @@ function Colores({ onSelectColor }){
     }, [activeTelaIndex, onSelectColor]);
 
     if (!data) {
-    return <div>Cargando...</div>;
+        return <div>Cargando...</div>;
     }
 
     const { telas } = data;
     const activeTela = telas[activeTelaIndex];
 
-    return(
+    return (
         <>
             <div className="product-page-colors-button" onClick={() => setIsColorsActive(true)}>
                 <p className="text title">Colores</p>
-                <div className='d-flex-center-left'>
-                    <p className='text'>+40</p>
+                <div className="d-flex-center-left">
+                    <p className="text">+40</p>
                     <ul className="product-page-colors-button-miniatures">
                         {activeTela.colores.slice(0, 5).map((color, index) => (
                             <li key={index}>
@@ -67,19 +67,26 @@ function Colores({ onSelectColor }){
                             </ul>
                         </div>
 
-                        <div className="product-page-colors">
-                            <ul className="product-page-colors-results">
-                                {activeTela.colores.map((color, index) => (
-                                    <li key={index}>
-                                        <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => { setActiveColorIndex(index); if (onSelectColor)
-                                            onSelectColor({ color: color.color, tela: activeTela.tela });
-                                        }}>
-                                            <img src={color.img} alt={color.color} />
-                                            <p className="text">{color.color}</p>
-                                        </button>
-                                    </li>
-                                ))}
-                            </ul>
+                        <div className="d-flex-column gap-20">
+                            <div className="product-page-colors">
+                                <ul className="product-page-colors-results">
+                                    {activeTela.colores.map((color, index) => (
+                                        <li key={index}>
+                                            <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => { setActiveColorIndex(index); if (onSelectColor) onSelectColor({ color: color.color, tela: activeTela.tela }); }}>
+                                                <img src={color.img} alt={color.color} />
+                                                <p className="text">{color.color}</p>
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            {activeColorIndex !== null && (
+                                <button type="button" className="button-link button-link-2 margin-left" onClick={() => setIsColorsActive(false)} >
+                                    <span class="material-icons">check</span>
+                                    <p className="button-link-text">Confirmar</p>
+                                </button>
+                            )}
                         </div>
                     </div>
                 </section>

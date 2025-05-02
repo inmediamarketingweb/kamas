@@ -3,11 +3,10 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "modelo": "adel",
-            "ruta": "/ofertas/colchones/adel/1-plaza-y-media/",
+            "subCategoria": "adel",
+            "ruta": "/productos/colchones/adel/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/adel/1-plaza-y-media/",
-            "oferta": "si",
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
@@ -58,17 +57,16 @@
         {
             "id": 2,
             "categoria": "colchones",
-            "subcategoria": "adel",
+            "subCategoria": "adel",
             "ruta": "/productos/colchones/adel/2-plazas/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/adel/2-plazas/",
-            "novedades": "si",
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 99,
             "sku": "K121CN10",
-            "incluye":[
+            "regalos":[
                 {
                     "texto": "1 almohada",
                     "foto": "/assets/imagenes/productos/almohada.png"

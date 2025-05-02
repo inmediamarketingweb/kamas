@@ -2,31 +2,125 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Colchones",
+            "categoria": "colchones",
+            "subcategoria": "sarki",
             "ruta": "/productos/colchones/sarki/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS ORTOPÉDICO SARKI 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/sarki/1-plaza-y-media/",
-            "solo-por-horas": "si",
+            "precioRegular": 575,
             "precioNormal": 499,
             "precioVenta": 319,
             "stock": 99,
             "sku": "K1153CN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Sarki",
-                "tamaño": "1 plaza y media",
-                "lineaColchones": "Ortopédicos",
-                "nivelDeConfort": "Confortable",
-                "tipoDeResorte": "Bonell"
+            "regalos":{
+                "texto": "1 almohada",
+                "foto": "/assets/imagenes/productos/almohada.png"
             },
-            "descripcion":{
-                "uno": "Garantía de 2 años.",
-                "dos": "9 filas de resortes.",
-                "tres": "Tela algodón tejido en punto.",
-                "cuatro": "Marco sellado",
-                "cinco": "Espuma de alta densidad 18kg/m3",
-                "seis": "Uso de ambos lados",
-                "siete": "Soporte de 65kg. por persona."
-            }
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Sarki",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Ortopédico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/sarki/2-plazas/"
+                },
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/colchones/sarki/queen/"
+                },
+                {
+                    "nombre": "King",
+                    "ruta": "/productos/colchones/sarki/king/"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                "sku": "K1153CN10",
+                "modelo-de-colchón": "Sarki",
+                "tamaño": "1 plaza y media",
+                "línea-de-colchón": "Ortopédico",
+                "nivel-de-confort": "Confortable",
+                "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                "resortes": "9 filas",
+                "tela": "Algodón tejido en punto",
+                "densidad-de-espuma": "18kg/m3",
+                "tipo-de-uso": "Ambos lados",
+                "marco": "Sellado",
+                "soporte-de-peso": "65kg. por persona",
+                "garantía": "2 años"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "colchones",
+            "subcategoria": "sarki",
+            "ruta": "/productos/colchones/sarki/2-plazas/",
+            "nombre": "COLCHÓN KAMAS ORTOPÉDICO SARKI 2 PLAZAS",
+            "fotos": "/assets/imagenes/productos/colchones/sarki/2-plazas/",
+            "precioRegular": 629,
+            "precioNormal": 599,
+            "precioVenta": 319,
+            "stock": 99,
+            "sku": "K123CN10",
+            "regalos":{
+                "texto": "1 almohada",
+                "foto": "/assets/imagenes/productos/almohada.png"
+            },
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Sarki",
+                    "tamaño": "2 plazas",
+                    "linea-de-colchón": "Ortopédico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/colchones/sarki/1-plaza-y-media/"
+                },
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/colchones/sarki/queen/"
+                },
+                {
+                    "nombre": "King",
+                    "ruta": "/productos/colchones/sarki/king/"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                "sku": "K123CN10",
+                "modelo-de-colchón": "Sarki",
+                "tamaño": "2 plazas",
+                "línea-de-colchón": "Ortopédico",
+                "nivel-de-confort": "Confortable",
+                "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                "resortes": "9 filas",
+                "tela": "Algodón tejido en punto",
+                "densidad-de-espuma": "18kg/m3",
+                "tipo-de-uso": "Ambos lados",
+                "marco": "Sellado",
+                "soporte-de-peso": "65kg. por persona",
+                "garantía": "2 años"
+                }
+            ]
         }
     ]
 }

@@ -2,118 +2,56 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "Colchones",
+            "categoria": "colchones",
+            "subcategoria": "safynnte",
             "ruta": "/productos/colchones/safynnte/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO SAFYNNTE 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/safynnte/1-plaza-y-media/",
-            "solo-por-horas": "si",
+            "precioRegular": 600,
             "precioNormal": 549,
             "precioVenta": 369,
             "stock": 99,
             "sku": "K1156IN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Safynnte",
-                "tamaño": "1 plaza y media",
-                "líneaColchones": "Super ortopédicos",
-                "nivelDeConfort": "Intermedio",
-                "tipoDeResorte": "Bonell"
+            "regalos":{
+                "texto": "1 almohada",
+                "foto": "/assets/imagenes/productos/almohada.png"
             },
-            "descripcion":{
-                "uno": "10 filas de resortes",
-                "dos": "Tela drill.",
-                "tres": "Refuerzo de marco sellado.",
-                "cuatro": "Espuma de alta densidad 18kg/m3.",
-                "cinco": "Uso de un solo lado",
-                "seis": "Soporte de 65kg. por persona"
-            }
-        },
-        {
-            "id": 2,
-            "categoria": "Colchones",
-            "ruta": "/productos/colchones/safynnte/2-plazas/",
-            "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO SAFYNNTE 2 PLAZAS",
-            "fotos": "/assets/imagenes/productos/colchones/safynnte/2-plazas/",
-            "precioNormal": 699,
-            "precioVenta": 449,
-            "stock": 99,
-            "sku": "K126IN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Safynnte",
-                "tamaño": "2 plazas",
-                "líneaColchones": "Super ortopédicos",
-                "nivelDeConfort": "Intermedio",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "14 filas de resortes",
-                "dos": "Tela drill.",
-                "tres": "Refuerzo de marco sellado.",
-                "cuatro": "Espuma de alta densidad 18kg/m3.",
-                "cinco": "Uso de un solo lado",
-                "seis": "Soporte de 75kg. por persona"
-            }
-        },
-        {
-            "id": 3,
-            "categoria": "Colchones",
-            "ruta": "/productos/colchones/safynnte/queen/",
-            "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO SAFYNNTE QUEEN",
-            "fotos": "/assets/imagenes/productos/colchones/safynnte/queen/",
-            "precioNormal": 999,
-            "precioVenta": 699,
-            "stock": 99,
-            "sku": "K126IN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Safynnte",
-                "tamaño": "Queen",
-                "líneaColchones": "Super ortopédicos",
-                "nivelDeConfort": "Intermedio",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "16 filas de resortes",
-                "dos": "Tela drill",
-                "tres": "Sistema one size",
-                "cuatro": "Refuerzos centrales",
-                "cinco": "Espuma de alta densidad 18kg/m3",
-                "seis": "Marco de espuma",
-                "siete": "Resortes de acero templado",
-                "ocho": "30cm. de grosor",
-                "nueve": "Uso de un solo lado",
-                "diez": "Soporte de 85kg. por persona",
-                "once": "Garantía de 4 años"
-            }
-        },
-        {
-            "id": 3,
-            "categoria": "Colchones",
-            "ruta": "/productos/colchones/safynnte/king/",
-            "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO SAFYNNTE KING",
-            "fotos": "/assets/imagenes/productos/colchones/safynnte/king/",
-            "precioNormal": 1199,
-            "precioVenta": 899,
-            "stock": 99,
-            "sku": "K136IN10",
-            "detallesDelProducto":{
-                "modeloColchon": "Safynnte",
-                "tamaño": "King",
-                "líneaColchones": "Super ortopédicos",
-                "nivelDeConfort": "Intermedio",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "18 filas de resortes",
-                "dos": "Tela drill",
-                "tres": "Sistema one size",
-                "cuatro": "Refuerzos centrales",
-                "cinco": "Espuma de alta densidad 18kg/m3",
-                "seis": "Marco de espuma",
-                "siete": "Resortes de acero templado",
-                "ocho": "30cm. de grosor",
-                "nueve": "Uso de un solo lado",
-                "diez": "Soporte de 85kg. por persona",
-                "once": "Garantía de 4 años"
-            }
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Safynnte",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Intermedio",
+                    "nivel-de-confort": "Super ortopédico"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/colchones/sarki/1-plaza-y-media/"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K1156IN10",
+                    "modelo-de-colchón": "Safynnte",
+                    "tamaño": "1 plaza y media",
+                    "linea-de-colchón": "Intermedio",
+                    "nivel-de-confort": "Super ortopédico",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "10 filas",
+                    "tela": "Drill",
+                    "densidad-de-espuma": "18kg/m3",
+                    "tipo-de-uso": "Un solo lado",
+                    "marco": "Sellado",
+                    "soporte-de-peso": "65kg. por persona",
+                    "garantía": "# años"
+                }
+            ]
         }
     ]
 }
