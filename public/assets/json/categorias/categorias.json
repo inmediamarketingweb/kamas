@@ -271,11 +271,6 @@
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cama box tarimas | Kamas",
                     "ruta": "/productos/dormitorios/"
-                },
-                {
-                    "id": 6,
-                    "medida": "Ver todos",
-                    "ruta": "/productos/dormitorios/"
                 }
             ],
             "medidas":[

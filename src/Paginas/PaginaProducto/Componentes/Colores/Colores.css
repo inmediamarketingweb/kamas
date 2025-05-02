@@ -4,11 +4,10 @@
     bottom: 110px;
     cursor: pointer;
     padding: 10px 16px;
-    background: rgba(0 0 0 / 0.075);
+    background: #F4F4F4;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    /* border: 1px solid rgba(0 0 0 / 0.1); */
     border-radius: 4px;
     z-index: 2;
 }
@@ -123,27 +122,60 @@
     display: flex;
     flex: 1 1 clamp(auto, calc(calc(100% / 5) - calc(40px / 5)), 100%);
     max-width: calc(calc(100% / 5) - calc(40px / 5));
-    padding: 10px;
-    /* border-radius: 5px; */
     overflow: hidden;
 }
 
-.product-page-colors-results li:hover{
-    background: rgba(0 0 0 / 0.05);
-}
-
 .product-page-colors-results li button{
+    position: relative;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: var(--t-200ms-linear);
+    border: 2px solid transparent;
+    border-radius: 4px;
     gap: 10px;
+}
+
+.product-page-colors-results li button:hover{
+    background: rgba(0 0 0 / 0.1);
+}
+
+.product-page-colors-results li button.active{
+    border: 2px solid var(--color-2);
+}
+
+.product-page-colors-results li button::before{
+    content: '✔';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: var(--color-2);
+    color: var(--white);
+
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.product-page-colors-results li button.active::before{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;;
 }
 
 .product-page-colors-results li button img{
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 /**/
@@ -167,4 +199,45 @@
     opacity: 1;
     pointer-events: unset;
     user-select: unset;
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .product-page-colors-button{
+        bottom: 74px;
+    }
+
+    /**/
+
+    .product-page-colors-fabrics{
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+
+    .product-page-colors-fabrics li{
+        width: auto;
+    }
+
+    .product-page-colors-fabrics li button{
+        width: auto;
+        height: 40px;
+        padding: 0 12px;
+    }
+
+    /**/
+
+    .product-page-colors-results{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .product-page-colors-results li{
+        flex: unset;
+        max-width: unset;
+    }
+
+    .product-page-colors-results li button p{
+        font-size: 14px;
+    }
 }
