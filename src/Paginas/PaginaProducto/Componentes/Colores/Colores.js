@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 import './Colores.css';
 
-function Colores(){
+function Colores({ producto}){
     const [data, setData] = useState(null);
     const [activeTelaIndex, setActiveTelaIndex] = useState(0);
     const [isColorsActive, setIsColorsActive] = useState(false);

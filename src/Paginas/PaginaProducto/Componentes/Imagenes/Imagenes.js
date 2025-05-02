@@ -87,7 +87,7 @@ function Imagenes({ imagenes, producto }){
                 </ul>
             </div>
 
-            <Colores/>
+            {producto.colores && <Colores producto={producto} />}
         </div>
     );
 }
