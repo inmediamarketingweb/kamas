@@ -81,10 +81,6 @@
             "tela": "Piel de durazno",
             "colores":[
                 {
-                    "color": "Acero",
-                    "img": "/assets/imagenes/colores/piel-de-potro/ACERO.png"
-                },
-                {
                     "color": "Amarillo",
                     "img": "/assets/imagenes/colores/piel-de-potro/AMARILLO.png"
                 },
