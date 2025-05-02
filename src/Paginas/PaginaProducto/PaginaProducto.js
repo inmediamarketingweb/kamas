@@ -139,60 +139,29 @@ function PaginaProducto(){
         }
     };
 
-    // const getWhatsAppLink = () => {
-    //     if (!selectedShipping.tipo) return "#";
-
-    //     const numeroWhatsApp = "+51907057521";
-    //     const userName = localStorage.getItem('nombre') || '';
-
-    //     const productImage = `https://kamas.pe${producto.fotos}1.jpg`;
-
-    //     const mensaje = `Hola KAMAS! Vengo de su sitio web y estoy interesado en adquirir:\n`
-    //         + `*${producto.nombre}*\n`
-    //         + `${productImage}\n`
-    //         + `Color seleccionado: ${selectedColor ? selectedColor.color : 'Por defecto'}\n`
-    //         + `Precio: ${producto.precioVenta}\n\n`
-    //         + `Cantidad: ${quantity}\n\n`
-    //         + `Cliente: ${userName}\n`
-    //         + `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n`
-    //         + `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n`
-    //         + `Distrito: ${shippingInfo?.locationData?.distrito || ''}\n\n`
-    //         + (shippingInfo?.selectedAgency ? `Agencia seleccionada: ${shippingInfo.selectedAgency}\n` : "")
-    //         + (shippingInfo?.selectedSede ? `Sede de agencia: ${shippingInfo.selectedSede}\n` : "")
-    //         + `Tipo de envío seleccionado: ${selectedShipping.tipo}\n`
-    //         + `Costo de envío: S/.${selectedShipping.precio || 0}`;
-    
-    //     return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
-    // };
-
     const getWhatsAppLink = () => {
         if (!selectedShipping.tipo) return "#";
-    
-        const numeroWhatsApp = "+51907057521";
+
+        const numeroWhatsApp = "+51917013610";
         const userName = localStorage.getItem('nombre') || '';
-        
-        // Get the image URL (selected color or default)
-        const productImage = `https://kamas.pe${producto.fotos}1.jpg`;
+
+        const mensaje = `Hola KAMAS! Vengo de su sitio web, ¿Podrías darme más información respecto a este producto?:\n`
+            + `*${producto.nombre}*\n`
+            + `https://kamas.pe/${producto.ruta}\n`
+            + `Tela: ${selectedColor ? selectedColor.tela : 'Por defecto'}\n`
+            + `Color: ${selectedColor ? selectedColor.color : 'Por defecto'}\n`
+            + `Precio: ${producto.precioVenta}\n\n`
+            + `Cantidad: ${quantity}\n\n`
+            + `Cliente: ${userName}\n`
+            + `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n`
+            + `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n`
+            + `Distrito: ${shippingInfo?.locationData?.distrito || ''}\n\n`
+            + (shippingInfo?.selectedAgency ? `Agencia seleccionada: ${shippingInfo.selectedAgency}\n` : "")
+            + (shippingInfo?.selectedSede ? `Sede de agencia: ${shippingInfo.selectedSede}\n` : "")
+            + `Tipo de envío seleccionado: ${selectedShipping.tipo}\n`
+            + `Costo de envío: S/.${selectedShipping.precio || 0}`;
     
-        // Base WhatsApp URL with media parameter
-        const baseUrl = `https://wa.me/${numeroWhatsApp}?media=${encodeURIComponent(productImage)}&text=`;
-        
-        // Compose message without image URL
-        const mensaje = `Hola KAMAS! Vengo de su sitio web y estoy interesado en adquirir:\n` +
-            `*${producto.nombre}*\n` +
-            `Color seleccionado: ${selectedColor ? selectedColor.color : 'Por defecto'}\n` +
-            `Precio: ${producto.precioVenta}\n\n` +
-            `Cantidad: ${quantity}\n\n` +
-            `Cliente: ${userName}\n` +
-            `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n` +
-            `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n` +
-            `Distrito: ${shippingInfo?.locationData?.distrito || ''}\n\n` +
-            (shippingInfo?.selectedAgency ? `Agencia seleccionada: ${shippingInfo.selectedAgency}\n` : "") +
-            (shippingInfo?.selectedSede ? `Sede de agencia: ${shippingInfo.selectedSede}\n` : "") +
-            `Tipo de envío seleccionado: ${selectedShipping.tipo}\n` +
-            `Costo de envío: S/.${selectedShipping.precio || 0}`;
-    
-        return baseUrl + encodeURIComponent(mensaje);
+        return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
 
     return(

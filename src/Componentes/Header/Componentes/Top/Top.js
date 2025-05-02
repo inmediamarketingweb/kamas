@@ -16,9 +16,9 @@ function Top(){
 
                         <ul className='d-flex-center-left gap-5'>
                             <li>
-                                <a href='tel: +51998877665' title="" className='d-flex-center-center gap-5'>
+                                <a href='tel: +51917013610' title="Llamar" className='d-flex-center-center gap-5'>
                                     <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="Teléfono | Kamas" />
-                                    <h2>998877665</h2>
+                                    <h2>917013610</h2>
                                 </a>
                             </li>
                             <li>
@@ -33,8 +33,8 @@ function Top(){
                         <p>|</p>
                     </li>
                     <li>
-                        <a href='/' title="" className='d-flex-center-center gap-5'>
-                            <img src="/assets/imagenes/iconos/whatsapp-gris.svg" alt="WhatsApp | Kamas" />
+                        <a href='https://wa.link/abc0r5' target='_blank' rel="noopener noreferrer" title="WhatsApp | Kamas" className='d-flex-center-center gap-5'>
+                            <img src="https://kamas.pe/assets/imagenes/iconos/whatsapp-gris.svg" alt="WhatsApp | Kamas" />
                             <h2>WhatsApp</h2>
                         </a>
                     </li>
