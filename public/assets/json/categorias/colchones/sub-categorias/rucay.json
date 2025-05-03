@@ -3,7 +3,7 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "subCategoria": "rucay",
+            "subcategoria": "rucay",
             "ruta": "/productos/colchones/rucay/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/rucay/1-plaza-y-media/",
@@ -44,7 +44,7 @@
                     "ruta": "/productos/colchones/rucay/king/"
                 }
             ],
-            "tipo-de-envio": "Gratis",
+            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
                     "sku": "K1152CN10",
@@ -69,7 +69,8 @@
         },
         {
             "id": 2,
-            "categoria": "Colchones",
+            "categoria": "colchones",
+            "subcategoria": "rucay",
             "ruta": "/productos/colchones/rucay/2-plazas/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/rucay/2-plazas/",
@@ -136,7 +137,7 @@
         {
             "id": 3,
             "categoria": "colchones",
-            "subCategoria": "rucay",
+            "subcategoria": "rucay",
             "ruta": "/productos/colchones/rucay/queen/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/rucay/queen/",
@@ -203,7 +204,8 @@
         },
         {
             "id": 4,
-            "categoria": "Colchones",
+            "categoria": "colchones",
+            "subcategoria": "rucay",
             "ruta": "/productos/colchones/rucay/king/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY KING",
             "fotos": "/assets/imagenes/productos/colchones/rucay/king/",
@@ -212,25 +214,63 @@
             "precioVenta": 699,
             "stock": 99,
             "sku": "K142CM10",
-            "detallesDelProducto":{
-                "modeloColchon": "Rucay",
-                "tamaño": "King",
-                "líneaColchones": "Anátomicos",
-                "nivelDeConfort": "Confortable",
-                "tipoDeResorte": "Bonell"
-            },
-            "descripcion":{
-                "uno": "Garantía de 1 año.",
-                "dos": "17 filas de resortes en forma vertical.",
-                "tres": "Tela algodón tejido en punto",
-                "cuatro": "Espuma de alta densidad 16kg/m3.",
-                "cinco": "Marco sellado",
-                "seis": "Uso de un solo lado",
-                "siete": "Soporte de 70kg. por persona",
-                "ocho": "Refuerzos centrales",
-                "nueve": "25cm. de grosor",
-                "diez": "Resortes de acero templado"
-            }
+            "regalos":[
+                {
+                    "id": 1,
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "modelo-de-colchón": "Rucay",
+                    "tamaño": "King",
+                    "línea-de-colchón": "Anátomico",
+                    "nivel-de-confort": "Confortable"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "id": 1,
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/colchones/rucay/1-plaza-y-media/"
+                },
+                {
+                    "id": 2,
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/colchones/rucay/2-plazas/"
+                },
+                {
+                    "id": 3,
+                    "nombre": "King",
+                    "ruta": "/productos/colchones/rucay/king/"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K132CN10",
+                    "modelo-de-colchón": "Rucay",
+                    "tamaño": "King",
+                    "línea-de-colchón": "Anátomico",
+                    "nivel-de-confort": "Confortable",
+                    "tipo-de-resorte": "Bonell"
+                }
+            ],
+            "descripcion":[
+                {
+                    "resortes": "17 filas",
+                    "material-de-resorte": "Acero templado",
+                    "tela": "Algodón tejido en punto",
+                    "densidad-de-espuma": "16kg/m3",
+                    "tipo-de-uso": "Un solo lado",
+                    "grosor": "25cm.",
+                    "refuerzos": "Centrales",
+                    "marco": "Sellado",
+                    "soporte-de-peso": "70kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
         }
     ]
 }

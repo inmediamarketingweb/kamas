@@ -44,7 +44,9 @@
 }
 
 .category-page-products li{
+    display: flex;
     width: auto;
+    height: 100%;
 }
 
 .category-page-products li .product-card{

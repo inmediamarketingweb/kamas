@@ -106,6 +106,29 @@
 
 /**/
 
+.search-bar-layer{
+    position: fixed;
+    left: 0;
+    top: 110px;
+    width: 100%;
+    height: calc(100vh - 110px);
+    background: rgba(0 0 0 / 0.25);
+    backdrop-filter: blur(1px);
+    z-index: -1;
+
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.search-bar-layer.active{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .search-bar-container{
         max-width: none;
@@ -118,9 +141,17 @@
         padding: 0 20px;
         padding-top: 0;
         padding-bottom: 10px;
+        border-radius: 0;
     }
 
     .search-bar-items li a img{
         width: 80px;
+    }
+
+    /**/
+
+    .search-bar-layer{
+        top: 160px;
+        height: calc(100vh - 160px);
     }
 }

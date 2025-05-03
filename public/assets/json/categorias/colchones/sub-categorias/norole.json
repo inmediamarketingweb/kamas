@@ -3,7 +3,7 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "subCategoria": "norole",
+            "subcategoria": "norole",
             "ruta": "/productos/colchones/norole/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO NOROLE 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/norole/1-plaza-y-media/",
@@ -66,7 +66,7 @@
         {
             "id": 2,
             "categoria": "colchones",
-            "subCategoria": "norole",
+            "subcategoria": "norole",
             "ruta": "/productos/colchones/norole/2-plazas/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO NOROLE 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/norole/2-plazas/",
@@ -129,7 +129,7 @@
         {
             "id": 3,
             "categoria": "colchones",
-            "subCategoria": "norole",
+            "subcategoria": "norole",
             "ruta": "/productos/colchones/norole/queen/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO NOROLE QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/norole/queen/",
@@ -196,7 +196,7 @@
         {
             "id": 4,
             "categoria": "colchones",
-            "subCategoria": "norole",
+            "subcategoria": "norole",
             "ruta": "/productos/colchones/norole/king/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO NOROLE KING",
             "fotos": "/assets/imagenes/productos/colchones/norole/king/",

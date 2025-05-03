@@ -38,6 +38,10 @@
     font-weight: bold;
 }
 
+.product-page-description > div > ul li div:nth-child(2) p::first-letter{
+    text-transform: uppercase;
+}
+
 
 @media screen and (max-width: 600px){
     .product-page-description > div > ul li{
