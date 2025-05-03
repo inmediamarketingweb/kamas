@@ -17,6 +17,15 @@
     z-index: 1;
 }
 
+.product-page-brand{
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    color: var(--text);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .product-page-images-content{
     width: 100%;
     aspect-ratio: 1/1;

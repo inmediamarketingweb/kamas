@@ -3,7 +3,7 @@ import React from 'react';
 import './Jerarquia.css';
 
 function Jerarquia({ producto }){
-    const breadcrumbKeys = ['categoria', 'linea', 'tamaño', 'modelo'];
+    const breadcrumbKeys = ['categoria', 'subcategoria', 'linea', 'tamaño', 'modelo'];
     const crumbs = [];
     let cumulativePath = '';
 

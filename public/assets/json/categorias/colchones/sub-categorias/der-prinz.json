@@ -3,7 +3,7 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "subCategoria": "der prinz",
+            "subcategoria": "der prinz",
             "modelo": "der pinz",
             "ruta": "/productos/colchones/der-prinz/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
@@ -67,7 +67,7 @@
         {
             "id": 2,
             "categoria": "colchones",
-            "subCategoria": "der prinz",
+            "subcategoria": "der prinz",
             "ruta": "/productos/colchones/der-prinz/2-plazas/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/2-plazas/",
@@ -130,7 +130,7 @@
         {
             "id": 3,
             "categoria": "colchones",
-            "subCategoria": "der prinz",
+            "subcategoria": "der prinz",
             "ruta": "/productos/colchones/der-prinz/queen/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/queen/",
@@ -197,7 +197,7 @@
         {
             "id": 4,
             "categoria": "colchones",
-            "subCategoria": "der prinz",
+            "subcategoria": "der prinz",
             "ruta": "/productos/colchones/der-prinz/king/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ KING",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/king/",

@@ -54,7 +54,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
     return(
-        <div className={`product-page-target${producto.stock === 0 ? ' sin-stock' : ''}`}>
+        <div className={`product-page-target ${producto.stock === 0 ? ' sin-stock' : ''}`}>
             <span className="product-page-discount">-{descuento}%</span>
 
             <div className='product-page-images-container'>

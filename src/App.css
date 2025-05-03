@@ -114,6 +114,21 @@ main{
 
 /**/
 
+fieldset{
+    border: 0;
+    outline: 0;
+}
+
+select{
+    cursor: pointer;
+}
+
+option{
+    cursor: pointer;
+}
+
+/**/
+
 .page-banner-img{
     width: 100%;
     height: auto;
