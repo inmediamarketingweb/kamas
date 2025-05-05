@@ -33,8 +33,8 @@ function Colores({ onSelectColor }) {
         <>
             <div className="product-page-colors-button" onClick={() => setIsColorsActive(true)}>
                 <p className="text title">Colores</p>
-                <div className="d-flex-center-left">
-                    <p className="text">+40</p>
+                <div className="d-flex-center-left gap-5">
+                    <p className="text title">+40</p>
                     <ul className="product-page-colors-button-miniatures">
                         {activeTela.colores.slice(0, 5).map((color, index) => (
                             <li key={index}>

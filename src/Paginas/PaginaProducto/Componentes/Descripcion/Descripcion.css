@@ -12,10 +12,10 @@
 
 .product-details ul li{
     width: 100%;
-    height: 56px;
+    min-height: 56px;
+    padding: 10px 0;
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 20px;
 }
 
 .product-details ul li:nth-child(2n - 1){
@@ -106,7 +106,7 @@
 
 .card-flex-3{
     flex: 1 1 clamp(100px, calc(calc(100% / 3) - calc(20px / 3)), 100%);
-    max-width: calc(calc(100% / 3) - calc(20px / 3));
+    /* max-width: calc(calc(100% / 3) - calc(20px / 3)); */
 }
 
 /**/
