@@ -3,21 +3,16 @@
         {
             "id": 1,
             "categoria": "cama box tarimas",
-            "linea": "americanos",
+            "subcategoria": "americanos",
             "ruta": "/productos/cama-box-tarimas/americanos/king/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA AÉREA BLOQUES PISAC - FUCSIA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/king/1/",
+            "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K241",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
-                }
-            ],
+            "sku": "K241150N10",
             "resumen-del-producto":[
                 {
                     "línea": "Americanos",
@@ -29,7 +24,7 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K241",
+                    "sku": "K241150N10",
                     "línea-cama-box": "Americanos",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -42,21 +37,12 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "sku": "K241",
-                            "línea-cama-box": "Americanos",
-                            "tamaño": "King",
-                            "tipo-de-cabecera": "Aérea con patas",
-                            "diseño-de-cabecera": "Bloques",
-                            "modelo-de-cabecera": "Pisac"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "marca": "Kamas",
-                            "modelo": "Sarki"
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -64,25 +50,13 @@
                     "titulo": "Cabecera",
                     "descripcion":[
                         {
-                            "sku": "K241",
-                            "línea-cama-box": "Americanos",
-                            "tamaño": "King",
-                            "tipo-de-cabecera": "Aérea con patas",
-                            "diseño-de-cabecera": "Bloques",
-                            "modelo-de-cabecera": "Pisac"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Puff",
-                    "descripcion":[
-                        {
-                            "sku": "K241",
-                            "línea-cama-box": "Americanos",
-                            "tamaño": "King",
-                            "tipo-de-cabecera": "Aérea con patas",
-                            "diseño-de-cabecera": "Bloques",
-                            "modelo-de-cabecera": "Pisac"
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
                         }
                     ]
                 }

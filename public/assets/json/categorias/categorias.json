@@ -9,7 +9,7 @@
             "ruta": "/productos/colchones/",
             "menuMensaje":[
                 {
-                    "text": "Contamos con una amplia gama de colchones en tamaños, nivel de confort y modelos."
+                    "text": "Contamos con una amplia gama de colchones en diversos tamaños, nivel de comodidad y modelos propios."
                 }
             ],
             "subCategoriasTitulo":[
@@ -145,7 +145,7 @@
             "ruta": "/productos/cama-box-tarimas/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Bases con diseños americanos, europeos con o sin cajones... son la base de un buen descanso."
                 }
             ],
             "subCategoriasTitulo":[
@@ -233,7 +233,7 @@
             "ruta": "/productos/dormitorios/",
             "menuMensaje":[
                 {
-                    "text": "Dormitorios clásicos, americanos, europeos con o sin cajones en todos los tamaños del mercado."
+                    "text": "Dormitorios clásicos, americanos, europeos con o sin cajones en todos los tamaños y varios modelos del mercado."
                 }
             ],
             "subCategoriasTitulo":[
@@ -321,7 +321,7 @@
             "ruta": "/productos/camas-funcionales/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Convierte tu área de descanso en un lugar para todo con nuestros box espacios, baules, camas divanes y ahorra espacio."
                 }
             ],
             "subCategoriasTitulo":[
@@ -389,7 +389,7 @@
             "ruta": "/productos/cabeceras/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Cabeceras acogedoras que protegen la pared y ofrecen respaldo al sentarse. Diseños americanos y europeos adaptables a diferentes estilos y tapizados."
                 }
             ],
             "medidas":[
@@ -465,7 +465,7 @@
             "ruta": "/productos/sofas/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Sofás seccionales o fijos, con estructura resistente y tapizados de calidad. Perfectos para crear zonas de descanso y convivencia."
                 }
             ],
             "subCategoriasTitulo":[
@@ -539,7 +539,7 @@
             "ruta": "/productos/complementos/",
             "menuMensaje":[
                 {
-                    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+                    "text": "Complementos decorativos y funcionales para tu lugar de descanso, veladores, puff's, camas para perros y mucho más."
                 }
             ],
             "subCategoriasTitulo":[

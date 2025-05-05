@@ -10,14 +10,8 @@
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
-            "stock": 1,
+            "stock": 19,
             "sku": "K24A2120N10",
-            "regalos":[
-                {
-                    "texto": "2 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
-                }
-            ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Adel",

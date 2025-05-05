@@ -34,6 +34,12 @@ import HorariosDeEntrega from './Paginas/ServicioAlCliente/HorariosDeEntrega';
 import ProgramaDeInfluencers from './Paginas/Novedades/ProgramaDeInfluencers';
 import ProgramaDeReferencias from './Paginas/Novedades/ProgramaDeReferencias';
 
+//Páginas de envios
+import EnviosALimaYCallao from "./Paginas/Nosotros/Paginas/Envios/EnviosALimaYCallao/EnviosALimaYCallao";
+import EnviosAProvincia from './Paginas/Nosotros/Paginas/Envios/EnviosAProvincia/EnviosAProvincia';
+
+import CostosDeEnvioPorZonas from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/CostosDeEnvioPorZonas";
+
 //Páginas de contacto
 import Contacto from "./Paginas/Contacto/Contacto";
 import LibroDeReclamaciones from "./Paginas/Contacto/LibroDeReclamaciones/LibroDeReclamaciones";
@@ -70,11 +76,14 @@ function App(){
                     <Route path="/mis-favoritos/" element={<Favoritos/>} />
 
                     <Route path="/nosotros/" element={<Nosotros/>} />
-                    <Route path="/nosotros/propiedad-intelectual/" element={<PropiedadIntelectual/>}/>
                     <Route path="/nosotros/razones-para-comprar/" element={<RazonesParaComprar/>}/>
+                    <Route path="/nosotros/propiedad-intelectual/" element={<PropiedadIntelectual/>}/>
+
+                    <Route path="/envios/envios-a-lima-y-callao/" element={<EnviosALimaYCallao/>}/>
+                    <Route path="/envios/envios-a-provincia/" element={<EnviosAProvincia/>}/>
 
                     <Route path="/servicio-al-cliente/medios-de-pago/" element={<MediosDePago/>}/>
-
+                    <Route path="/servicio-al-cliente/costos-de-envio-por-zona/" element={<CostosDeEnvioPorZonas/>}/>
                     <Route path="/servicio-al-cliente/garantia-de-productos/" element={<GarantiaDeProductos/>}/>
                     <Route path="/servicio-al-cliente/garantia-de-productos/colchones/" element={<GarantiaColchones/>}/>
                     <Route path="/servicio-al-cliente/garantia-de-productos/box-tarimas/" element={<GarantiaTarimas/>}/>
