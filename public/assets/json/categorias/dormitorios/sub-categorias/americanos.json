@@ -6,116 +6,84 @@
             "subcategoria": "americanos",
             "linea": "americanos",
             "tamaño": "king",
-            "modelo": "sarki",
-            "ruta": "/productos/dormitorios/americanos/king/sarki/1/",
-            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CUADROS 2",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas/cuadros/1/",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/1/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/1/",
             "colores": "si",
-            "novedades": "si",
             "precioRegular": 425,
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 9,
-            "sku": "K1151CN10",
+            "sku": "K3151125N10",
             "regalos":[
                 {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
                 }
             ],
             "resumen-del-producto":[
                 {
-                    "modelo-de-colchón": "Sarki",
-                    "tamaño": "King",
-                    "linea-de-colchón": "Ortopédico",
-                    "cabecera": "Aérea cuadros 2"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/colchones/adel/2-plazas/"
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
                 }
             ],
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K1151CN10",
-                    "modelo-de-colchón": "Sarki",
-                    "tamaño": "King",
-                    "línea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable",
-                    "tipo-de-resorte": "Bonell"
+                    "sku": "K3151125N10",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
                 }
             ],
-            "descripcion":[
+            "descripciones":[
                 {
-                    "resortes": "8 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "55kg. por persona",
-                    "garantía": "1 año"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "categoria": "dormitorios",
-            "subcategoria": "americanos",
-            "linea": "americanos",
-            "tamaño": "king",
-            "modelo": "sarki",
-            "ruta": "/productos/dormitorios/americanos/king/sarki/2/",
-            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AEREA CAPITONEADA - COBALTO",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas/capitoneadas/1/",
-            "novedades": "si",
-            "precioRegular": 425,
-            "precioNormal": 379,
-            "precioVenta": 249,
-            "stock": 9,
-            "sku": "K1151CN10",
-            "regalos":[
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
                 {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
-                }
-            ],
-            "resumen-del-producto":[
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
                 {
-                    "tamaño": "King",
-                    "línea": "Americanos",
-                    "modelo-de-colchón": "Sarki",
-                    "linea-de-colchón": "Ortopédico",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo": "Capitoneada"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/colchones/adel/2-plazas/"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K1151CN10",
-                    "modelo-de-colchón": "Sarki",
-                    "tamaño": "King",
-                    "línea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable",
-                    "tipo-de-resorte": "Bonell"
-                }
-            ],
-            "descripcion":[
-                {
-                    "resortes": "8 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "55kg. por persona",
-                    "garantía": "1 año"
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
                 }
             ]
         }

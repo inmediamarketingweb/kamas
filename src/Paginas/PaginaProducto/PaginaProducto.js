@@ -223,7 +223,7 @@ function PaginaProducto(){
                                                                 <span className="material-icons">check</span>
                                                                 <div>
                                                                     <b>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</b>
-                                                                    <p className='text'>{value}</p>
+                                                                    <p className='text first-uppercase'>{value}</p>
                                                                 </div>
                                                             </li>
                                                         ))
