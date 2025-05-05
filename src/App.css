@@ -255,6 +255,16 @@ button{
     grid-template-columns: repeat(2, auto);
 }
 
+.d-grid-3-2-1fr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.d-grid-1-3fr{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
 /**/
 
 .margin-auto{
@@ -456,19 +466,18 @@ button{
 
     .block-title{
         margin-right: auto;
-        /* font-size: 20px; */
         text-align: left !important;
     }
 
     /**/
 
-    .d-grid-2-1fr{
+    .d-grid-2-1fr,
+    .d-grid-3-2-1fr,
+    .d-grid-auto-1fr,
+    .d-grid-1-3fr{
         grid-template-columns: 1fr;
     }
-    
-    .d-grid-auto-1fr{
-        grid-template-columns: 1fr;
-    }
+
     .d-grid-5-3-2fr{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
