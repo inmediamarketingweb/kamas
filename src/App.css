@@ -182,6 +182,10 @@ button{
     font-weight: bold;
 }
 
+.first-uppercase::first-letter{
+    text-transform: uppercase;
+}
+
 /**/
 
 .d-flex{
