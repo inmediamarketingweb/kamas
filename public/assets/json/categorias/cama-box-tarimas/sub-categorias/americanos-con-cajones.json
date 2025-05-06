@@ -4,47 +4,1049 @@
             "id": 1,
             "categoria": "cama box tarimas",
             "subcategoria": "americanos con cajones",
-            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING CON 2 CAJONES LATERALES + CABECERA AEREA CAPITONEADA - PLOMO",
-            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/king/1/",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - ARENA CLARO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/1/",
+            "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
-            "stock": 19,
-            "sku": "K24A2120N10",
+            "stock": 12,
+            "sku": "K2152120N10",
             "resumen-del-producto":[
                 {
-                    "modelo-de-colchón": "Adel",
+                    "línea": "Americanos con cajones",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/colchones/adel/2-plazas/"
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
                 }
             ],
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K1151CN10",
-                    "modelo-de-colchón": "Adel",
+                    "sku": "K2151120N10",
+                    "línea": "Americanos con cajones",
                     "tamaño": "1 plaza y media",
-                    "línea-de-colchón": "Semi ortopédico",
-                    "nivel-de-confort": "Confortable",
-                    "tipo-de-resorte": "Bonell"
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
                 }
             ],
-            "descripcion":[
+            "descripciones":[
                 {
-                    "resortes": "8 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "55kg. por persona",
-                    "garantía": "1 año"
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/2/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/2/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N11",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N11",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/3/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 3 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - CAMELL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/3/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N12",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N12",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/4/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 3 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - CAMELL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/4/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N13",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N13",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/5/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - FUCSIA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/5/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N14",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N14",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/6/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/6/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N15",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N15",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/7/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/7/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N16",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N16",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/8/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/8/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N17",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N17",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/9/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/9/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N18",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N18",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/10/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEDADA - NEGRO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/aereas/capitoneadas/10/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152120N19",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "modelo-de-cabecera": "Capitoneda"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152120N19",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneada",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/11/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES AL PIE + CABECERA PEDESTAL CAPITONEDADA - NEGRO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/emperatriz/1/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152221N10",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152221N10",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/12/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA PEDESTAL CAPITONEDADA - CAMELL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/emperatriz/2/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2152221N11",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152221N11",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/13/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA PEDESTAL CAPITONEDADA - FUCSIA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/emperatriz/3/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 13,
+            "sku": "K2152221N12",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152221N12",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/14/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA PEDESTAL CAPITONEDADA - ROSA PASTEL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/emperatriz/4/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 13,
+            "sku": "K2152221N13",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152221N13",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/15/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA PEDESTAL CAPITONEDADA - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/emperatriz/5/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 13,
+            "sku": "K2152221N13",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152221N13",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos con cajones",
+            "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/16/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA PEDESTAL INFANTIL PELOTA - AZUL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos-con-cajones/1-plaza-y-media/pedestales/infantiles/1/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 13,
+            "sku": "K2152260N10",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Pelota"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2152260N10",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Otras formas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima con cajones",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
                 }
             ]
         }
