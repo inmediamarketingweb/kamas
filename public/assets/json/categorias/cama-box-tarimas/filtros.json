@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Línea",
-        "nombre": "linea",
+        "nombre": "línea",
         "lista":[
             {
                 "id": 1,
@@ -52,7 +52,7 @@
     {
         "id": 3,
         "titulo": "Tipo de cabecera",
-        "nombre": "tipoDeCabecera",
+        "nombre": "tipo-de-cabecera",
         "lista":[
             {
                 "id": 1,
@@ -66,8 +66,8 @@
     },
     {
         "id": 4,
-        "titulo": "Modelo de cabecera",
-        "nombre": "modeloDeCabecera",
+        "titulo": "Diseño de cabecera",
+        "nombre": "diseño-de-cabecera",
         "lista":[
             {
                 "id": 1,
@@ -93,8 +93,8 @@
     },
     {
         "id": 5,
-        "titulo": "Diseño de cabecera",
-        "nombre": "diseñoDeCabecera",
+        "titulo": "Modelo de cabecera",
+        "nombre": "modelo-de-cabecera",
         "lista":[
             {
                 "id": 1,
@@ -125,7 +125,7 @@
     {
         "id": 6,
         "titulo": "Tipo de brazo",
-        "nombre": "tipoDeBrazo",
+        "nombre": "tipo-de-brazo",
         "lista":[
             {
                 "id": 1,

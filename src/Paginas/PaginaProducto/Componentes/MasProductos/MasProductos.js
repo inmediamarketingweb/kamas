@@ -18,11 +18,13 @@ export default function MasProductos({ categoriaActual }){
                     files.map(async (filePath) => {
                         const res = await fetch(filePath);
                         const data = await res.json();
+
                         if (!data.productos || !data.productos.length) return null;
 
                         const sameCategory = data.productos.filter(
                             (p) => p.categoria === categoriaActual
                         );
+
                         if (!sameCategory.length) return null;
 
                         const randomIndex = Math.floor(Math.random() * sameCategory.length);

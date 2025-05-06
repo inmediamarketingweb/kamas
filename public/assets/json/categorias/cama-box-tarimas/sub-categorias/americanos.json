@@ -4,32 +4,1056 @@
             "id": 1,
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
-            "ruta": "/productos/cama-box-tarimas/americanos/king/1/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA AÉREA BLOQUES PISAC - FUCSIA",
-            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/king/1/",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEDADA - PLATA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/aereas/capitoneadas/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K241150N10",
+            "sku": "K2151120N10",
             "resumen-del-producto":[
                 {
                     "línea": "Americanos",
-                    "tamaño": "King",
+                    "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Pisac"
+                    "modelo-de-cabecera": "Capitoneda"
                 }
             ],
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K241150N10",
-                    "línea-cama-box": "Americanos",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Aérea con patas",
+                    "sku": "K2151120N10",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "caracteristica-de-cabecera": "Aérea con patas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/2/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/1/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N10",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Conejo"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151120N10",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Pisac"
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/3/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - TURQUESA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/2/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N11",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Conejo"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N11",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/4/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - FUCSIA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/3/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N12",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Conejo"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N12",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/5/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA AÉREA INFANTIL CONEJO + SOFÁ BAÚL - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/4/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N13",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Conejo"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N13",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Sofá baúl",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/6/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - NEGRO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/5/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N14",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N14",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/7/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/6/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N15",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N15",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/8/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/7/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N16",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N16",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/9/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/8/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N17",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N17",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/10/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - TUQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/9/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N18",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N18",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/11/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/10/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N19",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Ratón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N19",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/12/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - VINO",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/11/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N20",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Pelota"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N20",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/13/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - AZUL",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/12/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N21",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Pelota"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N21",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/14/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/13/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N22",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Pelota"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N22",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Infantiles",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/15/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL CORAZÓN - LILA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/varias-formas/1/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N23",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Corazón"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N23",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Otras formas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/16/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL ABANICO - FUCSIA",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/varias-formas/2/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151260N23",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Abanico"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151260N23",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "modelo-de-cabecera": "Otras formas",
+                    "tipo-de-brazo": "Sin brazos"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "cama box tarimas",
+            "subcategoria": "americanos",
+            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/17/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL CAPITONEADO - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/capitoneadas/1/",
+            "colores": "si",
+            "precioRegular": 1099,
+            "precioNormal": 1000,
+            "precioVenta": 610,
+            "stock": 12,
+            "sku": "K2151220N10",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "sku": "K2151220N10",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "modelo-de-cabecera": "Capitoneadas",
+                    "tipo-de-brazo": "Brazo recto"
                 }
             ],
             "descripciones":[

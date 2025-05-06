@@ -5,7 +5,7 @@
             "categoria": "dormitorios",
             "subcategoria": "americanos",
             "linea": "americanos",
-            "tamaño": "king",
+            "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/1/",
             "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - FUCSIA",
@@ -36,6 +36,441 @@
             "detalles-del-producto":[
                 {
                     "sku": "K3151125N10",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/2/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - GRIS RATÓN",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/2/",
+            "colores": "si",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 9,
+            "sku": "K3151125N11",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K3151125N11",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/3/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/3/",
+            "colores": "si",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 9,
+            "sku": "K3151125N12",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K3151125N12",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/4/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/4/",
+            "colores": "si",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 9,
+            "sku": "K3151125N13",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K3151125N13",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/5/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/5/",
+            "colores": "si",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 9,
+            "sku": "K3151125N14",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K3151125N14",
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo-colchón": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "8 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-la-espuma": "16kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "soporte-de-peso": "55kg. por persona",
+                            "garantía": "1 año"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "linea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "adel",
+            "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/6/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - ROSA PASTEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/6/",
+            "colores": "si",
+            "precioRegular": 425,
+            "precioNormal": 379,
+            "precioVenta": 249,
+            "stock": 9,
+            "sku": "K3151125N15",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "1 plaza y media",
+                    "modelo": "adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "infantiles",
+                    "modelo-de-cabecera": "oso"
+                }
+            ],
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "sku": "K3151125N15",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
