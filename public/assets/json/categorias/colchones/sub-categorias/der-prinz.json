@@ -12,7 +12,6 @@
             "precioNormal": 599,
             "precioVenta": 399,
             "stock": 24,
-            "sku": "K1157MCN10",
             "incluye":[
                 {
                     "texto": "1 almohada",
@@ -107,7 +106,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K127MCN10",
                     "modelo-de-colchón": "Der Prinz",
                     "tamaño": "2 plazas",
                     "línea-de-colchón": "Super ortopédico",
@@ -170,7 +168,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K137MCN10",
                     "modelo-de-colchón": "Der Prinz",
                     "tamaño": "Queen",
                     "línea-de-colchón": "Super ortopédico",
@@ -237,7 +234,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K147MCN10",
                     "modelo-de-colchón": "Der Prinz",
                     "tamaño": "King",
                     "línea-de-colchón": "Super ortopédico",

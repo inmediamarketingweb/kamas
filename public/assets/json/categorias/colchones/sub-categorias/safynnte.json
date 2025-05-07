@@ -41,7 +41,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K1156IN10",
                     "modelo-de-colchón": "Safynnte",
                     "tamaño": "1 plaza y media",
                     "linea-de-colchón": "Intermedio",
@@ -102,7 +101,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K126IN10",
                     "modelo-de-colchón": "Safynnte",
                     "tamaño": "2 plazas",
                     "linea-de-colchón": "Intermedio",
@@ -163,7 +161,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K136IN10",
                     "modelo-de-colchón": "Safynnte",
                     "tamaño": "Queen",
                     "linea-de-colchón": "Intermedio",
@@ -228,7 +225,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K146IN10",
                     "modelo-de-colchón": "Safynnte",
                     "tamaño": "King",
                     "linea-de-colchón": "Intermedio",
