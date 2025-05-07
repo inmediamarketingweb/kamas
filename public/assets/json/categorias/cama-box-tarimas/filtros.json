@@ -5,20 +5,19 @@
         "nombre": "línea",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanos"
+                "nombre": "Clásica"
             },
             {
-                "id": 2,
-                "nombre": "Americanos con cajones"
+                "nombre": "Americana"
             },
             {
-                "id": 3,
-                "nombre": "Europeos"
+                "nombre": "Europea"
             },
             {
-                "id": 4,
-                "nombre": "Europeos con cajones"
+                "nombre": "Madera natural"
+            },
+            {
+                "nombre": "Premium"
             }
         ]
     },
@@ -50,98 +49,94 @@
         ]
     },
     {
-        "id": 3,
+        "titulo": "Cajones",
+        "nombre": "cajones",
+        "lista":[
+            {
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    },
+    {
+        "titulo": "Base encajonada",
+        "nombre": "base-encajonada",
+        "lista":[
+            {
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    },
+    {
         "titulo": "Tipo de cabecera",
         "nombre": "tipo-de-cabecera",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Aérea"
+                "nombre": "Aérea",
+                "lista":[
+                    {
+                        "nombre": "Con patas"
+                    },
+                    {
+                        "nombre": "Sin patas"
+                    }
+                ]
             },
             {
-                "id": 2,
                 "nombre": "Pedestal"
             }
         ]
     },
     {
-        "id": 4,
         "titulo": "Diseño de cabecera",
         "nombre": "diseño-de-cabecera",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanas"
+                "nombre": "Infantil"
             },
             {
-                "id": 2,
-                "nombre": "Bloques"
+                "nombre": "Clásica"
             },
             {
-                "id": 3,
-                "nombre": "Clásicas"
+                "nombre": "Americana"
             },
             {
-                "id": 4,
                 "nombre": "Con marco"
             },
             {
-                "id": 5,
-                "nombre": "Coronas"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "titulo": "Modelo de cabecera",
-        "nombre": "modelo-de-cabecera",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Capitoneadas"
+                "nombre": "Corona"
             },
             {
-                "id": 2,
-                "nombre": "Clásicas"
+                "nombre": "Bloque"
             },
             {
-                "id": 3,
-                "nombre": "Cuadros"
-            },
-            {
-                "id": 4,
-                "nombre": "Lineales"
-            },
-            {
-                "id": 5,
-                "nombre": "Infantiles"
-            },
-            {
-                "id": 6,
                 "nombre": "Otras formas"
             }
         ]
     },
     {
-        "id": 6,
-        "titulo": "Tipo de brazo",
-        "nombre": "tipo-de-brazo",
+        "titulo": "Brazos",
+        "nombre": "brazos",
         "lista":[
             {
-                "id": 1,
                 "nombre": "Sin brazos"
             },
             {
-                "id": 2,
-                "nombre": "Brazo recto"
+                "nombre": "Brazos rectos"
             },
             {
-                "id": 3,
-                "nombre": "Brazo curvo"
+                "nombre": "Brazos curvos"
             },
             {
-                "id": 4,
-                "nombre": "Brazo seahorse"
+                "nombre": "Brazos en P"
+            },
+            {
+                "nombre": "Brazos seahorse"
             }
         ]
     }
