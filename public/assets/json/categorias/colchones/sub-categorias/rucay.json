@@ -47,7 +47,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K1152CN10",
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "1 plaza y media",
                     "línea-de-colchón": "Anátomico",
@@ -114,7 +113,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K122CN10",
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "2 plazas",
                     "línea-de-colchón": "Anátomicos",
@@ -180,7 +178,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K132CN10",
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "Queen",
                     "línea-de-colchón": "Anátomico",
@@ -249,7 +246,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K132CN10",
                     "modelo-de-colchón": "Rucay",
                     "tamaño": "King",
                     "línea-de-colchón": "Anátomico",

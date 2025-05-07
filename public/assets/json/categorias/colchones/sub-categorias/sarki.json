@@ -41,7 +41,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                "sku": "K1153CN10",
                 "modelo-de-colchón": "Sarki",
                 "tamaño": "1 plaza y media",
                 "línea-de-colchón": "Ortopédico",
@@ -102,7 +101,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K123CN10",
                     "modelo-de-colchón": "Sarki",
                     "tamaño": "2 plazas",
                     "línea-de-colchón": "Ortopédico",
@@ -163,7 +161,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K133CN10",
                     "modelo-de-colchón": "Sarki",
                     "tamaño": "Queen",
                     "línea-de-colchón": "Ortopédico",
@@ -227,7 +224,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K143CN10",
                     "modelo-de-colchón": "Sarki",
                     "tamaño": "King",
                     "línea-de-colchón": "Ortopédico",

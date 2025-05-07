@@ -43,7 +43,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K1155MCN10",
                     "modelo-de-colchón": "Ramat",
                     "tamaño": "1 plaza y media",
                     "línea-de-colchón": "Súper ortopédico",
@@ -107,7 +106,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K125MCN10",
                     "modelo-de-colchón": "Ramat",
                     "tamaño": "2 plazas",
                     "línea-de-colchón": "Súper ortopédico",
@@ -171,7 +169,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K135MCN10",
                     "modelo-de-colchón": "Ramat",
                     "tamaño": "Queen",
                     "línea-de-colchón": "Súper ortopédico",
@@ -239,7 +236,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K145MCN10",
                     "modelo-de-colchón": "Ramat",
                     "tamaño": "King",
                     "línea-de-colchón": "Súper ortopédico",
