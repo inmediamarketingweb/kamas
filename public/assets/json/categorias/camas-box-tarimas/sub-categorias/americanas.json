@@ -3,7 +3,8 @@
         {
             "id": 1,
             "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
+            "subcategoria": "americanas",
+            "tamaño": "1 plaza y media",
             "ruta": "/productos/camas-box-tarimas/americanas/1-plaza-y-media/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEDADA - PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/aereas/capitoneadas/1/",
