@@ -15,7 +15,7 @@
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 9,
-            "sku": "K3151125N10",
+            "sku": "K3215211N10",
             "regalos":[
                 {
                     "texto": "1 almohada",
@@ -35,7 +35,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N10",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
@@ -102,7 +101,7 @@
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 9,
-            "sku": "K3151125N11",
+            "sku": "K3215211N11",
             "regalos":[
                 {
                     "texto": "1 almohada",
@@ -122,7 +121,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N11",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
@@ -189,7 +187,7 @@
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 9,
-            "sku": "K3151125N12",
+            "sku": "K3215211N12",
             "regalos":[
                 {
                     "texto": "1 almohada",
@@ -209,7 +207,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N12",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
@@ -276,7 +273,7 @@
             "precioNormal": 379,
             "precioVenta": 249,
             "stock": 9,
-            "sku": "K3151125N13",
+            "sku": "K3215211N13",
             "regalos":[
                 {
                     "texto": "1 almohada",
@@ -296,7 +293,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N13",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
@@ -383,7 +379,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N14",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
@@ -470,7 +465,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K3151125N15",
                     "línea": "Americano",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "adel",
