@@ -52,7 +52,7 @@ function PaginaProducto(){
     useEffect(() => {
         const fetchProducto = async () => {
             try{
-                const categorias = ["colchones", "cama-box-tarimas", "dormitorios", "camas-funcionales", "cabeceras", "sofas", "complementos"];
+                const categorias = ["colchones", "camas-box-tarimas", "dormitorios", "camas-funcionales", "cabeceras", "sofas", "complementos"];
                 let productoEncontrado = null;
 
                 for (const categoria of categorias){
