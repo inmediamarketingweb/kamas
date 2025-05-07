@@ -77,15 +77,10 @@
         "nombre": "tipo-de-cabecera",
         "lista":[
             {
-                "nombre": "Aérea",
-                "lista":[
-                    {
-                        "nombre": "Con patas"
-                    },
-                    {
-                        "nombre": "Sin patas"
-                    }
-                ]
+                "nombre": "Aérea"
+            },
+            {
+                "nombre": "Aérea con patas"
             },
             {
                 "nombre": "Pedestal"
@@ -120,8 +115,8 @@
         ]
     },
     {
-        "titulo": "Brazos",
-        "nombre": "brazos",
+        "titulo": "Brazos cabecera",
+        "nombre": "brazos-cabecera",
         "lista":[
             {
                 "nombre": "Sin brazos"
