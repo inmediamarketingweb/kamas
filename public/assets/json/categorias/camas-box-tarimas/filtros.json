@@ -115,8 +115,8 @@
         ]
     },
     {
-        "titulo": "Brazos cabecera",
-        "nombre": "brazos-cabecera",
+        "titulo": "Brazos de cabecera",
+        "nombre": "brazos-de-cabecera",
         "lista":[
             {
                 "nombre": "Sin brazos"

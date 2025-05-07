@@ -12,6 +12,14 @@ function Descripcion({ producto }){
                     <div className='w-100 product-details d-flex-column gap-20 margin-bottom'>
                         <h4 className='title'>Detalles del producto:</h4>
                         <ul>
+                            <li>
+                                <div>
+                                    <strong>SKU:</strong>
+                                </div>
+                                <div>
+                                    <p className='text'>{producto.sku}</p>
+                                </div>
+                            </li>
                             {producto['detalles-del-producto'] && producto['detalles-del-producto'].map(
                                 (detalle, index) => Object.entries(detalle).map(([key, value]) => (
                                     <li key={`${index}-${key}`}>
@@ -56,6 +64,14 @@ function Descripcion({ producto }){
                     <div className='product-details w-100 d-flex-column gap-20 margin-bottom'>
                         <h4 className='title'>Detalles del producto:</h4>
                         <ul>
+                            <li>
+                                <div>
+                                    <strong>SKU:</strong>
+                                </div>
+                                <div>
+                                    <p className='text'>{producto.sku}</p>
+                                </div>
+                            </li>
                             {producto['detalles-del-producto'] && producto['detalles-del-producto'].map((detalle, index) =>
                                 Object.entries(detalle).map(([key, value]) => (
                                     <li key={`${index}-${key}`}>

@@ -15,7 +15,7 @@
             "sku": "K2151120N10",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Aérea",
                     "modelo-de-cabecera": "Capitoneda"
@@ -24,14 +24,14 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151120N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "caracteristica-de-cabecera": "Aérea con patas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -68,7 +68,7 @@
             "id": 2,
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
-            "ruta": "/productos/cama-box-tarimas/americanos/1-plaza-y-media/2/",
+            "ruta": "/productos/cama-box-tarimas/americanas/1-plaza-y-media/2/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - LILA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/1/",
             "colores": "si",
@@ -77,24 +77,25 @@
             "precioVenta": 610,
             "stock": 12,
             "sku": "K2151260N10",
+            "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151120N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Conejo"
                 }
             ],
             "descripciones":[
@@ -2059,7 +2060,7 @@
             "precioNormal": 810,
             "precioVenta": 610,
             "stock": 0,
-            "sku": "K221241N10",
+            "sku": "K221241N11",
             "resumen-del-producto":[
                 {
                     "línea": "Americanos",
@@ -2071,7 +2072,6 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221241N10",
                     "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
