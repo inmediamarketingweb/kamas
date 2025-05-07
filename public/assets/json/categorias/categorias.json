@@ -140,9 +140,9 @@
             "id": 2,
             "icono": "/assets/imagenes/componentes/header/cama-box-tarimas.svg",
             "iconoAlt": "Cama box tarima vector",
-            "categoria": "Cama box tarimas",
-            "metaTitulo": "Cama box tarimas | Kamas",
-            "ruta": "/productos/cama-box-tarimas/",
+            "categoria": "Camas box tarimas",
+            "metaTitulo": "Camas box tarimas | Kamas",
+            "ruta": "/productos/camas-box-tarimas/",
             "menuMensaje":[
                 {
                     "text": "Bases con diseños americanos, europeos con o sin cajones... son la base de un buen descanso."
@@ -155,77 +155,53 @@
             ],
             "subCategorias":[
                 {
-                    "id": 0,
+                    "id": 1,
                     "subcategoria": "Clásica",
                     "metaTitulo": "Cama box tarimas - Clásicas | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/clasicas/"
-                },
-                {
-                    "id": 1,
-                    "subcategoria": "Americanos",
-                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/americanos/"
+                    "ruta": "/productos/camas-box-tarimas/clasicas/"
                 },
                 {
                     "id": 2,
-                    "subcategoria": "Americanos con cajones",
-                    "metaTitulo": "Cama box tarimas - Americanos con cajones | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/americanos-con-cajones/"
-                },
-                {
-                    "id": 3,
-                    "subcategoria": "Europeos",
-                    "metaTitulo": "Cama box tarimas - Europeos | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/europeos/"
-                },
-                {
-                    "id": 4,
-                    "subcategoria": "Europeos con cajones",
-                    "metaTitulo": "Cama box tarimas - Europeos con cajones | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/europeos-con-cajones/"
-                },
-                {
-                    "id": 5,
-                    "subcategoria": "Ver todos",
-                    "metaTitulo": "Cama box tarimas | Kamas",
-                    "ruta": "/productos/cama-box-tarimas/"
+                    "subcategoria": "Americanos",
+                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
+                    "ruta": "/productos/camas-box-tarimas/americanas/"
                 }
             ],
             "medidas":[
                 {
                     "id": 1,
                     "medida": "1 plaza",
-                    "ruta": "/productos/cama-box-tarimas?tamaño=1-plaza"
+                    "ruta": "/productos/camas-box-tarimas?tamaño=1-plaza"
                 },
                 {
                     "id": 2,
                     "medida": "1 plaza y media",
-                    "ruta": "/productos/cama-box-tarimas?tamaño=1-plaza-y-media"
+                    "ruta": "/productos/camas-box-tarimas?tamaño=1-plaza-y-media"
                 },
                 {
                     "id": 3,
                     "medida": "2 plazas",
-                    "ruta": "/productos/cama-box-tarimas?tamaño=2-plazas"
+                    "ruta": "/productos/camas-box-tarimas?tamaño=2-plazas"
                 },
                 {
                     "id": 4,
                     "medida": "Queen",
-                    "ruta": "/productos/cama-box-tarimas?tamaño=queen"
+                    "ruta": "/productos/camas-box-tarimas?tamaño=queen"
                 },
                 {
                     "id": 5,
                     "medida": "King",
-                    "ruta": "/productos/cama-box-tarimas?tamaño=king"
+                    "ruta": "/productos/camas-box-tarimas?tamaño=king"
                 },
                 {
                     "id": 6,
                     "medida": "Ver todos",
-                    "ruta": "/productos/cama-box-tarimas/"
+                    "ruta": "/productos/camas-box-tarimas/"
                 }
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/cama-box-tarimas/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/camas-box-tarimas/1.jpg",
                     "imgAlt": "Cama box tarimas | Kamas"
                 }
             ]

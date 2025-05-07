@@ -2,12 +2,12 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "cama box tarimas",
-            "subcategoria": "americanos",
+            "categoria": "camas box tarimas",
+            "subcategoria": "clasicas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/19/",
+            "ruta": "/productos/camas-box-tarimas/clasicas/2-plazas/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/1/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/clasicas/2-plazas/sin-cajones/pedestales/1/",
             "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 850,
@@ -31,7 +31,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -70,7 +70,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/20/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/2/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/2/",
             "colores": "si",
@@ -96,7 +96,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -135,7 +135,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/21/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/3/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - VERDE LORO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/3/",
             "colores": "si",
@@ -160,7 +160,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -199,7 +199,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/22/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/4/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/4/",
             "colores": "si",
@@ -225,7 +225,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -264,7 +264,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/23/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/5/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/5/",
             "colores": "si",
@@ -290,7 +290,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -329,7 +329,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/24/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/6/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - MARRÓN",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/6/",
             "colores": "si",
@@ -355,7 +355,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -394,7 +394,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/25/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/7/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - NEGRO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/7/",
             "colores": "si",
@@ -420,7 +420,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -459,7 +459,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/26/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/8/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - ROJO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/8/",
             "colores": "si",
@@ -485,7 +485,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -524,7 +524,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/27/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/9/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - TURQUESA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/9/",
             "colores": "si",
@@ -550,7 +550,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -589,7 +589,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/28/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/10/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - VINO",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/10/",
             "colores": "si",
@@ -615,7 +615,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -654,7 +654,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/29/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/11/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/11/",
             "colores": "si",
@@ -679,7 +679,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
@@ -718,7 +718,7 @@
             "categoria": "cama box tarimas",
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
-            "ruta": "/productos/cama-box-tarimas/americanos/2-plazas/30/",
+            "ruta": "/productos/cama-box-tarimas/clasicas/2-plazas/12/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CLÁSICA 1 - FUCSIA",
             "fotos": "/assets/imagenes/productos/cama-box-tarimas/americanos/2-plazas/pedestales/clasicas/12/",
             "colores": "si",
@@ -744,7 +744,7 @@
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Clásica",
-                    "brazos-cabecera": "Brazos rectos",
+                    "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Clásica 1"
                 }
             ],
