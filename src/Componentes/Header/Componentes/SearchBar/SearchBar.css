@@ -43,7 +43,7 @@
     background: var(--header);
     width: 100%;
     height: auto;
-    max-height: calc(100vh - 158px + 25px);
+    max-height: 500px;
     border: 1px solid rgba(0 0 0 / 0.15);
     transition: var(--t-200ms-linear);
     padding: 10px;
@@ -113,7 +113,7 @@
     width: 100%;
     height: calc(100vh - 110px);
     background: rgba(0 0 0 / 0.25);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     z-index: -1;
 
     opacity: 0;
