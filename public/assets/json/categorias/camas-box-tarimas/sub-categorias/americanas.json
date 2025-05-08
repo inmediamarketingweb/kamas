@@ -6,20 +6,20 @@
             "subcategoria": "americanas",
             "tamaño": "1 plaza y media",
             "ruta": "/productos/camas-box-tarimas/americanas/1-plaza-y-media/1/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEDADA - PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/aereas/capitoneadas/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEDADA - PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151120N10",
+            "sku": "K22152113N10",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Aérea",
+                    "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Capitoneda"
                 }
             ],
@@ -70,8 +70,8 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanas/1-plaza-y-media/2/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - LILA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - LILA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/conejo/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -135,7 +135,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/3/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - TURQUESA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/2/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/conejo/2/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -199,7 +199,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/4/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL CONEJO - FUCSIA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/3/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/conejo/3/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -263,7 +263,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/5/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA AÉREA INFANTIL CONEJO + SOFÁ BAÚL - LILA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/4/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/conejo/4/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -341,7 +341,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/6/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/5/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -405,7 +405,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/7/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - VERDE CERCETA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/6/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/2/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -469,7 +469,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/8/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/7/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/3/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -533,7 +533,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/9/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/8/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/4/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -597,7 +597,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/10/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - TUQUESA ÓPALO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/9/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/5/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -661,7 +661,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/11/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/10/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/6/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -725,7 +725,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/12/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - VINO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/11/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/pelota/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -789,7 +789,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/13/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - AZUL",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/12/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/pelota/2/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -853,7 +853,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/14/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL PELOTA - VERDE CERCETA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/infantiles/13/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/pelota/3/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -917,7 +917,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/15/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL CORAZÓN - LILA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/varias-formas/1/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/otras-formas/sin-brazos/corazon/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -940,7 +940,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Infantil",
+                    "diseño-de-cabecera": "Otras formas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Corazón"
                 }
@@ -981,7 +981,7 @@
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/16/",
             "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL ABANICO - FUCSIA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/varias-formas/2/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/otras-formas/sin-brazos/abanico/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
@@ -1004,7 +1004,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Infantil",
+                    "diseño-de-cabecera": "Otras formas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Abanico"
                 }
@@ -1044,8 +1044,8 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanos",
             "ruta": "/productos/camas-box-tarimas/americanos/1-plaza-y-media/17/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL CAPITONEADO - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/capitoneadas/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA PEDESTAL CAPITONEADA - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-rectos/otros-modelos/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 820,
@@ -1058,7 +1058,7 @@
                     "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "detalles-del-producto":[
@@ -1068,8 +1068,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos"
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "descripciones":[
@@ -1109,13 +1110,13 @@
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - UVA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/1/",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K2215223N10",
+            "sku": "K2222113N10",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -1132,8 +1133,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera" :"Americana",
-                    "brazos-de-cabecera": "Sin brazos"
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1172,32 +1174,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/2/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - CAMELL",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/2/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/2/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221120N11",
+            "sku": "K2222113N11",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221120N11",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1236,32 +1239,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/3/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - MORO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/3/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/3/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K21121N10",
+            "sku": "K2222113N12",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K21121N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1300,32 +1304,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/4/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CORONA - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/4/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 2 PUFF - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/4/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221140N10",
+            "sku": "K2222113N13",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Corona"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221140N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Coronas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1364,32 +1369,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/5/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 2 PUFF - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/5/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/5/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221120N12",
+            "sku": "K2222113N14",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221120N12",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1428,32 +1434,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/6/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/6/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/6/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221120N13",
+            "sku": "K2222113N15",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221120N13",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
@@ -1492,1616 +1499,33 @@
             "subcategoria": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/7/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/7/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/7/",
             "colores": "si",
             "precioRegular": 899,
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221120N14",
+            "sku": "K2222113N16",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221120N14",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 25,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/8/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/9/",
-            "colores": "si",
-            "precioRegular": 899,
-            "precioNormal": 1259,
-            "precioVenta": 909,
-            "stock": 15,
-            "sku": "K221120N15",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221120N15",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 26,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/10/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/10/",
-            "colores": "si",
-            "precioRegular": 899,
-            "precioNormal": 1259,
-            "precioVenta": 909,
-            "stock": 15,
-            "sku": "K221120N16",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221120N16",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 27,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/11/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - ARENA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/11/",
-            "colores": "si",
-            "precioRegular": 899,
-            "precioNormal": 1259,
-            "precioVenta": 909,
-            "stock": 15,
-            "sku": "K221120N17",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221120N17",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 28,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/12/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 2 VELADORES SHELTER - ARENA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/capitoneadas/12/",
-            "colores": "si",
-            "precioRegular": 899,
-            "precioNormal": 1883,
-            "precioVenta": 1288,
-            "stock": 15,
-            "sku": "K221120N18",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221120N18",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 29,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/13/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA LINEAL - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/aereas/lineales/1/",
-            "colores": "si",
-            "precioRegular": 899,
-            "precioNormal": 780,
-            "precioVenta": 530,
-            "stock": 15,
-            "sku": "K221120N19",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Lineales"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221120N19",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Lineales",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 30,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/14/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL BLOQUES V - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/bloques/1/",
-            "colores": "si",
-            "precioRegular": 1530,
-            "precioNormal": 1050,
-            "precioVenta": 650,
-            "stock": 15,
-            "sku": "K221250N10",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Bloques"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221250N10",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Bloques",
-                    "tipo-de-brazo": "Sin brazos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 31,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/15/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL MAJESTAD - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/capitoneadas/1/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 1140,
-            "precioVenta": 820,
-            "stock": 15,
-            "sku": "K221242N10",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Majestad"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221242N10",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Coronas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo curvo"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 32,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/16/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CORONA - UVA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/capitoneadas/2/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 990,
-            "precioVenta": 720,
-            "stock": 15,
-            "sku": "K221241N10",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Corona"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221241N10",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Coronas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 33,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/17/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADA - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/capitoneadas/3/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 810,
-            "precioVenta": 610,
-            "stock": 0,
-            "sku": "K221241N11",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Corona"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Coronas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 34,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/18/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL MAJESTAD - HUESO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/capitoneadas/4/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 1120,
-            "precioVenta": 820,
-            "stock": 14,
-            "sku": "K221242N11",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Majestad"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "sku": "K221242N11",
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Coronas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo curvo"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 43,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/31/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS ENCAJONADO + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/1/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 650,
-            "stock": 14,
-            "sku": "K221221N10",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 44,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/32/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/2/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N11",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 45,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/33/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/3/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N12",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 46,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/34/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/4/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N13",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 47,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/35/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - VERDE CERCETA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/5/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N14",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 48,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/36/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/6/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N15",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 49,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/37/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - FUCSIA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/7/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N16",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 50,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/38/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - ROSADO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/8/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N17",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 51,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/39/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - VINO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/9/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N18",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 52,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/41/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/10/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N19",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 53,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/42/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CUERO CAMELL",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/11/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N20",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Cuero brescia",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Cuero brescia",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 54,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/43/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/12/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N21",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 55,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/45/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - TURQUESA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/13/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N22",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 56,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/46/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - GRIS",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/emperatriz/14/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N23",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 57,
-            "categoria": "camas box tarimas",
-            "subcategoria": "americanos",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanos/2-plazas/47/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - GRIS",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/2-plazas/pedestales/lineal/1/",
-            "colores": "si",
-            "precioRegular": 1430,
-            "precioNormal": 850,
-            "precioVenta": 610,
-            "stock": 14,
-            "sku": "K221221N23",
-            "resumen-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Lineales"
-                }
-            ],
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "Americanos",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Lineales",
-                    "tipo-de-brazo": "Brazo recto"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
             "descripciones":[
