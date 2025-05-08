@@ -11,6 +11,12 @@
             "subcategoria": "Americanas",
             "metaTitulo": "Camas box tarimas - Americanas | Kamas",
             "ruta": "/productos/camas-box-tarimas/americanas/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Europeas",
+            "metaTitulo": "Camas box tarimas - Europeas | Kamas",
+            "ruta": "/productos/camas-box-tarimas/europeas/"
         }
     ]
 }

@@ -165,6 +165,24 @@
                     "subcategoria": "Americanas",
                     "metaTitulo": "Camas box tarimas - Americanas | Kamas",
                     "ruta": "/productos/camas-box-tarimas/americanas/"
+                },
+                {
+                    "id": 3,
+                    "subcategoria": "Europea",
+                    "metaTitulo": "Camas box tarimas - Europeas | Kamas",
+                    "ruta": "/productos/camas-box-tarimas/europeas/"
+                },
+                {
+                    "id": 4,
+                    "subcategoria": "Madera natural",
+                    "metaTitulo": "Camas box tarimas - Madera natural | Kamas",
+                    "ruta": "/productos/camas-box-tarimas/madera-natural/"
+                },
+                {
+                    "id": 3,
+                    "subcategoria": "Premium",
+                    "metaTitulo": "Camas box tarimas - Premium | Kamas",
+                    "ruta": "/productos/camas-box-tarimas/premium/"
                 }
             ],
             "medidas":[

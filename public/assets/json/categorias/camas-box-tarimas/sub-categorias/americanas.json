@@ -14,6 +14,7 @@
             "precioVenta": 610,
             "stock": 12,
             "sku": "K2151120N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
@@ -22,7 +23,6 @@
                     "modelo-de-cabecera": "Capitoneda"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
                     "línea": "Americana",
@@ -77,8 +77,8 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N10",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "K2215221N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
@@ -141,25 +141,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N11",
+            "sku": "K2215221N11",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N11",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Conejo"
                 }
             ],
             "descripciones":[
@@ -204,25 +205,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N12",
+            "sku": "K2215221N13",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N12",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Conejo"
                 }
             ],
             "descripciones":[
@@ -267,25 +269,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N13",
+            "sku": "K2215221N14",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N13",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Conejo"
                 }
             ],
             "descripciones":[
@@ -344,25 +347,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N14",
+            "sku": "K2215221N15",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N14",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -407,25 +411,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N15",
+            "sku": "K2215221N16",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N15",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -470,25 +475,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N16",
+            "sku": "K2215221N17",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N16",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -533,25 +539,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N17",
+            "sku": "K2215221N18",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N17",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -596,25 +603,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N18",
+            "sku": "K2215221N19",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N18",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -659,25 +667,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N19",
+            "sku": "K2215221N20",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N19",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -722,25 +731,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N20",
+            "sku": "K2215221N21",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Pelota"
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N20",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -785,25 +795,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N21",
+            "sku": "K2215221N22",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Pelota"
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N21",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -848,25 +859,26 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N22",
+            "sku": "K2215221N23",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Pelota"
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N22",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Infantiles",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Ratón"
                 }
             ],
             "descripciones":[
@@ -911,7 +923,8 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N23",
+            "sku": "K2215227N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
                     "línea": "Americanos",
@@ -920,16 +933,16 @@
                     "modelo-de-cabecera": "Corazón"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N23",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Otras formas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Corazón"
                 }
             ],
             "descripciones":[
@@ -974,7 +987,8 @@
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151260N23",
+            "sku": "K2215227N11",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
                     "línea": "Americanos",
@@ -983,16 +997,16 @@
                     "modelo-de-cabecera": "Abanico"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151260N23",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "modelo-de-cabecera": "Otras formas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "diseño-de-cabecera": "Infantil",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Abanico"
                 }
             ],
             "descripciones":[
@@ -1034,28 +1048,28 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanos/1-plaza-y-media/pedestales/capitoneadas/1/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 820,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2151220N10",
+            "sku": "K2215223N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "modelo-de-cabecera": "Capitoneado"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2151220N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos"
                 }
             ],
             "descripciones":[
@@ -1101,25 +1115,25 @@
             "precioNormal": 780,
             "precioVenta": 530,
             "stock": 15,
-            "sku": "K221120N10",
+            "sku": "K2215223N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneadas"
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
                 }
             ],
-            "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "sku": "K221120N10",
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Sin brazos"
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera" :"Americana",
+                    "brazos-de-cabecera": "Sin brazos"
                 }
             ],
             "descripciones":[
