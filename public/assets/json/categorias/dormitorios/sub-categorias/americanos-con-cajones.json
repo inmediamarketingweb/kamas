@@ -6,16 +6,16 @@
             "linea": "americanos con cajones",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
-            "ruta": "/productos/dormitorios/americanos-con-cajones/1-plaza-y-media/adel/1/",
+            "ruta": "/ofertas/solo-por-horas/dormitorios/americanos-con-cajones/1-plaza-y-media/adel/1/",
             "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA 2 CAJONES LATERALES + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/1-plaza-y-media/adel/pedestales/americanas/brazos-rectos/emperatriz/1/",
             "colores": "si",
-            "precioRegular": 1429,
+            "precioRegular": 1229,
             "precioNormal": 979,
             "precioVenta": 779,
             "stock": 9,
             "sku": "K3215113N10",
-            "novedades": "si",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -102,7 +102,6 @@
             "precioVenta": 779,
             "stock": 9,
             "sku": "K3215113N11",
-            "novedades": "si",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
