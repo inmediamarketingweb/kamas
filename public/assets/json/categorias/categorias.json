@@ -157,13 +157,13 @@
                 {
                     "id": 1,
                     "subcategoria": "Clásica",
-                    "metaTitulo": "Cama box tarimas - Clásicas | Kamas",
+                    "metaTitulo": "Camas box tarimas - Clásicas | Kamas",
                     "ruta": "/productos/camas-box-tarimas/clasicas/"
                 },
                 {
                     "id": 2,
-                    "subcategoria": "Americanos",
-                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
+                    "subcategoria": "Americanas",
+                    "metaTitulo": "Camas box tarimas - Americanas | Kamas",
                     "ruta": "/productos/camas-box-tarimas/americanas/"
                 }
             ],
