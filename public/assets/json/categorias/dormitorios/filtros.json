@@ -2,23 +2,22 @@
     {
         "id": 1,
         "titulo": "Línea",
-        "nombre": "linea",
+        "nombre": "línea",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanos"
+                "nombre": "Clásica"
             },
             {
-                "id": 2,
-                "nombre": "Americanos con cajones"
+                "nombre": "Americano"
             },
             {
-                "id": 3,
-                "nombre": "Europeos"
+                "nombre": "Europeo"
             },
             {
-                "id": 4,
-                "nombre": "Europeos con cajones"
+                "nombre": "Madera natural"
+            },
+            {
+                "nombre": "Premium"
             }
         ]
     },
@@ -50,153 +49,131 @@
         ]
     },
     {
-        "id": 3,
-        "titulo": "Modelo",
-        "nombre": "modelo",
+        "titulo": "Cajones",
+        "nombre": "cajones",
         "lista":[
             {
-                "id": 1,
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    },
+    {
+        "titulo": "Base encajonada",
+        "nombre": "base-encajonada",
+        "lista":[
+            {
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    },
+    {
+        "titulo": "Modelo de colchón",
+        "nombre": "modelo-de-colchón",
+        "lista":[
+            {
                 "nombre": "Adel"
             },
             {
-                "id": 2,
                 "nombre": "Rucay"
             },
             {
-                "id": 3,
                 "nombre": "Sarki"
             },
             {
-                "id": 4,
                 "nombre": "Safynnte"
             },
             {
-                "id": 5,
-                "nombre": "Der Prinz"
+                "nombre": "Der prinz"
             },
             {
-                "id": 6,
-                "nombre": "Thameo Pocket"
+                "nombre": "Thameo pocket"
             },
             {
-                "id": 7,
                 "nombre": "Ramat"
             },
             {
-                "id": 8,
                 "nombre": "Nesie"
             },
             {
-                "id": 9,
                 "nombre": "Norole"
             },
             {
-                "id": 10,
-                "nombre": "Thaleo Pocket"
+                "nombre": "Thaleo pocket"
             },
             {
-                "id": 11,
                 "nombre": "Konig"
             },
             {
-                "id": 12,
                 "nombre": "Yurmale"
             }
         ]
     },
     {
-        "id": 4,
         "titulo": "Tipo de cabecera",
-        "nombre": "tipoDeCabecera",
+        "nombre": "tipo-de-cabecera",
         "lista":[
             {
-                "id": 1,
                 "nombre": "Aérea"
             },
             {
-                "id": 2,
+                "nombre": "Aérea con patas"
+            },
+            {
                 "nombre": "Pedestal"
             }
         ]
     },
     {
-        "id": 5,
-        "titulo": "Modelo de cabecera",
-        "nombre": "modeloDeCabecera",
+        "titulo": "Diseño de cabecera",
+        "nombre": "diseño-de-cabecera",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanas"
+                "nombre": "Infantil"
             },
             {
-                "id": 2,
-                "nombre": "Bloques"
+                "nombre": "Clásica"
             },
             {
-                "id": 3,
-                "nombre": "Clásicas"
+                "nombre": "Americana"
             },
             {
-                "id": 4,
                 "nombre": "Con marco"
             },
             {
-                "id": 5,
-                "nombre": "Coronas"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "titulo": "Diseño de cabecera",
-        "nombre": "diseñoDeCabecera",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Capitoneadas"
+                "nombre": "Corona"
             },
             {
-                "id": 2,
-                "nombre": "Clásicas"
+                "nombre": "Bloque"
             },
             {
-                "id": 3,
-                "nombre": "Cuadros"
-            },
-            {
-                "id": 4,
-                "nombre": "Líneales"
-            },
-            {
-                "id": 5,
-                "nombre": "Infantiles"
-            },
-            {
-                "id": 6,
                 "nombre": "Otras formas"
             }
         ]
     },
     {
-        "id": 7,
-        "titulo": "Tipo de brazo",
-        "nombre": "tipoDeBrazo",
+        "titulo": "Brazos de cabecera",
+        "nombre": "brazos-de-cabecera",
         "lista":[
             {
-                "id": 1,
                 "nombre": "Sin brazos"
             },
             {
-                "id": 2,
-                "nombre": "Brazo recto"
+                "nombre": "Brazos rectos"
             },
             {
-                "id": 3,
-                "nombre": "Brazo curvo"
+                "nombre": "Brazos curvos"
             },
             {
-                "id": 4,
-                "nombre": "Brazo seahorse"
+                "nombre": "Brazos en P"
+            },
+            {
+                "nombre": "Brazos seahorse"
             }
         ]
     }

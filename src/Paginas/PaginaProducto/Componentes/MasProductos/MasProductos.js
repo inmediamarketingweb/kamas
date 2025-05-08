@@ -11,28 +11,41 @@ export default function MasProductos({ categoriaActual }){
         async function fetchRandomProducts(){
             try{
                 const manifestRes = await fetch('/assets/json/manifest.json');
-                const manifest = await manifestRes.json();
-                const files = manifest.files;
+                    const manifest = await manifestRes.json();
+                    const files = manifest.files;
 
-                const fetched = await Promise.all(
-                    files.map(async (filePath) => {
-                        const res = await fetch(filePath);
-                        const data = await res.json();
+                    const allData = await Promise.all(
+                        files.map(async (filePath) => {
+                            const res = await fetch(filePath);
+                            return res.json();
+                        })
+                    );
 
-                        if (!data.productos || !data.productos.length) return null;
+                    const categoryProducts = allData.reduce((acc, data) => {
+                        if (Array.isArray(data.productos)) {
+                            const matches = data.productos.filter(
+                                (p) => p.categoria === categoriaActual
+                            );
+                            return acc.concat(matches);
+                        }
+                        return acc;
+                    }, []);
 
-                        const sameCategory = data.productos.filter(
-                            (p) => p.categoria === categoriaActual
-                        );
+                    if (!categoryProducts.length) {
+                        setProducts([]);
+                        return;
+                    }
 
-                        if (!sameCategory.length) return null;
+                    for (let i = categoryProducts.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [categoryProducts[i], categoryProducts[j]] = [
+                            categoryProducts[j],
+                            categoryProducts[i]
+                        ];
+                    }
 
-                        const randomIndex = Math.floor(Math.random() * sameCategory.length);
-                        return sameCategory[randomIndex];
-                    })
-                );
-
-                setProducts(fetched.filter((p) => p));
+                const selected = categoryProducts.slice(0, 10);
+                setProducts(selected);
             } catch (err) {
                 console.error('Error loading more products:', err);
             } finally {
@@ -41,6 +54,7 @@ export default function MasProductos({ categoriaActual }){
         }
 
         if (categoriaActual) {
+            setLoading(true);
             fetchRandomProducts();
         } else {
             setLoading(false);
@@ -71,7 +85,7 @@ export default function MasProductos({ categoriaActual }){
                                 <li key={uuidv4()} className="product-card">
                                     <div className='product-card-images'>
                                         <a href={prod.ruta} title={prod.nombre}>
-                                            <img src={`${prod.fotos}1.jpg`} alt={prod.nombre} />
+                                        <img src={`${prod.fotos}1.jpg`} alt={prod.nombre} />
                                         </a>
                                     </div>
 
