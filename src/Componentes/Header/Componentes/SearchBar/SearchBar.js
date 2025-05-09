@@ -45,7 +45,7 @@ function SearchBar(){
             producto.nombre,
             producto.sku,
             producto.categoria,
-            producto.subCategoria
+            producto.subcategoria
         ].map(String).map(normalizeStr);
 
         return tokens.every(token =>
