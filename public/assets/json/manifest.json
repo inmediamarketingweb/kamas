@@ -12,7 +12,8 @@
         "/assets/json/categorias/camas-box-tarimas/sub-categorias/clasicas.json",
         "/assets/json/categorias/camas-box-tarimas/sub-categorias/americanas.json",
         "/assets/json/categorias/camas-box-tarimas/sub-categorias/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/sub-categorias/europeos.json",
+        "/assets/json/categorias/camas-box-tarimas/sub-categorias/europeas.json",
+        "/assets/json/categorias/camas-box-tarimas/sub-categorias/europeas-con-cajones.json",
 
         "/assets/json/categorias/dormitorios/sub-categorias/americanos.json",
         "/assets/json/categorias/dormitorios/sub-categorias/americanos-con-cajones.json"

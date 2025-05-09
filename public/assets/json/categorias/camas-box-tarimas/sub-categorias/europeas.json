@@ -2,35 +2,37 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "cama box tarimas",
-            "subcategoria": "europeos",
-            "ruta": "/productos/cama-box-tarimas/europeos/1-plaza-y-media/1/",
-            "nombre": "CAMA BOX TARIMA EUROPEO 1 PLAZA Y MEDIA + CABECERA AÉREA PEDESTAL EMPERATRIZ - PLATA",
-            "fotos": "/assets/imagenes/productos/cama-box-tarimas/europeos/1-plaza-y-media/pedestales/emperatriz/1/",
+            "categoria": "camas box tarimas",
+            "subcategoria": "europeas",
+            "tamaño": "1 plaza y media",
+            "ruta": "/productos/camas-box-tarimas/europeas/1-plaza-y-media/1/",
+            "nombre": "CAMA BOX TARIMA EUROPEA 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/europeas/1-plaza-y-media/pedestales/americanas/brazos-rectos/emperatriz/1/",
             "colores": "si",
             "precioRegular": 1099,
             "precioNormal": 1000,
             "precioVenta": 610,
             "stock": 12,
-            "sku": "K2153221N10",
+            "sku": "K2315223N10",
+            "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Europeos",
+                    "línea": "Europea",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Emperatriz"
                 }
             ],
-            "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K2153221N10",
-                    "línea": "Europeos",
+                    "línea": "Europea",
                     "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "modelo-de-cabecera": "Capitoneadas",
-                    "tipo-de-brazo": "Brazo recto"
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
                 }
             ],
             "descripciones":[
@@ -38,7 +40,8 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino radiata secado al horno.",
+                            "espuma": "Zebra de alta densidad",
                             "refuerzos": "centrales y laterales.",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
