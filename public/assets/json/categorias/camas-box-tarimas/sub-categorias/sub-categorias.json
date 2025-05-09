@@ -23,6 +23,12 @@
             "subcategoria": "Europeas",
             "metaTitulo": "Camas box tarimas - Europeas | Kamas",
             "ruta": "/productos/camas-box-tarimas/europeas/"
+        },
+        {
+            "id": 5,
+            "subcategoria": "Europeas con cajones",
+            "metaTitulo": "Camas box tarimas - Europeas con cajones | Kamas",
+            "ruta": "/productos/camas-box-tarimas/europeas-con-cajones/"
         }
     ]
 }
