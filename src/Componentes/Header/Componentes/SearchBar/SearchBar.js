@@ -9,22 +9,40 @@ function SearchBar(){
 
     useEffect(() => {
         const fetchProductos = async () => {
-            try {
+            try{
                 const manifestResponse = await fetch('/assets/json/manifest.json');
+                if (!manifestResponse.ok) {
+                    console.error('No OK al cargar manifest.json:', manifestResponse.status);
+                    return;
+                }
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
 
                 const productosArrays = await Promise.all(
                     archivos.map(async (archivo) => {
-                        const response = await fetch(archivo);
-                        const data = await response.json();
-                        return data.productos || [];
+                        try{
+                            const res = await fetch(archivo);
+                            if (!res.ok) {
+                                console.warn(`No OK (${res.status}) al cargar ${archivo}`);
+                                return [];
+                            }
+                            const text = await res.text();
+                            if (!text) {
+                                console.warn(`Respuesta vacía para ${archivo}`);
+                                return [];
+                            }
+                            const data = JSON.parse(text);
+                            return data.productos || [];
+                        } catch (err) {
+                            console.error(`Error procesando ${archivo}:`, err);
+                            return [];
+                        }
                     })
                 );
 
                 setProductos(productosArrays.flat());
             } catch (error) {
-                console.error('Error al cargar los productos:', error);
+            console.error('Error al cargar los productos:', error);
             }
         };
 
@@ -35,8 +53,7 @@ function SearchBar(){
         setSearchTerm(e.target.value);
     };
 
-    const normalizeStr = (str = '') =>
-        str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const normalizeStr = (str = '') => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
     const filteredProductos = productos.filter((producto) => {
         if (!searchTerm) return true;
