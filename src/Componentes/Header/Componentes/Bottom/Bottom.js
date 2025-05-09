@@ -4,7 +4,7 @@ function Bottom(){
     return(
         <div className='header-bottom-container'>
             <section className='header-bottom'>
-                <p><a href='/productos/dormitorios/' title='¡Por el mes de mamá! Más del 30% 🔥 de descuento en dormitorios 🛌' className='color-white'>¡Por el mes de mamá! Más del 30% 🔥 de descuento en dormitorios 🛌</a></p>
+                <p><a href='/productos/dormitorios/' title='Haz que mamá descanse como una reina 👑 ¡Hasta 40% de descuento solo este mes!' className='color-white'>Haz que mamá descanse como una reina 👑 ¡Hasta 40% de descuento solo este mes!</a></p>
             
                 <ul className='d-flex-center-center gap-10'>
                     <li>
@@ -25,7 +25,7 @@ function Bottom(){
                     </li>
                     <li>
                         <a href="/" title='Ventas al por mayor | Kamas'>
-                            <h2>Ventas al por mayor</h2>
+                            <h2>Proyectos y alianzas</h2>
                         </a>
                     </li>
                     <li>
