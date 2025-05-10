@@ -16,6 +16,9 @@ import Favoritos from "./Paginas/Favoritos/Favoritos";
 
 //Páginas de nosotros y contenido adicional
 import Nosotros from "./Paginas/Nosotros/Nosotros";
+
+import ProyectosYAlianzas from "./Paginas/ProyectosYAlianzas/ProyectosYAlianzas";
+
 import PropiedadIntelectual from "./Paginas/Nosotros/Paginas/PropiedadIntelectual";
 import RazonesParaComprar from "./Paginas/Nosotros/Paginas/RazonesParaComprar";
 import MediosDePago from './Paginas/ServicioAlCliente/MediosDePago';
@@ -76,6 +79,9 @@ function App(){
                     <Route path="/mis-favoritos/" element={<Favoritos/>} />
 
                     <Route path="/nosotros/" element={<Nosotros/>} />
+
+                    <Route path="/proyectos-y-alianzas/" element={<ProyectosYAlianzas/>} />
+
                     <Route path="/nosotros/razones-para-comprar/" element={<RazonesParaComprar/>}/>
                     <Route path="/nosotros/propiedad-intelectual/" element={<PropiedadIntelectual/>}/>
 

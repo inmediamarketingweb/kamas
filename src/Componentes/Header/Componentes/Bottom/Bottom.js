@@ -24,7 +24,7 @@ function Bottom(){
                         <p className="color-white">|</p>
                     </li>
                     <li>
-                        <a href="/" title='Ventas al por mayor | Kamas'>
+                        <a href="/proyectos-y-alianzas/" title='Proyectos y alianzas | Kamas'>
                             <h2>Proyectos y alianzas</h2>
                         </a>
                     </li>
