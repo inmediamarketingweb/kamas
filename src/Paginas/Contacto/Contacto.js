@@ -29,14 +29,116 @@ function Contacto(){
                             <h1 className='block-title'>Contáctanos</h1>
                         </div>
 
-                        <form onSubmit={handleSubmit}>
-                            <label htmlFor="email">Email Address</label>
-                            <input id="email" type="email" name="email"/>
-                            <ValidationError prefix="Email" field="email" errors={state.errors}/>
-                            <textarea id="message" name="message"/>
-                            <ValidationError prefix="Message" field="message" errors={state.errors}/>
-                            <button type="submit" disabled={state.submitting}>Submit</button>
-                        </form>
+                        <div className="d-grid-2-1fr gap-20">
+                            <div className="d-flex-column gap-20">
+                                <div className="d-flex-column gap-10">
+                                    <p className="text">¿Problemas con algún producto?</p>
+                                    <p className="text">¿Desear cotizar un dormitorio personalizado?</p>
+                                    <p className="text">¿Buscas asesoría para tu compra?</p>
+                                </div>
+
+                                <div className="d-flex-column">
+                                    <p className="text">En KAMAS estamos listos para ayudarte.</p>
+                                    <p className="text">Nuestro equipo de atención al cliente está disponible de lunes a sábado de 8:00 a.m. a 8:00 p.m.</p>
+                                </div>
+
+                                <div className="d-flex-column gap-10">
+                                    <p className="title">Canales de atención</p>
+                                    <ul className="d-flex-column">
+                                        <li>
+                                            <img src="" alt="" />
+                                        </li>
+                                        <li>
+                                            <a href="" title="" className="">
+                                                <p>917013610</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" title="" className="">
+                                                <p>943469911</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <ul className="d-flex-column">
+                                        <li>
+                                            <img src="" alt="" />
+                                        </li>
+                                        <li>
+                                            <a href="" title="" className="">
+                                                <p>consultas@kamas.pe</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div className="d-flex-column gap-20">
+                                    <p className="title">Siguenos</p>
+
+                                    <ul className="social-networks">
+                                        <li>
+                                            <a>
+                                                <img src="" alt="" className=""/>
+                                                <p>Facebook</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <img src="" alt="" className=""/>
+                                                <p>Instagram</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <img src="" alt="" className=""/>
+                                                <p>Tik Tok</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a>
+                                                <img src="" alt="" className=""/>
+                                                <p>YouTube</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <form onSubmit={handleSubmit} className="contact-form">
+                                <fieldset>
+                                    <label>Nombres:</label>
+                                    <input type="text" placeholder=""></input>
+                                    <span></span>
+                                </fieldset>
+                                <fieldset>
+                                    <label>Teléfono:</label>
+                                    <input type="text" placeholder=""></input>
+                                    <span></span>
+                                </fieldset>
+                                <fieldset>
+                                    <label>Correo electrónico:</label>
+                                    <input type="text" placeholder=""></input>
+                                    <span></span>
+                                </fieldset>
+                                <fieldset>
+                                    <label>Ciudad:</label>
+                                    <input type="text" placeholder=""></input>
+                                    <span></span>
+                                </fieldset>
+                                <fieldset>
+                                    <label>Mensaje:</label>
+                                    <textarea placeholder=""></textarea>
+                                    <span></span>
+                                </fieldset>
+
+                                {/* <label htmlFor="email">Email Address</label>
+                                <input id="email" type="email" name="email"/>
+                                <ValidationError prefix="Email" field="email" errors={state.errors}/>
+                                <textarea id="message" name="message"/>
+                                <ValidationError prefix="Message" field="message" errors={state.errors}/>
+                                <button type="submit" disabled={state.submitting}>Submit</button> */}
+                            </form>
+                        </div>
                     </section>
                 </div>
             </main>

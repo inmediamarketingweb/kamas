@@ -1,0 +1,19 @@
+.social-networks{
+    display: flex;
+    align-items: flex-start;
+}
+
+.social-networks li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form{
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
