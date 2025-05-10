@@ -1,5 +1,3 @@
-import React from 'react';
-
 import './Descripcion.css';
 
 function Descripcion({ producto }){

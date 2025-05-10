@@ -48,7 +48,7 @@ function Center(){
         <div className='header-center-container d-flex w-100'>
             <section className='header-center'>
                 <div className='d-flex-center-left gap-20'>
-                    <a href='https://kamas.pe/' title='Kamas | Fabricantes de camas' className='header-logo'>
+                    <a href='/' title='Kamas | Fabricantes de camas' className='header-logo'>
                         <img src="/assets/imagenes/kamas/logo-principal-kamas.jpg" alt="Logo principal de Kamas"/>
                     </a>
 

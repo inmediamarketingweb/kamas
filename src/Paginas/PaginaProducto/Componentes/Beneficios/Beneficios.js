@@ -26,10 +26,10 @@ function Beneficios(){
             </div>
             <div>
                 <div className='d-flex-column'>
-                    <p>Entregas</p>
-                    <p>seguras</p>
+                    <p>Con</p>
+                    <p>garantía</p>
                 </div>
-                <span className="material-icons">inventory_2</span>
+                <span className="material-icons">verified</span>
             </div>
         </div>
     )
