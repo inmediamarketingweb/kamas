@@ -5,12 +5,15 @@ import { useLocation } from 'react-router-dom';
 import Header from '../../Componentes/Header/Header';
 
 import Jerarquia from './Componentes/Jerarquia/Jerarquia';
+import Sku from './Componentes/Sku/Sku';
 import Imagenes from './Componentes/Imagenes/Imagenes';
 import Regalos from './Componentes/Regalos/Regalos';
+import Resumen from './Componentes/Resumen/Resumen';
 import Medidas from './Componentes/Medidas/Medidas';
+import Beneficios from './Componentes/Beneficios/Beneficios';
 import Envios from './Componentes/Envios/Envios';
 import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
-import Beneficios from './Componentes/Beneficios/Beneficios';
+import WhatsApp from './Componentes/WhatsApp/WhatsApp';
 import Descripcion from './Componentes/Descripcion/Descripcion';
 
 import MasProductos from './Componentes/MasProductos/MasProductos';
@@ -30,24 +33,9 @@ function PaginaProducto(){
     const [selectedColor, setSelectedColor] = useState(null);
     const [quantity, setQuantity] = useState(1);
 
-    const handleCopy = () => {
-        const skuElement = document.querySelector('.sku');
-        if (!skuElement) return;
-        const skuText = skuElement.textContent.trim();
-        navigator.clipboard.writeText(skuText)
-        .then(() => {
-            const copiedElement = document.querySelector('.copied');
-                if (copiedElement){
-                copiedElement.classList.add('active');
-                setTimeout(() => {
-                    copiedElement.classList.remove('active');
-                }, 3000);
-            }
-        })
-        .catch(err => {
-            console.error("Error al copiar el SKU: ", err);
-        });
-    };
+    const [userName, setUserName] = useState(
+        typeof window !== 'undefined' ? localStorage.getItem('nombre') || '' : ''
+    );
 
     useEffect(() => {
         const fetchProducto = async () => {
@@ -113,6 +101,15 @@ function PaginaProducto(){
         }
     }, [producto]);
 
+    useEffect(() => {
+        const handleStorageChange = () => {
+            setUserName(localStorage.getItem('Names') || '');
+        };
+
+        window.addEventListener('storage', handleStorageChange);
+        return () => window.removeEventListener('storage', handleStorageChange);
+    }, []);
+
     if (error){
         return <p>Producto no encontrado o no se pudo cargar la información.</p>;
     }
@@ -137,31 +134,6 @@ function PaginaProducto(){
         if (quantity < 10) {
             setQuantity(quantity + 1);
         }
-    };
-
-    const getWhatsAppLink = () => {
-        if (!selectedShipping.tipo) return "#";
-
-        const numeroWhatsApp = "+51917013610";
-        const userName = localStorage.getItem('nombre') || '';
-
-        const mensaje = `Hola KAMAS! Vengo de su sitio web, ¿Podrías darme más información respecto a este producto?:\n`
-            + `*${producto.nombre}*\n`
-            + `https://kamas.pe/${producto.ruta}\n`
-            + `Tela: ${selectedColor ? selectedColor.tela : 'Por defecto'}\n`
-            + `Color: ${selectedColor ? selectedColor.color : 'Por defecto'}\n`
-            + `Precio: ${producto.precioVenta}\n\n`
-            + `Cantidad: ${quantity}\n\n`
-            + `Cliente: ${userName}\n`
-            + `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n`
-            + `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n`
-            + `Distrito: ${shippingInfo?.locationData?.distrito || ''}\n\n`
-            + (shippingInfo?.selectedAgency ? `Agencia seleccionada: ${shippingInfo.selectedAgency}\n` : "")
-            + (shippingInfo?.selectedSede ? `Sede de agencia: ${shippingInfo.selectedSede}\n` : "")
-            + `Tipo de envío seleccionado: ${selectedShipping.tipo}\n`
-            + `Costo de envío: S/.${selectedShipping.precio || 0}`;
-    
-        return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
 
     const productSchema = {
@@ -220,13 +192,7 @@ function PaginaProducto(){
                                 <div className='product-page-top-info'>
                                     <p className='product-page-category'>{producto.categoria}</p>
                                     <h1 className='product-page-name'>{producto.nombre}</h1>
-                                    <button type='button' className='product-page-sku' onClick={handleCopy}>
-                                        <p>SKU:</p>
-                                        <p className='sku'>{producto.sku}</p>
-                                        <span className="material-icons">content_copy</span>
-
-                                        <span className='copied'>¡SKU copiado al portapapeles!</span>
-                                    </button>
+                                    <Sku producto={producto} />
                                 </div>
 
                                 <div className='d-grid-2-1fr gap-20'>
@@ -239,25 +205,8 @@ function PaginaProducto(){
                                         <Regalos producto={producto} />
 
                                         <div className='d-flex gap-20'>
-                                            <div className='d-flex-column gap-10'>
-                                                <p className='text title'>Resumen:</p>
-
-                                                <ul className='product-page-resume'>
-                                                    {producto["resumen-del-producto"] && producto["resumen-del-producto"].map((detalle, index) => (
-                                                        Object.entries(detalle).map(([key, value]) => (
-                                                            <li key={index + key}>
-                                                                <span className="material-icons">check</span>
-                                                                <div>
-                                                                    <b>{key.replace(/-/g, ' ').charAt(0).toUpperCase() + key.replace(/-/g, ' ').slice(1)}:</b>
-                                                                    <p className='text first-uppercase'>{value}</p>
-                                                                </div>
-                                                            </li>
-                                                        ))
-                                                    ))}
-                                                </ul>
-                                            </div>
-
-                                            <Medidas producto={producto}/>
+                                            <Resumen producto={producto} />
+                                            <Medidas producto={producto} />
                                         </div>
 
                                         <div className='d-flex-column'>
@@ -270,6 +219,8 @@ function PaginaProducto(){
                                                 <p className='text font-14'>Entregas el mismo día para Lima y Callao</p>
                                             </div>
                                         </div>
+
+                                        <Beneficios/>
                                     </div>
 
                                     <div className='d-flex-column gap-20'>
@@ -285,17 +236,28 @@ function PaginaProducto(){
 
                                         <TiposDeEnvio shippingOptions={shippingOptions} provincia={shippingInfo?.locationData?.provincia || ''} distrito={shippingInfo?.locationData?.distrito || ''} hasAgency={shippingInfo?.hasAgency} selectedTipo={selectedShipping.tipo} onSelect={(tipo, precio) => setSelectedShipping({ tipo, precio })} />
 
-                                        {!selectedShipping.tipo && shippingOptions.length > 0 && (
-                                            <div className='message message-warning'>
-                                                <span className="material-icons">warning</span>
-                                                <p>Seleccione el tipo de envío para continuar</p>
-                                            </div>
-                                        )}
+                                        <input type='text' placeholder='Nombres' className='product-page-user-name' value={userName}onChange={(e) => {setUserName(e.target.value);localStorage.setItem('nombre', e.target.value);}} />
+
+                                        {/* <input type='text' placeholder='Nombres' className='product-page-user-name'></input> */}
+
+                                        <div className='d-flex-column gap-5'>
+                                            <p className='title text'>Detalles:</p>
+
+                                            {!selectedColor ? (
+                                                <p className='d-flex gap-5'><b className='color-red'>*</b>Sin variación de color</p>
+                                            ) : (
+                                                <div className='d-flex gap-5'>
+                                                    <p className='bold color-black d-flex gap-5'><b className='color-red'>*</b>Color seleccionado:</p>
+                                                    <span>{selectedColor.color}</span>
+                                                    <img src={selectedColor.img} alt={selectedColor.color} />
+                                                </div>
+                                            )}
+                                        </div>
 
                                         <div className='d-flex-center-center gap-10'>
                                             <div className='d-flex-column gap-10'>
                                                 <div className='quantity'>
-                                                    <button type="button" onClick={handleRemove} disabled={quantity <= 0}>
+                                                    <button type="button" onClick={handleRemove} disabled={quantity <= 1}>
                                                         <span className="material-icons">remove</span>
                                                     </button>
                                                     <div className="quantity-input">{quantity}</div>
@@ -305,13 +267,13 @@ function PaginaProducto(){
                                                 </div>
                                             </div>
 
-                                            <a href={getWhatsAppLink()} className={`product-page-whatsapp${producto.stock === 0 ? ' sin-stock' : ''}`} target="_blank" rel="noopener noreferrer" onClick={handleContinuarClick}>
-                                                <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | Kamas"/>
-                                                <p>Continuar</p>
-                                            </a>
+                                            <WhatsApp producto={producto} selectedShipping={selectedShipping} shippingInfo={shippingInfo} selectedColor={selectedColor} quantity={quantity} handleContinuarClick={handleContinuarClick}/>
                                         </div>
 
-                                        <Beneficios/>
+                                        <div className='whatsapp-message d-flex d-flex-column gap-5'>
+                                            <span className="material-icons">info</span>
+                                            <p>La información solicitada se utilizará para agilizar el proceso de compra.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

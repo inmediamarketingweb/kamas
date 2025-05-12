@@ -1,6 +1,6 @@
 .product-page-colors-button{
     position: absolute;
-    right: 0;
+    right: 20px;
     bottom: 110px;
     cursor: pointer;
     padding: 10px 16px;
@@ -90,7 +90,7 @@
 }
 
 .product-page-colors-fabrics li button:hover{
-    background: rgba(0 0 0 / 0.1);
+    background: rgba(0 0 0 / 0.05);
 }
 
 .product-page-colors-fabrics li button.active{
@@ -139,7 +139,7 @@
 }
 
 .product-page-colors-results li button:hover{
-    background: rgba(0 0 0 / 0.1);
+    background: rgba(0 0 0 / 0.05);
 }
 
 .product-page-colors-results li button.active{

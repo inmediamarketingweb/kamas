@@ -1159,8 +1159,8 @@
                 {
                     "línea": "Americana",
                     "tamaño": "Queen",
-                    "tipo-de-cabecera": "Aérea",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "detalles-del-producto":[
@@ -1169,10 +1169,10 @@
                     "tamaño": "Queen",
                     "cajones": "Si",
                     "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americana",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "descripciones":[
