@@ -6,14 +6,13 @@
 
 .product-page-discount{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: 20px;
     background: var(--color-1);
     color: var(--white);
     padding: 5px 10px;
     border-radius: 24px;
     font-weight: bold;
-
     z-index: 1;
 }
 
@@ -39,8 +38,6 @@
     display: flex;
     width: auto;
     height: 100%;
-    /* user-select: none;
-    pointer-events: none; */
     transition: var(--t-200ms-linear);
     will-change: transform;
 }
@@ -50,14 +47,8 @@
     height: 100%;
     aspect-ratio: 1/1;
     display: flex;
-    /* user-select: none;
-    pointer-events: none; */
     scroll-snap-align: start;
 }
-
-/* .product-page-images > li:hover img{
-    scale: 5;
-} */
 
 .product-page-images > li > img{
     margin: auto;
@@ -66,6 +57,39 @@
     user-select: none;
     pointer-events: none;
     transition: var(--t-200ms-linear);
+}
+
+/**/
+
+.zoom-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.zoom-wrapper img{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+/* 
+.zoom-wrapper:hover img{
+    transform: scale(100);
+} */
+
+.zoom-lens{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 400%;
 }
 
 /**/
@@ -79,21 +103,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(235 235 235 / 0.5);
+    background: rgba(235 235 235 / 0.75);
     border-radius: 4px;
     transition: var(--t-200ms-linear);
 }
 
 .product-page-images-button-1{
-    left: 0;
+    left: 20px;
 }
 
 .product-page-images-button-2{
-    right: 0;
+    right: 20px;
 }
 
 .product-page-images-button span{
-    color: gray;
+    color: var(--color-1);
     transition: var(--t-200ms-linear);
 }
 
@@ -150,39 +174,18 @@
     aspect-ratio: 1/1;
 }
 
+/**/
+
 @media screen and (max-width: 600px){
+    .product-page-images-button-1{
+        left: 10px;
+    }
+
+    .product-page-images-button-2{
+        right: 10px;
+    }
+
     .product-page-images > li > img{
         width: 80%;
     }
-}
-
-/* Imagenes.css */
-.zoom-wrapper {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.zoom-wrapper img {
-    margin: auto;
-  display: block;
-  width: 80%;
-  height: auto;
-  aspect-ratio: 1/1;
-  transition: all 500ms linear;
-}
-.zoom-wrapper:hover img {
-  transform: scale(1.1);
-}
-.zoom-lens {
-  pointer-events: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: 300%;
-  /* mix-blend-mode: multiply; */
 }

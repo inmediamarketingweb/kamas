@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import './TiposDeEnvio.css';
@@ -41,6 +41,11 @@ function TiposDeEnvio({ shippingOptions, selectedTipo, onSelect, provincia, dist
                         </div>
                     );
                 })}
+
+                <div className='message message-warning'>
+                    <span className="material-icons">warning</span>
+                    <p>Seleccione su distrito y tipo de envío para poder continuar</p>
+                </div>
 
                 <p className='tipos-de-envio-ask-button' onClick={() => setIsAskOpen(true)}>¿Tipos de envío?</p>
 

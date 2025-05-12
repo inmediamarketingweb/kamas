@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from "uuid";
 
 import SearchBar from '../SearchBar/SearchBar';
 
@@ -63,7 +64,7 @@ function Center(){
                     <nav className={`menu-container ${isMenuOpen ? 'active' : ''}`}>
                         <ul className='menu'>
                             {categories.categorias.map((categoria) => (
-                                <li key={categoria.id} className={`menu-li ${activeCategory === categoria.id ? 'active' : ''}`} onClick={() => categoria.subCategorias && handleCategoryClick(categoria.id)}>
+                                <li key={uuidv4()} className={`menu-li ${activeCategory === categoria.id ? 'active' : ''}`} onClick={() => categoria.subCategorias && handleCategoryClick(categoria.id)}>
                                     <div className='menu-li-div'>
                                         <a href={categoria.ruta} title={categoria.categoria} className='menu-link'>
                                             {categoria.icono === "sell" ? (
@@ -96,7 +97,7 @@ function Center(){
                                                         <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}:</h3>
                                                         <ul>
                                                             {categoria.subCategorias.map((sub) => (
-                                                                <li key={sub.id}>
+                                                                <li key={uuidv4()}>
                                                                     <a href={sub.ruta} title={sub.subcategoria}>
                                                                         <h3>{sub.subcategoria}</h3>
                                                                     </a>
@@ -111,7 +112,7 @@ function Center(){
                                                         <h3 className='submenu-target-title'>Medidas:</h3>
                                                         <ul>
                                                             {categoria.medidas.map((medida) => (
-                                                                <li key={medida.id}>
+                                                                <li key={uuidv4()}>
                                                                     <a href={medida.ruta} title={medida.medida}>
                                                                         <h3>{medida.medida}</h3>
                                                                     </a>

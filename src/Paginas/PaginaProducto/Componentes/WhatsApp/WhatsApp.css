@@ -1,0 +1,66 @@
+.product-page-whatsapp{
+    background: var(--whatsapp);
+    width: 100%;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    border-radius: 4px;
+    filter: grayscale(1);
+    cursor: not-allowed;
+}
+
+.product-page-whatsapp.active{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.product-page-whatsapp img{
+    width: 26px;
+    height: 26px;
+}
+
+.product-page-whatsapp span,
+.product-page-whatsapp p{
+    color: var(--white);
+}
+
+/**/
+
+.whatsapp-message{
+    padding: 10px;
+    background: rgb(220, 20, 60, 0.1);
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid rgb(220, 20, 60);
+}
+
+.whatsapp-message::before{
+    content: '';
+    position: absolute;
+    right: 120px;
+    bottom: 100%;
+    display: flex;
+    width: 20px;
+    height: 10px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: crimson;
+}
+
+.whatsapp-message p{
+    color: crimson;
+}
+
+.whatsapp-message span{
+    color: crimson;
+}
+
+/**/
+
+@media screen and (max-width: 600px) {
+    .whatsapp-message::before{
+        right: 92px;
+    }
+}

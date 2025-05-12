@@ -44,105 +44,6 @@
     text-transform: uppercase;
 }
 
-.product-page-sku{
-    width: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 5px 10px;
-    border: 1px solid rgba(0 0 0 / 0.1);
-    background: rgba(0 0 0 / 0.05);
-    transition: var(--t-200ms-linear);
-    border-radius: 3px;
-    position: relative;
-}
-
-.product-page-sku:hover{
-    background: rgba(0 0 0 / 0.1);
-}
-
-.product-page-sku::before{
-    content: 'Copiar SKU';
-    width: 64px;
-    height: 100%;
-    position: absolute;
-    left: calc(100% + 5px);
-    top: 0;
-    border-radius: 4px;
-    padding: 0 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #1435CA;
-    background: #1435CA!important;
-    color: var(--white) !important;
-    font-size: 11px !important;
-    transition: var(--t-200ms-linear);
-    z-index: 0;
-
-    opacity: 0;
-    pointer-events: none !important;
-    user-select: none !important;
-}
-
-.product-page-sku:hover::before{
-    opacity: 1;
-}
-
-.product-page-sku p,
-.product-page-sku span{
-    color: var(--text);
-    transition: var(--t-200ms-linear);
-}
-
-.product-page-sku p{
-    font-size: 12px;
-}
-
-.product-page-sku span{
-    font-size: 18px;
-}
-
-.copied{
-    width: auto;
-    padding: 5px;
-    position: absolute;
-    left: calc(100% + 5px);
-    top: 0;
-    border-radius: 4px;
-    background: #1fd14c!important;
-    transition: var(--t-200ms-linear);
-    color: var(--white) !important;
-    font-size: 11px !important;
-    opacity: 0;
-    z-index: 1;
-
-    pointer-events: none !important;
-    user-select: none !important;
-}
-
-.copied.active{
-    opacity: 1;
-}
-
-.product-page-top-info{
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.product-page-top-info::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: rgba(0 0 0 / 0.25);
-    border-radius: 10px;
-}
-
 /**/
 
 .product-page-resume li{
@@ -223,26 +124,15 @@
 
 /**/
 
-.product-page-whatsapp{
-    background: var(--whatsapp);
-    width: 100%;
-    min-height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.product-page-user-name{
     padding: 0 20px;
+    width: 100%;
+    height: 52px;
+
     border-radius: 4px;
-}
-
-.product-page-whatsapp img{
-    width: 26px;
-    height: 26px;
-}
-
-.product-page-whatsapp span,
-.product-page-whatsapp p{
-    color: var(--white);
+    outline: 0;
+    border: 1px solid rgba(0 0 0 / 0.1);
+    color: var(--text);
 }
 
 /**/
