@@ -39,8 +39,8 @@
     display: flex;
     width: auto;
     height: 100%;
-    user-select: none;
-    pointer-events: none;
+    /* user-select: none;
+    pointer-events: none; */
     transition: var(--t-200ms-linear);
     will-change: transform;
 }
@@ -50,10 +50,14 @@
     height: 100%;
     aspect-ratio: 1/1;
     display: flex;
-    user-select: none;
-    pointer-events: none;
+    /* user-select: none;
+    pointer-events: none; */
     scroll-snap-align: start;
 }
+
+/* .product-page-images > li:hover img{
+    scale: 5;
+} */
 
 .product-page-images > li > img{
     margin: auto;
@@ -61,6 +65,7 @@
     aspect-ratio: 1/1;
     user-select: none;
     pointer-events: none;
+    transition: var(--t-200ms-linear);
 }
 
 /**/
@@ -74,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0 0 0 / 0.05);
+    background: rgba(235 235 235 / 0.5);
     border-radius: 4px;
     transition: var(--t-200ms-linear);
 }
@@ -101,6 +106,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    background: var(--white);
 }
 
 .product-page-images-miniatures{
@@ -110,7 +116,7 @@
 .product-page-images-miniatures li{
     width: auto;
     height: auto;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     cursor: pointer;
     position: relative;
@@ -148,4 +154,35 @@
     .product-page-images > li > img{
         width: 80%;
     }
+}
+
+/* Imagenes.css */
+.zoom-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.zoom-wrapper img {
+    margin: auto;
+  display: block;
+  width: 80%;
+  height: auto;
+  aspect-ratio: 1/1;
+  transition: all 500ms linear;
+}
+.zoom-wrapper:hover img {
+  transform: scale(1.1);
+}
+.zoom-lens {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  /* mix-blend-mode: multiply; */
 }
