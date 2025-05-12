@@ -126,32 +126,32 @@ function Ofertas(){
             <div className='homepage-offers-container' ref={scrollRef}>
                 <ul className='homepage-offers-content'>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/1.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/2.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/3.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/4.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/5.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
                     <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo=sarki'>
+                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
                             <img src="/assets/imagenes/paginas/pagina-principal/ofertas/6.jpg" alt="Ofertas | Kamas"/>
                         </a>
                     </li>
