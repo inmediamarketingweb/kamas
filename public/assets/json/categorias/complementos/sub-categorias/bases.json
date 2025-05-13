@@ -1,0 +1,96 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "complementos",
+            "subcategoria": "bases",
+            "linea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/complementos/bases/americanas/2-plazas/1/",
+            "nombre": "BASE SOLA AMERICANA 2 PLAZAS ENCAJONADA - MORO",
+            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/2-plazas/1/",
+            "colores": "si",
+            "precioRegular": 1430,
+            "precioNormal": 589,
+            "precioVenta": 439,
+            "stock": 14,
+            "sku": "K7221N10",
+            "tipo-de-envio": "Envío aplicado",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americana",
+                    "tamaño": "2 plazas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americana",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "Si"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Pvc",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "complementos",
+            "subcategoria": "bases",
+            "linea": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/complementos/bases/americanas/king/1/",
+            "nombre": "BASE SOLA AMERICANA KING ENCAJONADA - NEGRO",
+            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/1/",
+            "colores": "si",
+            "precioRegular": 1430,
+            "precioNormal": 879,
+            "precioVenta": 699,
+            "stock": 14,
+            "sku": "K7341N10",
+            "tipo-de-envio": "Envío preferente",
+            "resumen-del-producto":[
+                {
+                    "línea": "Americana",
+                    "tamaño": "King"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americana",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

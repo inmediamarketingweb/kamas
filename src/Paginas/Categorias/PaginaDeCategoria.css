@@ -206,19 +206,6 @@
     font-weight: bold;
 }
 
-/* .product-card:hover .product-card-sale-price{
-    animation: priceShake 500ms linear infinite;
-}
-
-@keyframes priceShake{
-    0%, 50%{
-        rotate: 2deg;
-    }
-    50%{
-        rotate: -2deg;
-    }
-} */
-
 .product-card-tipo-de-envio{
     position: absolute;
     right: 20px;
@@ -230,7 +217,6 @@
 
 .product-card-tipo-de-envio span{
     font-size: 12px;
-    /* font-weight: bold; */
 }
 
 .product-card-tipo-de-envio.envio-gratis{
@@ -239,16 +225,24 @@
 
 .product-card-tipo-de-envio.envio-gratis span{
     color: green;
-    /* font-weight: bold; */
 }
 
 .product-card-tipo-de-envio.envio-preferente{
-    background: rgb(29, 67, 236);
+    background: var(--preferente);
 }
 
 .product-card-tipo-de-envio.envio-preferente span{
     color: white;
 }
+
+.product-card-tipo-de-envio.envio-aplicado{
+    background: var(--aplicado);
+}
+
+.product-card-tipo-de-envio.envio-aplicado span{
+    color: white;
+}
+
 
 /**/
 

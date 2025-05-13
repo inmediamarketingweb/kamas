@@ -16,6 +16,8 @@
         "/assets/json/categorias/camas-box-tarimas/sub-categorias/europeas-con-cajones.json",
 
         "/assets/json/categorias/dormitorios/sub-categorias/americanos.json",
-        "/assets/json/categorias/dormitorios/sub-categorias/americanos-con-cajones.json"
+        "/assets/json/categorias/dormitorios/sub-categorias/americanos-con-cajones.json",
+
+        "/assets/json/categorias/complementos/sub-categorias/bases.json"
     ]
 }
