@@ -38,15 +38,16 @@
 
 .category-page-products{
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 .category-page-products li{
     display: flex;
-    width: auto;
-    height: 100%;
+    flex: 1 1 clamp(100px, calc(calc(100% / 4) - calc(30px / 4)), 100%);
+    max-width: calc(calc(100% / 4) - calc(30px / 4));
+    height: 360px;
 }
 
 .category-page-products li .product-card{

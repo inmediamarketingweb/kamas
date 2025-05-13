@@ -3,7 +3,7 @@
         {
             "id": 1,
             "categoria": "dormitorios",
-            "linea": "americanos",
+            "subcategoria": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/1/",
@@ -91,7 +91,6 @@
             "id": 2,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/2/",
@@ -178,7 +177,6 @@
             "id": 3,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/3/",
@@ -265,7 +263,6 @@
             "id": 4,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/4/",
@@ -352,7 +349,6 @@
             "id": 5,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/5/",
@@ -439,7 +435,6 @@
             "id": 6,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
             "ruta": "/productos/dormitorios/americanos/1-plaza-y-media/adel/6/",
@@ -526,19 +521,17 @@
             "id": 7,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "king",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/king/sarki/1/",
-            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 1 + 1 PUFF - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/cuadros-1/1/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
             "precioRegular": 2499,
             "precioNormal": 1999,
             "precioVenta": 1499,
             "stock": 9,
             "sku": "K324233N10",
-            "novedades": "si",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -564,7 +557,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
+                    "modelo-de-cabecera": "Capitoneado"
                 }
             ],
             "descripciones":[
@@ -618,12 +611,11 @@
             "id": 8,
             "categoria": "dormitorios",
             "subcategoria": "americanos",
-            "linea": "americanos",
             "tamaño": "king",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/king/sarki/2/",
-            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - MORO",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/cuadros-2/1/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/2/",
             "colores": "si",
             "precioRegular": 2499,
             "precioNormal": 1999,
@@ -655,7 +647,1463 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/3/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/3/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/4/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - ROSADO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/4/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/5/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/5/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/6/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/6/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/7/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/7/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N16",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/8/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/8/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N17",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/9/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/9/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N18",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/10/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA - CENIZO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/10/",
+            "colores": "si",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "K324233N19",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/11/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - TURQUESA OPÁLO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/11/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N20",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/12/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/12/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N21",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/13/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/13/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N22",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/13/cojines.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/14/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/14/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N23",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/14/cojines.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/15/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/15/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N24",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/16/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/16/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N25",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/17/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - GRIS PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/17/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N26",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/18/cojines.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/18/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/18/",
+            "colores": "si",
+            "precioRegular": 2749,
+            "precioNormal": 2459,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324233N27",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "Cojines",
+                    "foto": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/18/cojines.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
                 }
             ],
             "descripciones":[
