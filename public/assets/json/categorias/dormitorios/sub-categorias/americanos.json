@@ -10,8 +10,8 @@
             "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL INFANTIL OSO - FUCSIA",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/1-plaza-y-media/adel/pedestales/infantiles/sin-brazos/oso/1/",
             "colores": "si",
-            "precioRegular": 1129,
-            "precioNormal": 849,
+            "precioRegular": 999,
+            "precioNormal": 829,
             "precioVenta": 679,
             "stock": 9,
             "sku": "K3215211N10",
@@ -4772,6 +4772,493 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/47/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA HEXALINE - ARENA OSCURO + PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/bloques/sin-brazos/hexaline/1/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324236N24",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/48/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA LINEAL + 1 PUFF - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/bloques/sin-brazos/lineal-1/1/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324236N25",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/moro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/moro.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/49/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA LINEAL + 1 PUFF - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/bloques/sin-brazos/lineal-1/2/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324236N26",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/moro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/moro.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/50/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA LINEAL + 1 PUFF - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/bloques/sin-brazos/lineal-1/3/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324236N27",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/moro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/moro.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/51/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA LINEAL + 1 PUFF - UVA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/bloques/sin-brazos/lineal-1/4/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2499,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324236N28",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/uva.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/uva.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
