@@ -18,6 +18,8 @@
         "/assets/json/categorias/dormitorios/sub-categorias/americanos.json",
         "/assets/json/categorias/dormitorios/sub-categorias/americanos-con-cajones.json",
 
-        "/assets/json/categorias/complementos/sub-categorias/bases.json"
+        "/assets/json/categorias/complementos/sub-categorias/bases.json",
+
+        "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json"
     ]
 }

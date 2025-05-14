@@ -1,6 +1,28 @@
 [
     {
         "id": 1,
+        "titulo": "Línea",
+        "nombre": "línea",
+        "lista":[
+            {
+                "nombre": "Clásica"
+            },
+            {
+                "nombre": "Americana"
+            },
+            {
+                "nombre": "Europea"
+            },
+            {
+                "nombre": "Madera natural"
+            },
+            {
+                "nombre": "Premium"
+            }
+        ]
+    },
+    {
+        "id": 2,
         "titulo": "Tamaño",
         "nombre": "tamaño",
         "lista":[
@@ -27,153 +49,89 @@
         ]
     },
     {
-        "id": 2,
-        "titulo": "Línea",
-        "nombre": "linea",
+        "titulo": "Cajones",
+        "nombre": "cajones",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanos"
+                "nombre": "Si"
             },
             {
-                "id": 2,
-                "nombre": "Americanos con cajones"
-            },
-            {
-                "id": 3,
-                "nombre": "Europeos"
-            },
-            {
-                "id": 4,
-                "nombre": "Europeos con cajones"
+                "nombre": "No"
             }
         ]
     },
     {
-        "id": 3,
-        "titulo": "Línea de colchón",
-        "nombre": "lineaDeColchon",
+        "titulo": "Base encajonada",
+        "nombre": "base-encajonada",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Semi ortopédicos"
+                "nombre": "Si"
             },
             {
-                "id": 2,
-                "nombre": "Anátomicos"
-            },
-            {
-                "id": 3,
-                "nombre": "Ortopédicos"
-            },
-            {
-                "id": 4,
-                "nombre": "Super ortopédicos"
-            },
-            {
-                "id": 5,
-                "nombre": "Hoteleros"
-            },
-            {
-                "id": 6,
-                "nombre": "Extra ortopédicos"
+                "nombre": "No"
             }
         ]
     },
     {
-        "id": 4,
-        "titulo": "Modelo de colchón",
-        "nombre": "modeloDeColchon",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Adel"
-            },
-            {
-                "id": 2,
-                "nombre": "Rucay"
-            },
-            {
-                "id": 3,
-                "nombre": "Sarki"
-            },
-            {
-                "id": 4,
-                "nombre": "Safynnte"
-            },
-            {
-                "id": 5,
-                "nombre": "Der Prinz"
-            },
-            {
-                "id": 6,
-                "nombre": "Thameo Pocket"
-            },
-            {
-                "id": 7,
-                "nombre": "Ramat"
-            },
-            {
-                "id": 8,
-                "nombre": "Nesie"
-            },
-            {
-                "id": 9,
-                "nombre": "Norole"
-            },
-            {
-                "id": 10,
-                "nombre": "Thaleo Pocket"
-            },
-            {
-                "id": 11,
-                "nombre": "Konig"
-            },
-            {
-                "id": 12,
-                "nombre": "Yurmale"
-            }
-        ]
-    },
-    {
-        "id": 5,
         "titulo": "Tipo de cabecera",
-        "nombre": "tipoDeCabecera",
+        "nombre": "tipo-de-cabecera",
         "lista":[
             {
-                "id": 1,
                 "nombre": "Aérea"
             },
             {
-                "id": 2,
+                "nombre": "Aérea con patas"
+            },
+            {
                 "nombre": "Pedestal"
             }
         ]
     },
     {
-        "id": 6,
-        "titulo": "Modelo de cabecera",
-        "nombre": "modeloDeCabecera",
+        "titulo": "Diseño de cabecera",
+        "nombre": "diseño-de-cabecera",
         "lista":[
             {
-                "id": 1,
-                "nombre": "Americanas"
+                "nombre": "Infantil"
             },
             {
-                "id": 2,
-                "nombre": "Bloques"
+                "nombre": "Clásica"
             },
             {
-                "id": 3,
-                "nombre": "Clásicas"
+                "nombre": "Americana"
             },
             {
-                "id": 4,
                 "nombre": "Con marco"
             },
             {
-                "id": 5,
-                "nombre": "Coronas"
+                "nombre": "Corona"
+            },
+            {
+                "nombre": "Bloques"
+            },
+            {
+                "nombre": "Otras formas"
+            }
+        ]
+    },
+    {
+        "titulo": "Brazos de cabecera",
+        "nombre": "brazos-de-cabecera",
+        "lista":[
+            {
+                "nombre": "Sin brazos"
+            },
+            {
+                "nombre": "Brazos rectos"
+            },
+            {
+                "nombre": "Brazos curvos"
+            },
+            {
+                "nombre": "Brazos P"
+            },
+            {
+                "nombre": "Brazos seahorse"
             }
         ]
     }

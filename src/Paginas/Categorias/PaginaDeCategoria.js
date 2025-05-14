@@ -141,7 +141,7 @@ function PaginaDeCategoria(){
                                                                 )}
 
                                                                 <a href={producto.ruta}>
-                                                                    <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
+                                                                    <img src={`${producto.fotos}1.jpg`} alt={producto.nombre} />
                                                                 </a>
 
                                                                 <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
