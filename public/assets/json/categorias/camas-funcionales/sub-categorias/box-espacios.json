@@ -138,7 +138,7 @@
             "subcategoria": "box espacios",
             "linea": "americano",
             "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/box-espacios/americanas/2-plazas/23/",
+            "ruta": "/ofertas/camas-funcionales/box-espacios/americanas/2-plazas/23/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-funcionales/box-espacios/americanos/2-plazas/aereas-con-patas/coronas/sin-brazos/princesa/3/",
             "colores": "si",
@@ -147,6 +147,7 @@
             "precioVenta": 1099,
             "stock": 14,
             "sku": "K412111N12",
+            "oferta": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -1928,7 +1929,7 @@
             "subcategoria": "box espacios",
             "linea": "europeo",
             "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/box-espacios/europeos/2-plazas/5/",
+            "ruta": "/ofertas/camas-funcionales/box-espacios/europeos/2-plazas/5/",
             "nombre": "BOX ESPACIO EUROPEO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-funcionales/box-espacios/europeos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/5/",
             "colores": "si",
@@ -1937,6 +1938,7 @@
             "precioVenta": 1269,
             "stock": 14,
             "sku": "K41432N14",
+            "oferta": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -2384,7 +2386,7 @@
             "subcategoria": "box espacios",
             "linea": "europeo",
             "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/box-espacios/europeos/2-plazas/12/",
+            "ruta": "/ofertas/solo-por-horas/camas-funcionales/box-espacios/europeos/2-plazas/12/",
             "nombre": "BOX ESPACIO EUROPEO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - TURQUESA OPÁLO",
             "fotos": "/assets/imagenes/productos/camas-funcionales/box-espacios/europeos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/12/",
             "colores": "si",
@@ -2393,6 +2395,7 @@
             "precioVenta": 1269,
             "stock": 14,
             "sku": "K41432N21",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -2449,7 +2452,7 @@
             "subcategoria": "box espacios",
             "linea": "europeo",
             "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/box-espacios/europeos/2-plazas/13/",
+            "ruta": "/ofertas/solo-por-horas/camas-funcionales/box-espacios/europeos/2-plazas/13/",
             "nombre": "BOX ESPACIO EUROPEO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-funcionales/box-espacios/europeos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/13/",
             "colores": "si",
@@ -2458,6 +2461,7 @@
             "precioVenta": 1269,
             "stock": 14,
             "sku": "K41432N22",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {

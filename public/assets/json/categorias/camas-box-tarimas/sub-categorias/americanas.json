@@ -927,7 +927,7 @@
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Corazón"
@@ -991,7 +991,7 @@
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "línea": "Americanos",
+                    "línea": "Americana",
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Abanico"
@@ -2463,7 +2463,7 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/13/",
+            "ruta": "/ofertas/solo-por-horas/camas-box-tarimas/americanas/2-plazas/13/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA CON MARCO - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/con-marco/sin-brazos/corona/1/",
             "colores": "si",
@@ -2472,6 +2472,7 @@
             "precioVenta": 669,
             "stock": 15,
             "sku": "K2222114N10",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -8957,7 +8958,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/81/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - PLOMO OSCURO",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/1/",
             "colores": "si",
             "precioRegular": 1799,
@@ -8983,7 +8984,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
@@ -9022,7 +9023,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/82/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - VIOLETA",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - VIOLETA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/2/",
             "colores": "si",
             "precioRegular": 1799,
@@ -9048,7 +9049,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
@@ -9087,7 +9088,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/83/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - ESMERALDA",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - ESMERALDA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/3/",
             "colores": "si",
             "precioRegular": 1799,
@@ -9113,7 +9114,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
@@ -9152,7 +9153,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/84/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - COBALTO",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - COBALTO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/4/",
             "colores": "si",
             "precioRegular": 1799,
@@ -9178,7 +9179,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
@@ -9217,7 +9218,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/85/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - FUCSIA",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - FUCSIA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/5/",
             "colores": "si",
             "precioRegular": 1799,
@@ -9243,7 +9244,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[
@@ -9282,7 +9283,7 @@
             "subcategoria": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/americanas/king/86/",
-            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXA - ROJO",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - ROJO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/6/",
             "colores": "si",
             "precioRegular": 1799,
@@ -9308,7 +9309,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexa"
+                    "modelo-de-cabecera": "Hexaline"
                 }
             ],
             "descripciones":[

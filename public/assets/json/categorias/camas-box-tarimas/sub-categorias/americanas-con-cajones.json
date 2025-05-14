@@ -5,7 +5,7 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas con cajones",
             "tamaño": "1 plaza y media",
-            "ruta": "/productos/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/1/",
+            "ruta": "/ofertas/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/1/",
             "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA CON 2 CAJONES LATERALES + CABECERA AÉREA CAPITONEADA - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
@@ -14,6 +14,7 @@
             "precioVenta": 610,
             "stock": 12,
             "sku": "K22151113N10",
+            "oferta": "si",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -944,7 +945,7 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas con cajones",
             "tamaño": "1 plaza y media",
-            "ruta": "/productos/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/15/",
+            "ruta": "/ofertas/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/15/",
             "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA CON 3 CAJONES LATERALES + CABECERA AÉREA CAPITONEADA - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas-con-cajones/1-plaza-y-media/aereas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
@@ -953,6 +954,7 @@
             "precioVenta": 660,
             "stock": 12,
             "sku": "K2215113N10",
+            "oferta": "si",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
