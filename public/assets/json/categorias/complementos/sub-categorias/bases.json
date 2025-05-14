@@ -6,7 +6,7 @@
             "subcategoria": "bases",
             "linea": "americanas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/americanas/2-plazas/1/",
+            "ruta": "/ofertas/complementos/bases/americanas/2-plazas/1/",
             "nombre": "BASE SOLA AMERICANA 2 PLAZAS ENCAJONADA - MORO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/2-plazas/1/",
             "colores": "si",
@@ -15,6 +15,8 @@
             "precioVenta": 439,
             "stock": 14,
             "sku": "K7221N10",
+            "oferta": "si",
+
             "tipo-de-envio": "Envío aplicado",
             "resumen-del-producto":[
                 {
@@ -236,7 +238,7 @@
             "subcategoria": "bases",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/americanas-con-cajones/king/5/",
+            "ruta": "/ofertas/complementos/bases/americanas-con-cajones/king/5/",
             "nombre": "BASE SOLA AMERICANA KING + 4 CAJONES LATERALES - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/king/2/",
             "colores": "si",
@@ -245,6 +247,8 @@
             "precioVenta": 899,
             "stock": 14,
             "sku": "K73422N11",
+            "oferta": "si",
+
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -328,8 +332,8 @@
             "subcategoria": "bases",
             "linea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/complementos/bases/americanas-con-cajones/queen/7/",
-            "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES LATERALES - ROJO",
+            "ruta": "/ofertas/solo-por-hoy/complementos/bases/americanas-con-cajones/queen/7/",
+            "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES LATERALES - ARENA",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/queen/2/",
             "colores": "si",
             "precioRegular": 1430,
@@ -337,6 +341,7 @@
             "precioVenta": 799,
             "stock": 14,
             "sku": "K7342N13",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -374,7 +379,7 @@
             "subcategoria": "bases",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas/2-plazas/8/",
+            "ruta": "/ofertas/complementos/bases/europeas/2-plazas/8/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/1/",
             "colores": "si",
@@ -383,6 +388,8 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7323N10",
+            "oferta": "si",
+
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -834,7 +841,7 @@
             "subcategoria": "bases",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/18/",
+            "ruta": "/ofertas/solo-por-hoy/complementos/bases/europeas-con-cajones/2-plazas/18/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES AL PIE - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/4/",
             "colores": "si",
@@ -843,6 +850,7 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7324N13",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -926,7 +934,7 @@
             "subcategoria": "bases",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/20/",
+            "ruta": "/ofertas/solo-por-hoy/complementos/bases/europeas-con-cajones/2-plazas/20/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROSADO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/6/",
             "colores": "si",
@@ -935,6 +943,7 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7324N15",
+            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
