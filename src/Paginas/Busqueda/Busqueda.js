@@ -133,9 +133,9 @@ function PaginaBusqueda(){
                         </div>
 
                         <div className='search-products-content gap-10'>
-                            <div className=''>
+                            <div className='filters-content'>
                                 <div className='filter-group'>
-                                    <h3>Tamaños</h3>
+                                    <h3 className='filter-title'>Tamaños</h3>
                                     <ul>
                                         {filters.tamanos.map((tamano) => (
                                             <li key={tamano.tamaño}>
@@ -155,7 +155,7 @@ function PaginaBusqueda(){
                                 </div>
 
                                 <div className='filter-group'>
-                                    <h3>Líneas</h3>
+                                    <h3 className='filter-title'>Líneas</h3>
                                     <ul>
                                         {filters.lineas.map((linea) => (
                                             <li key={linea.linea}>

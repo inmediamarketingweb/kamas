@@ -51,7 +51,7 @@ function Ofertas(){
         <>
             <Helmet>
                 <title>Ofertas | Kamas</title>
-                <meta name="description" content="Descubre las mejores ofertas en productos seleccionados." />
+                <meta name="description" content="Descubre las mejores ofertas en productos seleccionados, solo aquí en Kamas" />
             </Helmet>
 
             <Header/>
