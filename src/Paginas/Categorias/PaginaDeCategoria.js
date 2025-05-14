@@ -121,6 +121,7 @@ function PaginaDeCategoria(){
                                     <ul className="category-page-products">
                                         {productosFiltrados
                                             .filter((producto) => producto.oferta !== "si")
+                                            .sort((a, b) => b.id - a.id)
                                             .map((producto) => {
                                                 const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 

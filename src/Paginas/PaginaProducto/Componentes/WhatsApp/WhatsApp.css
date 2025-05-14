@@ -10,6 +10,8 @@
     border-radius: 4px;
     filter: grayscale(1);
     cursor: not-allowed;
+    position: relative;
+    overflow: hidden;
 }
 
 .product-page-whatsapp.active{
@@ -17,9 +19,31 @@
     cursor: pointer;
 }
 
+.product-page-whatsapp.active::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 110%;
+    height: auto;
+    aspect-ratio: 1/1;
+    display: flex;
+    border-radius: 100%;
+    background: #075E54;
+    transition: var(--t-200ms-linear);
+    scale: 0;
+    z-index: -1;
+}
+
+.product-page-whatsapp.active:hover::before{
+    scale: 1;
+}
+
 .product-page-whatsapp img{
     width: 26px;
-    height: 26px;
+    height: auto;
+    aspect-ratio: 1/1;
 }
 
 .product-page-whatsapp span,
