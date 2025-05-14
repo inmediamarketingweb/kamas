@@ -398,10 +398,9 @@ button{
 
 /**/
 
-.product-card.agotado{
-    filter: grayscale(1);
-    user-select: none;
-    pointer-events: none;
+
+.product-card.agotado:hover{
+    border: 1px solid #FF0000;
 }
 
 .product-card-agotado{
@@ -451,6 +450,12 @@ button{
 
 .message-warning span{
     color: #FFA500;
+}
+
+/**/
+
+.position-relative{
+    position: relative;
 }
 
 /**/

@@ -143,6 +143,23 @@
     user-select: none !important;
 }
 
+.sin-stock-message{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* rotate: -45deg; */
+    z-index: 1;
+    display: none;
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.sin-stock .sin-stock-message{
+    display: flex;
+}
+
 /**/
 
 @media screen and (max-width: 600px){
