@@ -5067,6 +5067,12 @@
             "stock": 15,
             "sku": "K2241113N23",
             "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/negro.jpg"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
@@ -13063,6 +13069,20 @@
             "stock": 15,
             "sku": "K224225N10",
             "tipo-de-envio": "Gratis",
+            "regalos":[
+               {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/azul-electrico.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/azul-electrico.jpg"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
@@ -13128,6 +13148,20 @@
             "stock": 15,
             "sku": "K224225N11",
             "tipo-de-envio": "Gratis",
+             "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/plomo-oscuro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puffs/plomo.jpg"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
