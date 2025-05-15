@@ -11,14 +11,11 @@ function Ofertas(){
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        fetch("/assets/json/manifest.json")
-        .then((response) => response.json())
-        .then((data) => {
+        fetch("/assets/json/manifest.json").then((response) => response.json()).then((data) => {
             const files = data.files || [];
             const filePromises = files.map((fileUrl) => fetch(fileUrl).then((res) => res.json()).catch(() => ({ productos: [] })) );
 
-            Promise.all(filePromises)
-            .then((results) => {
+            Promise.all(filePromises).then((results) => {
                 const allProducts = results.reduce((acc, curr) => {
                     if (Array.isArray(curr.productos)){
                         return acc.concat(curr.productos);
@@ -30,8 +27,7 @@ function Ofertas(){
                     (producto) => producto.oferta === "si"
                 );
                 setProductos(productosOferta);
-            })
-            .catch((error) => {
+            }).catch((error) => {
                 console.error("Error al combinar archivos de productos:", error);
                 setProductos([]);
             });
@@ -64,7 +60,7 @@ function Ofertas(){
                         </div>
 
                         {productos.length > 0 ? (
-                            <ul className="d-flex-wrap gap-10">
+                            <ul className="ofertas-products">
                                 {productos.map((producto) => {
                                     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
@@ -87,7 +83,7 @@ function Ofertas(){
                                                     </div>
 
                                                     <span className="product-card-brand">KAMAS</span>
-                                                    <h4 className="product-card-name">{truncate(producto.nombre, 50)}</h4>
+                                                    <h4 className="product-card-name">{truncate(producto.nombre, 70)}</h4>
                                                     <div className="product-card-prices">
                                                         <span className="product-card-regular-price">S/.{producto.precioRegular}</span>
                                                         <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
