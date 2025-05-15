@@ -41,6 +41,7 @@ function Colores({ onSelectColor }) {
                             </li>
                         ))}
                     </ul>
+                    <img src="/assets/imagenes/colores/circulo-cromatico.png" alt="" />
                 </div>
             </div>
 

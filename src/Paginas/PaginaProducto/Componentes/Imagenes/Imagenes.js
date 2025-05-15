@@ -44,7 +44,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
             <div className='sin-stock-message'>Agotado</div>
 
             <div className="product-page-images-container">
-                <div className="product-page-images-content" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp}>
+                <div className="product-page-images-content" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={(e) => { handleMouseUp(e) }}>
                     <ul className="product-page-images" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                         {imagenes.map((src, i) => (
                             <li key={i}>
@@ -62,6 +62,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                 <button className="product-page-images-button product-page-images-button-1" onClick={handlePrev}>
                     <span className="material-icons">chevron_left</span>
                 </button>
+
                 <button className="product-page-images-button product-page-images-button-2" onClick={handleNext}>
                     <span className="material-icons">chevron_right</span>
                 </button>
