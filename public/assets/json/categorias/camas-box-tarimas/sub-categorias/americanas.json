@@ -1313,6 +1313,12 @@
             "stock": 15,
             "sku": "K2222113N13",
             "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/negro.jpg"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americana",
@@ -13080,7 +13086,7 @@
                 },
                 {
                     "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puffs/azul-electrico.jpg"
+                    "foto": "/assets/imagenes/productos/complementos/puffs/azul-noche.jpg"
                 }
             ],
             "resumen-del-producto":[
@@ -13159,7 +13165,7 @@
                 },
                 {
                     "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puffs/plomo.jpg"
+                    "foto": "/assets/imagenes/productos/complementos/puffs/plomo.jpg"
                 }
             ],
             "resumen-del-producto":[
