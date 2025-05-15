@@ -1,0 +1,31 @@
+.ofertas-products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.ofertas-products li{
+    width: 100%;
+}
+
+.ofertas-products li .product-card{
+    width: 100% !important;
+    max-width: none !important;
+    height: 390px;
+}
+
+/**/
+
+@media screen and (max-width: 1200px) {
+    .ofertas-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ofertas-products li .product-card{
+        height: 100%;
+    }
+
+    .ofertas-products li .product-card .product-card-content{
+        padding: 10px;
+    }
+}

@@ -264,6 +264,23 @@
     border-radius: 100%;
 }
 
+.pagination-page{
+    width: 36px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    transition: var(--t-200ms-linear);
+    border-radius: 4px;
+}
+
+.pagination-page.active{
+    background: var(--color-2);
+    color: var(--white);
+}
 
 /**/
 
