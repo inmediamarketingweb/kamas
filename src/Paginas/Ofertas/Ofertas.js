@@ -68,12 +68,6 @@ function Ofertas(){
                                 {productos.map((producto) => {
                                     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
-                                    const tipoEnvioClase =
-                                        producto["tipo-de-envio"] === "Gratis" ? "envio-gratis"
-                                        : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente"
-                                        : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
-                                        : "";
-
                                     return(
                                         <li key={uuidv4()}>
                                             <div className="product-card" title={producto.nombre}>

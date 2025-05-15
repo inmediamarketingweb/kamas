@@ -236,9 +236,10 @@ function PaginaProducto(){
 
                                         <TiposDeEnvio shippingOptions={shippingOptions} provincia={shippingInfo?.locationData?.provincia || ''} distrito={shippingInfo?.locationData?.distrito || ''} hasAgency={shippingInfo?.hasAgency} selectedTipo={selectedShipping.tipo} onSelect={(tipo, precio) => setSelectedShipping({ tipo, precio })} />
 
-                                        <input type='text' placeholder='Nombres' className='product-page-user-name' value={userName}onChange={(e) => {setUserName(e.target.value);localStorage.setItem('nombre', e.target.value);}} />
-
-                                        {/* <input type='text' placeholder='Nombres' className='product-page-user-name'></input> */}
+                                        <div className='product-page-user-name-container d-flex-column gap-5'>
+                                            <p className='text'><b className='color-red'>*</b> Nombres</p>
+                                            <input type='text' placeholder='Nombres' className='product-page-user-name' value={userName}onChange={(e) => {setUserName(e.target.value);localStorage.setItem('nombre', e.target.value);}} />
+                                        </div>
 
                                         <div className='d-flex-column gap-5'>
                                             <p className='title text'>Detalles:</p>

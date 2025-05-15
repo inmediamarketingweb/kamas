@@ -244,6 +244,26 @@
     color: white;
 }
 
+/**/
+
+.pagination-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination-controls > button{
+    width: 48px;
+    height: auto;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+
 
 /**/
 
