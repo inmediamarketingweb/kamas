@@ -213,14 +213,10 @@
 @media screen and (max-width: 600px){
     .product-page-colors-button{
         right: 10px;
-        bottom: 74px;
+        bottom: 84px;
         padding: 10px;
         border-radius: 100%;
     }
-
-    /* .product-page-colors-button > .d-flex-center-left.gap-5 > .text.title{
-        display: none;
-    } */
 
     .product-page-colors-button > div > .text.title{
         display: none;
@@ -262,7 +258,7 @@
 
     .product-page-colors-results{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .product-page-colors-results li{

@@ -35,7 +35,7 @@ function Colores({ onSelectColor }) {
                 <div className="d-flex-column gap-5">
                     <p className="text title text-center">+40 colores</p>
                     <ul className="product-page-colors-button-miniatures">
-                        {activeTela.colores.slice(0, 5).map((color, index) => (
+                        {activeTela.colores.slice(0, 6).map((color, index) => (
                             <li key={index}>
                                 <img src={color.img} alt={color.color} />
                             </li>
@@ -83,7 +83,7 @@ function Colores({ onSelectColor }) {
 
                             {activeColorIndex !== null && (
                                 <button type="button" className="button-link button-link-2 margin-left" onClick={() => setIsColorsActive(false)} >
-                                    <span class="material-icons">check</span>
+                                    <span className="material-icons">check</span>
                                     <p className="button-link-text">Confirmar</p>
                                 </button>
                             )}
