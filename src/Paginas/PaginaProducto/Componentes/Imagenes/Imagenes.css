@@ -6,8 +6,8 @@
 
 .product-page-discount{
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 20px;
+    top: 20px;
     background: var(--color-1);
     color: var(--white);
     padding: 5px 10px;
@@ -127,7 +127,6 @@
 
 .product-page-images-miniatures{
     display: flex;
-    gap: 10px;
 }
 
 .product-page-images-miniatures li{

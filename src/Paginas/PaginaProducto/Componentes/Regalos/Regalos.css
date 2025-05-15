@@ -52,3 +52,33 @@
 .product-page-gifts ul li:hover p{
     opacity: 1;
 }
+
+/**/
+
+@media screen and (max-width: 600px){
+    .product-page-gifts{
+        margin-right: unset;
+    }
+
+    .product-page-gifts ul li{
+        width: 100%;
+    }
+
+    .product-page-gifts ul li p{
+        left: 50%;
+        translate: -50% 0;
+        width: 87px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .product-page-gifts ul li:nth-child(2) p{
+        width: 74px;
+    }
+
+    .product-page-gifts ul li:nth-child(3) p{
+        width: 54px;
+    }
+}
