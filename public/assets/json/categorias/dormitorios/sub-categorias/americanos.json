@@ -14921,7 +14921,7 @@
             "precioNormal": 2349,
             "precioVenta": 1799,
             "stock": 9,
-            "sku": "K324233N6",
+            "sku": "K324233N64",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -14949,6 +14949,1689 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 162,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/155/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO CAPITONEADA - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-curvos/vesso/1/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N20",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/rojo.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/rojo.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 163,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/156/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO CAPITONEADA - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-curvos/vesso/2/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N21",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/fucsia.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/fucsia.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 164,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/157/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO CAPITONEADA - UVA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-curvos/vesso/3/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N22",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/uva.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/uva.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 165,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/158/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO CAPITONEADA - ROSADO BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-curvos/vesso/4/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N23",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/palo-rosa.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/rosado.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 166,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/159/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO CAPITONEADA - TURQUESA OPÁLO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-curvos/vesso/5/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N24",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/turquesa-opálo.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/turquesa-opalo.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 167,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/160/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - BEIGE OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/1/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N25",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/beige-oscuro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/beige-oscuro.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 168,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/161/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/2/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N26",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/azul-noche.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/azul-noche.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 169,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/162/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/3/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N27",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/rosado.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/fucsia.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 170,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/163/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - ROSADO BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/4/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N28",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/palo-rosa.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/palo-rosa.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 171,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/164/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - TURQUESA OPÁLO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/5/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N29",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/turquesa-opálo.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/turquesa-opalo.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 172,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/165/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/6/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N30",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/verde-loro-1.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/verde-loro-1.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 173,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/166/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/7/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N31",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/plomo-oscuro.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/plomo.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 174,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/167/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/8/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N32",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/fucsia-1.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/rosado.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 175,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/168/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/9/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N33",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/chocolate.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/chocolate.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 176,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/169/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/10/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N34",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/vino.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/vino.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 177,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/170/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - AZUL ELECTRICO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/11/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N35",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/azul-electrico.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/azul-electrico.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "18 filas",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "grosor": "26cm.",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 178,
+            "categoria": "dormitorios",
+            "subcategoria": "americanos",
+            "tamaño": "king",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos/king/sarki/171/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - MARRÓN",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/pedestales/coronas/brazos-rectos/lunar/12/",
+            "colores": "si",
+            "precioRegular": 2949,
+            "precioNormal": 2149,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "K324235N36",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/chocolate.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/complementos/puffs/chocolate.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Vesso"
                 }
             ],
             "descripciones":[
