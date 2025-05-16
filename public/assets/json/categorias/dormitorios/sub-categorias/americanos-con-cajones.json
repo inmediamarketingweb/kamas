@@ -49,8 +49,10 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
@@ -135,8 +137,10 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
@@ -221,8 +225,10 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
@@ -308,8 +314,10 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
@@ -494,8 +502,10 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
@@ -590,8 +600,500 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano seco al horno.",
+                            "madera": "Pino americano radiata seco al horno.",
                             "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "19 filas en forma vertical",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "grosor": "32cm.",
+                            "incorpora": "Sistema one size",
+                            "refuerzos": "Centrales",
+                            "marco": "De espuma",
+                            "soporte-de-peso": "90kg.",
+                            "garantía": "6 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "king",
+            "modelo": "der prinz",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/king/der-prinz/3/",
+            "nombre": "DORMITORIO AMERICANO KING CON 4 CAJONES + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/king/der-prinz/aereas-con-patas/americanas/sin-brazos/capitoneado/3/",
+            "colores": "si",
+            "precioRegular": 1429,
+            "precioNormal": 2359,
+            "precioVenta": 1849,
+            "stock": 9,
+            "sku": "K324153N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/plomo-oscuro.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "19 filas en forma vertical",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "grosor": "32cm.",
+                            "incorpora": "Sistema one size",
+                            "refuerzos": "Centrales",
+                            "marco": "De espuma",
+                            "soporte-de-peso": "90kg.",
+                            "garantía": "6 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "king",
+            "modelo": "der prinz",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/king/der-prinz/4/",
+            "nombre": "DORMITORIO AMERICANO KING CON 2 CAJONES AL PIE + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/king/der-prinz/aereas-con-patas/americanas/sin-brazos/capitoneado/4/",
+            "colores": "si",
+            "precioRegular": 1429,
+            "precioNormal": 2359,
+            "precioVenta": 1749,
+            "stock": 9,
+            "sku": "K324153N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/cobalto.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "19 filas en forma vertical",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "grosor": "32cm.",
+                            "incorpora": "Sistema one size",
+                            "refuerzos": "Centrales",
+                            "marco": "De espuma",
+                            "soporte-de-peso": "90kg.",
+                            "garantía": "6 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "king",
+            "modelo": "der prinz",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/king/der-prinz/5/",
+            "nombre": "DORMITORIO AMERICANO KING CON 2 CAJONES AL PIE + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/king/der-prinz/aereas-con-patas/americanas/sin-brazos/capitoneado/5/",
+            "colores": "si",
+            "precioRegular": 1429,
+            "precioNormal": 2359,
+            "precioVenta": 1749,
+            "stock": 9,
+            "sku": "K324153N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/cobalto.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "19 filas en forma vertical",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "grosor": "32cm.",
+                            "incorpora": "Sistema one size",
+                            "refuerzos": "Centrales",
+                            "marco": "De espuma",
+                            "soporte-de-peso": "90kg.",
+                            "garantía": "6 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "king",
+            "modelo": "der prinz",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/king/der-prinz/6/",
+            "nombre": "DORMITORIO AMERICANO KING CON 4 CAJONES + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - TURQUESA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/king/der-prinz/aereas-con-patas/americanas/sin-brazos/capitoneado/6/",
+            "colores": "si",
+            "precioRegular": 1429,
+            "precioNormal": 2359,
+            "precioVenta": 1849,
+            "stock": 9,
+            "sku": "K324153N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/turquesa-opalo.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "19 filas en forma vertical",
+                            "material-de-resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "grosor": "32cm.",
+                            "incorpora": "Sistema one size",
+                            "refuerzos": "Centrales",
+                            "marco": "De espuma",
+                            "soporte-de-peso": "90kg.",
+                            "garantía": "6 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "king",
+            "modelo": "der prinz",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/king/der-prinz/7/",
+            "nombre": "DORMITORIO AMERICANO KING CON 6 CAJONES + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/king/der-prinz/aereas-con-patas/americanas/sin-brazos/capitoneado/7/",
+            "colores": "si",
+            "precioRegular": 1429,
+            "precioNormal": 2359,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "K324153N16",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.png"
+                },
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/regalos/cojines/azul-noche.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "Cromadas",
