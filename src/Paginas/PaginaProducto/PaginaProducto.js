@@ -80,7 +80,7 @@ function PaginaProducto(){
 
         const cargarImagenes = (carpetaFotos) => {
             const imgs = [];
-            for (let i = 1; i <= 5; i++){
+            for (let i = 1; i <= 10; i++){
                 const path = `${carpetaFotos}${i}.jpg`;
                 const img = new Image();
                 img.src = path;
