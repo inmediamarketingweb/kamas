@@ -9,14 +9,17 @@
     padding: 0 20px;
     border-radius: 4px;
     filter: grayscale(1);
-    cursor: not-allowed;
     position: relative;
+    pointer-events: none;
+    user-select: none;
     overflow: hidden;
 }
 
 .product-page-whatsapp.active{
     filter: grayscale(0);
     cursor: pointer;
+    pointer-events: unset;
+    user-select: unset;
 }
 
 .product-page-whatsapp.active::before{
