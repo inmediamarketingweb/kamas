@@ -239,6 +239,12 @@
 
     /**/
 
+    .product-page-colors-content{
+        max-height: 480px;
+    }
+
+    /**/
+
     .product-page-colors-fabrics{
         flex-direction: row !important;
         flex-wrap: wrap;
