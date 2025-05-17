@@ -134,19 +134,11 @@ function Ofertas(){
                     </ul>
                 </div>
 
-                <button
-                    type='button'
-                    onClick={handleLeftButtonClick}
-                    className='homepage-ofertas-button homepage-ofertas-button-1'
-                >
+                <button type='button' onClick={handleLeftButtonClick} className='homepage-ofertas-button homepage-ofertas-button-1'>
                     <span className="material-icons">chevron_left</span>
                 </button>
 
-                <button
-                    type='button'
-                    onClick={handleRightButtonClick}
-                    className='homepage-ofertas-button homepage-ofertas-button-2'
-                >
+                <button type='button' onClick={handleRightButtonClick} className='homepage-ofertas-button homepage-ofertas-button-2'>
                     <span className="material-icons">chevron_right</span>
                 </button>
             </section>
