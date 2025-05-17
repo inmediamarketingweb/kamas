@@ -95,9 +95,7 @@ function PaginaDeCategoria(){
 
     const toggleFavorite = (producto) => {
         const exists = favorites.some((fav) => fav.ruta === producto.ruta);
-        const updatedFavorites = exists
-            ? favorites.filter((fav) => fav.ruta !== producto.ruta)
-            : [...favorites, producto];
+        const updatedFavorites = exists ? favorites.filter((fav) => fav.ruta !== producto.ruta) : [...favorites, producto];
         setFavorites(updatedFavorites);
         localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
     };
@@ -110,7 +108,7 @@ function PaginaDeCategoria(){
                 <title>{metadatos.title}</title>
             </Helmet>
 
-            <Header />
+            <Header/>
 
             <main className="main-category">
                 <div className="block-container">
@@ -139,6 +137,7 @@ function PaginaDeCategoria(){
                                                         ((producto.precioNormal - producto.precioVenta) * 100) /
                                                         producto.precioNormal
                                                     );
+
                                                     const tipoEnvioClase = producto["tipo-de-envio"] === "Gratis" ? "envio-gratis"
                                                         : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente"
                                                         : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"

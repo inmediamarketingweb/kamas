@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import { v4 as uuidv4 } from "uuid";
@@ -6,19 +6,21 @@ import { v4 as uuidv4 } from "uuid";
 import Header from '../../Componentes/Header/Header';
 import Footer from '../../Componentes/Footer/Footer';
 
+import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
+
 import './Busqueda.css';
 
 function PaginaBusqueda(){
     const [productos, setProductos] = useState([]);
     const [filteredProductos, setFilteredProductos] = useState([]);
     const [filters, setFilters] = useState({ 
-        tamanos: [], 
-        lineas: []
+        tamanos: [], lineas: []
     });
+
     const [selectedFilters, setSelectedFilters] = useState({
-        tamanos: [],
-        lineas: []
+        tamanos: [], lineas: []
     });
+
     const location = useLocation();
 
     const queryParams = new URLSearchParams(location.search);
@@ -56,10 +58,7 @@ function PaginaBusqueda(){
             try {
                 const response = await fetch('/assets/json/categorias/busqueda/filtros.json');
                 const data = await response.json();
-                setFilters({
-                    tamanos: data.tamaños,
-                    lineas: data.lineas
-                });
+                setFilters({ tamanos: data.tamaños, lineas: data.lineas });
             } catch (error) {
                 console.error('Error loading filter data:', error);
             }
@@ -88,17 +87,13 @@ function PaginaBusqueda(){
         const filtered = productos.filter(producto => {
             const detalles = producto['detalles-del-producto']?.[0] || {};
             
-            // Search query match
             const searchMatch = tokens.length === 0 || tokens.every(token => {
                 const normalizedNombre = normalizeStr(String(producto.nombre ?? ''));
                 const normalizedSKU = normalizeStr(String(producto.sku ?? ''));
                 const normalizedCategoria = normalizeStr(String(producto.categoria ?? ''));
                 const normalizedSubCategoria = normalizeStr(String(producto.subCategoria ?? ''));
-                
-                return normalizedNombre.includes(token) || 
-                       normalizedSKU.includes(token) || 
-                       normalizedCategoria.includes(token) || 
-                       normalizedSubCategoria.includes(token);
+
+                return normalizedNombre.includes(token) || normalizedSKU.includes(token) || normalizedCategoria.includes(token) || normalizedSubCategoria.includes(token);
             });
 
             const sizeMatch = selectedFilters.tamanos.length === 0 || selectedFilters.tamanos.includes(detalles.tamaño);
@@ -140,13 +135,7 @@ function PaginaBusqueda(){
                                         {filters.tamanos.map((tamano) => (
                                             <li key={tamano.tamaño}>
                                                 <label>
-                                                    <input 
-                                                        type="checkbox" 
-                                                        name="tamaño" 
-                                                        value={tamano.tamaño} 
-                                                        onChange={() => handleFilterChange('tamanos', tamano.tamaño)}
-                                                        checked={selectedFilters.tamanos.includes(tamano.tamaño)}
-                                                    />
+                                                    <input type="checkbox" name="tamaño" value={tamano.tamaño} onChange={() => handleFilterChange('tamanos', tamano.tamaño)}checked={selectedFilters.tamanos.includes(tamano.tamaño)}/>
                                                     {tamano.tamaño}
                                                 </label>
                                             </li>
@@ -160,14 +149,8 @@ function PaginaBusqueda(){
                                         {filters.lineas.map((linea) => (
                                             <li key={linea.linea}>
                                                 <label>
-                                                    <input 
-                                                        type="checkbox" 
-                                                        name="linea" 
-                                                        value={linea.linea} 
-                                                        onChange={() => handleFilterChange('lineas', linea.linea)}
-                                                        checked={selectedFilters.lineas.includes(linea.linea)}
-                                                    />
-                                                    {linea.linea}
+                                                    <input type="checkbox" name="linea" value={linea.linea} onChange={() => handleFilterChange('lineas', linea.linea)} checked={selectedFilters.lineas.includes(linea.linea)} />
+                                                    <p className='text'>{linea.linea}</p>
                                                 </label>
                                             </li>
                                         ))}
@@ -177,38 +160,11 @@ function PaginaBusqueda(){
 
                             {filteredProductos.length > 0 ? (
                                     <ul className='search-products d-grid-5-3-2fr gap-10'>
-                                        {filteredProductos.map((producto) => {
-                                            return (
-                                                <li key={uuidv4()}>
-                                                    <div className='product-card'>
-                                                        <div className='product-card-images'>
-                                                            <a href={producto.ruta} title={producto.nombre}>
-                                                                <img 
-                                                                    src={`${producto.fotos}/1.jpg`} 
-                                                                    alt={producto.nombre} 
-                                                                    loading="lazy"
-                                                                />
-                                                            </a>
-                                                        </div>
-
-                                                        <a href={producto.ruta} title={producto.nombre} className='product-card-content'>
-                                                            <span className="product-card-brand">KAMAS</span>
-                                                            <h4 className="product-card-name">{truncate(producto.nombre, 45)}</h4>
-                                                            <div className="product-card-prices">
-                                                                <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
-                                                                <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </li>
-                                            );
-                                        })}
+                                        {filteredProductos.map(producto => (
+                                            <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
+                                        ))}
                                     </ul>
-                                ) : (
-                                    <div className='no-results'>
-                                        <p>Intentalo de nuevo</p>
-                                    </div>
-                                )}
+                                ) : ( <p>Intentalo de nuevo</p> )}
                             </div>
                     </section>
                 </div>

@@ -237,9 +237,9 @@ function SoloPorHoras(){
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
                                                     {agotado ? (
-                                                    <span>Agotado 😥</span>
+                                                        <span>Agotado 😥</span>
                                                     ) : (
-                                                    <span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
+                                                        <span>¡ Solo quedan <b>{stock}</b> 🔥 !</span>
                                                     )}
                                                 </div>
                                                 <span className="product-card-brand">KAMAS</span>
