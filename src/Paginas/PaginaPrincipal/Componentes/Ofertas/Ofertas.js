@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react';
+import { useCallback, useRef, useEffect } from 'react';
 
 import './Ofertas.css';
 
@@ -18,27 +18,26 @@ function Ofertas(){
         });
     };
 
-    const autoScroll = () => {
+    const autoScroll = useCallback(() => {
         const container = scrollRef.current;
         if (!container) return;
-        if(
+        if (
             autoDirRef.current === "right" &&
             container.scrollLeft >= container.scrollWidth - container.clientWidth
-        ){
+        ) {
             autoDirRef.current = "left";
-        }
-        else if (autoDirRef.current === "left" && container.scrollLeft <= 0) {
+        } else if (autoDirRef.current === "left" && container.scrollLeft <= 0) {
             autoDirRef.current = "right";
         }
         scrollSmooth(autoDirRef.current);
-    };
+    }, []);
 
-    const startAutoSlide = () => {
+    const startAutoSlide = useCallback(() => {
         if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
         autoSlideIntervalRef.current = setInterval(() => {
             autoScroll();
         }, 2000);
-    };
+    }, [autoScroll]);
 
     const pauseAutoSlide = () => {
         if (autoSlideIntervalRef.current) {
@@ -69,7 +68,7 @@ function Ofertas(){
             if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
             if (autoSlideTimeoutRef.current) clearTimeout(autoSlideTimeoutRef.current);
         };
-    }, []);
+    }, [startAutoSlide]);
 
     useEffect(() => {
         const container = scrollRef.current;
@@ -117,56 +116,41 @@ function Ofertas(){
     }, []);
 
     return (
-    <div className='block-container'>
-        <section className='block-content homepage-ofertas-content'>
-            <div className='block-title-container'>
-                <h2 className='block-title'>Ofertas</h2>
-            </div>
+        <div className='block-container'>
+            <section className='block-content homepage-ofertas-content'>
+                <div className='block-title-container'>
+                    <h2 className='block-title'>Ofertas</h2>
+                </div>
 
-            <div className='homepage-offers-container' ref={scrollRef}>
-                <ul className='homepage-offers-content'>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/1.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/2.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/3.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/4.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/5.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/ofertas/6.jpg" alt="Ofertas | Kamas"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <div className='homepage-offers-container' ref={scrollRef}>
+                    <ul className='homepage-offers-content'>
+                        {[1, 2, 3, 4, 5, 6].map((n) => (
+                            <li key={n}>
+                                <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
+                                    <img src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.jpg`} alt='Ofertas | Kamas'/>
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
 
-            <button type='button' onClick={handleLeftButtonClick} className='homepage-ofertas-button homepage-ofertas-button-1'>
-                <span className="material-icons">chevron_left</span>
-            </button>
+                <button
+                    type='button'
+                    onClick={handleLeftButtonClick}
+                    className='homepage-ofertas-button homepage-ofertas-button-1'
+                >
+                    <span className="material-icons">chevron_left</span>
+                </button>
 
-            <button type='button' onClick={handleRightButtonClick} className='homepage-ofertas-button homepage-ofertas-button-2'>
-                <span className="material-icons">chevron_right</span>
-            </button>
-        </section>
-    </div>
+                <button
+                    type='button'
+                    onClick={handleRightButtonClick}
+                    className='homepage-ofertas-button homepage-ofertas-button-2'
+                >
+                    <span className="material-icons">chevron_right</span>
+                </button>
+            </section>
+        </div>
     );
 }
 
