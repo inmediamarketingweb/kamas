@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
+import { Producto } from '../../../../Componentes/Plantillas/Producto/Producto';
+
 import './MasProductos.css';
 
 export default function MasProductos({ categoriaActual }){
@@ -81,23 +83,8 @@ export default function MasProductos({ categoriaActual }){
                 <div className="product-page-more-products-container">
                     <nav className="product-page-more-products-content">
                         <ul className='d-grid-5-3-2fr gap-10'>
-                            {products.map((prod) => (
-                                <li key={uuidv4()} className="product-card">
-                                    <div className='product-card-images'>
-                                        <a href={prod.ruta} title={prod.nombre}>
-                                        <img src={`${prod.fotos}1.jpg`} alt={prod.nombre} />
-                                        </a>
-                                    </div>
-
-                                    <a href={prod.ruta} title={prod.nombre} className="product-card-content">
-                                        <span className="product-card-brand">KAMAS</span>
-                                        <h4 className="product-card-name">{truncate(prod.nombre, 65)}</h4>
-                                        <div className="product-card-prices">
-                                            <span className="product-card-normal-price">S/.{prod.precioNormal}</span>
-                                            <span className="product-card-sale-price">S/.{prod.precioVenta}</span>
-                                        </div>
-                                    </a>
-                                </li>
+                            {products.map((producto) => (
+                                <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
                             ))}
                         </ul>
                     </nav>

@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
+import { Producto } from '../../../../Componentes/Plantillas/Producto/Producto';
+
 import './UltimasNovedades.css';
 
 function UltimasNovedades() {
@@ -192,31 +194,8 @@ function UltimasNovedades() {
                 <div className="ultimas-novedades-container" ref={scrollRef}>
                     <ul className="ultimas-novedades-content">
                         {productos.map(producto => {
-                            const { ruta, nombre, fotos, precioNormal, precioVenta } = producto;
-                            const descuento = Math.round(
-                                ((precioNormal - precioVenta) * 100) / precioNormal
-                            );
-
                             return(
-                                <li key={uuidv4()}>
-                                    <a href={ruta} className="product-card" title={nombre}>
-                                        <div className="product-card-images">
-                                            <span className="product-card-discount">-{descuento}%</span>
-                                            <img src={`${fotos}1.jpg`} alt={nombre} />
-                                        </div>
-                                        <div className="product-card-content">
-                                            <div className="product-card-target">
-                                                <span>¡ Lo más nuevo !</span>
-                                            </div>
-                                            <span className="product-card-brand">KAMAS</span>
-                                            <h4 className="product-card-name">{truncate(nombre, 56)}</h4>
-                                            <div className="product-card-prices">
-                                                <span className="product-card-normal-price">S/.{precioNormal}</span>
-                                                <span className="product-card-sale-price">S/.{precioVenta}</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
+                                <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
                             );
                         })}
                     </ul>
