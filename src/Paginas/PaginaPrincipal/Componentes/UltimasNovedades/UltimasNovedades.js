@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 
 import './UltimasNovedades.css';
 
-function UltimasNovedades(){
+function UltimasNovedades() {
     const [productos, setProductos] = useState([]);
     const scrollRef = useRef(null);
 
@@ -18,7 +18,7 @@ function UltimasNovedades(){
             manifest => Promise.all(
                 manifest.files.map(
                     fileUrl => fetch(fileUrl).then(res => res.json()).then(jsonData => {
-                        const match = fileUrl.match(/\/assets\/json\/categorias\/([^\/]+)\/sub-categorias\//);
+                        const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
                         const categoria = match ? match[1] : null;
 
                         if (Array.isArray(jsonData.productos) && categoria){
@@ -94,7 +94,7 @@ function UltimasNovedades(){
         };
     }, []);
 
-    const scrollSmooth = direction => {
+    const scrollSmooth = useCallback(direction => {
         const container = scrollRef.current;
         if (!container) return;
 
@@ -113,9 +113,9 @@ function UltimasNovedades(){
             container.scrollLeft += scrollStep;
             currentStep++;
         }, intervalTime);
-    };
+    }, []);
 
-    const autoScroll = () => {
+    const autoScroll = useCallback(() => {
         const container = scrollRef.current;
         if (!container) return;
 
@@ -123,7 +123,7 @@ function UltimasNovedades(){
             autoDirRef.current === 'right' &&
             container.scrollLeft >= container.scrollWidth - container.clientWidth
         ) {
-        autoDirRef.current = 'left';
+            autoDirRef.current = 'left';
         } else if (
             autoDirRef.current === 'left' &&
             container.scrollLeft <= 0
@@ -132,15 +132,15 @@ function UltimasNovedades(){
         }
 
         scrollSmooth(autoDirRef.current);
-    };
+    }, [scrollSmooth]);
 
-    const startAutoSlide = () => {
+    const startAutoSlide = useCallback(() => {
         if (autoSlideIntervalRef.current)
-        clearInterval(autoSlideIntervalRef.current);
+            clearInterval(autoSlideIntervalRef.current);
         autoSlideIntervalRef.current = setInterval(() => {
-        autoScroll();
+            autoScroll();
         }, 2000);
-    };
+    }, [autoScroll]);
 
     const pauseAutoSlide = () => {
         if (autoSlideIntervalRef.current) {
@@ -171,11 +171,11 @@ function UltimasNovedades(){
         startAutoSlide();
         return () => {
             if (autoSlideIntervalRef.current)
-            clearInterval(autoSlideIntervalRef.current);
+                clearInterval(autoSlideIntervalRef.current);
             if (autoSlideTimeoutRef.current)
-            clearTimeout(autoSlideTimeoutRef.current);
+                clearTimeout(autoSlideTimeoutRef.current);
         };
-    }, []);
+    }, [startAutoSlide]);
 
     const truncate = (str, maxLength) => {
         if (!str) return '';

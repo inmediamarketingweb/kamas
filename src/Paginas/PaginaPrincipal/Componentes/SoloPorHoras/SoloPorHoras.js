@@ -184,7 +184,7 @@ function SoloPorHoras(){
             if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
             if (autoSlideTimeoutRef.current) clearTimeout(autoSlideTimeoutRef.current);
         };
-    }, []);
+    }, [startAutoSlide]);
 
     const truncate = (str, maxLength) => {
         if (str.length <= maxLength) {
