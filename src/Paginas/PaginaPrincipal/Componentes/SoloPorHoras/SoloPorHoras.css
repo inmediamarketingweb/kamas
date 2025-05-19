@@ -146,6 +146,7 @@
     justify-content: center;
     border-radius: 100%;
     background: crimson;
+    z-index: 10;
 }
 
 .solo-por-horas-button-1{
@@ -164,8 +165,6 @@
 
 .product-card.expired{
     position: relative;
-    pointer-events: none;
-    user-select: none;
 }
 
 .product-card.expired::before{
@@ -176,17 +175,14 @@
     translate: 0 -50%;
     width: 100%;
     text-align: center;
-    background: crimson;
+    background: red;
     padding: 16px 0;
     color: var(--white);
     z-index: 1;
     filter: grayscale(0) !important;
 }
 
-.product-card.expired .product-card-images{
-    filter: grayscale(1);
-}
-
+.product-card.expired .product-card-images,
 .product-card.expired .product-card-content{
     filter: grayscale(1);
 }
