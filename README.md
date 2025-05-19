@@ -6,29 +6,23 @@
 
 ## Descripción
 
-**Kamas** es una aplicación de e‑commerce que permite a los usuarios navegar productos por categoría y subcategoría, seleccionar distrito de envío y tipos de envío (Express, Standard, Pickup), y calcular dinámicamente el costo según un archivo JSON de tarifas. :contentReference[oaicite:1]{index=1}
-
-Visita la demo en vivo: [kamas.pe](https://kamas.pe)
+- Sitio web oficial de la empresa fabricante de muebles "Kamas" que les permite a los usuarios navegar y ver los diferentes productos de la empresa.
+- Este proyecto sigue en etapa de desarrollo por lo que puede presentar algunas incogruencias en su funcionalidad, diseño o productos.
+- Visita el sitio web oficial: [kamas.pe](https://kamas.pe)
 
 ## Características
 
 - Navegación por categorías y subcategorías  
-- Selección de distrito y tipo de envío con cálculo automático de costos  
-- Integración con JSON externo para tarifas de envío  
+- Selección de distrito y tipo de envío con cálculo automático de costos
+- Integración con JSON externo para tarifas de envío
 - Interfaz responsive y accesible  
 - Despliegue automático con GitHub Actions
-
-## Capturas de pantalla
-
-![Pantalla de productos](./docs/screenshots/productos.png)  
-![Selección de envío](./docs/screenshots/envio.png)
 
 ## Instalación
 
 1. Clona el repositorio  
    ```bash
    git clone https://github.com/inmediamarketingweb/kamas.git
-   cd kamas
 
 2. Instalar dependencias
    ```bash
@@ -41,8 +35,7 @@ Visita la demo en vivo: [kamas.pe](https://kamas.pe)
 ## Arquitectura
 
 kamas/
-├── public/                  # Assets estáticos
-│   └── 
+├── public/                   # Assets estáticos
 ├── src/
 │   ├── Componentes/          # Componentes React reutilizables
 │   ├── Paginas/              # Páginas principales
