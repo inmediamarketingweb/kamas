@@ -2,24 +2,36 @@
     "subcategorias":[
         {
             "id": 1,
+            "subcategoria": "Clasicos",
+            "metaTitulo": "Dormitorios - Clásicos | Kamas",
+            "ruta": "/productos/dormitorios/clasicos/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Clasicos con cajones",
+            "metaTitulo": "Dormitorios - Clásicos con cajones | Kamas",
+            "ruta": "/productos/dormitorios/clasicos-con-cajones/"
+        },
+        {
+            "id": 3,
             "subcategoria": "Americanos",
             "metaTitulo": "Dormitorios - Americanos | Kamas",
             "ruta": "/productos/dormitorios/americanos/"
         },
         {
-            "id": 2,
+            "id": 4,
             "subcategoria": "Americanos con cajones",
             "metaTitulo": "Dormitorios - Americanos con cajones | Kamas",
             "ruta": "/productos/dormitorios/americanos/"
         },
         {
-            "id": 3,
+            "id": 5,
             "subcategoria": "Europeos",
             "metaTitulo": "Dormitorios - Europeos | Kamas",
             "ruta": "/productos/dormitorios/europeos/"
         },
         {
-            "id": 4,
+            "id": 6,
             "subcategoria": "Europeos con cajones",
             "metaTitulo": "Dormitorios - Europeos con cajones | Kamas",
             "ruta": "/productos/dormitorios/europeos-con-cajones/"
