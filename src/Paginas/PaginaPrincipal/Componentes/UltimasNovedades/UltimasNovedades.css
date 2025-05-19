@@ -19,10 +19,15 @@
     gap: 10px;
 }
 
+.ultimas-novedades-content li{
+    height: 100%;
+}
+
 .ultimas-novedades-content li .product-card{
     flex: unset;
     max-width: none;
     width: 280px;
+    height: 100%;
 }
 
 .product-card-target{
