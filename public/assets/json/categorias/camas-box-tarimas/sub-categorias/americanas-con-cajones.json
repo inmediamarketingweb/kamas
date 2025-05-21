@@ -2444,7 +2444,7 @@
             "precioNormal": 1749,
             "precioVenta": 1229,
             "stock": 15,
-            "sku": "K224125N11",
+            "sku": "K222113N10",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -2497,7 +2497,7 @@
             ]
         },
         {
-            "id": 37,
+            "id": 38,
             "categoria": "camas box tarimas",
             "subcategoria": "americanas con cajones",
             "tamaño": "2 plazas",
@@ -2509,7 +2509,7 @@
             "precioNormal": 1239,
             "precioVenta": 959,
             "stock": 15,
-            "sku": "K224125N11",
+            "sku": "K222113N11",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {

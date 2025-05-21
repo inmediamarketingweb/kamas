@@ -149,8 +149,17 @@
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
+               
+}
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plazas",
+                    "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/49/"
                 }
             ],
+
+
             "detalles-del-producto":[
                 {
                     "línea": "Americana",
@@ -277,8 +286,17 @@
                     "tamaño": "1 plaza y media",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
+               
+}
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/46/"
                 }
             ],
+
+
             "detalles-del-producto":[
                 {
                     "línea": "Americana",
@@ -596,7 +614,7 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/1-plaza-y-media/10/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - TUQUESA ÓPALO",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL INFANTIL RATÓN - TURQUESA ÓPALO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/infantiles/sin-brazos/raton/5/",
             "colores": "si",
             "precioRegular": 1099,
@@ -4099,7 +4117,7 @@
             "precioNormal": 1239,
             "precioVenta": 999,
             "stock": 15,
-            "sku": "K222227N17",
+            "sku": "K222227N20",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -13293,7 +13311,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-curvos/princesa/1/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 1319,
             "precioVenta": 1009,
             "stock": 12,
             "sku": "K2215225N10",
@@ -13358,7 +13376,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-curvos/princesa/2/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 1319,
             "precioVenta": 1009,
             "stock": 12,
             "sku": "K2215225N11",
@@ -13423,7 +13441,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-curvos/princesa/3/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 1319,
             "precioVenta": 1009,
             "stock": 12,
             "sku": "K2215225N12",
@@ -13488,7 +13506,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-curvos/vesso/1/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 1319,
             "precioVenta": 1009,
             "stock": 12,
             "sku": "K2215225N13",
@@ -13553,7 +13571,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/1-plaza-y-media/pedestales/coronas/brazos-rectos/otros-modelos/2/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1000,
+            "precioNormal": 1319,
             "precioVenta": 1009,
             "stock": 12,
             "sku": "K2215223N11",
@@ -13634,7 +13652,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "2 plazas",
-                    "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/48/"
+                    "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/47/"
                 }
             ],
             "detalles-del-producto":[
@@ -13782,7 +13800,7 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/40/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADA + SOFÁ + 2 PUFF - GRIS",
+            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADA + BAÚL + 2 PUFF - GRIS",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas/americanas/sin-brazos/capitoneado/3/",
             "colores": "si",
             "precioRegular": 1099,
@@ -13860,11 +13878,11 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/2-plazas/41/",
-            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + SOFÁ - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + BAÚL  - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/brazos-rectos/capitoneado/2/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1279,
+            "precioNormal": 1089,
             "precioVenta": 859,
             "stock": 12,
             "sku": "K2222113N20",
@@ -13942,8 +13960,8 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/9/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1279,
-            "precioVenta": 969,
+            "precioNormal": 1149,
+            "precioVenta": 879,
             "stock": 12,
             "sku": "K2222113N21",
             "tipo-de-envio": "Gratis",
@@ -14352,7 +14370,7 @@
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Conejo"
-                
+             
 }
             ],
             "tamaños-disponibles":[
@@ -14361,6 +14379,8 @@
                     "ruta": "/productos/camas-box-tarimas/americanas/1-plaza-y-media/23/"
                 }
             ],
+
+
             "detalles-del-producto":[
                 {
                     "línea": "Americana",
@@ -14597,7 +14617,7 @@
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/2-plazas/pedestales/otras-formas/sin-brazos/otros-modelos/5/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1649,
+            "precioNormal": 1239,
             "precioVenta": 939,
             "stock": 12,
             "sku": "K222227N17",
@@ -14678,7 +14698,7 @@
             "precioNormal": 1129,
             "precioVenta": 859,
             "stock": 12,
-            "sku": "K222227N19",
+            "sku": "K224213N10",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
@@ -14749,12 +14769,12 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/king/149/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + SOFÁ - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/5/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1959,
-            "precioVenta": 1349,
+            "precioNormal": 1249,
+            "precioVenta": 979,
             "stock": 12,
             "sku": "K224223N29",
             "tipo-de-envio": "Gratis",
@@ -14827,12 +14847,12 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/king/150/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + SOFÁ - NEGRO",
+            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/6/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1959,
-            "precioVenta": 1349,
+            "precioNormal": 1249,
+            "precioVenta": 979,
             "stock": 12,
             "sku": "K224223N30",
             "tipo-de-envio": "Gratis",
@@ -14905,12 +14925,12 @@
             "categoria": "camas box tarimas",
             "subcategoria": "americanas",
             "ruta": "/productos/camas-box-tarimas/americanas/king/151/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + SOFÁ - ROJO",
+            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - ROJO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/7/",
             "colores": "si",
             "precioRegular": 1099,
-            "precioNormal": 1959,
-            "precioVenta": 1349,
+            "precioNormal": 1249,
+            "precioVenta": 979,
             "stock": 12,
             "sku": "K224223N31",
             "tipo-de-envio": "Gratis",
