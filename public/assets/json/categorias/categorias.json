@@ -444,18 +444,24 @@
             "subCategorias":[
                 {
                     "id": 1,
-                    "subcategoria": "Aéreas",
+                    "subcategoria": "Aereas",
                     "metaTitulo": "Cabeceras - Aéreas | Kamas",
                     "ruta": "/productos/cabeceras/aereas/"
                 },
                 {
                     "id": 2,
+                    "subcategoria": "Aereas con patas",
+                    "metaTitulo": "Cabeceras - Aéreas con patas | Kamas",
+                    "ruta": "/productos/cabeceras/aereas-con-patas/"
+                },
+                {
+                    "id": 3,
                     "subcategoria": "Pedestales",
                     "metaTitulo": "Cabeceras - Pedestales | Kamas",
                     "ruta": "/productos/cabeceras/pedestales/"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cabeceras | Kamas",
                     "ruta": "/productos/cabeceras/"
