@@ -1,6 +1,6 @@
 .form-complaints-book-content{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -18,25 +18,26 @@
     width: 100%;
     height: 56px;
     padding: 0 10px;
+    outline: 0;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
 }
 
 .form-complaints-book-content fieldset select{
     width: 100%;
     height: 56px;
+    outline: 0;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
 }
 
 .form-complaints-book-container fieldset textarea{
     width: 100%;
     height: 120px;
     padding: 20px;
-}
-
-/**/
-
-@media screen and (max-width: 800px){
-    .form-complaints-book-content{
-        grid-template-columns: repeat(3, 1fr);
-    }
+    outline: 0;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
 }
 
 /**/
@@ -44,5 +45,9 @@
 @media screen and (max-width: 600px){
     .form-complaints-book-content{
         grid-template-columns: 1fr;
+    }
+
+    .form-complaints-book-container fieldset textarea{
+        height: 160px;
     }
 }
