@@ -244,30 +244,42 @@
             "subCategorias":[
                 {
                     "id": 1,
-                    "subcategoria": "Americanos",
-                    "metaTitulo": "Cama box tarimas - Americanos | Kamas",
-                    "ruta": "/productos/dormitorios/americanos/"
+                    "subcategoria": "Clásicos",
+                    "metaTitulo": "Dormitorios - Clásicos | Kamas",
+                    "ruta": "/productos/dormitorios/clasicos/"
                 },
                 {
                     "id": 2,
-                    "subcategoria": "Americanos con cajones",
-                    "metaTitulo": "Cama box tarimas - Americanos con cajones | Kamas",
-                    "ruta": "/productos/dormitorios/americanos-con-cajones/"
+                    "subcategoria": "Clásicos con cajones",
+                    "metaTitulo": "Dormitorios - Clásicos con cajones | Kamas",
+                    "ruta": "/productos/dormitorios/clasicos-con-cajones/"
                 },
                 {
                     "id": 3,
-                    "subcategoria": "Europeos",
-                    "metaTitulo": "Cama box tarimas - Europeos | Kamas",
-                    "ruta": "/productos/dormitorios/europeos/"
+                    "subcategoria": "Americanos",
+                    "metaTitulo": "Dormitorios - Americanos | Kamas",
+                    "ruta": "/productos/dormitorios/americanos/"
                 },
                 {
                     "id": 4,
-                    "subcategoria": "Europeos con cajones",
-                    "metaTitulo": "Cama box tarimas - Europeos con cajones | Kamas",
-                    "ruta": "/productos/dormitorios/europeos-con-cajones/"
+                    "subcategoria": "Americanos con cajones",
+                    "metaTitulo": "Dormitorios - Americanos con cajones | Kamas",
+                    "ruta": "/productos/dormitorios/americanos/"
                 },
                 {
                     "id": 5,
+                    "subcategoria": "Europeos",
+                    "metaTitulo": "Dormitorios - Europeos | Kamas",
+                    "ruta": "/productos/dormitorios/europeos/"
+                },
+                {
+                    "id": 6,
+                    "subcategoria": "Europeos con cajones",
+                    "metaTitulo": "Dormitorios - Europeos con cajones | Kamas",
+                    "ruta": "/productos/dormitorios/europeos-con-cajones/"
+                },
+                {
+                    "id": 7,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cama box tarimas | Kamas",
                     "ruta": "/productos/dormitorios/"
