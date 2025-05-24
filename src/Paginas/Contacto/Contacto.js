@@ -10,7 +10,7 @@ import './Contacto.css';
 function Contacto(){
     const [state, handleSubmit] = useForm("xanoeplr");
 
-    if (state.succeeded) {
+    if(state.succeeded) {
         return <p>Thanks for joining!</p>;
     }
 
@@ -78,26 +78,26 @@ function Contacto(){
                                     <ul className="social-networks">
                                         <li>
                                             <a>
-                                                <img src="" alt="" className=""/>
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Facebook</p>
                                             </a>
                                         </li>
                                         <li>
                                             <a>
-                                                <img src="" alt="" className=""/>
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Instagram</p>
                                             </a>
                                         </li>
                                         <li>
                                             <a>
-                                                <img src="" alt="" className=""/>
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Tik Tok</p>
                                             </a>
                                         </li>
                                         <li>
                                             <a>
-                                                <img src="" alt="" className=""/>
-                                                <p>YouTube</p>
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
+                                                <p>You Tube</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -107,29 +107,31 @@ function Contacto(){
                             <form onSubmit={handleSubmit} className="contact-form">
                                 <fieldset>
                                     <label>Nombres:</label>
-                                    <input type="text" placeholder=""></input>
+                                    <input type="text" placeholder="" name="Nombres"></input>
                                     <span></span>
                                 </fieldset>
                                 <fieldset>
                                     <label>Teléfono:</label>
-                                    <input type="text" placeholder=""></input>
+                                    <input type="text" placeholder="" name="Teléfono"></input>
                                     <span></span>
                                 </fieldset>
                                 <fieldset>
                                     <label>Correo electrónico:</label>
-                                    <input type="text" placeholder=""></input>
+                                    <input type="text" placeholder="" name="Correo"></input>
                                     <span></span>
                                 </fieldset>
                                 <fieldset>
                                     <label>Ciudad:</label>
-                                    <input type="text" placeholder=""></input>
+                                    <input type="text" placeholder="" name="Ciudad"></input>
                                     <span></span>
                                 </fieldset>
                                 <fieldset>
                                     <label>Mensaje:</label>
-                                    <textarea placeholder=""></textarea>
+                                    <textarea placeholder="" name="Mensaje"></textarea>
                                     <span></span>
                                 </fieldset>
+
+                                <button type="submit">enviar</button>
 
                                 {/* <label htmlFor="email">Email Address</label>
                                 <input id="email" type="email" name="email"/>
