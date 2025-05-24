@@ -37,6 +37,10 @@ function LibroDeReclamaciones(){
                                         <option>-- Motivo del reclamo --</option>
                                     </select>
                                 </fieldset>
+                                <fieldset>
+                                    <label>Imagen:</label>
+                                    <input type="file"></input>
+                                </fieldset>
                             </div>
 
                             <fieldset>
