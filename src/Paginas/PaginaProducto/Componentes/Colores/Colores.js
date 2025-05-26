@@ -73,7 +73,7 @@ function Colores({ onSelectColor }) {
                                     {activeTela.colores.map((color, index) => (
                                         <li key={index}>
                                             <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => { setActiveColorIndex(index); if (onSelectColor) onSelectColor({ color: color.color, tela: activeTela.tela }); }}>
-                                                <img src={color.img} alt={color.color} />
+                                                <img loading='lazy' src={color.img} alt={color.color} />
                                                 <p className="text">{color.color}</p>
                                             </button>
                                         </li>

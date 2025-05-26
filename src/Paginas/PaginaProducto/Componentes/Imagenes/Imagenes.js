@@ -49,7 +49,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                         {imagenes.map((src, i) => (
                             <li key={i}>
                                 <div className="zoom-wrapper" onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} >
-                                    <img src={src} alt={`Vista ${i + 1}`} />
+                                    <img loading='lazy' src={src} alt={`Vista ${i + 1}`} />
                                     {zoomActive && i === currentIndex && (
                                         <div className="zoom-lens" style={{ backgroundImage: `url(${src})`, backgroundPosition: `${zoomPos.x}% ${zoomPos.y}%`}}/>
                                     )}
