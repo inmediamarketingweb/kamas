@@ -90,7 +90,7 @@
     left: 50%;
     top: 50%;
     translate: -50% -50%;
-    width: 80%;
+    /* width: 80%; */
     max-width: 200px;
     height: auto;
     /* height: 100%; */

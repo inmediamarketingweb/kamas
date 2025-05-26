@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 
+import "./Producto.css";
+
 /**
  * @param {Object} props
  * @param {Object} props.producto
@@ -15,6 +17,20 @@ export function Producto({ producto, truncate }){
     useEffect(() => {
         const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
         setFavorites(favStorage);
+    }, []);
+
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
     const toggleFavorite = (producto) => {
@@ -42,7 +58,7 @@ export function Producto({ producto, truncate }){
                     )}
 
                     <a href={producto.ruta} alt={producto.nombre}>
-                        <img loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre} />
+                        <img width={isSmallScreen ? 175 : 200} height={isSmallScreen ? 120 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                     </a>
 
                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
