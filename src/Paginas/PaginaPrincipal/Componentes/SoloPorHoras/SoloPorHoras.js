@@ -232,7 +232,7 @@ function SoloPorHoras(){
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-                                                <img src={`${fotos}1.jpg`} alt={nombre} />
+                                                <img loading="lazy" src={`${fotos}1.jpg`} alt={nombre} />
                                             </div>
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">

@@ -57,7 +57,7 @@ function PaginaPrincipal(){
                                 <li key={categoria.id}>
                                     <a href={categoria.ruta}>
                                         <div>
-                                            <img src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
+                                            <img loading="lazy" src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
                                         </div>
                                         <p className='text'>{categoria.categoria}</p>
                                     </a>
@@ -77,7 +77,7 @@ function PaginaPrincipal(){
 
                 <div className='block-container'>
                     <section className='block-content'>
-                        <img src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras" className='page-banner-img' />
+                        <img loading="lazy" src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras" className='page-banner-img' />
                     </section>
                 </div>
 
