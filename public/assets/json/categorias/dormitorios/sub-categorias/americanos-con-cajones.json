@@ -1667,8 +1667,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -1752,8 +1753,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -1837,8 +1839,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -1922,8 +1925,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2007,8 +2011,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2092,8 +2097,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2173,11 +2179,13 @@
                 {
                     "titulo": "Colchón",
                     "descripcion":[
-                        {"resortes": "15 filas en forma vertical",
+                        {
+                            "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2261,8 +2269,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2346,8 +2355,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2431,8 +2441,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2516,8 +2527,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2686,8 +2698,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2771,8 +2784,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -2838,14 +2852,14 @@
                     "titulo": "Cama box tarima",
                     "descripcion":[
                         {
-                            "madera": "Pino americano radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "gavetas": "Melamina 18mm.",
-                            "rieles": "Telescópicos pesados",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
+                            "resortes": "15 filas en forma vertical",
+                            "tela": "Jacquard",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
+                            "soporte-de-peso": "85kg. por persona",
+                            "garantía": "4 años"
                         }
                     ]
                 },
@@ -2941,8 +2955,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3026,8 +3041,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3111,8 +3127,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3196,8 +3213,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3281,8 +3299,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3366,8 +3385,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3451,8 +3471,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3532,11 +3553,13 @@
                 {
                     "titulo": "Colchón",
                     "descripcion":[
-                        {"resortes": "15 filas en forma vertical",
+                        {
+                            "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3620,8 +3643,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3705,8 +3729,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3790,8 +3815,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3875,8 +3901,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -3960,8 +3987,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4045,8 +4073,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4130,8 +4159,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4215,8 +4245,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4300,8 +4331,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4385,8 +4417,9 @@
                             "resortes": "15 filas en forma vertical",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "marco": "Sellado",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble-pestaña": "Si",
+                            "marco": "refuerzo de marco sellado",
                             "soporte-de-peso": "85kg. por persona",
                             "garantía": "4 años"
                         }
@@ -4467,12 +4500,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
+                            "soporte-de-peso": "75kg. por persona",
                             "garantía": "4 años"
                         }
                     ]
@@ -4552,12 +4585,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
+                            "soporte-de-peso": "75kg. por persona",
                             "garantía": "4 años"
                         }
                     ]
@@ -4637,12 +4670,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
+                            "soporte-de-peso": "75kg. por persona",
                             "garantía": "4 años"
                         }
                     ]
@@ -4722,12 +4755,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
+                            "soporte-de-peso": "75kg. por persona",
                             "garantía": "4 años"
                         }
                     ]
@@ -4807,12 +4840,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
-                            "tipo-de-uso": "Ambos lados",
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
+                            "soporte-de-peso": "75kg. por persona",
                             "garantía": "4 años"
                         }
                     ]
@@ -4892,13 +4925,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -4977,13 +5010,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5062,13 +5095,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5147,13 +5180,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5232,13 +5265,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5317,13 +5350,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5402,13 +5435,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5487,13 +5520,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5572,13 +5605,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5657,13 +5690,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5742,13 +5775,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5827,13 +5860,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5912,13 +5945,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -5997,13 +6030,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -6082,13 +6115,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -6115,14 +6148,14 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/16/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO - CUERO CAMELL",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - CUERO CAMELL",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/1/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
             "precioVenta": 999,
             "stock": 9,
-            "sku": "K322134N15",
+            "sku": "K322133N19",
             "tipo-de-envio": "Gratis",
 
             "resumen-del-producto":[
@@ -6167,13 +6200,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -6184,7 +6217,7 @@
                             "madera": "Pino americano seco al horno.",
                             "espuma": "Zebra de alta densidad",
                             "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
+                            "tela": "Cuero brescia",
                             "patas": "De manera",
                             "botones": "clásicos o acrílicos",
                             "garantía": "2 años"
@@ -6200,14 +6233,14 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/17/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO + 2 VELADOR VINTAGE - PLOMO OSCURO",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ + 2 VELADOR VINTAGE - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/2/",
             "colores": "si",
-            "precioRegular": 1629,
-            "precioNormal": 1279,
-            "precioVenta": 899,
+            "precioRegular": 2589,
+            "precioNormal": 1979,
+            "precioVenta": 1549,
             "stock": 9,
-            "sku": "K322134N16",
+            "sku": "K322133N20",
             "tipo-de-envio": "Gratis",
 
             "resumen-del-producto":[
@@ -6252,13 +6285,353 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "15 filas en forma vertical",
-                            "tela": "Jacquard",
-                            "densidad-de-espuma": "20kg/m3",
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "marco": "Sellado",
-                            "soporte-de-peso": "85kg. por persona",
-                            "garantía": "4 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/18/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ + 2 VELADOR VINTAGE - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/3/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1979,
+            "precioVenta": 1549,
+            "stock": 9,
+            "sku": "K322133N21",
+            "tipo-de-envio": "Gratis",
+
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/19/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/4/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1979,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "K322133N22",
+            "tipo-de-envio": "Gratis",
+
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/20/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/5/",
+            "colores": "si",
+            "precioRegular": 1839,
+            "precioNormal": 1279,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "K322133N23",
+            "tipo-de-envio": "Gratis",
+
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "categoria": "dormitorios",
+            "linea": "americanos con cajones",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/21/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES LATERALES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/1/",
+            "colores": "si",
+            "precioRegular": 1839,
+            "precioNormal": 1279,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "K322133N24",
+            "tipo-de-envio": "Gratis",
+
+            "resumen-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Majestad"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Majestad"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "gavetas": "Melamina 18mm.",
+                            "rieles": "Telescópicos pesados",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas en forma vertical",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
