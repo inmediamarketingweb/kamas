@@ -168,23 +168,23 @@
             "colores":[
                 {
                     "color": "Beige",
-                    "img": "/assets/imagenes/colores/antifluidos/beige.png"
+                    "img": "/assets/imagenes/colores/antifluidos/beige.webp"
                 },
                 {
                     "color": "Ibory",
-                    "img": "/assets/imagenes/colores/antifluidos/ibory.png"
+                    "img": "/assets/imagenes/colores/antifluidos/ibory.webp"
                 },
                 {
                     "color": "Plata",
-                    "img": "/assets/imagenes/colores/antifluidos/plata.png"
+                    "img": "/assets/imagenes/colores/antifluidos/plata.webp"
                 },
                 {
                     "color": "Plomo oscuro",
-                    "img": "/assets/imagenes/colores/antifluidos/plomo-oscuro.png"
+                    "img": "/assets/imagenes/colores/antifluidos/plomo-oscuro.webp"
                 },
                 {
                     "color": "Verde pacay",
-                    "img": "/assets/imagenes/colores/antifluidos/verde-pacay.png"
+                    "img": "/assets/imagenes/colores/antifluidos/verde-pacay.webp"
                 }
             ]
         },

@@ -42,6 +42,7 @@
 @font-face{
     font-family: 'DM Sans';
     src: url('../public/assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-display: swap;
 }
 
 /**/
