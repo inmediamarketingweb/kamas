@@ -131,14 +131,12 @@ function Contacto(){
                                     <span></span>
                                 </fieldset>
 
-                                <button type="submit">enviar</button>
-
-                                {/* <label htmlFor="email">Email Address</label>
-                                <input id="email" type="email" name="email"/>
-                                <ValidationError prefix="Email" field="email" errors={state.errors}/>
-                                <textarea id="message" name="message"/>
-                                <ValidationError prefix="Message" field="message" errors={state.errors}/>
-                                <button type="submit" disabled={state.submitting}>Submit</button> */}
+                                <div className="d-flex">
+                                    <button type="submit" className="form-submit margin-left button-link button-link-2 gap-10">
+                                        <p className="button-link-text">Enviar</p>
+                                        <span class="material-icons">mail</span>
+                                    </button>
+                                </div>
                             </form>
                         </div>
                     </section>
