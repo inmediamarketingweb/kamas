@@ -28,6 +28,7 @@
     border: 1px solid var(--gray);
     border-radius: 100%;
     transition: var(--t-200ms);
+    overflow: hidden;
     padding: 20px;
 }
 
