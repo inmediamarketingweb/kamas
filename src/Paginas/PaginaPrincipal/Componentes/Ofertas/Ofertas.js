@@ -126,8 +126,8 @@ function Ofertas(){
                     <ul className='homepage-offers-content'>
                         {[1, 2, 3, 4, 5, 6].map((n) => (
                             <li key={n}>
-                                <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki'>
-                                    <img src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.webp`} alt='Ofertas | Kamas'/>
+                                <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki' title='Ver ofertas'>
+                                    <img loading='lazy' width={280} height={400} src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.webp`} alt='Ofertas | Kamas'/>
                                 </a>
                             </li>
                         ))}

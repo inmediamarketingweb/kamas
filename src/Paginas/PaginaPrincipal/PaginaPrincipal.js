@@ -27,6 +27,20 @@ function PaginaPrincipal(){
             .catch(error => console.error('Error cargando categorías:', error));
     }, []);
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return(
         <>
             <Helmet>
@@ -57,7 +71,7 @@ function PaginaPrincipal(){
                                 <li key={categoria.id}>
                                     <a href={categoria.ruta}>
                                         <div>
-                                            <img loading="lazy" src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria} />
+                                            <img width={isSmallScreen ? 80 : 160} height={isSmallScreen ? 80 : 160} loading="lazy" src={categoria.menuImg ? categoria.menuImg[0].imgSrc : ''} alt={categoria.menuImg ? categoria.menuImg[0].imgAlt : categoria.categoria}/>
                                         </div>
                                         <p className='text'>{categoria.categoria}</p>
                                     </a>
@@ -77,7 +91,7 @@ function PaginaPrincipal(){
 
                 <div className='block-container'>
                     <section className='block-content'>
-                        <img loading="lazy" src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras" className='page-banner-img' />
+                        <img loading="lazy" width={isSmallScreen ? 385 : 1600} height={isSmallScreen ? 120 : 480} src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras"/>
                     </section>
                 </div>
 
