@@ -16,7 +16,7 @@ function Slider(){
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-        }, 2000);
+        }, 10000);
 
         return () => clearInterval(interval);
     }, [totalSlides]);
@@ -58,16 +58,16 @@ function Slider(){
                     </div>
                 </section>
 
-                <button className="hero-slider-button hero-slider-button-1" onClick={goToPrevSlide}>
+                <button type='button' className="hero-slider-button hero-slider-button-1" onClick={goToPrevSlide}>
                     <span className="material-icons">chevron_left</span>
                 </button>
 
-                <button className="hero-slider-button hero-slider-button-2" onClick={goToNextSlide}>
+                <button type='button' className="hero-slider-button hero-slider-button-2" onClick={goToNextSlide}>
                     <span className="material-icons">chevron_right</span>
                 </button>
             </div>
 
-            <img src="/assets/imagenes/componentes/slider/banner-2.jpg" alt="" />
+            <img src="/assets/imagenes/componentes/slider/banner-2.jpg" alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
         </div>
     );
 }
