@@ -522,7 +522,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -620,7 +620,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -718,7 +718,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -816,7 +816,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -914,7 +914,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -1012,7 +1012,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -1110,7 +1110,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -1199,11 +1199,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "19 filas en forma vertical",
+                            "resortes": "19 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "Doble-pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -1293,11 +1294,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "19 filas en forma vertical",
+                            "resortes": "19 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "Doble-pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -1387,11 +1389,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "19 filas en forma vertical",
+                            "resortes": "19 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "Doble-pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -1481,11 +1484,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "19 filas en forma vertical",
+                            "resortes": "19 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "Doble-pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -1575,11 +1579,12 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "19 filas en forma vertical",
+                            "resortes": "19 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "Doble-pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -1621,7 +1626,12 @@
             "stock": 9,
             "sku": "K322173N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -1707,7 +1717,12 @@
             "stock": 9,
             "sku": "K322173N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -1793,7 +1808,12 @@
             "stock": 9,
             "sku": "K322173N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -1879,7 +1899,12 @@
             "stock": 9,
             "sku": "K322173N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -1965,7 +1990,12 @@
             "stock": 9,
             "sku": "K322173N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2051,7 +2081,12 @@
             "stock": 9,
             "sku": "K322173N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2137,7 +2172,12 @@
             "stock": 9,
             "sku": "K322173N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2223,7 +2263,12 @@
             "stock": 9,
             "sku": "K322173N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2300,7 +2345,7 @@
             "tamaño": "2 plazas",
             "modelo": "ramat",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/ramat/9/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADO - PLOMO RATA",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES LATERALES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/ramat/aereas-con-patas/americanas/sin-brazos/capitoneado/9/",
             "colores": "si",
             "precioRegular": 1829,
@@ -2309,7 +2354,12 @@
             "stock": 9,
             "sku": "K322173N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2395,7 +2445,12 @@
             "stock": 9,
             "sku": "K322173N19",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2481,7 +2536,12 @@
             "stock": 9,
             "sku": "K322173N20",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2567,7 +2627,12 @@
             "stock": 9,
             "sku": "K322173N21",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2652,7 +2717,12 @@
             "stock": 9,
             "sku": "K322173N22",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2738,7 +2808,12 @@
             "stock": 9,
             "sku": "K322175N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2824,7 +2899,12 @@
             "stock": 9,
             "sku": "K322175N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2909,7 +2989,12 @@
             "stock": 9,
             "sku": "K322175N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -2995,7 +3080,12 @@
             "stock": 9,
             "sku": "K322175N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3081,7 +3171,12 @@
             "stock": 9,
             "sku": "K322175N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3167,7 +3262,12 @@
             "stock": 9,
             "sku": "K322175N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3253,7 +3353,12 @@
             "stock": 9,
             "sku": "K322175N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3339,7 +3444,12 @@
             "stock": 9,
             "sku": "K322175N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3425,7 +3535,12 @@
             "stock": 9,
             "sku": "K322175N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3511,7 +3626,12 @@
             "stock": 9,
             "sku": "K322175N19",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3597,7 +3717,12 @@
             "stock": 9,
             "sku": "K322175N20",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3683,7 +3808,12 @@
             "stock": 9,
             "sku": "K322175N21",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3769,7 +3899,12 @@
             "stock": 9,
             "sku": "K322175N22",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3855,7 +3990,12 @@
             "stock": 9,
             "sku": "K322175N23",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -3941,7 +4081,12 @@
             "stock": 9,
             "sku": "K322173N23",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4027,7 +4172,12 @@
             "stock": 9,
             "sku": "K322173N24",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4113,7 +4263,12 @@
             "stock": 9,
             "sku": "K322173N25",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4199,7 +4354,12 @@
             "stock": 9,
             "sku": "K322173N26",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4285,7 +4445,12 @@
             "stock": 9,
             "sku": "K322173N27",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4371,7 +4536,12 @@
             "stock": 9,
             "sku": "K322173N28",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4457,7 +4627,12 @@
             "stock": 9,
             "sku": "K322143N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4542,7 +4717,12 @@
             "stock": 9,
             "sku": "K322143N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4627,7 +4807,12 @@
             "stock": 9,
             "sku": "K322143N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4712,7 +4897,12 @@
             "stock": 9,
             "sku": "K322143N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4797,7 +4987,12 @@
             "stock": 9,
             "sku": "K322143N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4882,7 +5077,12 @@
             "stock": 9,
             "sku": "K322133N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -4967,7 +5167,12 @@
             "stock": 9,
             "sku": "K322133N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5052,7 +5257,12 @@
             "stock": 9,
             "sku": "K322133N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5137,7 +5347,12 @@
             "stock": 9,
             "sku": "K322133N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5222,7 +5437,12 @@
             "stock": 9,
             "sku": "K322133N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5307,7 +5527,12 @@
             "stock": 9,
             "sku": "K322133N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5392,7 +5617,12 @@
             "stock": 9,
             "sku": "K322133N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5468,7 +5698,7 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/8/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO + VELADOR CLÁSICO 1 + VELADOR VINTAGE - PLOMO RATA",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO + VELADOR CLÁSICO 1 + VELADOR VINTAGE - MORO",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/8/",
             "colores": "si",
             "precioRegular": 2129,
@@ -5477,7 +5707,12 @@
             "stock": 9,
             "sku": "K322133N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5562,7 +5797,12 @@
             "stock": 9,
             "sku": "K322133N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -5638,8 +5878,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/10/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - PALO ROSA",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/1/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/1/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -5647,14 +5887,19 @@
             "stock": 9,
             "sku": "K322134N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "detalles-del-producto":[
@@ -5667,7 +5912,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "descripciones":[
@@ -5723,8 +5968,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/11/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - FUCSIA",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/2/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/2/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -5732,14 +5977,19 @@
             "stock": 9,
             "sku": "K322134N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "detalles-del-producto":[
@@ -5752,7 +6002,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "descripciones":[
@@ -5808,8 +6058,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/12/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - VINO",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/3/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/3/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -5817,14 +6067,19 @@
             "stock": 9,
             "sku": "K322134N12",
             "tipo-de-envio": "Gratis",
-
+             "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "detalles-del-producto":[
@@ -5837,7 +6092,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "descripciones":[
@@ -5893,8 +6148,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/13/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - LILA",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/4/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/4/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -5902,14 +6157,19 @@
             "stock": 9,
             "sku": "K322134N13",
             "tipo-de-envio": "Gratis",
-
+             "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "detalles-del-producto":[
@@ -5922,7 +6182,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "descripciones":[
@@ -5978,8 +6238,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/14/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - ROSADO BEBÉ",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/5/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - ROSADO BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/5/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -5987,14 +6247,19 @@
             "stock": 9,
             "sku": "K322134N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "detalles-del-producto":[
@@ -6007,7 +6272,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "modelo-de-cabecera": "Cuadros 2"
                 }
             ],
             "descripciones":[
@@ -6063,8 +6328,8 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/15/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - ROJO",
-            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/capitoneado/6/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 2 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-2/6/",
             "colores": "si",
             "precioRegular": 1629,
             "precioNormal": 1279,
@@ -6072,7 +6337,12 @@
             "stock": 9,
             "sku": "K322134N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6148,7 +6418,7 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/16/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES AL PIE + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - CUERO CAMELL",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS CON 2 CAJONES LATERALES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - CUERO CAMELL",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos-con-cajones/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/1/",
             "colores": "si",
             "precioRegular": 1629,
@@ -6157,7 +6427,12 @@
             "stock": 9,
             "sku": "K322133N19",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6242,7 +6517,12 @@
             "stock": 9,
             "sku": "K322133N20",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6327,7 +6607,12 @@
             "stock": 9,
             "sku": "K322133N21",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6412,7 +6697,12 @@
             "stock": 9,
             "sku": "K322133N22",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6497,7 +6787,12 @@
             "stock": 9,
             "sku": "K322133N23",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -6582,7 +6877,12 @@
             "stock": 9,
             "sku": "K322133N24",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",

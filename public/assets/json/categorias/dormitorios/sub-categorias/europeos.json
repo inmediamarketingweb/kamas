@@ -19,7 +19,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -67,12 +67,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -111,7 +114,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -159,12 +162,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -203,7 +209,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -251,12 +257,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -295,7 +304,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -343,12 +352,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -387,7 +399,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -435,12 +447,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -479,7 +494,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -527,12 +542,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -571,7 +589,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -619,12 +637,15 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "8 filas en forma vertical",
-                            "tela": "Tricop",
-                            "densidad-de-la-espuma": "16kg/m3",
+                            "resortes": "18 filas",
+                            "material de resorte": "Acero templado",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-la-espuma": "18kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "soporte-de-peso": "55kg. por persona",
-                            "garantía": "1 año"
+                            "refuerzos": "Centrales",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "80kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },
@@ -663,7 +684,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -711,14 +732,13 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "20 filas en forma vertical",
+                            "resortes": "20 filas",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -761,7 +781,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -815,8 +835,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -859,7 +878,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -913,8 +932,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -957,7 +975,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -1011,8 +1029,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -1055,7 +1072,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -1109,8 +1126,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -1153,7 +1169,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -1207,8 +1223,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -1251,7 +1266,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 },
                 {
                     "texto": "3 cojines",
@@ -1305,8 +1320,7 @@
                             "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
                             "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
                             "soporte-de-peso": "130kg. por persona",
@@ -1349,7 +1363,7 @@
             "regalos":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 
                 }
             ],
@@ -1394,18 +1408,643 @@
                     "titulo": "Colchón",
                     "descripcion":[
                         {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
+                            "resortes": "12 filas en forma vertical",
+                            "tela": "Tricop",
+                            "densidad-de-espuma": "16kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "1 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "ramat",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/ramat/1/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADO - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/ramat/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1639,
+            "precioVenta": 1299,
+            "stock": 23,
+            "sku": "K332273N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Ramat",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "15 filas",
+                            "tela": "Jacquard",
+                            "densidad-de-espuma": "20kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "doble pestaña": "Si",
+                            "marco": "Refuerzo de marco sellado",
+                            "soporte-de-peso": "85kg. por persona",
+                            "garantía": "4 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "safynnte",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/safynnte/1/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SAFYNNTE + CABECERA AÉREA CUADROS 1 CON MARCO - HUESO",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/safynnte/aereas-con-patas/con-marco/sin-brazos/cuadros-2/1/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1439,
+            "precioVenta": 1099,
+            "stock": 23,
+            "sku": "K332244N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Safynnte",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Safynnte",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "14 filas",
+                            "tela": "Drill",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Un solo lado",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "75kg. por persona",
+                            "garantía": "4 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/sarki/1/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA AÉREA CUADROS 1 - HUESO",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/sarki/aereas-con-patas/con-marco/sin-brazos/cuadros-1/1/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1439,
+            "precioVenta": 1049,
+            "stock": 23,
+            "sku": "K332234N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Cuadros 1"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 1"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/sarki/2/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/1/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1429,
+            "precioVenta": 1099,
+            "stock": 23,
+            "sku": "K332233N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/sarki/3/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/2/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1429,
+            "precioVenta": 1099,
+            "stock": 23,
+            "sku": "K332233N11",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/sarki/4/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/3/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1429,
+            "precioVenta": 1099,
+            "stock": 23,
+            "sku": "K332233N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "tela": "Piel de potro",
+                            "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "categoria": "dormitorios",
+            "subcategoria": "europeos",
+            "tamaño": "2 plazas",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/europeos/2-plazas/sarki/5/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL EMPERATRIZ - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/europeos/2-plazas/sarki/pedestales/americanas/brazos-rectos/emperatriz/4/",
+            "colores": "si",
+            "precioRegular": 2589,
+            "precioNormal": 1429,
+            "precioVenta": 1099,
+            "stock": 23,
+            "sku": "K332233N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "línea": "Europeo",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino radiata seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "espuma": "Zebra de alta densidad",
+                            "tela": "Piel de potro",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "resortes": "9 filas",
+                            "tela": "Algodón tejido en punto",
+                            "densidad-de-espuma": "18kg/m3",
+                            "tipo-de-uso": "Ambos lados",
+                            "marco": "Sellado",
+                            "soporte-de-peso": "65kg. por persona",
+                            "garantía": "2 años"
                         }
                     ]
                 },

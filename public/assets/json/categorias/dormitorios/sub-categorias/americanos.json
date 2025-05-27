@@ -17841,7 +17841,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -17933,7 +17933,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18025,7 +18025,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18117,7 +18117,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18209,7 +18209,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18301,7 +18301,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18393,7 +18393,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18485,7 +18485,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18577,7 +18577,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18669,7 +18669,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18761,7 +18761,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18853,7 +18853,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -18939,13 +18939,12 @@
                 {
                     "titulo": "Colchón",
                     "descripcion":[
-                        {
-                            "resortes": "19 filas en forma vertical",
+                        {"resortes": "19 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -19037,7 +19036,7 @@
                             "tela": "Algodón tejido en punto",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Un solo lado",
-                            "grosor": "32cm.",
+                            "grosor": "30cm.",
                             "incorpora": "Sistema one size",
                             "refuerzos": "Centrales",
                             "marco": "De espuma",
@@ -21642,16 +21641,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -21736,16 +21733,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -21830,16 +21825,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -21924,16 +21917,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -22018,16 +22009,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -22112,16 +22101,14 @@
                             "resortes": "20 filas en forma vertical",
                             "material-de-resorte": "Acero templado",
                             "tela": "Algodón tejido en punto",
-                            "tapiz": "Tradicional",
-                            "densidad-de-espuma": "23kg/m3",
+                            "densidad-de-espuma": "25kg/m3",
                             "tipo-de-uso": "Ambos lados",
-                            "grosor": "40cm.",
-                            "incorpora": "Sistema one size",
-                            "sistema": "PT",
+                            "grosor": "44cm.",
+                            "incorpora": "Sistema PT",
                             "refuerzos": "Centrales.",
                             "marco": "De espuma",
-                            "soporte-de-peso": "110kg. por persona",
-                            "garantía": "7 años"
+                            "soporte-de-peso": "130kg. por persona",
+                            "garantía": "10 años"
                         }
                     ]
                 },
@@ -22212,6 +22199,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22308,6 +22296,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22404,6 +22393,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22500,6 +22490,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22596,6 +22587,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22692,6 +22684,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22788,6 +22781,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22884,6 +22878,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -22980,6 +22975,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23076,6 +23072,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23168,6 +23165,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23260,6 +23258,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23352,6 +23351,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23444,6 +23444,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23536,6 +23537,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23628,6 +23630,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23725,6 +23728,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23818,6 +23822,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -23911,6 +23916,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24008,6 +24014,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24105,6 +24112,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24202,6 +24210,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24299,6 +24308,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24391,6 +24401,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24483,6 +24494,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24575,6 +24587,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24667,6 +24680,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24759,6 +24773,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24851,6 +24866,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -24947,6 +24963,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25043,6 +25060,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25139,6 +25157,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25235,6 +25254,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25331,6 +25351,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25427,6 +25448,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25523,6 +25545,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25619,6 +25642,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -25715,6 +25739,7 @@
                             "tela": "Jacquard",
                             "densidad-de-espuma": "20kg/m3",
                             "tipo-de-uso": "Ambos lados",
+                            "doble pestaña": "Si",
                             "grosor": "37cm.",
                             "incorpora": "Sistema PT",
                             "refuerzos": "Centrales",
@@ -26539,7 +26564,12 @@
             "stock": 13,
             "sku": "K322223N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -26622,7 +26652,12 @@
             "stock": 13,
             "sku": "K322225N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -26705,7 +26740,12 @@
             "stock": 13,
             "sku": "K322225N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -26788,7 +26828,12 @@
             "stock": 13,
             "sku": "K322225N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -26871,7 +26916,12 @@
             "stock": 13,
             "sku": "K322225N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -26954,7 +27004,12 @@
             "stock": 13,
             "sku": "K322225N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27037,7 +27092,12 @@
             "stock": 13,
             "sku": "K322225N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27120,7 +27180,12 @@
             "stock": 13,
             "sku": "K322225N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27203,7 +27268,12 @@
             "stock": 13,
             "sku": "K322225N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27286,7 +27356,12 @@
             "stock": 13,
             "sku": "K322225N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27369,7 +27444,12 @@
             "stock": 13,
             "sku": "K322243N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27452,7 +27532,12 @@
             "stock": 13,
             "sku": "K322233N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27535,7 +27620,12 @@
             "stock": 13,
             "sku": "K322233N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27618,7 +27708,12 @@
             "stock": 13,
             "sku": "K322232N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27692,7 +27787,7 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/2-plazas/sarki/4/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA AÉREA CAPITONEADO - NEGRO",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/aereas-con-patas/coronas/sin-brazos/capitoneado/1/", 
             "colores": "si",
             "precioRegular": 1759,
@@ -27701,7 +27796,12 @@
             "stock": 13,
             "sku": "K322234N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27775,7 +27875,7 @@
             "tamaño": "2 plazas",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/2-plazas/sarki/5/",
-            "nombre": "DORMITORIO AMERICANO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO + 2 VELADORES VINTAGE - CHOCOLATE",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CuADROS 2 + 2 VELADORES VINTAGE - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/bloques/brazos-rectos/cuadros-2/1/", 
             "colores": "si",
             "precioRegular": 1859,
@@ -27784,7 +27884,12 @@
             "stock": 13,
             "sku": "K322236N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27867,7 +27972,12 @@
             "stock": 13,
             "sku": "K322232N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -27950,7 +28060,12 @@
             "stock": 13,
             "sku": "K322232N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28033,7 +28148,12 @@
             "stock": 13,
             "sku": "K322232N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28116,7 +28236,12 @@
             "stock": 13,
             "sku": "K322232N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28199,7 +28324,12 @@
             "stock": 13,
             "sku": "K322232N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28282,7 +28412,12 @@
             "stock": 13,
             "sku": "K322232N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28365,7 +28500,12 @@
             "stock": 13,
             "sku": "K322232N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28448,7 +28588,12 @@
             "stock": 13,
             "sku": "K322232N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28526,12 +28671,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/1/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N10",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28609,12 +28759,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/2/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N11",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28692,12 +28847,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/3/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N12",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28775,12 +28935,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/4/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N13",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28858,12 +29023,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/5/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N14",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -28941,12 +29111,17 @@
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/2-plazas/sarki/pedestales/coronas/brazos-curvos/majestad/6/", 
             "colores": "si",
             "precioRegular": 1759,
-            "precioNormal": 1159,
-            "precioVenta": 899,
+            "precioNormal": 1319,
+            "precioVenta": 1029,
             "stock": 13,
             "sku": "K322235N15",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -29029,7 +29204,12 @@
             "stock": 13,
             "sku": "K322235N16",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -29112,7 +29292,12 @@
             "stock": 13,
             "sku": "K322235N17",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
@@ -29195,7 +29380,12 @@
             "stock": 13,
             "sku": "K322235N18",
             "tipo-de-envio": "Gratis",
-
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "línea": "Americano",
