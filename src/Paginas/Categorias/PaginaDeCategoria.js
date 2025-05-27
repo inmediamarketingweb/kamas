@@ -93,6 +93,20 @@ function PaginaDeCategoria(){
     const handleToggleFilters = () => setFiltersActive((prev) => !prev);
     const handleCloseFilters = () => setFiltersActive(false);
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const toggleFavorite = (producto) => {
         const exists = favorites.some((fav) => fav.ruta === producto.ruta);
         const updatedFavorites = exists ? favorites.filter((fav) => fav.ruta !== producto.ruta) : [...favorites, producto];
@@ -154,7 +168,7 @@ function PaginaDeCategoria(){
                                                                     )}
 
                                                                     <a href={producto.ruta}>
-                                                                        <img src={`${producto.fotos}1.jpg`} alt={producto.nombre} />
+                                                                        <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                                                                     </a>
 
                                                                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >

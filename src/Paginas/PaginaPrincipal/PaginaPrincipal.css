@@ -28,6 +28,7 @@
     border: 1px solid var(--gray);
     border-radius: 100%;
     transition: var(--t-200ms);
+    overflow: hidden;
     padding: 20px;
 }
 
@@ -37,8 +38,6 @@
 
 .homepage-categories li a div img{
     margin: auto;
-    width: 80%;
-    height: auto;
     aspect-ratio: 1/1;
 }
 

@@ -70,8 +70,8 @@
 .zoom-wrapper img{
     margin: auto;
     display: block;
-    width: 80%;
-    height: auto;
+    /* width: 80%;
+    height: auto; */
     aspect-ratio: 1/1;
 }
 
@@ -145,7 +145,7 @@
     bottom: 0;
     translate: -50% 0;
     background: var(--color-1);
-    width: 60%;
+    width: 40%;
     height: 3px;
     transition: var(--t-200ms-linear);
     opacity: 0;

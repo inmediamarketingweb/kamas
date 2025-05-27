@@ -14,7 +14,7 @@ function UltimasNovedades() {
     const autoDirRef = useRef('left');
 
     useEffect(() => {
-        const categoriasPermitidas = ['camas-box-tarimas', 'dormitorios', 'camas-funcionales', 'complementos'];
+        const categoriasPermitidas = ['camas-box-tarimas', 'dormitorios', 'camas-funcionales', 'cabeceras', 'complementos'];
 
         fetch('/assets/json/manifest.json').then(res => res.json()).then(
             manifest => Promise.all(

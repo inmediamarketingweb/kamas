@@ -58,7 +58,7 @@ export function Producto({ producto, truncate }){
                     )}
 
                     <a href={producto.ruta} alt={producto.nombre}>
-                        <img width={isSmallScreen ? 175 : 200} height={isSmallScreen ? 120 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
+                        <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                     </a>
 
                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >

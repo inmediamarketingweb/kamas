@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import Colores from '../Colores/Colores';
 
@@ -35,6 +35,20 @@ function Imagenes({ imagenes, producto, onSelectColor }){
         setZoomPos({ x, y });
     };
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
 
     return(
@@ -49,7 +63,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                         {imagenes.map((src, i) => (
                             <li key={i}>
                                 <div className="zoom-wrapper" onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} >
-                                    <img loading='lazy' src={src} alt={`Vista ${i + 1}`} />
+                                    <img width={isSmallScreen ? 280 : 540} height={isSmallScreen ? 280 : 540} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                                     {zoomActive && i === currentIndex && (
                                         <div className="zoom-lens" style={{ backgroundImage: `url(${src})`, backgroundPosition: `${zoomPos.x}% ${zoomPos.y}%`}}/>
                                     )}

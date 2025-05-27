@@ -103,7 +103,7 @@ function PaginaProducto(){
 
     useEffect(() => {
         const handleStorageChange = () => {
-            setUserName(localStorage.getItem('Names') || '');
+            setUserName(localStorage.getItem('nombre') || '');
         };
 
         window.addEventListener('storage', handleStorageChange);
@@ -165,6 +165,8 @@ function PaginaProducto(){
             <Helmet>
                 <title>{producto.nombre}</title>
                 <meta name="description" content={producto.nombre}/>
+
+                <link rel="preload" as="image" href={`https://kamas.pe${producto.fotos}1.jpg`} />
 
                 <meta property="og:image" content={`https://kamas.pe${producto.fotos}1.jpg`}/>
                 <meta property="og:title" content={producto.nombre}/>
