@@ -1,6 +1,22 @@
+import { useEffect, useState } from 'react';
+
 import './SobreNosotros.css';
 
 function SobreNosotros(){
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return(
         <div className='block-container block-container-homepage-about-us'>
             <section className='block-content'>
@@ -36,16 +52,16 @@ function SobreNosotros(){
                 <div className='homepage-about-us-images-container w-100'>
                     <ul className='homepage-about-us-images'>
                         <li>
-                            <img src="/assets/imagenes/paginas/nosotros/1.jpg" alt="Imagenes de Kamas"/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/1.jpg' alt=''/>
                         </li>
                         <li>
-                            <img src="/assets/imagenes/paginas/nosotros/2.jpg" alt="Imagenes de Kamas"/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/2.jpg' alt=''/>
                         </li>
                         <li>
-                            <img src="/assets/imagenes/paginas/nosotros/3.jpg" alt="Imagenes de Kamas"/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/3.jpg' alt=''/>
                         </li>
                         <li>
-                            <img src="/assets/imagenes/paginas/nosotros/4.jpg" alt="Imagenes de Kamas"/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/4.jpg' alt=''/>
                         </li>
                     </ul>
                 </div>

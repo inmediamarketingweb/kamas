@@ -37,11 +37,11 @@ function Colores({ onSelectColor }) {
                     <ul className="product-page-colors-button-miniatures">
                         {activeTela.colores.slice(0, 6).map((color, index) => (
                             <li key={index}>
-                                <img src={color.img} alt={color.color} />
+                                <img loading='lazy' width={22} height={22} src={color.img} alt={color.color} />
                             </li>
                         ))}
                     </ul>
-                    <img src="/assets/imagenes/colores/circulo-cromatico.png" alt="" />
+                    <img width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="" />
                 </div>
             </div>
 

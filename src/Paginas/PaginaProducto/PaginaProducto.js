@@ -103,7 +103,7 @@ function PaginaProducto(){
 
     useEffect(() => {
         const handleStorageChange = () => {
-            setUserName(localStorage.getItem('Names') || '');
+            setUserName(localStorage.getItem('nombre') || '');
         };
 
         window.addEventListener('storage', handleStorageChange);
