@@ -193,6 +193,20 @@ function SoloPorHoras(){
         return str.slice(0, maxLength) + '...';
     };
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return(
         <div className="block-container block-container-sale">
             <section className="block-content block-content-sale">
@@ -232,7 +246,7 @@ function SoloPorHoras(){
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-                                                <img width={200} height={200} loading="lazy" src={`${fotos}1.jpg`} alt={nombre} />
+                                                <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${fotos}1.jpg`} alt={nombre}/>
                                             </div>
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">

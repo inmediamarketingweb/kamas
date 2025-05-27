@@ -9,7 +9,7 @@ import "./Producto.css";
  * @param {function} props.truncate
 **/
 
-export function Producto({ producto, truncate }){
+export function Producto({ producto = { id: null } , truncate }){
     const [favorites, setFavorites] = useState([]);
 
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
@@ -127,10 +127,4 @@ Producto.propTypes = {
         precioVenta: PropTypes.number.isRequired,
     }).isRequired,
     truncate: PropTypes.func.isRequired,
-};
-
-Producto.defaultProps = {
-    producto: {
-        id: null,
-    },
 };
