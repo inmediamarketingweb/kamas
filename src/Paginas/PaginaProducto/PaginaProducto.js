@@ -166,6 +166,8 @@ function PaginaProducto(){
                 <title>{producto.nombre}</title>
                 <meta name="description" content={producto.nombre}/>
 
+                <link rel="preload" as="image" href={`https://kamas.pe${producto.fotos}1.jpg`} />
+
                 <meta property="og:image" content={`https://kamas.pe${producto.fotos}1.jpg`}/>
                 <meta property="og:title" content={producto.nombre}/>
                 <meta property="og:site_name" content={producto.nombre}/>
