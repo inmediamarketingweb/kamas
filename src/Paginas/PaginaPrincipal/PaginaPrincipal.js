@@ -4,9 +4,9 @@ import { Helmet } from 'react-helmet';
 import Header from '../../Componentes/Header/Header';
 
 import Slider from './Componentes/Slider/Slider';
-import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
-import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
-import Ofertas from './Componentes/Ofertas/Ofertas';
+// import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
+// import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
+// import Ofertas from './Componentes/Ofertas/Ofertas';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 import ModalDatos from './Componentes/ModalDatos/ModalDatos';
@@ -81,11 +81,11 @@ function PaginaPrincipal(){
                     </section>
                 </div>
 
-                <SoloPorHoras/>
+                {/* <SoloPorHoras/> */}
 
-                <UltimasNovedades/>
+                {/* <UltimasNovedades/> */}
                 
-                <Ofertas/>
+                {/* <Ofertas/> */}
 
                 <SobreNosotros/>
 
