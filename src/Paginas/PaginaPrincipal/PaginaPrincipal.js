@@ -3,10 +3,10 @@ import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
 
-// import Slider from './Componentes/Slider/Slider';
-// import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
-// import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
-// import Ofertas from './Componentes/Ofertas/Ofertas';
+import Slider from './Componentes/Slider/Slider';
+import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
+import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
+import Ofertas from './Componentes/Ofertas/Ofertas';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 import ModalDatos from './Componentes/ModalDatos/ModalDatos';
@@ -58,7 +58,7 @@ function PaginaPrincipal(){
             <Header/>
 
             <main>
-                {/* <Slider/> */}
+                <Slider/>
 
                 <div className='block-container'>
                     <section className='block-content'>
@@ -81,19 +81,13 @@ function PaginaPrincipal(){
                     </section>
                 </div>
 
-                {/* <SoloPorHoras/> */}
+                <SoloPorHoras/>
 
-                {/* <UltimasNovedades/> */}
+                <UltimasNovedades/>
                 
-                {/* <Ofertas/> */}
+                <Ofertas/>
 
                 <SobreNosotros/>
-
-                {/* <div className='block-container'>
-                    <section className='block-content'>
-                        <img loading="lazy" width={isSmallScreen ? 385 : 1600} height={isSmallScreen ? 120 : 480} src="/assets/imagenes/paginas/pagina-principal/banner-2.webp" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras"/>
-                    </section>
-                </div> */}
 
                 <Distribuidores/>
 
