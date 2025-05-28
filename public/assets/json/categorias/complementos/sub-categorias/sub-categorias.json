@@ -5,6 +5,12 @@
             "subcategoria": "Bases",
             "metaTitulo": "Complementos - Bases | Kamas",
             "ruta": "/productos/complementos/bases/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Cama perro",
+            "metaTitulo": "Complementos - Cama perro | Kamas",
+            "ruta": "/productos/complementos/cama-perro/"
         }
     ]
 }

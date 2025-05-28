@@ -21,12 +21,13 @@
         "/assets/json/categorias/dormitorios/sub-categorias/europeos.json",
         "/assets/json/categorias/dormitorios/sub-categorias/europeos-con-cajones.json",
 
-        "/assets/json/categorias/complementos/sub-categorias/bases.json",
-
-        "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json",
-
         "/assets/json/categorias/cabeceras/sub-categorias/aereas.json",
         "/assets/json/categorias/cabeceras/sub-categorias/aereas-con-patas.json",
-        "/assets/json/categorias/cabeceras/sub-categorias/pedestales.json"
+        "/assets/json/categorias/cabeceras/sub-categorias/pedestales.json",
+
+        "/assets/json/categorias/complementos/sub-categorias/bases.json",
+        "/assets/json/categorias/complementos/sub-categorias/cama-perro.json",
+
+        "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json"
     ]
 }
