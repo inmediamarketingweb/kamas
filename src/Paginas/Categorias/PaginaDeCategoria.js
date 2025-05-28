@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import Header from "../../Componentes/Header/Header";
 import Filtros from "./Componentes/Filtros/Filtros";
+import LazyImage from '../../Componentes/Plantillas/LazyImage.js';
 import Footer from "../../Componentes/Footer/Footer";
 
 import "./PaginaDeCategoria.css";
@@ -168,7 +169,7 @@ function PaginaDeCategoria(){
                                                                     )}
 
                                                                     <a href={producto.ruta}>
-                                                                        <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
+                                                                        <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                                                                     </a>
 
                                                                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >

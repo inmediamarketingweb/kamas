@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 
+import LazyImage from '../LazyImage';
+
 import "./Producto.css";
 
 /**
@@ -58,7 +60,7 @@ export function Producto({ producto = { id: null } , truncate }){
                     )}
 
                     <a href={producto.ruta} alt={producto.nombre}>
-                        <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
+                        <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
                     </a>
 
                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
