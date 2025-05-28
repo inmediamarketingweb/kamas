@@ -1,6 +1,6 @@
-import React from "react";
 import { Helmet } from "react-helmet-async";
-import { useForm, ValidationError } from '@formspree/react';
+// import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 import Header from '../../Componentes/Header/Header';
 import Footer from '../../Componentes/Footer/Footer';
@@ -46,15 +46,15 @@ function Contacto(){
                                     <p className="title">Canales de atención</p>
                                     <ul className="d-flex-column">
                                         <li>
-                                            <img src="" alt="" />
+                                            <img src="/" alt="" />
                                         </li>
                                         <li>
-                                            <a href="" title="" className="">
+                                            <a href="tel: +51917013610" title="Teléfono | Kamas" className="">
                                                 <p>917013610</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="" title="" className="">
+                                            <a href="+51943469911" title="Teléfono | Kamas" className="">
                                                 <p>943469911</p>
                                             </a>
                                         </li>
@@ -62,10 +62,10 @@ function Contacto(){
 
                                     <ul className="d-flex-column">
                                         <li>
-                                            <img src="" alt="" />
+                                            <img src="/" alt="" />
                                         </li>
                                         <li>
-                                            <a href="" title="" className="">
+                                            <a href="/" title="" className="">
                                                 <p>consultas@kamas.pe</p>
                                             </a>
                                         </li>
@@ -77,25 +77,25 @@ function Contacto(){
 
                                     <ul className="social-networks">
                                         <li>
-                                            <a>
+                                            <a href="/" title="| Kamas" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Facebook</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a>
+                                            <a href="/" title="| Kamas" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Instagram</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a>
+                                            <a href="/" title="| Kamas" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Tik Tok</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a>
+                                            <a href="/" title="| Kamas" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>You Tube</p>
                                             </a>

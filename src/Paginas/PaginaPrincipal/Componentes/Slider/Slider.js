@@ -51,13 +51,7 @@ function Slider(){
                         <ul className="slider" ref={sliderRef}>
                             {[1, 2, 3, 4, 5, 6].map((num) => (
                                 <li key={num}>
-                                    <img 
-                                        width={isSmallScreen ? 400 : 2000} 
-                                        height={isSmallScreen ? 180 : 600} 
-                                        loading="lazy" 
-                                        src={`/assets/imagenes/paginas/pagina-principal/slider/${isSmallScreen ? 'thumb/' : ''}slider-${num}.webp`} 
-                                        alt="Kamas | Fabricantes de colchones, camas y dormitorios."
-                                    />
+                                    <img width={isSmallScreen ? 400 : 2000} height={isSmallScreen ? 180 : 600} src={`/assets/imagenes/paginas/pagina-principal/slider/${isSmallScreen ? 'thumb/' : ''}slider-${num}.webp`} alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
                                 </li>
                             ))}
                         </ul>
