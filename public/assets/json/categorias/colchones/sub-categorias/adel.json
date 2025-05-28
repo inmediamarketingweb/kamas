@@ -15,14 +15,14 @@
             "regalos":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Adel",
                     "tamaño": "1 plaza y media",
-                    "linea-de-colchón": "Semi ortopédico",
+                    "línea-de-colchón": "Semi ortopédico",
                     "nivel-de-confort": "Confortable"
                 }
             ],
@@ -68,7 +68,7 @@
             "regalos":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[

@@ -15,7 +15,7 @@
             "incluye":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -77,7 +77,7 @@
             "incluye":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -140,7 +140,7 @@
             "incluye":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/2-almohadas.png"
+                    "foto": "/assets/imagenes/productos/2-almohadas.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -207,7 +207,7 @@
             "incluye":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/2-almohadas.png"
+                    "foto": "/assets/imagenes/productos/2-almohadas.webp"
                 }
             ],
             "resumen-del-producto":[
