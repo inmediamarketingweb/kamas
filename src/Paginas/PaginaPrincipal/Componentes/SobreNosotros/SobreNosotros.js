@@ -26,7 +26,7 @@ function SobreNosotros(){
 
                 <div className='d-grid-2-1fr gap-10'>
                     <video width="100%" height="auto" controls>
-                        <source src="/assets/videos/video-kamas-yt.mp4" type="video/mp4" role="presentation" />
+                        <source src="/assets/videos/video-kamas-yt.mp4" type="video/mp4" />
                     </video>
 
                     <div className='d-flex-column gap-20'>
