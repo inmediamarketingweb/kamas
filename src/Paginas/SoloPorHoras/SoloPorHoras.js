@@ -3,12 +3,14 @@ import { Helmet } from "react-helmet-async";
 import { v4 as uuidv4 } from "uuid";
 
 import Header from "../../Componentes/Header/Header";
+import ConteoRegresivo from "../../Componentes/ConteoRegresivo/ConteoRegresivo";
 import Footer from "../../Componentes/Footer/Footer";
 
 import './SoloPorHoras.css';
 
 function SoloPorHoras() {
     const [productos, setProductos] = useState([]);
+    const [expired, setExpired] = useState(false);
 
     useEffect(() => {
         fetch("/assets/json/manifest.json")
@@ -58,18 +60,16 @@ function SoloPorHoras() {
         <>
             <Helmet>
                 <title>Ofertas - Solo por horas | Kamas</title>
-                <meta name="description" content="Descubre los productos Solo por horas en Kamas." />
+                <meta name="description" content="Descubre los mejores descuentos en productos solo por horas en Kamas." />
             </Helmet>
 
             <Header />
 
-            <main>
+            <main className="solo-por-horas-main d-flex-column">
+                <ConteoRegresivo onExpire={() => setExpired(true)} />
+
                 <div className="block-container">
                     <section className="block-content">
-                        <div className="block-title-container">
-                            <h1 className="block-title">Solo por horas</h1>
-                        </div>
-
                         {productos.length > 0 ? (
                             <ul className="solo-por-horas-page-products">
                                 {productos.map((producto) => {

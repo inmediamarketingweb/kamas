@@ -1,81 +1,60 @@
 import { useEffect, useRef, useState } from 'react';
 import { v4 as uuidv4 } from "uuid";
 
+import ConteoRegresivo from '../../../../Componentes/ConteoRegresivo/ConteoRegresivo';
+
 import './SoloPorHoras.css';
 
-function SoloPorHoras(){
+function SoloPorHoras() {
     const [productos, setProductos] = useState([]);
-    const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     const [expired, setExpired] = useState(false);
-    const scrollRef = useRef(null);
 
+    const scrollRef = useRef(null);
     const autoSlideIntervalRef = useRef(null);
     const autoSlideTimeoutRef = useRef(null);
     const autoDirRef = useRef("right");
 
-    const targetDate = new Date('2025-05-31T16:00:00');
-    const format = (num) => String(num).padStart(2, '0');
-
     useEffect(() => {
-        fetch('/assets/json/manifest.json').then((res) => res.json()).then((manifest) => {
-            return Promise.all(
-                manifest.files.map(
-                    (fileUrl) => fetch(fileUrl).then((res) => res.json()).then((jsonData) => {
-                        const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
-                        const categoria = match ? match[1] : null;
+        fetch('/assets/json/manifest.json')
+            .then((res) => res.json())
+            .then((manifest) => {
+                return Promise.all(
+                    manifest.files.map((fileUrl) =>
+                        fetch(fileUrl)
+                            .then((res) => res.json())
+                            .then((jsonData) => {
+                                const match = fileUrl.match(/\/assets\/json\/categorias\/([^/]+)\/sub-categorias\//);
+                                const categoria = match ? match[1] : null;
 
-                        if (jsonData.productos && Array.isArray(jsonData.productos)){
-                            jsonData.productos = jsonData.productos.map((producto) => ({
-                                ...producto,
-                                categoria,
-                            }));
-                        }
-                        return jsonData;
-                    })
-                    .catch((err) => {
-                        console.error(`Error cargando ${fileUrl}:`, err);
-                        return { productos: [] };
-                    })
-                )
-            );
-        })
+                                if (jsonData.productos && Array.isArray(jsonData.productos)) {
+                                    jsonData.productos = jsonData.productos.map((producto) => ({
+                                        ...producto,
+                                        categoria,
+                                    }));
+                                }
+                                return jsonData;
+                            })
+                            .catch((err) => {
+                                console.error(`Error cargando ${fileUrl}:`, err);
+                                return { productos: [] };
+                            })
+                    )
+                );
+            })
+            .then((jsonFilesData) => {
+                const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
+                    if (jsonData.productos && Array.isArray(jsonData.productos)) {
+                        return acum.concat(jsonData.productos);
+                    }
+                    return acum;
+                }, []);
 
-        .then((jsonFilesData) => {
-            const todosProductos = jsonFilesData.reduce((acum, jsonData) => {
-                if (jsonData.productos && Array.isArray(jsonData.productos)){
-                    return acum.concat(jsonData.productos);
-                }
-                return acum;
-            }, []);
-
-            const productosSoloPorHoras = todosProductos.filter(
-                (producto) => producto["solo-por-horas"] === "si"
-            );
-            setProductos(productosSoloPorHoras);
-        })
-        .catch((error) => console.error('Error cargando el manifest o los JSON:', error));
-    }, []);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            const now = new Date();
-            const diffInSec = Math.max(0, Math.floor((targetDate - now) / 1000));
-            if (diffInSec === 0) {
-                setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-                setExpired(true);
-                clearInterval(interval);
-                return;
-            }
-
-            setTimeLeft({
-                days: Math.floor(diffInSec / (3600 * 24)),
-                hours: Math.floor((diffInSec % (3600 * 24)) / 3600),
-                minutes: Math.floor((diffInSec % 3600) / 60),
-                seconds: diffInSec % 60,
-            });
-        }, 1000);
-
-        return () => clearInterval(interval);
+                const productosSoloPorHoras = todosProductos.filter(
+                    (producto) => producto["solo-por-horas"] === "si"
+                );
+                setProductos(productosSoloPorHoras);
+            })
+            .catch((error) => console.error('Error cargando el manifest o los JSON:', error));
     }, []);
 
     useEffect(() => {
@@ -184,7 +163,7 @@ function SoloPorHoras(){
             if (autoSlideIntervalRef.current) clearInterval(autoSlideIntervalRef.current);
             if (autoSlideTimeoutRef.current) clearTimeout(autoSlideTimeoutRef.current);
         };
-    }, [startAutoSlide]);
+    }, []);
 
     const truncate = (str, maxLength) => {
         if (str.length <= maxLength) {
@@ -207,46 +186,35 @@ function SoloPorHoras(){
         };
     }, []);
 
-    return(
+    return (
         <div className="block-container block-container-sale">
             <section className="block-content block-content-sale">
                 <div className="block-title-container">
                     <h2 className="block-title">¡ Solo por horas ⏰ !</h2>
-                    <div className="sale-time">
-                        <div className="sale-time-days">
-                            <span>{format(timeLeft.days)}</span>
-                            <p>Días</p>
-                        </div>
-                        <div className="sale-time-hours">
-                            <span>{format(timeLeft.hours)}</span>
-                            <p>Hor.</p>
-                        </div>
-                        <div className="sale-time-minutes">
-                            <span>{format(timeLeft.minutes)}</span>
-                            <p>Min.</p>
-                        </div>
-                        <div className="sale-time-seconds">
-                            <span>{format(timeLeft.seconds)}</span>
-                            <p>Seg.</p>
-                        </div>
-                    </div>
+                    <ConteoRegresivo onExpire={() => setExpired(true)} />
                 </div>
 
                 <div className="sale-products-container" ref={scrollRef}>
                     <div className="sale-products-content">
                         <ul className="sale-products">
                             {productos.map((producto) => {
-                                const {ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock} = producto;
+                                const { ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock } = producto;
                                 const agotado = stock <= 0;
                                 const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
                                 const cardClass = `product-card ${agotado ? 'agotado' : expired ? 'expired' : ''}`;
 
-                                return(
+                                return (
                                     <li key={uuidv4()}>
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-                                                <img width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} loading="lazy" src={`${fotos}1.jpg`} alt={nombre}/>
+                                                <img
+                                                    width={isSmallScreen ? 160 : 200}
+                                                    height={isSmallScreen ? 160 : 200}
+                                                    loading="lazy"
+                                                    src={`${fotos}1.jpg`}
+                                                    alt={nombre}
+                                                />
                                             </div>
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">

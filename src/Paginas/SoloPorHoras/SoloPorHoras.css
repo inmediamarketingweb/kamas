@@ -1,3 +1,16 @@
+.solo-por-horas-main{
+    margin-top: 170px;
+}
+
+.solo-por-horas-main .sale-time{
+    margin: auto;
+    width: auto;
+    padding: 10px 10px 24px 10px;
+    background: #222222;
+    border-radius: 8px;
+    z-index: 99;
+}
+
 .solo-por-horas-page-products{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
