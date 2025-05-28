@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
 
-import Slider from './Componentes/Slider/Slider';
+// import Slider from './Componentes/Slider/Slider';
 // import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
 // import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
 // import Ofertas from './Componentes/Ofertas/Ofertas';
@@ -58,7 +58,7 @@ function PaginaPrincipal(){
             <Header/>
 
             <main>
-                <Slider/>
+                {/* <Slider/> */}
 
                 <div className='block-container'>
                     <section className='block-content'>
