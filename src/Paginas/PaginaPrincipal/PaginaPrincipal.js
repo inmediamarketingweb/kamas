@@ -89,11 +89,11 @@ function PaginaPrincipal(){
 
                 <SobreNosotros/>
 
-                <div className='block-container'>
+                {/* <div className='block-container'>
                     <section className='block-content'>
-                        <img loading="lazy" width={isSmallScreen ? 385 : 1600} height={isSmallScreen ? 120 : 480} src="/assets/imagenes/paginas/pagina-principal/banner-2.jpg" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras"/>
+                        <img loading="lazy" width={isSmallScreen ? 385 : 1600} height={isSmallScreen ? 120 : 480} src="/assets/imagenes/paginas/pagina-principal/banner-2.webp" alt="Kamas | Fabricantes de dormitorios, camas, box tarimas, cabeceras"/>
                     </section>
-                </div>
+                </div> */}
 
                 <Distribuidores/>
 

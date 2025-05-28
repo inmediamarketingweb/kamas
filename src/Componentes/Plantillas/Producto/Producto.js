@@ -106,7 +106,7 @@ export function Producto({ producto = { id: null } , truncate }){
                     )}
 
                     <span className="product-card-brand">KAMAS</span>
-                    <h4 className="product-card-name">{truncate(producto.nombre, 72)}</h4>
+                    <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4>
                     <div className="product-card-prices">
                         <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
                         <span className="product-card-sale-price">S/.{producto.precioVenta}</span>

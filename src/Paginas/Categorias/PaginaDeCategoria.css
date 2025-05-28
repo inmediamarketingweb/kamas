@@ -53,6 +53,8 @@
 .category-page-products li .product-card{
     width: 100% !important;
     max-width: none !important;
+    display: flex;
+    height: 100%;
 }
 
 .product-card-images{

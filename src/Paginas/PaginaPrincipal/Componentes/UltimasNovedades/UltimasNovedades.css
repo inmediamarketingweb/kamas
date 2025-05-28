@@ -26,8 +26,9 @@
 .ultimas-novedades-content li .product-card{
     flex: unset;
     max-width: none;
+    display: flex !important;
     width: 280px;
-    height: 100%;
+    height: 380px;
 }
 
 .product-card-target{
