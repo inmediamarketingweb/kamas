@@ -1,68 +1,8 @@
-/**/
-
-.homepage-categories{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.homepage-categories li a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    transition: var(--t-200ms);
-}
-
-.homepage-categories li a div{
-    display: flex;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
-    border: 1px solid var(--gray);
-    border-radius: 100%;
-    transition: var(--t-200ms);
-    overflow: hidden;
-    padding: 20px;
-}
-
-.homepage-categories li a:hover div{
-    border: 1px solid var(--color-1);
-}
-
-.homepage-categories li a div img{
-    margin: auto;
-    aspect-ratio: 1/1;
-}
-
-.homepage-categories li a p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
-}
-
-.homepage-categories li a:hover p{
-    color: var(--color-1);
-}
-
-/**/
-
 .solo-por-horas div{
     padding: 20px 0;
     background: #212121;
     border-radius: 16px;
 }
-
-/**/
 
 @media screen and (max-width: 600px){
     .homepage-categories{

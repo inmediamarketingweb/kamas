@@ -1,5 +1,7 @@
 import { useCallback, useRef, useEffect } from 'react';
 
+import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
+
 import './Ofertas.css';
 
 function Ofertas(){
@@ -127,7 +129,7 @@ function Ofertas(){
                         {[1, 2, 3, 4, 5, 6].map((n) => (
                             <li key={n}>
                                 <a href='/productos/dormitorios/?tama%C3%B1o=king&modelo-de-colchón=sarki' title='Ver ofertas'>
-                                    <img loading='lazy' width={280} height={400} src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.jpg`} alt='Ofertas | Kamas'/>
+                                    <LazyImage width={280} height={400} src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.webp`} alt="Ofertas | Kamas"/>
                                 </a>
                             </li>
                         ))}

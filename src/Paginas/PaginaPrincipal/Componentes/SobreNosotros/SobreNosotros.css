@@ -60,10 +60,11 @@
 
     .homepage-about-us-images-container::-webkit-scrollbar-thumb{
         background: var(--color-1);
+        border-radius: 5px;
     }
 
     .homepage-about-us-images{
-        width: 876px;
+        width: 891px;
         display: flex;
         align-items: center;
         justify-content: center;
