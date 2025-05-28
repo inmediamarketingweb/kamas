@@ -214,12 +214,12 @@
     background: var(--color-1);
 }
 
-.submenu-target > ul li a h3{
+.submenu-target > ul li a h4{
     color: var(--text);
     transition: var(--t-200ms-linear);
 }
 
-.submenu-target > ul li a:hover h3{
+.submenu-target > ul li a:hover h4{
     color: var(--color-1);
 }
 
@@ -231,7 +231,6 @@
 .submenu-target:nth-last-child(1) > img{
     margin: auto;
     /* width: 100%; */
-    max-width: 280px;
     aspect-ratio: 1/1;
 }
 
@@ -430,10 +429,6 @@
 
     .submenu-target:nth-last-child(1){
         grid-column: 1/-1;
-    }
-
-    .submenu-target:nth-last-child(1) > img{
-        max-width: 200px;
     }
 
     /**/
