@@ -23,7 +23,7 @@ function LazyImage({ src, alt, width, height }) {
     }, []);
 
     return (
-        <img ref={imgRef} src={isVisible ? src : undefined} alt={alt} width={width} height={height} loading="lazy"/>
+        <img ref={imgRef} src={isVisible ? src : undefined} alt={alt} width={width} height={height} loading="lazy" style={{ backgroundColor: "#FFFFFF"}}/>
     );
 }
 

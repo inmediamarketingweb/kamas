@@ -52,16 +52,16 @@ function SobreNosotros(){
                 <div className='homepage-about-us-images-container w-100'>
                     <ul className='homepage-about-us-images'>
                         <li>
-                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/1.jpg' alt=''/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src={`/assets/imagenes/paginas/nosotros/${isSmallScreen ? 'thumb/' : ''}1.webp`} alt=''/>
                         </li>
                         <li>
-                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/2.jpg' alt=''/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src={`/assets/imagenes/paginas/nosotros/${isSmallScreen ? 'thumb/' : ''}2.webp`} alt=''/>
                         </li>
                         <li>
-                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/3.jpg' alt=''/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src={`/assets/imagenes/paginas/nosotros/${isSmallScreen ? 'thumb/' : ''}3.webp`} alt=''/>
                         </li>
                         <li>
-                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src='/assets/imagenes/paginas/nosotros/4.jpg' alt=''/>
+                            <img width={isSmallScreen ? 219 : 392} height={isSmallScreen ? 100 : 200} loading="lazy" src={`/assets/imagenes/paginas/nosotros/${isSmallScreen ? 'thumb/' : ''}4.webp`} alt=''/>
                         </li>
                     </ul>
                 </div>
