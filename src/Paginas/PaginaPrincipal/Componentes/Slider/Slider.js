@@ -67,7 +67,7 @@ function Slider(){
                 </button>
             </div>
 
-            <img src="/assets/imagenes/componentes/slider/banner-2.jpg" alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
+            <img src="/assets/imagenes/paginas/pagina-principal/slider/banner-2.jpg" alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
         </div>
     );
 }
