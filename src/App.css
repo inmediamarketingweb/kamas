@@ -339,7 +339,7 @@ button{
 
 .button-link-1 .button-link-text,
 .button-link-1 span{
-    color: var(--gray);
+    color: var(--black);
 }
 
 .button-link-1:hover .button-link-text,

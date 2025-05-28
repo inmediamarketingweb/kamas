@@ -99,7 +99,7 @@ function Center(){
                                                             {categoria.subCategorias.map((sub) => (
                                                                 <li key={uuidv4()}>
                                                                     <a href={sub.ruta} title={sub.subcategoria}>
-                                                                        <h3>{sub.subcategoria}</h3>
+                                                                        <h4>{sub.subcategoria}</h4>
                                                                     </a>
                                                                 </li>
                                                             ))}
@@ -114,7 +114,7 @@ function Center(){
                                                             {categoria.medidas.map((medida) => (
                                                                 <li key={uuidv4()}>
                                                                     <a href={medida.ruta} title={medida.medida}>
-                                                                        <h3>{medida.medida}</h3>
+                                                                        <h4>{medida.medida}</h4>
                                                                     </a>
                                                                 </li>
                                                             ))}
@@ -124,7 +124,7 @@ function Center(){
 
                                                 {categoria.menuImg && (
                                                     <div className='submenu-target submenu-target-4'>
-                                                        <img src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
+                                                        <img width={280} height={280} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
                                                     </div>
                                                 )}
                                             </nav>
