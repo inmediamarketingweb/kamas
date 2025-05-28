@@ -54,7 +54,7 @@ function ModalDatos(){
         if (!dataIncomplete) return;
 
         const handleScroll = () => {
-            if (window.scrollY >= window.innerHeight * 0.5) {
+            if (window.scrollY >= window.innerHeight * 0.75) {
                 setModalVisible(true);
                 window.removeEventListener('scroll', handleScroll);
             }
