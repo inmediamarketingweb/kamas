@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 
-import Header from '../../Componentes/Header/Header';
+// import Header from '../../Componentes/Header/Header';
 
 // import Slider from './Componentes/Slider/Slider';
 // import Categorias from './Componentes/Categorias/Categorias';
@@ -33,9 +33,10 @@ function PaginaPrincipal(){
                 <link rel="preload" as="image" href="/assets/imagenes/paginas/pagina-principal/slider/thumb/slider-1.webp" />
             </Helmet>
 
-            <Header/>
+            {/* <Header/> */}
 
             <main>
+                <p>Proyecto en etapa de prueba</p>
                 {/* <Slider/> */}
 
                 {/* <Categorias/> */}
