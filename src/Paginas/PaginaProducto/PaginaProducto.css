@@ -180,10 +180,6 @@
         height: auto;
     }
 
-    .product-page-images-miniatures li img{
-        width: 54px;
-    }
-
     .product-page-top-info{
         display: flex;
         flex-direction: column;
