@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet';
 
-import Header from '../../Componentes/Header/Header';
+// import Header from '../../Componentes/Header/Header';
 
 // import Slider from './Componentes/Slider/Slider';
 import Categorias from './Componentes/Categorias/Categorias';
@@ -11,7 +11,7 @@ import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
 // import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 // import ModalDatos from './Componentes/ModalDatos/ModalDatos';
 
-import Footer from '../../Componentes/Footer/Footer';
+// import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaPrincipal.css';
 
@@ -33,7 +33,7 @@ function PaginaPrincipal(){
                 <link rel="preload" as="image" href="/assets/imagenes/paginas/pagina-principal/slider/thumb/slider-1.webp" />
             </Helmet>
 
-            <Header/>
+            {/* <Header/> */}
 
             <main>
                 {/* <Slider/> */}
@@ -53,7 +53,7 @@ function PaginaPrincipal(){
                 {/* <ModalDatos/> */}
             </main>
 
-            <Footer/>
+            {/* <Footer/> */}
         </>
     );
 }
