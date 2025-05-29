@@ -1,13 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
-import { v4 as uuidv4 } from "uuid";
 
 import ConteoRegresivo from '../../../../Componentes/ConteoRegresivo/ConteoRegresivo';
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 
 import './SoloPorHoras.css';
 
+const CHUNK_SIZE = 20;
+
 function SoloPorHoras() {
     const [productos, setProductos] = useState([]);
+    const [visibleProductos, setVisibleProductos] = useState([]);
     const [expired, setExpired] = useState(false);
 
     const scrollRef = useRef(null);
@@ -54,9 +56,28 @@ function SoloPorHoras() {
                     (producto) => producto["solo-por-horas"] === "si"
                 );
                 setProductos(productosSoloPorHoras);
+                setVisibleProductos(productosSoloPorHoras.slice(0, CHUNK_SIZE));
             })
-            .catch((error) => console.error('Error cargando el manifest o los JSON:', error));
+            .catch((error) => console.error(error));
     }, []);
+
+    useEffect(() => {
+        const container = scrollRef.current;
+        if (!container) return;
+
+        const handleScroll = () => {
+            if (
+                container.scrollLeft + container.clientWidth >= container.scrollWidth - 100 &&
+                visibleProductos.length < productos.length
+            ) {
+                const nextChunk = productos.slice(visibleProductos.length, visibleProductos.length + CHUNK_SIZE);
+                setVisibleProductos((prev) => [...prev, ...nextChunk]);
+            }
+        };
+
+        container.addEventListener("scroll", handleScroll);
+        return () => container.removeEventListener("scroll", handleScroll);
+    }, [productos, visibleProductos]);
 
     useEffect(() => {
         const container = scrollRef.current;
@@ -167,50 +188,42 @@ function SoloPorHoras() {
     }, []);
 
     const truncate = (str, maxLength) => {
-        if (str.length <= maxLength) {
-            return str;
-        }
-        return str.slice(0, maxLength) + '...';
+        return str.length <= maxLength ? str : str.slice(0, maxLength) + '...';
     };
 
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
-
     useEffect(() => {
         const handleResize = () => {
             setIsSmallScreen(window.innerWidth < 600);
         };
-
         window.addEventListener('resize', handleResize);
-
         return () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
 
-    return (
+    return(
         <div className="block-container block-container-sale">
             <section className="block-content block-content-sale">
                 <div className="block-title-container">
                     <h2 className="block-title">¡ Solo por horas ⏰ !</h2>
-
                     <ConteoRegresivo onExpire={() => setExpired(true)} />
                 </div>
 
                 <div className="sale-products-container" ref={scrollRef}>
                     <div className="sale-products-content">
                         <ul className="sale-products">
-                            {productos.map((producto) => {
+                            {visibleProductos.map((producto) => {
                                 const { ruta, nombre, fotos, precioRegular, precioNormal, precioVenta, stock } = producto;
                                 const agotado = stock <= 0;
                                 const descuento = Math.round(((precioNormal - precioVenta) * 100) / precioNormal);
                                 const cardClass = `product-card ${agotado ? 'agotado' : expired ? 'expired' : ''}`;
 
                                 return (
-                                    <li key={uuidv4()}>
+                                    <li key={ruta}>
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-
                                                 <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${fotos}1.jpg`} alt={nombre}/>
                                             </div>
                                             <div className="product-card-content">
