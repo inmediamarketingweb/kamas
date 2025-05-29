@@ -32,6 +32,9 @@
         "/assets/json/categorias/complementos/sub-categorias/bases.json",
         "/assets/json/categorias/complementos/sub-categorias/cama-perro.json",
 
-        "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json"
+        "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json",
+        "/assets/json/categorias/camas-funcionales/sub-categorias/divanes.json",
+
+        "/assets/json/categorias/sofas/sub-categorias/reclinables.json"
     ]
 }

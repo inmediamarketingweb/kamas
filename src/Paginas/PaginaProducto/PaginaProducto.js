@@ -164,6 +164,7 @@ function PaginaProducto(){
         <>
             <Helmet>
                 <title>{producto.nombre}</title>
+                <link rel="canonical" href={`https://kamas.pe${producto.ruta}`}/>
                 <meta name="description" content={producto.nombre}/>
 
                 <link rel="preload" as="image" href={`https://kamas.pe${producto.fotos}1.jpg`} />
