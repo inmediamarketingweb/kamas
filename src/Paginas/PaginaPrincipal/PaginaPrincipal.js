@@ -36,6 +36,7 @@ function PaginaPrincipal(){
             {/* <Header/> */}
 
             <main>
+                <p>Proyecto en etapa de prueba</p>
                 {/* <Slider/> */}
 
                 {/* <Categorias/> */}
