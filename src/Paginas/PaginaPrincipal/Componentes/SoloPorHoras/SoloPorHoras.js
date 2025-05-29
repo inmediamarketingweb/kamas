@@ -224,7 +224,7 @@ function SoloPorHoras() {
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-                                                <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${fotos}1.jpg`} alt={nombre}/>
+                                                <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`https://kamas.pe/${fotos}1.jpg`} alt={nombre}/>
                                             </div>
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
