@@ -5,6 +5,12 @@
             "subcategoria": "Box espacios",
             "metaTitulo": "Complementos - Box espacios | Kamas",
             "ruta": "/productos/camas-funcionales/box-espacios/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "Divanes",
+            "metaTitulo": "Complementos - Divanes | Kamas",
+            "ruta": "/productos/camas-funcionales/divanes/"
         }
     ]
 }
