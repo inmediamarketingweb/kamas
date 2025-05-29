@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
+
 import './Colores.css';
 
 function Colores({ onSelectColor }) {
@@ -22,6 +24,20 @@ function Colores({ onSelectColor }) {
         }
     }, [activeTelaIndex, onSelectColor]);
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     if (!data) {
         return <div>Cargando...</div>;
     }
@@ -37,11 +53,11 @@ function Colores({ onSelectColor }) {
                     <ul className="product-page-colors-button-miniatures">
                         {activeTela.colores.slice(0, 6).map((color, index) => (
                             <li key={index}>
-                                <img loading='lazy' width={22} height={22} src={color.img} alt={color.color} />
+                                <LazyImage width={22} height={22} src={color.img} alt={color.color}/>
                             </li>
                         ))}
                     </ul>
-                    <img width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="" />
+                    <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>
                 </div>
             </div>
 
@@ -73,7 +89,7 @@ function Colores({ onSelectColor }) {
                                     {activeTela.colores.map((color, index) => (
                                         <li key={index}>
                                             <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => { setActiveColorIndex(index); if (onSelectColor) onSelectColor({ color: color.color, tela: activeTela.tela }); }}>
-                                                <img loading='lazy' src={color.img} alt={color.color} />
+                                                <LazyImage width={isSmallScreen ? 90 : 137} height={isSmallScreen ? 50 : 70} src={color.img} alt={color.color}/>
                                                 <p className="text">{color.color}</p>
                                             </button>
                                         </li>

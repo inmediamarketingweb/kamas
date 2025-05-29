@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { v4 as uuidv4 } from "uuid";
 
 import Header from "../../Componentes/Header/Header";
+import LazyImage from '../../Componentes/Plantillas/LazyImage';
 import Footer from "../../Componentes/Footer/Footer";
 
 import "./Ofertas.css";
@@ -43,6 +44,20 @@ function Ofertas(){
         return str.slice(0, maxLength) + "...";
     };
 
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return(
         <>
             <Helmet>
@@ -73,7 +88,7 @@ function Ofertas(){
                                                     )}
 
                                                     <a href={producto.ruta}>
-                                                        <img src={`${producto.fotos}/1.jpg`} alt={producto.nombre} />
+                                                        <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${producto.fotos}/1.jpg`} alt={producto.nombre}/>
                                                     </a>
                                                 </div>
 

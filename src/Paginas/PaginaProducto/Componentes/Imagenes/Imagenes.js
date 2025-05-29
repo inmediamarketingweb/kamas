@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 import Colores from '../Colores/Colores';
 
 import './Imagenes.css';
@@ -62,8 +63,8 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                     <ul className="product-page-images" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                         {imagenes.map((src, i) => (
                             <li key={i}>
-                                <div className="zoom-wrapper" onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} >
-                                    <img width={isSmallScreen ? 280 : 540} height={isSmallScreen ? 280 : 540} loading="lazy" src={src} alt={producto.nombre}/>
+                                <div className="zoom-wrapper" onMouseEnter={handleMouseEnter} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+                                    <LazyImage width={isSmallScreen ? 280 : 540} height={isSmallScreen ? 280 : 540} src={src} alt={producto.nombre}/>
                                     {zoomActive && i === currentIndex && (
                                         <div className="zoom-lens" style={{ backgroundImage: `url(${src})`, backgroundPosition: `${zoomPos.x}% ${zoomPos.y}%`}}/>
                                     )}
@@ -86,7 +87,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                 <ul className="product-page-images-miniatures">
                     {imagenes.map((img, i) => (
                         <li key={i} className={i === currentIndex ? 'active' : ''} onClick={() => navigateTo(i)}>
-                            <img src={img} alt={`Miniatura ${i + 1}`} />
+                            <LazyImage width={isSmallScreen ? 54 : 80} height={isSmallScreen ? 54 : 80} src={img} alt={producto.nombre}/>
                         </li>
                     ))}
                 </ul>

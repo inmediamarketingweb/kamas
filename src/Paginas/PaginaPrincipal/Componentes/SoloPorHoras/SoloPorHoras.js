@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { v4 as uuidv4 } from "uuid";
 
 import ConteoRegresivo from '../../../../Componentes/ConteoRegresivo/ConteoRegresivo';
+import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 
 import './SoloPorHoras.css';
 
@@ -191,6 +192,7 @@ function SoloPorHoras() {
             <section className="block-content block-content-sale">
                 <div className="block-title-container">
                     <h2 className="block-title">¡ Solo por horas ⏰ !</h2>
+
                     <ConteoRegresivo onExpire={() => setExpired(true)} />
                 </div>
 
@@ -208,13 +210,8 @@ function SoloPorHoras() {
                                         <a href={ruta} className={cardClass} title={nombre}>
                                             <div className="product-card-images">
                                                 <span className="product-card-discount">-{descuento}%</span>
-                                                <img
-                                                    width={isSmallScreen ? 160 : 200}
-                                                    height={isSmallScreen ? 160 : 200}
-                                                    loading="lazy"
-                                                    src={`${fotos}1.jpg`}
-                                                    alt={nombre}
-                                                />
+
+                                                <LazyImage width={isSmallScreen ? 160 : 200} height={isSmallScreen ? 160 : 200} src={`${fotos}1.jpg`} alt={nombre}/>
                                             </div>
                                             <div className="product-card-content">
                                                 <div className="product-card-stock">
