@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
 
-import Slider from './Componentes/Slider/Slider';
+// import Slider from './Componentes/Slider/Slider';
 import Categorias from './Componentes/Categorias/Categorias';
 import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
 // import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
@@ -36,7 +36,7 @@ function PaginaPrincipal(){
             <Header/>
 
             <main>
-                <Slider/>
+                {/* <Slider/> */}
 
                 <Categorias/>
 
