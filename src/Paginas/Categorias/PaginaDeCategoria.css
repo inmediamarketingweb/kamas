@@ -171,7 +171,7 @@
 
 .product-card-brand{
     color: var(--color-1);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -186,7 +186,7 @@
 
 .product-card-regular-price{
     font-size: 14px;
-    color: red;
+    color: crimson;
 }
 
 .product-card-regular-price,
