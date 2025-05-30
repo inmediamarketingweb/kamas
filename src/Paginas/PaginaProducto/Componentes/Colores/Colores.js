@@ -57,6 +57,7 @@ function Colores({ onSelectColor }) {
                             </li>
                         ))}
                     </ul>
+
                     <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>
                 </div>
             </div>
