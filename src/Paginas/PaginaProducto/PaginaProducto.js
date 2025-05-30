@@ -160,11 +160,14 @@ function PaginaProducto(){
         }
     };
 
+    const canonicalUrl = `https://kamas.pe${producto.ruta}`.replace(/\/+$/, '');
+
     return(
         <>
             <Helmet>
                 <title>{producto.nombre}</title>
-                <link rel="canonical" href={`https://kamas.pe${producto.ruta}`}/>
+                <link rel="canonical" href={canonicalUrl} />
+                <meta property="og:url" content={canonicalUrl} />
                 <meta name="description" content={producto.nombre}/>
 
                 <link rel="preload" as="image" href={`https://kamas.pe${producto.fotos}1.jpg`} />
