@@ -161,7 +161,7 @@ function PaginaBusqueda(){
                             {filteredProductos.length > 0 ? (
                                     <ul className='search-products d-grid-5-3-2fr gap-10'>
                                         {filteredProductos.map(producto => (
-                                            <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
+                                            <Producto key={producto.sku} producto={producto} truncate={truncate}/>
                                         ))}
                                     </ul>
                                 ) : ( <p>Intentalo de nuevo</p> )}

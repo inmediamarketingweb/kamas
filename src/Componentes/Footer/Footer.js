@@ -171,29 +171,29 @@ function Footer(){
                     <section className='footer-bottom'>
                         <ul className='d-flex-center-center gap-10'>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/visa.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/visa.svg" width={20} height={20} alt="Visa | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/mastercard.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/mastercard.svg" width={20} height={20} alt="Mastercard | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/bcp.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/bcp.svg" width={58} height={20} alt="BCP | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/interbank.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/interbank.svg" width={110} height={20} alt="Interbank | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/bbva.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/bbva.svg" width={66} height={20} alt="BBVA | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/scotiabank.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/scotiabank.svg" width={80} height={20} alt="Scotiabank | Kamas" />
                             </li>
                             <li>
-                                <img src="/assets/imagenes/componentes/footer/banco-de-la-nacion.svg" alt="" />
+                                <img src="/assets/imagenes/componentes/footer/banco-de-la-nacion.svg" width={97} height={20} alt="Banco de la nación | Kamas" />
                             </li>
                         </ul>
 
-                        <p className='text color-white'>&copy; Todos los derechos reservados para <a href='https://kamas.pe' title='' className='color-white'>kamas.pe</a></p>
+                        <p className='text color-white'>&copy; Todos los derechos reservados para <a href='https://kamas.pe/' title='Kamas | Fabricantes de colchones, camas y dormitorios' className='color-white'>kamas.pe</a></p>
                     </section>
                 </div>
             </footer>

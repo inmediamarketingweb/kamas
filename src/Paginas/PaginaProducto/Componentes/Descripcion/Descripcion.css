@@ -111,6 +111,13 @@
 
 /**/
 
+.description-title{
+    color: var(--color-1) !important;
+    text-decoration: underline;
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     .card-flex-3{
         width: 100%;
@@ -126,5 +133,9 @@
     
     .product-descripcion > div > div > div:nth-child(2n) > ul li:nth-child(2){
         background: transparent;
+    }
+
+    .description-title{
+        text-align: center;
     }
 }

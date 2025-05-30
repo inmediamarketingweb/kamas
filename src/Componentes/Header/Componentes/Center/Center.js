@@ -50,7 +50,7 @@ function Center(){
             <section className='header-center'>
                 <div className='d-flex-center-left gap-20'>
                     <a href='/' title='Kamas | Fabricantes de camas' className='header-logo'>
-                        <img src="/assets/imagenes/kamas/logo-principal-kamas.jpg" alt="Kamas"/>
+                        <img src="/assets/imagenes/kamas/logo-principal-kamas.jpg" width={185} height={42} alt="Kamas"/>
                     </a>
 
                     <button type='button' className={`menu-button ${isMenuOpen ? 'active' : ''}`} onClick={handleMenuClick}>

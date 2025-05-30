@@ -195,7 +195,7 @@ function UltimasNovedades() {
                     <ul className="ultimas-novedades-content">
                         {productos.map(producto => {
                             return(
-                                <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
+                                <Producto key={producto.sku} producto={producto} truncate={truncate}/>
                             );
                         })}
                     </ul>

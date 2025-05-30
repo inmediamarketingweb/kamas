@@ -15,8 +15,7 @@
 .header-top-left li > p,
 .header-top-left > li > a h2,
 .header-top-left > li > ul li a h2{
-    color: var(--gray);
-    /* color: red; */
+    color: #999;
     font-size: 14px;
 }
 
