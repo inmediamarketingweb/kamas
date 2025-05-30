@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 import { Producto } from '../../../../Componentes/Plantillas/Producto/Producto';
 
@@ -46,7 +45,7 @@ export default function MasProductos({ categoriaActual }){
                         ];
                     }
 
-                const selected = categoryProducts.slice(0, 20);
+                const selected = categoryProducts.slice(0, 10);
                 setProducts(selected);
             } catch (err) {
                 console.error('Error loading more products:', err);
@@ -84,7 +83,7 @@ export default function MasProductos({ categoriaActual }){
                     <nav className="product-page-more-products-content">
                         <ul className='d-grid-5-3-2fr gap-10'>
                             {products.map((producto) => (
-                                <Producto key={uuidv4()} producto={producto} truncate={truncate}/>
+                                <Producto key={producto.sku} producto={producto} truncate={truncate}/>
                             ))}
                         </ul>
                     </nav>

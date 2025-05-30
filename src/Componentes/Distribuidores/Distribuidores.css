@@ -19,8 +19,9 @@
 }
 
 .distribuidores li a img{
-    width: 170px;
-    height: 60px;
+    aspect-ratio: 3/1;
+    /* width: 170px; */
+    height: 50px;
     object-fit: contain;
 }
 
@@ -30,8 +31,8 @@
     }
 
     .distribuidores-content{
-        width: 200%;
-            animation: scrollX 10s linear infinite alternate;
+        width: 180%;
+        animation: scrollX 10s linear infinite alternate;
     }
 
     @keyframes scrollX{
