@@ -5,27 +5,27 @@
             "categoria": "sofas",
             "subcategoria": "juegos de sala",
             "ruta": "/productos/sofas/juegos-de-sala/1/",
-            "nombre": "SOFÁ CAMA 2 PLAZAS - NEGRO",
+            "nombre": "SOFÁ CAMA 2 PLAZAS ELUA - VINO",
             "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/1/",
             "colores": "si",
-            "precioRegular": 1849,
-            "precioNormal": 1489,
-            "precioVenta": 1199,
+            "precioRegular": 3759,
+            "precioNormal": 3299,
+            "precioVenta": 2699,
             "stock": 9,
             "sku": "K6322N10",
             "tipo-de-envio": "Gratis",
             "resumen-del-producto":[
                 {
-                    "tamaño": "2 plazas",
-                    "tela": "Piel de potro",
-                    "ancho": "167.cm"
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Elua"
                 }
             ],
             "detalles-del-producto":[
                 {
-                    "tamaño": "2 plazas",
-                    "tela": "Piel de potro",
-                    "ancho": "167.cm"
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Elua"
                 }
             ],
             "descripciones":[
@@ -34,8 +34,1278 @@
                     "descripcion":[
                         {
                             "madera": "Tornillo",
-                            "Reclinación": "Sistema manual",
-                            "tapizado": "Cuero brescia",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/2/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO CUERO - MORADO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/2/",
+            "colores": "si",
+            "precioRegular": 3859,
+            "precioNormal": 3399,
+            "precioVenta": 2799,
+            "stock": 9,
+            "sku": "K6322N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/3/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS VERNET - MORADO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/3/",
+            "colores": "si",
+            "precioRegular": 3859,
+            "precioNormal": 3339,
+            "precioVenta": 2739,
+            "stock": 9,
+            "sku": "K6322N12",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Vernet"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Vernet"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/4/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - LILA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/4/",
+            "colores": "si",
+            "precioRegular": 3859,
+            "precioNormal": 3339,
+            "precioVenta": 2739,
+            "stock": 9,
+            "sku": "K6322N13",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/5/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS ROMA CURVE CUERO - VINO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/5/",
+            "colores": "si",
+            "precioRegular": 4359,
+            "precioNormal": 3739,
+            "precioVenta": 2899,
+            "stock": 9,
+            "sku": "K6322N14",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Roma curve"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Roma curve"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/6/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS OXFORD BLUE - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/6/",
+            "colores": "si",
+            "precioRegular": 4559,
+            "precioNormal": 3999,
+            "precioVenta": 3299,
+            "stock": 9,
+            "sku": "K6322N15",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Oxford blue"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Oxford blue"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/7/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/7/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 2939,
+            "precioVenta": 2399,
+            "stock": 9,
+            "sku": "K6322N16",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/8/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS LINEAL - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/8/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 3299,
+            "precioVenta": 2699,
+            "stock": 9,
+            "sku": "K6123N10",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/9/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS DIOR ROYAL - AZUL MARINO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/9/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 3999,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "K6322N17",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Dior royal"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Dior royal"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/10/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS VENECCIA CAPITONEADO - NEGRO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/10/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 3999,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "K6322N18",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Veneccia capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Veneccia capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/11/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS BARI - GRIS",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/11/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 2679,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "K6322N19",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Bari"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Bari"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/12/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS ROMA CURVE - PLOMO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/12/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 3739,
+            "precioVenta": 2899,
+            "stock": 9,
+            "sku": "K6322N20",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Roma curve"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Roma curve"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/13/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CUADROS - PLOMO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/13/",
+            "colores": "si",
+            "precioRegular": 4239,
+            "precioNormal": 2959,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "K6124N10",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Cuadros"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Cuadros"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/14/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS DURQUE - GRIS",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/14/",
+            "colores": "si",
+            "precioRegular": 4339,
+            "precioNormal": 3059,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "K6122N10",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Durque"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Durque"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/15/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CLASIC DUAR - CUERO CAFE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/15/",
+            "colores": "si",
+            "precioRegular": 4539,
+            "precioNormal": 3739,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "K6122N21",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Clasic duar"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Clasic duar"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Cuero",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/16/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CLASIC CUERO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/16/",
+            "colores": "si",
+            "precioRegular": 4579,
+            "precioNormal": 3999,
+            "precioVenta": 3299,
+            "stock": 9,
+            "sku": "K6122N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Clasic"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Clasic"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Cuero",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/17/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS SENSE 3 - CUERO CAFE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/17/",
+            "colores": "si",
+            "precioRegular": 4549,
+            "precioNormal": 3999,
+            "precioVenta": 3299,
+            "stock": 9,
+            "sku": "K6122N22",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Sense 3"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Sense 3"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Cuero",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/18/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - CAMELL",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/18/",
+            "colores": "si",
+            "precioRegular": 4549,
+            "precioNormal": 3749,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "K6122N23",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/19/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS MODERN BLACK - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/19/",
+            "colores": "si",
+            "precioRegular": 4229,
+            "precioNormal": 3779,
+            "precioVenta": 3099,
+            "stock": 9,
+            "sku": "K6122N24",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Modern black"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Cuero",
+                    "modelo": "Modern black"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Cuero",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/20/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - HUESO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/20/",
+            "colores": "si",
+            "precioRegular": 4329,
+            "precioNormal": 3749,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "K6122N25",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/21/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CLASIC SIMPL - VERDE LIMON",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/21/",
+            "colores": "si",
+            "precioRegular": 3869,
+            "precioNormal": 3229,
+            "precioVenta": 2599,
+            "stock": 9,
+            "sku": "K6122N12",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Clasic simpl"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Clasic simpl"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/22/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - AZUL MARINO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/22/",
+            "colores": "si",
+            "precioRegular": 3879,
+            "precioNormal": 3429,
+            "precioVenta": 2799,
+            "stock": 9,
+            "sku": "K6122N26",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/23/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS LINEAL - BEIGE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/23/",
+            "colores": "si",
+            "precioRegular": 3879,
+            "precioNormal": 3879,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "K6123N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/24/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - AMARILLO PASTEL",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/24/",
+            "colores": "si",
+            "precioRegular": 3879,
+            "precioNormal": 3429,
+            "precioVenta": 2799,
+            "stock": 9,
+            "sku": "K6122N27",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/25/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS LINEAL - BEIGE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/25/",
+            "colores": "si",
+            "precioRegular": 3879,
+            "precioNormal": 3879,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "K6123N12",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Lineal"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/26/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - AMARILLO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/26/",
+            "colores": "si",
+            "precioRegular": 4219,
+            "precioNormal": 3749,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "K6122N28",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/27/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS SIRIBI - LILA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/27/",
+            "colores": "si",
+            "precioRegular": 4419,
+            "precioNormal": 3999,
+            "precioVenta": 3299,
+            "stock": 9,
+            "sku": "K6122N29",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Siribi"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Siribi"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/28/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS CAPITONEADO - HUESO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/28/",
+            "colores": "si",
+            "precioRegular": 4219,
+            "precioNormal": 3799,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "K6122N30",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/29/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS  MINIMAL VERDE - VERDE ESMERALDA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/29/",
+            "colores": "si",
+            "precioRegular": 4219,
+            "precioNormal": 2639,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "K6124N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "1 cuerpo",
+                    "tela": "Piel de potro",
+                    "modelo": "Minimal verde"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "1 cuerpo",
+                    "tela": "Piel de potro",
+                    "modelo": "Minimal verde"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/30/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS  MODERN - GRIS PLATA",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/30/",
+            "colores": "si",
+            "precioRegular": 4219,
+            "precioNormal": 3429,
+            "precioVenta": 2799,
+            "stock": 9,
+            "sku": "K6122N13",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Modern"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "3 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Modern"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/31/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS  CAPITONEADO - VERDE JADE",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/31/",
+            "colores": "si",
+            "precioRegular": 3359,
+            "precioNormal": 2939,
+            "precioVenta": 2399,
+            "stock": 9,
+            "sku": "K6122N31",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/32/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS MODERN 2 - GRIS",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/32/",
+            "colores": "si",
+            "precioRegular": 3759,
+            "precioNormal": 3429,
+            "precioVenta": 2799,
+            "stock": 9,
+            "sku": "K6122N32",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Modern 2"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 cuerpos",
+                    "tela": "Piel de potro",
+                    "modelo": "Modern 2"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
                             "espuma": "zebra 25kg/m3"
                         }
                     ]
