@@ -88,7 +88,7 @@ function Descripcion({ producto }){
 
                 <div className='product-descripcion'>
                     <div className='d-flex-column gap-20'>
-                        <h4 className='title'>Descripción del producto:</h4>
+                        <h4 className='title description-title'>Descripción del producto:</h4>
                         <div className='d-flex d-flex-wrap gap-10'>
                             {producto.descripciones.map((grupo, index) => (
                                 <div className='d-flex-column gap-10 card-flex-3' key={index}>

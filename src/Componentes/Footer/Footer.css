@@ -18,12 +18,8 @@
     object-fit: contain;
 }
 
-/**/
-
 footer{
     width: 100%;
-    /* padding: 40px 20px; */
-    /* background: var(--color-2); */
     background: #121212;
 }
 
@@ -76,8 +72,6 @@ footer{
     color: var(--white);
 }
 
-/**/
-
 .footer-list{
     display: flex;
     flex-direction: column;
@@ -115,8 +109,6 @@ footer{
     color: var(--color-1);
 }
 
-/**/
-
 .social-networks li a{
     width: auto;
     aspect-ratio: 1/1;
@@ -138,8 +130,6 @@ footer{
     aspect-ratio: 1/1;
     object-fit: contain;
 }
-
-/**/
 
 .form-suscribe{
     width: 100%;
@@ -165,8 +155,6 @@ footer{
     border-radius: 0 4px 4px 0;
 }
 
-/**/
-
 .complaints-book{
     margin-right: auto;
     display: flex;
@@ -188,8 +176,6 @@ footer{
     color: var(--white);
 }
 
-/**/
-
 .footer-bottom-container{
     background: var(--black);
     padding: 10px 20px;
@@ -210,8 +196,6 @@ footer{
 }
 
 .footer-bottom > ul li img{
-    width: auto;
-    height: 20px;
     object-fit: contain;
 }
 
@@ -223,14 +207,10 @@ footer{
     text-decoration: underline;
 }
 
-/**/
-
 @media screen and (max-width: 600px){
     footer{
         gap: 0 !important;
     }
-
-    /**/
 
     .footer-block-container{
         padding: 20px;
@@ -244,8 +224,6 @@ footer{
     .footer-targets{
         grid-template-columns: 1fr;
     }
-
-    /**/
 
     .footer-bottom-container{
         padding: 40px 20px;
