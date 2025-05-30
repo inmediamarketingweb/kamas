@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
 
-import SearchBar from '../SearchBar/SearchBar';
+// import SearchBar from '../SearchBar/SearchBar';
 
 import './Center.css';
 
@@ -136,7 +136,7 @@ function Center(){
                     </nav>
                 </div>
 
-                <SearchBar/>
+                {/* <SearchBar/> */}
             </section>
         </div>
     )
