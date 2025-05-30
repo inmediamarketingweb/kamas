@@ -51,11 +51,21 @@ function Colores({ onSelectColor }) {
                 <div className="d-flex-column gap-5">
                     <p className="text title text-center">+40 colores</p>
                     <ul className="product-page-colors-button-miniatures">
-                        {activeTela.colores.slice(0, 6).map((color, index) => (
-                            <li key={index}>
-                                <LazyImage width={22} height={22} src={color.img} alt={color.color}/>
-                            </li>
-                        ))}
+                        <li>
+                            <LazyImage width={20} height={20} src='/assets/imagenes/colores/piel-de-potro/thumb/acero.webp' alt='Acero'/>
+                        </li>
+                        <li>
+                            <LazyImage width={20} height={20} src='/assets/imagenes/colores/piel-de-durazno/thumb/azul-noche.webp' alt='Azul noche'/>
+                        </li>
+                        <li>
+                            <LazyImage width={20} height={20} src='/assets/imagenes/colores/iker/thumb/gris-raton.webp' alt='Gris ratón'/>
+                        </li>
+                        <li>
+                            <LazyImage width={20} height={20} src='/assets/imagenes/colores/antifluidos/thumb/beige-oscuro.webp' alt='Beige oscuro'/>
+                        </li>
+                        <li>
+                            <LazyImage width={20} height={20} src='/assets/imagenes/colores/tejido/thumb/beige.webp' alt='Beige'/>
+                        </li>
                     </ul>
 
                     <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>
