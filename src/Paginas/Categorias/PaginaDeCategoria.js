@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { v4 as uuidv4 } from "uuid";
 
 import Header from "../../Componentes/Header/Header";
 import Filtros from "./Componentes/Filtros/Filtros";
@@ -161,7 +160,7 @@ function PaginaDeCategoria(){
                                                     const isFavorite = favorites.some( (fav) => fav.ruta === producto.ruta );
 
                                                     return (
-                                                        <li key={uuidv4()}>
+                                                        <li key={producto.sku}>
                                                             <div className={`product-card ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
                                                                 <div className="product-card-images">
                                                                     {descuento > 0 && (
