@@ -1,0 +1,46 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "sofas",
+            "subcategoria": "juegos de sala",
+            "ruta": "/productos/sofas/juegos-de-sala/1/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS - NEGRO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/1/",
+            "colores": "si",
+            "precioRegular": 1849,
+            "precioNormal": 1489,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "K6322N10",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "tamaño": "2 plazas",
+                    "tela": "Piel de potro",
+                    "ancho": "167.cm"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 plazas",
+                    "tela": "Piel de potro",
+                    "ancho": "167.cm"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Sofá",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "Reclinación": "Sistema manual",
+                            "tapizado": "Cuero brescia",
+                            "espuma": "zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
