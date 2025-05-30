@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 import { Producto } from '../../../../Componentes/Plantillas/Producto/Producto';
 
