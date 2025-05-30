@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
 
-// import SearchBar from '../SearchBar/SearchBar';
+import SearchBar from '../SearchBar/SearchBar';
 
 import './Center.css';
 
@@ -50,7 +50,7 @@ function Center(){
             <section className='header-center'>
                 <div className='d-flex-center-left gap-20'>
                     <a href='/' title='Kamas | Fabricantes de camas' className='header-logo'>
-                        <img src="/assets/imagenes/kamas/logo-principal-kamas.jpg" alt="Logo principal de Kamas"/>
+                        <img src="/assets/imagenes/kamas/logo-principal-kamas.jpg" alt="Kamas"/>
                     </a>
 
                     <button type='button' className={`menu-button ${isMenuOpen ? 'active' : ''}`} onClick={handleMenuClick}>
@@ -136,7 +136,7 @@ function Center(){
                     </nav>
                 </div>
 
-                {/* <SearchBar/> */}
+                <SearchBar/>
             </section>
         </div>
     )

@@ -131,7 +131,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/colchones/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/colchones/1.webp",
                     "imgAlt": "Colchones | Kamas"
                 }
             ]
@@ -219,7 +219,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/camas-box-tarimas/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/camas-box-tarimas/1.webp",
                     "imgAlt": "Cama box tarimas | Kamas"
                 }
             ]
@@ -319,7 +319,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/dormitorios/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/dormitorios/1.webp",
                     "imgAlt": "Dormitorios | Kamas"
                 }
             ]
@@ -387,7 +387,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/camas-funcionales/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/camas-funcionales/1.webp",
                     "imgAlt": "Camas funcionales | Kamas"
                 }
             ]
@@ -469,7 +469,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/cabeceras/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/cabeceras/1.webp",
                     "imgAlt": "Cabeceras | Kamas"
                 }
             ]
@@ -543,7 +543,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/sofas/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/sofas/1.webp",
                     "imgAlt": "Sofás | Kamas"
                 }
             ]
@@ -617,7 +617,7 @@
             ],
             "menuImg":[
                 {
-                    "imgSrc": "/assets/imagenes/productos/complementos/1.jpg",
+                    "imgSrc": "/assets/imagenes/productos/complementos/1.webp",
                     "imgAlt": "Sofás | Kamas"
                 }
             ]

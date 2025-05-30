@@ -147,17 +147,17 @@ function Footer(){
                                     <ul className='d-flex-center-left gap-5 social-networks'>
                                         <li>
                                             <a href='https://www.facebook.com/KAMAS.pe?locale=es_LA' target='_blank' rel="noopener noreferrer" title='Facebook | Kamas'>
-                                                <img src="/assets/imagenes/iconos/facebook-blanco.png" alt="Visita nuestro perfil en Facebook" title="Facebook"/>
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" width={20} height={20} alt="Visita nuestro perfil en Facebook" title="Facebook"/>
                                             </a>
                                         </li>
                                         <li>
                                             <a href='https://www.instagram.com/kamas.pe/' target='_blank' rel="noopener noreferrer" title='Instagram | Kamas'>
-                                                <img src="/assets/imagenes/iconos/instagram-blanco.png" alt="Visita nuestro perfil en Instagram" title="instagram"/>
+                                                <img src="/assets/imagenes/iconos/instagram-blanco.svg" width={20} height={20} alt="Visita nuestro perfil en Instagram" title="instagram"/>
                                             </a>
                                         </li>
                                         <li>
                                             <a href='https://www.tiktok.com/@kamas.pe' target='_blank' rel="noopener noreferrer" title='Tik Tok | Kamas'>
-                                                <img src="/assets/imagenes/iconos/tiktok-blanco.png" alt="Visita nuestro perfil en TikTok" title="Tik Tok"/>
+                                                <img src="/assets/imagenes/iconos/tiktok-blanco.svg" width={20} height={20} alt="Visita nuestro perfil en TikTok" title="Tik Tok"/>
                                             </a>
                                         </li>
                                     </ul>
