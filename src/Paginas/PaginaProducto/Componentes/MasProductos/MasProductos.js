@@ -45,7 +45,7 @@ export default function MasProductos({ categoriaActual }){
                         ];
                     }
 
-                const selected = categoryProducts.slice(0, 8);
+                const selected = categoryProducts.slice(0, 10);
                 setProducts(selected);
             } catch (err) {
                 console.error('Error loading more products:', err);

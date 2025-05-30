@@ -1,0 +1,73 @@
+[
+    {
+        "titulo": "Línea",
+        "nombre": "línea",
+        "lista":[
+            {
+                "nombre": "Clásica"
+            },
+            {
+                "nombre": "Americana"
+            },
+            {
+                "nombre": "Europea"
+            },
+            {
+                "nombre": "Madera natural"
+            },
+            {
+                "nombre": "Premium"
+            }
+        ]
+    },
+    {
+        "titulo": "Tamaño",
+        "nombre": "tamaño",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "1 plaza"
+            },
+            {
+                "id": 2,
+                "nombre": "1 plaza y media"
+            },
+            {
+                "id": 3,
+                "nombre": "2 plazas"
+            },
+            {
+                "id": 4,
+                "nombre": "Queen"
+            },
+            {
+                "id": 5,
+                "nombre": "King"
+            }
+        ]
+    },
+    {
+        "titulo": "Cajones",
+        "nombre": "cajones",
+        "lista":[
+            {
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    },
+    {
+        "titulo": "Base encajonada",
+        "nombre": "base-encajonada",
+        "lista":[
+            {
+                "nombre": "Si"
+            },
+            {
+                "nombre": "No"
+            }
+        ]
+    }
+]

@@ -1,25 +1,32 @@
 [
     {
-        "id": 1,
-        "titulo": "Línea",
-        "nombre": "línea",
+        "titulo": "Modelos",
+        "nombre": "Modelos",
         "lista":[
             {
-                "nombre": "Clásica"
+                "nombre": "Juegos de sala"
             },
             {
-                "nombre": "Americana"
+                "nombre": "Seccionales"
             },
             {
-                "nombre": "Madera natural"
+                "nombre": "Sófas camas"
             },
             {
-                "nombre": "Premium"
+                "nombre": "Reclinables"
+            },
+            {
+                "nombre": "Sofás y sillones"
+            },
+            {
+                "nombre": "Mecedoras"
+            },
+            {
+                "nombre": "Butacas"
             }
         ]
     },
     {
-        "id": 2,
         "titulo": "Tamaño",
         "nombre": "tamaño",
         "lista":[
@@ -46,65 +53,26 @@
         ]
     },
     {
-        "titulo": "Tipo de cabecera",
-        "nombre": "tipo-de-cabecera",
+        "titulo": "Cajones",
+        "nombre": "cajones",
         "lista":[
             {
-                "nombre": "Aérea"
+                "nombre": "Si"
             },
             {
-                "nombre": "Aérea con patas"
-            },
-            {
-                "nombre": "Pedestal"
+                "nombre": "No"
             }
         ]
     },
     {
-        "titulo": "Diseño de cabecera",
-        "nombre": "diseño-de-cabecera",
+        "titulo": "Base encajonada",
+        "nombre": "base-encajonada",
         "lista":[
             {
-                "nombre": "Infantil"
+                "nombre": "Si"
             },
             {
-                "nombre": "Clásica"
-            },
-            {
-                "nombre": "Americana"
-            },
-            {
-                "nombre": "Con marco"
-            },
-            {
-                "nombre": "Corona"
-            },
-            {
-                "nombre": "Bloques"
-            },
-            {
-                "nombre": "Otras formas"
-            }
-        ]
-    },
-    {
-        "titulo": "Brazos de cabecera",
-        "nombre": "brazos-de-cabecera",
-        "lista":[
-            {
-                "nombre": "Sin brazos"
-            },
-            {
-                "nombre": "Brazos rectos"
-            },
-            {
-                "nombre": "Brazos curvos"
-            },
-            {
-                "nombre": "Brazos P"
-            },
-            {
-                "nombre": "Brazos seahorse"
+                "nombre": "No"
             }
         ]
     }
