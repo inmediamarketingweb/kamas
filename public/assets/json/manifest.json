@@ -29,15 +29,16 @@
         "/assets/json/categorias/cabeceras/sub-categorias/aereas-con-patas.json",
         "/assets/json/categorias/cabeceras/sub-categorias/pedestales.json",
 
-        "/assets/json/categorias/complementos/sub-categorias/bases.json",
-        "/assets/json/categorias/complementos/sub-categorias/cama-perro.json",
-
         "/assets/json/categorias/camas-funcionales/sub-categorias/box-espacios.json",
         "/assets/json/categorias/camas-funcionales/sub-categorias/divanes.json",
 
         "/assets/json/categorias/sofas/sub-categorias/juegos-de-sala.json",
         "/assets/json/categorias/sofas/sub-categorias/reclinables.json",
         "/assets/json/categorias/sofas/sub-categorias/sofas-camas.json",
-        "/assets/json/categorias/sofas/sub-categorias/butacas.json"
+
+        "/assets/json/categorias/complementos/sub-categorias/veladores.json",
+        "/assets/json/categorias/complementos/sub-categorias/bases.json",
+        "/assets/json/categorias/complementos/sub-categorias/puffs.json",
+        "/assets/json/categorias/complementos/sub-categorias/cama-perro.json"
     ]
 }
