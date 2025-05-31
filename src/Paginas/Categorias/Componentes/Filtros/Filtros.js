@@ -134,9 +134,7 @@ function Filtros({ productos, setProductosFiltrados, filtersActive, onClose }){
         Object.keys(filtrosActuales).forEach((categoriaFiltro) => {
             params.set(
                 categoriaFiltro,
-                [...filtrosActuales[categoriaFiltro]]
-                    .map((valor) => valor.toLowerCase().replace(/\s+/g, "-"))
-                    .join("+")
+                [...filtrosActuales[categoriaFiltro]].map((valor) => valor.toLowerCase().replace(/\s+/g, "-")).join("+")
             );
         });
         setSearchParams(params);

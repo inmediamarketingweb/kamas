@@ -1,7 +1,7 @@
-.search-products-content{
+/* .search-products-content{
     display: grid;
     grid-template-columns: 280px 1fr;
-}
+} */
 
 .filters-container{
     display: flex;
@@ -9,7 +9,22 @@
     gap: 10px;
 }
 
-/**/
+.search-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-products li{
+    display: flex;
+    flex: 1 1 clamp(100px, calc(calc(100% / 5) - calc(40px / 5)), 100%) !important;
+    max-width: calc(calc(100% / 5) - calc(40px / 5)) !important;
+    height: 400px;
+}
+
+.search-products li .product-card{
+    max-width: none !important;
+}
 
 @media screen and (max-width: 600px){
     .search-products-content{
