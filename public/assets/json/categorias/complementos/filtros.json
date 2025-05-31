@@ -1,7 +1,7 @@
 [
     {
-        "titulo": "Categorías",
-        "nombre": "categorias",
+        "titulo": "Sub categoría",
+        "nombre": "sub-categoría",
         "lista":[
             {
                 "nombre": "Veladores"
