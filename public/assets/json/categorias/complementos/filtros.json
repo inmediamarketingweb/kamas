@@ -1,22 +1,28 @@
 [
     {
-        "titulo": "Línea",
-        "nombre": "línea",
+        "titulo": "Categorías",
+        "nombre": "categorias",
         "lista":[
             {
-                "nombre": "Clásica"
+                "nombre": "Veladores"
             },
             {
-                "nombre": "Americana"
+                "nombre": "Baúles"
             },
             {
-                "nombre": "Europea"
+                "nombre": "Bases"
             },
             {
-                "nombre": "Madera natural"
+                "nombre": "Puffs"
             },
             {
-                "nombre": "Premium"
+                "nombre": "Almohadas"
+            },
+            {
+                "nombre": "Sábanas y cobertores"
+            },
+            {
+                "nombre": "Cama perro"
             }
         ]
     },
@@ -49,18 +55,6 @@
     {
         "titulo": "Cajones",
         "nombre": "cajones",
-        "lista":[
-            {
-                "nombre": "Si"
-            },
-            {
-                "nombre": "No"
-            }
-        ]
-    },
-    {
-        "titulo": "Base encajonada",
-        "nombre": "base-encajonada",
         "lista":[
             {
                 "nombre": "Si"
