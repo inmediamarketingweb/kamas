@@ -32,9 +32,7 @@ function Slider() {
     };
 
     const visibleIndexes = [
-        (currentIndex - 1 + totalSlides) % totalSlides,
-        currentIndex,
-        (currentIndex + 1) % totalSlides
+        (currentIndex - 1 + totalSlides) % totalSlides, currentIndex, (currentIndex + 1) % totalSlides
     ];
 
     return (
@@ -63,7 +61,7 @@ function Slider() {
                 </button>
             </div>
 
-            <img src="https://kamas.pe/assets/imagenes/paginas/pagina-principal/slider/banner-2.jpg" alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
+            <img width={isSmallScreen ? 425 : 1200} height={isSmallScreen ? 20 : 56} src="https://kamas.pe/assets/imagenes/paginas/pagina-principal/slider/banner-2.jpg" alt="Kamas | Fabricantes de colchones, camas y dormitorios." />
         </div>
     );
 }

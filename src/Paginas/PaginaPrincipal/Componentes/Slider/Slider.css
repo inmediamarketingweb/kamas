@@ -11,7 +11,6 @@
     max-width: var(--content-mx-width);
     height: auto;
     max-height: 56px;
-    /* height: 40px; */
 }
 
 .hero-container{
@@ -93,7 +92,6 @@
     }
 
     .hero-container{
-        /* height: auto; */
         max-height: 180px;
     }
 
@@ -102,9 +100,4 @@
         display: flex;
         transition: var(--t-200ms-linear);
     }
-
-    /* .hero-slider-button{
-        width: 24px;
-        height: 40px;
-    } */
 }
