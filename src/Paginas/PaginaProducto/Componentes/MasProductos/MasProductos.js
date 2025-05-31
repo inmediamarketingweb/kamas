@@ -12,40 +12,41 @@ export default function MasProductos({ categoriaActual }){
         async function fetchRandomProducts(){
             try{
                 const manifestRes = await fetch('/assets/json/manifest.json');
-                    const manifest = await manifestRes.json();
-                    const files = manifest.files;
+                const manifest = await manifestRes.json();
+                const files = manifest.files;
 
-                    const allData = await Promise.all(
-                        files.map(async (filePath) => {
-                            const res = await fetch(filePath);
-                            return res.json();
-                        })
-                    );
+                const allData = await Promise.all(
+                    files.map(async (filePath) => {
+                        const res = await fetch(filePath);
+                        return res.json();
+                    })
+                );
 
-                    const categoryProducts = allData.reduce((acc, data) => {
-                        if (Array.isArray(data.productos)) {
-                            const matches = data.productos.filter(
-                                (p) => p.categoria === categoriaActual
-                            );
-                            return acc.concat(matches);
-                        }
-                        return acc;
-                    }, []);
-
-                    if (!categoryProducts.length) {
-                        setProducts([]);
-                        return;
+                const categoryProducts = allData.reduce((acc, data) => {
+                    if (Array.isArray(data.productos)) {
+                        const matches = data.productos.filter(
+                            (p) => p.categoria === categoriaActual
+                        );
+                        return acc.concat(matches);
                     }
+                    return acc;
+                }, []);
 
-                    for (let i = categoryProducts.length - 1; i > 0; i--) {
-                        const j = Math.floor(Math.random() * (i + 1));
-                        [categoryProducts[i], categoryProducts[j]] = [
-                            categoryProducts[j],
-                            categoryProducts[i]
-                        ];
-                    }
+                if (!categoryProducts.length) {
+                    setProducts([]);
+                    return;
+                }
+
+                for (let i = categoryProducts.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [categoryProducts[i], categoryProducts[j]] = [
+                        categoryProducts[j],
+                        categoryProducts[i]
+                    ];
+                }
 
                 const selected = categoryProducts.slice(0, 10);
+
                 setProducts(selected);
             } catch (err) {
                 console.error('Error loading more products:', err);
