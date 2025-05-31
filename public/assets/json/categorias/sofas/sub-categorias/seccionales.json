@@ -1,0 +1,44 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "sofas",
+            "subcategoria": "seccionales",
+            "ruta": "/productos/sofas/seccionales/1/",
+            "nombre": "MECEDORA CAPITONEADA - BEIGE",
+            "fotos": "/assets/imagenes/productos/sofas/seccionales/1/",
+            "colores": "si",
+            "precioRegular": 999,
+            "precioNormal": 799,
+            "precioVenta": 599,
+            "stock": 9,
+            "sku": "K6621N10",
+            "tipo-de-envio": "Envío preferente",
+            "resumen-del-producto":[
+                {
+                    "tela": "Piel de potro",
+                    "diseño": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "modelo": "Mecedoras",
+                    "tela": "Piel de potro",
+                    "diseño": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Mecedoras",
+                    "descripcion":[
+                        {
+                            "madera": "Tornillo",
+                            "tapizado": "Piel de potro",
+                            "espuma": "Zebra 25kg/m3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
