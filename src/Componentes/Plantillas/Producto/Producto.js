@@ -13,7 +13,6 @@ import "./Producto.css";
 
 export function Producto({ producto = { id: null } , truncate }){
     const [favorites, setFavorites] = useState([]);
-
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
     useEffect(() => {
@@ -36,9 +35,9 @@ export function Producto({ producto = { id: null } , truncate }){
     }, []);
 
     const toggleFavorite = (producto) => {
-        const exists = favorites.some((fav) => fav.ruta === producto.ruta);
+        const exists = favorites.some((fav) => fav.sku === producto.sku);
         const updatedFavorites = exists
-            ? favorites.filter((fav) => fav.ruta !== producto.ruta)
+            ? favorites.filter((fav) => fav.sku !== producto.sku)
             : [...favorites, producto];
         setFavorites(updatedFavorites);
         localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
@@ -49,7 +48,7 @@ export function Producto({ producto = { id: null } , truncate }){
     : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
     : "";
 
-    const isFavorite = favorites.some( (fav) => fav.ruta === producto.ruta );
+    const isFavorite = favorites.some( (fav) => fav.sku === producto.sku );
 
     return(
         <li>

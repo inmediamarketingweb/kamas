@@ -15,7 +15,7 @@ function Favoritos(){
     }, []);
 
     const removeFavorite = (producto) => {
-        const updatedFavorites = favoritos.filter((fav) => fav.ruta !== producto.ruta);
+        const updatedFavorites = favoritos.filter((fav) => fav.sku !== producto.sku);
         setFavoritos(updatedFavorites);
         localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
     };
