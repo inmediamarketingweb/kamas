@@ -210,6 +210,10 @@
         height: 4px;
     }
 
+    .product-card-stock{
+        right: 10px;
+    }
+
     .solo-por-horas-button{
         bottom: 185px;
     }

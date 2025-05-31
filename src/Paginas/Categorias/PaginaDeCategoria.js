@@ -17,7 +17,7 @@ function PaginaDeCategoria(){
     const [favorites, setFavorites] = useState([]);
     const [filtersActive, setFiltersActive] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 24;
+    const itemsPerPage = 20;
 
     useEffect(() => {
         const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
