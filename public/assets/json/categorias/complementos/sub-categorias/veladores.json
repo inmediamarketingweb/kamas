@@ -89,7 +89,7 @@
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N10",
+            "sku": "K7133N10",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -127,7 +127,7 @@
             "precioNormal": 489,
             "precioVenta": 399,
             "stock": 14,
-            "sku": "K712N12",
+            "sku": "K714N10",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -165,7 +165,7 @@
             "precioNormal": 349,
             "precioVenta": 279,
             "stock": 14,
-            "sku": "K712N13",
+            "sku": "K714N11",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -203,7 +203,7 @@
             "precioNormal": 429,
             "precioVenta": 349,
             "stock": 14,
-            "sku": "K712N14",
+            "sku": "K714N12",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -241,7 +241,7 @@
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N11",
+            "sku": "K7133N11",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -279,7 +279,7 @@
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N12",
+            "sku": "K7133N12",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -317,7 +317,7 @@
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N13",
+            "sku": "K7133N13",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -355,7 +355,7 @@
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N14",
+            "sku": "K7133N14",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -393,7 +393,7 @@
             "precioNormal": 399,
             "precioVenta": 329,
             "stock": 14,
-            "sku": "K713N15",
+            "sku": "K7112N10",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -431,7 +431,7 @@
             "precioNormal": 429,
             "precioVenta": 349,
             "stock": 14,
-            "sku": "K713N16",
+            "sku": "K7112N11",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -469,7 +469,7 @@
             "precioNormal": 429,
             "precioVenta": 349,
             "stock": 14,
-            "sku": "K713N17",
+            "sku": "K7112N12",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -501,13 +501,13 @@
             "categoria": "complementos",
             "subcategoria": "veladores",
             "ruta": "/productos/complementos/veladores/14/",
-            "nombre": "VELADOR CUBE- CHOCOLATE",
+            "nombre": "VELADOR CUBE - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/11/",
             "precioRegular": 469,
             "precioNormal": 279,
             "precioVenta": 229,
             "stock": 14,
-            "sku": "K713N18",
+            "sku": "K714N13",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -539,51 +539,13 @@
             "categoria": "complementos",
             "subcategoria": "veladores",
             "ruta": "/productos/complementos/veladores/15/",
-            "nombre": "VELADOR CLÁSICO- HUESO",
-            "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/12/",
-            "precioRegular": 489,
-            "precioNormal": 369,
-            "precioVenta": 299,
-            "stock": 14,
-            "sku": "K713N19",
-            "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "modelo": "Clásico 3",
-                    "cajones": 3
-                }
-            ],
-            "detalles-del-producto":[
-                {
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Velador",
-                    "descripcion":[
-                        {
-                            "material": "Melamina 18mm.",
-                            "rieles": "Telecópicos pesados",
-                            "garantía": "1 año"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 16,
-            "categoria": "complementos",
-            "subcategoria": "veladores",
-            "ruta": "/productos/complementos/veladores/16/",
             "nombre": "VELADOR VINTAGE 2 - BEIGE",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/13/",
             "precioRegular": 489,
             "precioNormal": 429,
             "precioVenta": 349,
             "stock": 14,
-            "sku": "K713N20",
+            "sku": "K7112N13",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -611,17 +573,17 @@
             ]
         },
         {
-            "id": 17,
+            "id": 16,
             "categoria": "complementos",
             "subcategoria": "veladores",
-            "ruta": "/productos/complementos/veladores/17/",
+            "ruta": "/productos/complementos/veladores/16/",
             "nombre": "VELADOR ATLANTA - BEIGE",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/14/",
             "precioRegular": 489,
             "precioNormal": 439,
             "precioVenta": 359,
             "stock": 14,
-            "sku": "K713N21",
+            "sku": "K7132N10",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -649,17 +611,17 @@
             ]
         },
         {
-            "id": 18,
+            "id": 17,
             "categoria": "complementos",
             "subcategoria": "veladores",
-            "ruta": "/productos/complementos/veladores/18/",
-            "nombre": "VELADOR CLÁSICO - BLANCO",
+            "ruta": "/productos/complementos/veladores/17/",
+            "nombre": "VELADOR CLÁSICO 3 - BLANCO",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/15/",
             "precioRegular": 489,
             "precioNormal": 369,
             "precioVenta": 299,
             "stock": 14,
-            "sku": "K713N22",
+            "sku": "K7133N15",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -687,17 +649,17 @@
             ]
         },        
         {
-            "id": 19,
+            "id": 18,
             "categoria": "complementos",
             "subcategoria": "veladores",
-            "ruta": "/productos/complementos/veladores/19/",
+            "ruta": "/productos/complementos/veladores/18/",
             "nombre": "VELADOR ROB - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/16/",
             "precioRegular": 489,
             "precioNormal": 299,
             "precioVenta": 249,
             "stock": 14,
-            "sku": "K713N23",
+            "sku": "K714N14",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -725,17 +687,17 @@
             ]
         },
         {
-            "id": 20,
+            "id": 19,
             "categoria": "complementos",
             "subcategoria": "veladores",
-            "ruta": "/productos/complementos/veladores/20/",
+            "ruta": "/productos/complementos/veladores/19/",
             "nombre": "VELADOR GHOST - BLANCO",
             "fotos": "/assets/imagenes/productos/complementos/veladores/otros-modelos/17/",
             "precioRegular": 449,
             "precioNormal": 349,
             "precioVenta": 279,
             "stock": 14,
-            "sku": "K713N24",
+            "sku": "K714N15",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
