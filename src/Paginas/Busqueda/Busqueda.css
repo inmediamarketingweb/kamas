@@ -38,4 +38,11 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+
+    .search-products li{
+        flex: unset;
+        width: 100%;
+        max-width: none !important;
+        height: auto !important;
+    }
 }
