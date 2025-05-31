@@ -37,6 +37,7 @@
 
         "/assets/json/categorias/sofas/sub-categorias/juegos-de-sala.json",
         "/assets/json/categorias/sofas/sub-categorias/reclinables.json",
-        "/assets/json/categorias/sofas/sub-categorias/sofas-camas.json"
+        "/assets/json/categorias/sofas/sub-categorias/sofas-camas.json",
+        "/assets/json/categorias/sofas/sub-categorias/butacas.json"
     ]
 }
