@@ -4,7 +4,7 @@ function Bottom(){
     return(
         <div className='header-bottom-container'>
             <section className='header-bottom'>
-                <p><a href='/productos/dormitorios/' title='Haz que mamá descanse como una reina 👑 ¡Hasta 40% de descuento solo este mes!' className='color-white'>Haz que mamá descanse como una reina 👑 ¡Hasta 40% de descuento solo este mes!</a></p>
+                <p><a href='/productos/dormitorios/' title='Haz que papá descanse como un rey 👑 ¡Hasta 40% de descuento solo este mes!' className='color-white'>Haz que papá descanse como un rey 👑 ¡Hasta 40% de descuento solo este mes!</a></p>
             
                 <ul className='d-flex-center-center gap-10'>
                     <li>
