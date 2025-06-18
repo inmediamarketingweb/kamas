@@ -34,7 +34,7 @@ function Center(){
     }
 
     if(!categories){
-        return <div className="loading">Loading menu...</div>;
+        return <div className="loading">Cargando menu...</div>;
     }
 
     const handleCategoryClick = (categoryId) => {
