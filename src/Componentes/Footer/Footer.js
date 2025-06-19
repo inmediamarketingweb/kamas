@@ -53,7 +53,7 @@ function Footer(){
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='/vendedores/colores/' title='Paleta de colores | Kamas'>
+                                        <a href='/paleta-de-colores/' title='Paleta de colores | Kamas'>
                                             <p>Paleta de colores</p>
                                         </a>
                                     </li>

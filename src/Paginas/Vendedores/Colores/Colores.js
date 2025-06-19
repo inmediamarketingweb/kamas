@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet'; // Corregido: Helmet viene de react-helmet
-import { useLocation, useNavigate } from 'react-router-dom'; // Cambiado useHistory por useNavigate
+import { Helmet } from 'react-helmet';
+import { useLocation, useNavigate } from 'react-router-dom';
 import './Colores.css';
 import Header from '../../../Componentes/Header/Header';
 import Footer from '../../../Componentes/Footer/Footer';
@@ -176,7 +176,7 @@ function Colores(){
     return(
         <>
             <Helmet>
-                <title>Kamas | Colores</title>
+                <title>Paleta de colores | Kamas</title>
                 <meta name="description" content="Explora nuestra variedad de colores y telas" />
             </Helmet>
 
@@ -253,58 +253,6 @@ function Colores(){
                                 {renderAllColors()}
                             </div>
 
-                            {/* {fabricInfo && (
-                                <div className="tela-info d-flex-column gap-20">
-                                    <div className='d-flex-column gap-10'>
-                                        <h3 className='title'>{fabricInfo.nombre}:</h3>
-                                        <p className='text'>{fabricInfo.descripcion}</p>
-                                    </div>
-
-                                    <div className='d-flex-column gap-10'>
-                                        <p className='title'>Costos adicionales:</p>
-
-                                        <table className='costos-adicionales' cellspacing="0">
-                                            <tr>
-                                                <th>
-                                                    <p>Producto</p>
-                                                </th>
-                                                <th>
-                                                    <p>Precio</p>
-                                                </th>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>Dormitorio</p>
-                                                </td>
-                                                <td>
-                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>Cabecera sola</p>
-                                                </td>
-                                                <td>
-                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <p>Box - Base sola</p>
-                                                </td>
-                                                <td>
-                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-
-                                        <p className='text font-13'><b className='color-red'>*</b> Sin importar tamaño o modelo</p>
-                                    </div>
-
-                                    <a href="/busqueda?query=negro">Ver productos relacionados</a>
-                                </div>
-                            )} */}
-
 
                             {fabricInfo && (
                                 <div className="tela-info d-flex-column gap-20">
@@ -329,6 +277,14 @@ function Colores(){
                                                 <tr>
                                                     <td>
                                                         <p>Dormitorio</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Cama box tarima</p>
                                                     </td>
                                                     <td>
                                                         <p>S/.{fabricInfo.costoAdicional}.00</p>
