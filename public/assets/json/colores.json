@@ -5,8 +5,7 @@
                 "costo-adicional": "0",
                 "telas":[
                     {
-                        "tela": "Piel de potro",
-                        "titulo": "Piel de potro ecuestre irlandés",
+                        "tela": "Piel de potro ecuestre irlandés",
                         "descripcion": "Textura peinada y direccional, inspirada en el pelaje natural del potro. Brillo sutil, elegancia rústica y carácter visual que no pasa desapercibido. Perfecta para ambientes con personalidad fuerte y presencia decorativa.",
                         "colores":[
                             {
@@ -132,8 +131,7 @@
                         ]
                     },
                     {
-                        "tela": "Iker",
-                        "titulo": "Iker textura vasca de montaña",
+                        "tela": "Iker textura vasca de montaña",
                         "descripcion": "Tejido con cuerpo firme y trama fina, inspirado en los paisajes sobrios del norte español. Estilo contemporáneo, equilibrio visual y resistencia superior. Ideal para tapizados que buscan sobriedad con distinción.",
                         "colores":[
                             {
@@ -179,8 +177,7 @@
                         ]
                     },
                     {
-                        "tela": "Cuero sintético",
-                        "titulo": "Cuero sintético escandinavo urbano",
+                        "tela": "Cuero sintético escandinavo urbano",
                         "descripcion": "Vinil flexible, de acabado mate y textura limpia. Minimalismo nórdico con presencia duradera. Fácil de mantener, ideal para espacios modernos y funcionales.",
                         "colores":[
                             {
@@ -206,8 +203,7 @@
                 "costo-adicional": "20",
                 "telas":[
                     {
-                        "tela": "Piel de durazno",
-                        "titulo": "Piel de durazno suizo de alto gramaje",
+                        "tela": "Piel de durazno suizo de alto gramaje",
                         "descripcion": "Tacto aterciopelado y sedoso, con caída elegante y textura envolvente. Inspirada en el diseño suizo: discreta, suave y refinada. Pensada para espacios que desean confort sin renunciar al estilo.",
                         "colores":[
                             {
@@ -241,7 +237,7 @@
                                 "img": "/assets/imagenes/colores/premium/piel-de-durazno/camello.webp"
                             },
                             {
-                                "color": "camello-oscuro",
+                                "color": "camello oscuro",
                                 "original": "/assets/imagenes/colores/premium/piel-de-durazno/originales/camello-oscuro.png",
                                 "img": "/assets/imagenes/colores/premium/piel-de-durazno/camello-oscuro.webp"
                             },
@@ -338,8 +334,7 @@
                         ]
                     },
                     {
-                        "tela": "Cuero microtexturizado",
-                        "titulo": "Cuero microtexturizado alemán de precisión",
+                        "tela": "Cuero microtexturizado alemán de precisión",
                         "descripcion": "Grabado fino que imita el cuero real con detalle milimétrico. Presencia visual fuerte, textura firme y elegante. Perfecto para tapizados de alta exigencia estética.",
                         "colores":[
                             {
@@ -375,8 +370,7 @@
                 "costo-adicional": "40",
                 "telas":[
                     {
-                        "tela": "Antifluidos",
-                        "titulo": "Marmoleado toscano con estilo",
+                        "tela": "Marmoleado toscano con estilo",
                         "descripcion": "Diseño visual inspirado en piedra italiana, con acabado decorativo funcional. Fácil de mantener, estéticamente audaz. Pensada para hogares en movimiento con gusto sofisticado.",
                         "colores":[
                             {
@@ -403,6 +397,188 @@
                                 "color": "verde pacay",
                                 "original": "/assets/imagenes/colores/elite/antifluidos/originales/verde-pacay.png",
                                 "img": "/assets/imagenes/colores/elite/antifluidos/verde-pacay.webp"
+                            }
+                        ]
+                    },
+                    {
+                        "tela": "Tejido flamenco de bélgica",
+                        "descripcion": "Tela con trama entrelazada, cuerpo estructurado y fondo artesanal. Estética con herencia, sensación textil auténtica. Ideal para composiciones clásicas, con alma cálida y europea.",
+                        "colores":[
+                            {
+                                "color": "acero",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/acero.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/acero.webp"
+                            },
+                            {
+                                "color": "arena claro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/arena-claro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/arena-claro.webp"
+                            },
+                            {
+                                "color": "azul bebé",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/azul-bebe.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/azul-bebe.webp"
+                            },
+                            {
+                                "color": "azul denim",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/azul-denim.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/azul-denim.webp"
+                            },
+                            {
+                                "color": "beige",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/beige.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/beige.webp"
+                            },
+                            {
+                                "color": "beige claro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/beige-claro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/beige-claro.webp"
+                            },
+                            {
+                                "color": "beige oscuro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/beige-oscuro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/beige-oscuro.webp"
+                            },
+                            {
+                                "color": "camel",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/camel.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/camel.webp"
+                            },
+                            {
+                                "color": "castaño",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/castaño.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/castaño.webp"
+                            },
+                            {
+                                "color": "cenizo new",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/cenizo-new.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/cenizo-new.webp"
+                            },
+                            {
+                                "color": "champagne",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/champagne.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/champagne.webp"
+                            },
+                            {
+                                "color": "chocolate",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/chocolate.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/chocolate.webp"
+                            },
+                            {
+                                "color": "chocolate new",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/chocolate-new.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/chocolate-new.webp"
+                            },
+                            {
+                                "color": "gris new",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/gris-new.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/gris-new.webp"
+                            },
+                            {
+                                "color": "gris ratón",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/gris-raton.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/gris-raton.webp"
+                            },
+                            {
+                                "color": "hueso",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/hueso.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/hueso.webp"
+                            },
+                            {
+                                "color": "ivory",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/ivory.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/ivory.webp"
+                            },
+                            {
+                                "color": "lila",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/lila.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/lila.webp"
+                            },
+                            {
+                                "color": "marfil",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/marfil.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/marfil.webp"
+                            },
+                            {
+                                "color": "marfil claro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/marfil-claro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/marfil-claro.webp"
+                            },
+                            {
+                                "color": "moro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/moro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/moro.webp"
+                            },
+                            {
+                                "color": "negro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/negro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/negro.webp"
+                            },
+                            {
+                                "color": "palo rosa",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/palo-rosa.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/palo-rosa.webp"
+                            },
+                            {
+                                "color": "plata",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plata.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plata.webp"
+                            },
+                            {
+                                "color": "plata oscuro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plata-oscuro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plata-oscuro.webp"
+                            },
+                            {
+                                "color": "plomo",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plomo.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plomo.webp"
+                            },
+                            {
+                                "color": "plomo new",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plomo-new.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plomo-new.webp"
+                            },
+                            {
+                                "color": "plomo oscuro",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plomo-oscuro.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plomo-oscuro.webp"
+                            },
+                            {
+                                "color": "plomo plata",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plomo-plata.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plomo-plata.webp"
+                            },
+                            {
+                                "color": "plomo rata",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/plomo-rata.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/plomo-rata.webp"
+                            },
+                            {
+                                "color": "tabaco",
+                                "original": "/assets/imagenes/colores/elite/tejido/originales/tabaco.png",
+                                "img": "/assets/imagenes/colores/elite/tejido/tabaco.webp"
+                            }
+                        ]
+                    },
+                    {
+                        "tela": "Cuero genuino toscano curtido a mano",
+                        "descripcion": "Piel auténtica trabajada con técnicas tradicionales de curtiembre italiana. Aroma natural, textura viva y durabilidad excepcional. Para quienes entienden lo que significa verdadero lujo.",
+                        "colores":[
+                            {
+                                "color": "acre",
+                                "original": "/assets/imagenes/colores/elite/cuero-genuino/originales/acre.png",
+                                "img": "/assets/imagenes/colores/elite/cuero-genuino/acre.webp"
+                            },
+                            {
+                                "color": "gris oscuro",
+                                "original": "/assets/imagenes/colores/elite/cuero-genuino/originales/gris-oscuro.png",
+                                "img": "/assets/imagenes/colores/elite/cuero-genuino/gris-oscuro.webp"
+                            },
+                            {
+                                "color": "negro",
+                                "original": "/assets/imagenes/colores/elite/cuero-genuino/originales/negro.png",
+                                "img": "/assets/imagenes/colores/elite/cuero-genuino/negro.webp"
                             }
                         ]
                     }

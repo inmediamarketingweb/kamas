@@ -174,6 +174,10 @@ button{
     color: var(--color-1) !important;
 }
 
+.color-black-0{
+    color: var(--black) !important;
+}
+
 .text{
     color: var(--text);
     transition: var(--t-200ms-linear);
@@ -226,6 +230,16 @@ button{
 .d-flex-column{
     display: flex;
     flex-direction: column;
+}
+
+.d-flex-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.d-flex-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .d-flex-wrap{
