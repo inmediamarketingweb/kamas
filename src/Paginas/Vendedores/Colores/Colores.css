@@ -4,6 +4,32 @@
     gap: 20px;
 }
 
+.color-banner-container{
+    position: relative;
+}
+
+.color-banner-container div{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    translate: -50% 0;
+    display: flex;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 4px;
+    background: var(--white);
+    color: var(--text);
+    z-index: 1;
+}
+
+.color-banner-container div span{
+    color: var(--color-1);
+}
+
+.color-banner-container div p{
+    color: var(--black);
+}
+
 .color-banner{
     display: flex;
     width: 100%;

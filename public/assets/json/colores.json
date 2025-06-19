@@ -2,7 +2,6 @@
     "telas":[
         {
             "plus":{
-                "costo-adicional": "0",
                 "telas":[
                     {
                         "tela": "Piel de potro ecuestre irlandés",
@@ -200,7 +199,24 @@
                 ]
             },
             "premium":{
-                "costo-adicional": "20",
+                "costos-adicionales":[
+                    {
+                        "producto": "Dormitorio",
+                        "costo-adicional": "20"
+                    },
+                    {
+                        "producto": "Cama box tarima",
+                        "costo-adicional": "15"
+                    },
+                    {
+                        "producto": "Box | Base sola",
+                        "costo-adicional": "10"
+                    },
+                    {
+                        "producto": "Cabecera sola",
+                        "costo-adicional": "10"
+                    }
+                ],
                 "telas":[
                     {
                         "tela": "Piel de durazno suizo de alto gramaje",
@@ -367,7 +383,24 @@
                 ]
             },
             "elite":{
-                "costo-adicional": "40",
+                "costos-adicionales":[
+                    {
+                        "producto": "Dormitorio",
+                        "costo-adicional": "40"
+                    },
+                    {
+                        "producto": "Cama box tarima",
+                        "costo-adicional": "30"
+                    },
+                    {
+                        "producto": "Box | Base sola",
+                        "costo-adicional": "15"
+                    },
+                    {
+                        "producto": "Cabecera sola",
+                        "costo-adicional": "15"
+                    }
+                ],
                 "telas":[
                     {
                         "tela": "Marmoleado toscano con estilo",

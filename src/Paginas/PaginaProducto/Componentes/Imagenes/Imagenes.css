@@ -70,8 +70,6 @@
 .zoom-wrapper img{
     margin: auto;
     display: block;
-    /* width: 80%;
-    height: auto; */
     aspect-ratio: 1/1;
 }
 
@@ -83,7 +81,7 @@
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: 350%;
+    background-size: 500%;
 }
 
 .product-page-images-button{
