@@ -103,6 +103,7 @@
     font-weight: bold;
     font-size: 14px;
     color: var(--black);
+    transition: var(--t-200ms-linear);
 }
 
 .modal-color-categoria::first-letter{

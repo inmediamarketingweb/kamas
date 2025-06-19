@@ -87,7 +87,7 @@ function App(){
 
                     <Route path="/nosotros/razones-para-comprar/" element={<RazonesParaComprar/>}/>
                     <Route path="/nosotros/propiedad-intelectual/" element={<PropiedadIntelectual/>}/>
-
+                    <Route path="/paleta-de-colores/" element={<Colores/>} />
                     <Route path="/envios/envios-a-lima-y-callao/" element={<EnviosALimaYCallao/>}/>
                     <Route path="/envios/envios-a-provincia/" element={<EnviosAProvincia/>}/>
 
@@ -120,9 +120,6 @@ function App(){
                     <Route path="/busqueda/" element={<Busqueda/>} />
 
                     <Route path="*" element={<Error404/>}/>
-
-                    <Route path="/vendedores/colores/" element={<Colores/>} />
-                    {/* <Route path="/colores/:categoriaIndex?/:telaIndex?/:colorIndex?" element={<Colores />} /> */}
                 </Routes>
             </Router>
         </HelmetProvider>

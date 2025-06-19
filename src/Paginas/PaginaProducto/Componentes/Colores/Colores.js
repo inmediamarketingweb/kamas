@@ -362,7 +362,7 @@ function Colores({ onSelectColor }) {
                                         >
                                             <span className="modal-color-categoria">{tela.categoria}</span>
                                             <p className="text">{tela.tela}</p>
-                                            <small className="categoria">{tela.costoAdicional !== "0" && `( +S/ ${tela.costoAdicional} )`}</small>
+                                            {/* <small className="modal-color-pryce">{tela.costoAdicional !== "0" && `( +S/ ${tela.costoAdicional} )`}</small> */}
                                         </button>
                                     </li>
                                 ))}
