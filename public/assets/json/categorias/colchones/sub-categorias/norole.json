@@ -15,7 +15,7 @@
             "regalos":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -77,7 +77,7 @@
             "regalos":[
                 {
                     "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.png"
+                    "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -139,7 +139,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/2-almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
             ],
             "resumen-del-producto":[
@@ -205,7 +205,7 @@
             "regalos":[
                 {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/2-almohadas.png"
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
             ],
             "resumen-del-producto":[

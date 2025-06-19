@@ -360,8 +360,9 @@ function Colores({ onSelectColor }) {
                                             className={index === activeTelaIndex ? 'active' : ''}
                                             onClick={() => setActiveTelaIndex(index)}
                                         >
+                                            <span className="modal-color-categoria">{tela.categoria}</span>
                                             <p className="text">{tela.tela}</p>
-                                            <small className="categoria">{tela.categoria} {tela.costoAdicional !== "0" && `( +S/ ${tela.costoAdicional} )`}</small>
+                                            <small className="categoria">{tela.costoAdicional !== "0" && `( +S/ ${tela.costoAdicional} )`}</small>
                                         </button>
                                     </li>
                                 ))}

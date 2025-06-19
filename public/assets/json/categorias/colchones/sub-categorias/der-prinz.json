@@ -3,7 +3,6 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "subcategoria": "der prinz",
             "modelo": "der pinz",
             "ruta": "/productos/colchones/der-prinz/1-plaza-y-media/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
@@ -11,6 +10,7 @@
             "precioRegular": 720,
             "precioNormal": 599,
             "precioVenta": 399,
+            "sku": "K1157N10",
             "stock": 24,
             "incluye":[
                 {
@@ -43,7 +43,6 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "sku": "K1157MCN10",
                     "modelo-de-colchón": "Der Prinz",
                     "tamaño": "1 plaza y media",
                     "línea-de-colchón": "Super ortopédico",
@@ -66,7 +65,7 @@
         {
             "id": 2,
             "categoria": "colchones",
-            "subcategoria": "der prinz",
+            "modelo": "der prinz",
             "ruta": "/productos/colchones/der-prinz/2-plazas/",
             "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/der-prinz/2-plazas/",
@@ -74,7 +73,7 @@
             "precioNormal": 799,
             "precioVenta": 499,
             "stock": 31,
-            "sku": "K127MCN10",
+            "sku": "K127N10",
             "incluye":[
                 {
                     "texto": "1 almohada",
@@ -136,7 +135,7 @@
             "precioNormal": 1149,
             "precioVenta": 799,
             "stock": 25,
-            "sku": "K137MCN10",
+            "sku": "K137N10",
             "incluye":[
                 {
                     "texto": "2 almohadas",
@@ -202,7 +201,7 @@
             "precioNormal": 1399,
             "precioVenta": 999,
             "stock": 13,
-            "sku": "K147MCN10",
+            "sku": "K147N10",
             "incluye":[
                 {
                     "texto": "2 almohadas",

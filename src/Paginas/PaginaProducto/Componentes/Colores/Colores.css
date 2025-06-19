@@ -38,7 +38,8 @@
     left: 50%;
     top: 50%;
     translate: -50% -50%;
-    width: auto;
+    width: calc(100% - 40px);
+    max-width: 1140px;
     height: 690px;
     overflow-y: auto;
     padding: 20px;
@@ -79,11 +80,12 @@
 
 .product-page-colors-fabrics li button{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: left;
+    flex-direction: column;
     width: 100%;
-    height: 48px;
-    padding: 0 20px;
+    /* height: 48px; */
+    padding: 5px 10px;
     border-radius: 4px;
     transition: var(--t-200ms-linear);
 }
@@ -96,11 +98,23 @@
     background: var(--color-1);
 }
 
+.modal-color-categoria{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.modal-color-categoria::first-letter{
+    text-transform: uppercase;
+}
+
 .product-page-colors-fabrics li button p{
     transition: var(--t-200ms-linear);
 }
 
-.product-page-colors-fabrics li button.active p{
+.product-page-colors-fabrics li button.active p,
+.product-page-colors-fabrics li button.active .modal-color-categoria{
     color: var(--white);
 }
 

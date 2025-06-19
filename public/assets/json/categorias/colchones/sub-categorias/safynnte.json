@@ -12,10 +12,13 @@
             "precioVenta": 369,
             "stock": 99,
             "sku": "K1156IN10",
-            "regalos":{
-                "texto": "1 almohada",
-                "foto": "/assets/imagenes/productos/almohada.png"
-            },
+            "regalos":[
+                {
+                    "id": 1,
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Safynnte",
@@ -72,10 +75,12 @@
             "precioVenta": 449,
             "stock": 99,
             "sku": "K126IN10",
-            "regalos":{
-                "texto": "1 almohada",
-                "foto": "/assets/imagenes/productos/almohada.png"
-            },
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Safynnte",
@@ -132,10 +137,12 @@
             "precioVenta": 699,
             "stock": 99,
             "sku": "K136IN10",
-            "regalos":{
-                "texto": "2 almohadas",
-                "foto": "/assets/imagenes/productos/almohadas.png"
-            },
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Safynnte",
@@ -196,10 +203,12 @@
             "precioVenta": 899,
             "stock": 99,
             "sku": "K146IN10",
-            "regalos":{
-                "texto": "2 almohadas",
-                "foto": "/assets/imagenes/productos/almohadas.png"
-            },
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
             "resumen-del-producto":[
                 {
                     "modelo-de-colchón": "Safynnte",
