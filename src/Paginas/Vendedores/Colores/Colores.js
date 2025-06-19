@@ -1,228 +1,44 @@
-// import { useState, useEffect } from 'react';
-
-// import './Colores.css';
-
-// import Header from '../../../Componentes/Header/Header';
-// import Footer from '../../../Componentes/Footer/Footer';
-
-// function Colores(){
-//     const [telas, setTelas] = useState([]);
-//     const [telaSeleccionada, setTelaSeleccionada] = useState(0);
-//     const [colorSeleccionado, setColorSeleccionado] = useState(0);
-//     const [loading, setLoading] = useState(true);
-//     const [error, setError] = useState(null);
-
-//     useEffect(() => {
-//         const fetchData = async () => {
-//             try{
-//                 const response = await fetch('/assets/json/colores.json');
-
-//                 if (!response.ok){
-//                     throw new Error('No se pudieron cargar las telas');
-//                 }
-
-//                 const data = await response.json();
-//                 const telasProcesadas = data.telas.map(tela => ({ ...tela,
-//                     colores: tela.colores.map(color => {
-//                         const { img, ...rest } = color;
-//                         return rest;
-//                     })
-//                 }));
-
-//                 setTelas(telasProcesadas);
-//                 setLoading(false);
-//             } catch (err) {
-//                 setError(err.message);
-//                 setLoading(false);
-//             }
-//         };
-
-//         fetchData();
-//     }, []);
-
-//     if (loading) {
-//         return(
-//             <div className="loading-container">
-//                 <div className="spinner"></div>
-//                 <p>Cargando colores disponibles...</p>
-//             </div>
-//         );
-//     }
-
-//     if (error) {
-//         return (
-//             <div className="error-container">
-//                 <h2>Error al cargar los datos</h2>
-//                 <p>{error}</p>
-//                 <p>Por favor, inténtalo de nuevo más tarde.</p>
-//             </div>
-//         );
-//     }
-
-//     if (!telas.length) {
-//         return (
-//             <div className="no-data">
-//                 <h2>No se encontraron datos de telas</h2>
-//                 <p>No hay telas disponibles para mostrar en este momento.</p>
-//             </div>
-//         );
-//     }
-
-//     const telaActual = telas[telaSeleccionada];
-//     const colorActual = telaActual.colores[colorSeleccionado];
-
-//     return(
-//         <>
-//             <Header/>
-
-//             <main>
-//                 <div className='block-container'>
-//                     <section className='block-content'>
-//                         <div className="colores-content">
-//                             <div className="d-flex-column gap-20">
-//                                 <h2 className='title'>Tipos de tela:</h2>
-//                                 <ul className="tipos-de-tela">
-//                                     {telas.map((tela, index) => (
-//                                         <li>
-//                                             <button key={index} className={`tela-button ${telaSeleccionada === index ? 'active' : ''}`}
-//                                                 onClick={() => {
-//                                                     setTelaSeleccionada(index);
-//                                                     setColorSeleccionado(0);
-//                                                 }}
-//                                             >
-//                                                 <p>{tela.tela}</p>
-//                                                 <span>(colores.length)</span>
-//                                             </button>
-//                                         </li>
-//                                     ))}
-//                                 </ul>
-//                             </div>
-
-//                             <div className="color-display d-flex-column gap-10">
-//                                 <div className="color-preview">
-//                                     {colorActual.original ? (
-//                                         <img src={colorActual.original} alt={`Color ${colorActual.color}`} />
-//                                     ) : (
-//                                         <div className="color-placeholder">
-//                                             <div className="color-box"></div>
-//                                             <p>Imagen no disponible</p>
-//                                         </div>
-//                                     )}
-//                                 </div>
-
-//                                 <div className="color-grid">
-//                                     <div className="colors-container">
-//                                         {telaActual.colores.map((color, index) => (
-//                                             <div key={index} className={`color-item ${colorSeleccionado === index ? 'selected' : ''}`} onClick={() => setColorSeleccionado(index)}>
-//                                                 {color.original ? (
-//                                                     <img src={color.original} alt={color.color} className="color-swatch" />
-//                                                 ) : (
-//                                                     <div className="color-swatch-placeholder"></div>
-//                                                 )}
-//                                                 <p>{color.color}</p>
-//                                             </div>
-//                                         ))}
-//                                     </div>
-//                                 </div>
-//                             </div>
-
-//                             <div className='d-flex-column gap-20'>
-//                                 <div className="d-flex-column gap-10">
-//                                     <h3 className='title'>{telaActual.titulo}:</h3>
-//                                     <p className='text'>{telaActual.descripcion}</p>
-//                                 </div>
-
-//                                 <div className='d-flex-column gap-10'>
-//                                     <p className='title'>Costo adicional</p>
-//                                 </div>
-//                             </div>
-//                         </div>
-//                     </section>
-//                 </div>
-//             </main>
-
-//             <Footer/>
-//         </>
-//     );
-// }
-
-// export default Colores;
-
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet'; // Corregido: Helmet viene de react-helmet
+import { useLocation, useNavigate } from 'react-router-dom'; // Cambiado useHistory por useNavigate
 import './Colores.css';
 import Header from '../../../Componentes/Header/Header';
 import Footer from '../../../Componentes/Footer/Footer';
 
+const DEFAULT_BANNER = 'https://concepto.de/wp-content/uploads/2018/09/Historia-Pintura-Van-Gogh-691x451.jpg';
+
 function Colores(){
-    const [categorias, setCategorias] = useState([]);
-    const [telaSeleccionada, setTelaSeleccionada] = useState({ categoriaIndex: 0, telaIndex: 0 });
-    const [colorSeleccionado, setColorSeleccionado] = useState(0);
+    const location = useLocation();
+    const navigate = useNavigate();
+    const [fabricData, setFabricData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState(null);
+    const [selectedFabric, setSelectedFabric] = useState(null);
+    const [selectedColor, setSelectedColor] = useState(null);
+    const [bannerImage, setBannerImage] = useState(DEFAULT_BANNER);
+    const [fabricInfo, setFabricInfo] = useState(null);
+
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const category = params.get('categoria');
+        const fabric = params.get('tela');
+        const color = params.get('color');
+
+        if (category) setSelectedCategory(category);
+        if (fabric) setSelectedFabric(fabric);
+        if (color) setSelectedColor({ color });
+    }, [location.search]);
 
     useEffect(() => {
         const fetchData = async () => {
-            try{
+            try {
                 const response = await fetch('/assets/json/colores.json');
-
-                if (!response.ok){
-                    throw new Error('No se pudieron cargar las telas');
-                }
-
-                const data = await response.json();
-                
-                // Procesar la nueva estructura JSON
-                const datos = data.telas[0];
-                const categoriasProcesadas = [];
-                
-                // Procesar categoría "plus"
-                if (datos.plus && datos.plus.telas) {
-                    categoriasProcesadas.push({
-                        nombre: 'Plus',
-                        costoAdicional: datos.plus['costo-adicional'],
-                        telas: datos.plus.telas.map(tela => ({
-                            ...tela,
-                            colores: tela.colores.map(color => {
-                                const { img, ...rest } = color;
-                                return rest;
-                            })
-                        }))
-                    });
-                }
-                
-                // Procesar categoría "premium"
-                if (datos.premium && datos.premium.telas) {
-                    categoriasProcesadas.push({
-                        nombre: 'Premium',
-                        costoAdicional: datos.premium['costo-adicional'],
-                        telas: datos.premium.telas.map(tela => ({
-                            ...tela,
-                            colores: tela.colores.map(color => {
-                                const { img, ...rest } = color;
-                                return rest;
-                            })
-                        }))
-                    });
-                }
-
-                if (datos.elite && datos.elite.telas) {
-                    categoriasProcesadas.push({
-                        nombre: 'Elite',
-                        costoAdicional: datos.elite['costo-adicional'],
-                        telas: datos.elite.telas.map(tela => ({
-                            ...tela,
-                            colores: tela.colores.map(color => {
-                                const { img, ...rest } = color;
-                                return rest;
-                            })
-                        }))
-                    });
-                }
-                
-                setCategorias(categoriasProcesadas);
-                setLoading(false);
+                if (!response.ok) throw new Error('Error al cargar datos');
+                setFabricData(await response.json());
             } catch (err) {
                 setError(err.message);
+            } finally {
                 setLoading(false);
             }
         };
@@ -230,131 +46,327 @@ function Colores(){
         fetchData();
     }, []);
 
-    if (loading) {
-        return(
-            <div className="loading-container">
-                <div className="spinner"></div>
-                <p>Cargando colores disponibles...</p>
-            </div>
-        );
-    }
+    useEffect(() => {
+        if (!fabricData) return;
 
-    if (error) {
-        return (
-            <div className="error-container">
-                <h2>Error al cargar los datos</h2>
-                <p>{error}</p>
-                <p>Por favor, inténtalo de nuevo más tarde.</p>
-            </div>
-        );
-    }
+        const params = new URLSearchParams();
+        if (selectedCategory) params.set('categoria', selectedCategory);
+        if (selectedFabric) params.set('tela', selectedFabric);
+        if (selectedColor?.color) params.set('color', selectedColor.color);
 
-    if (!categorias.length) {
-        return (
-            <div className="no-data">
-                <h2>No se encontraron datos de telas</h2>
-                <p>No hay telas disponibles para mostrar en este momento.</p>
-            </div>
-        );
-    }
+        navigate(`?${params.toString()}`, { replace: true });
 
-    const categoriaActual = categorias[telaSeleccionada.categoriaIndex];
-    const telaActual = categoriaActual.telas[telaSeleccionada.telaIndex];
-    const colorActual = telaActual.colores[colorSeleccionado];
+        if (selectedColor?.color && selectedCategory && selectedFabric) {
+            const categoryData = fabricData.telas[0][selectedCategory];
+            const fabric = categoryData?.telas?.find(f => f.tela === selectedFabric);
+
+            if (fabric) {
+                const colorObj = fabric.colores?.find(c => c.color === selectedColor.color);
+                if (colorObj){
+                    setSelectedColor(colorObj);
+                    setBannerImage(colorObj.original);
+                }
+            }
+        }
+    }, [selectedCategory, selectedFabric, selectedColor, fabricData, navigate]);
+
+    useEffect(() => {
+        if (selectedColor && fabricData){
+            setBannerImage(selectedColor.original);
+        } else {
+            setBannerImage(DEFAULT_BANNER);
+        }
+    }, [selectedColor, fabricData]);
+
+    useEffect(() => {
+        if (fabricData && selectedCategory && selectedFabric) {
+            const categoryData = fabricData.telas[0][selectedCategory];
+            const fabric = categoryData?.telas?.find(f => f.tela === selectedFabric);
+
+            if (fabric) {
+                setFabricInfo({
+                    nombre: fabric.tela,
+                    descripcion: fabric.descripcion,
+                    costoAdicional: categoryData['costo-adicional']
+                });
+            }
+        } else {
+            setFabricInfo(null);
+        }
+    }, [fabricData, selectedCategory, selectedFabric]);
+
+    const handleColorSelect = (color) => {
+        setSelectedColor(color);
+    };
+
+    const handleCategorySelect = (category) => {
+        setSelectedCategory(category);
+        setSelectedFabric(null);
+        setSelectedColor(null);
+    };
+
+    const handleFabricSelect = (fabric) => {
+        setSelectedFabric(fabric);
+        setSelectedColor(null);
+    };
+
+    if (loading) return (
+        <div className="loading-container">
+            <div className="spinner"></div>
+            <p>Cargando colores...</p>
+        </div>
+    );
+
+    if (error) return (
+        <div className="error-container">
+            <h2>Error</h2>
+            <p>{error}</p>
+            <button onClick={() => window.location.reload()}>Reintentar</button>
+        </div>
+    );
+
+    if (!fabricData) return null;
+
+    const categories = Object.keys(fabricData.telas[0] || {});
+
+    const getFabricsForCategory = (category) => {
+    return fabricData.telas[0][category]?.telas || [];
+    };
+
+    const getColorsForFabric = (category, fabricType) => {
+        const fabrics = getFabricsForCategory(category);
+        const fabric = fabrics.find(f => f.tela === fabricType);
+        return fabric?.colores || [];
+    };
+
+    const renderAllColors = () => {
+        const categoriesToRender = selectedCategory ? [selectedCategory] : categories;
+
+        return categoriesToRender.map(category => {
+            const fabrics = getFabricsForCategory(category);
+
+            return (
+                <div className="d-flex-column gap-10" key={category}>
+                    <h2 className='block-title d-flex-center-left color-black-0'>Telas {category}</h2>
+
+                    {fabrics.map(fabric => {
+                        if (selectedFabric && selectedFabric !== fabric.tela) return null;
+
+                        return(
+                            <div className="d-flex-column gap-10" key={fabric.tela}>
+                                <h3 className='title text'>{fabric.tela}</h3>
+                                <ul className="colores">
+                                    {fabric.colores.map((color, index) => (
+                                        <li key={index}>
+                                            <button className={`color-item ${selectedColor?.color === color.color ? 'active' : ''}`} onClick={() => handleColorSelect(color)}>
+                                                <img src={color.original} alt={`Color ${color.color}`}/>
+                                                <p>{color.color}</p>
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        );
+                    })}
+                </div>
+            );
+        });
+    };
 
     return(
         <>
-            <Header/>
+            <Helmet>
+                <title>Kamas | Colores</title>
+                <meta name="description" content="Explora nuestra variedad de colores y telas" />
+            </Helmet>
+
+            <Header />
 
             <main>
                 <div className='block-container'>
-                    <section className='block-content'>
-                        <div className="colores-content">
-                            <div className="d-flex-column gap-20">
-                                <h2 className='title'>Categorías:</h2>
-                                <ul className="tipos-de-tela categorias">
-                                    {categorias.map((categoria, catIndex) => (
-                                        <li key={catIndex}>
-                                            <button className={`categoria-button ${telaSeleccionada.categoriaIndex === catIndex ? 'active' : ''}`} onClick={() => {
-                                                    setTelaSeleccionada({
-                                                        categoriaIndex: catIndex, 
-                                                        telaIndex: 0 
-                                                    });
-                                                    setColorSeleccionado(0);
-                                                }}
-                                            >
-                                                <p>{categoria.nombre}</p>
-                                                <span>({categoria.telas.length})</span>
-                                            </button>
-                                        </li>
-                                    ))}
-                                </ul>
-                                
-                                <h2 className='title'>Tipos de tela:</h2>
-                                <ul className="tipos-de-tela">
-                                    {categoriaActual.telas.map((tela, telaIndex) => (
-                                        <li key={telaIndex}>
-                                            <button className={`tela-button ${telaSeleccionada.telaIndex === telaIndex ? 'active' : ''}`} onClick={() => {
-                                                    setTelaSeleccionada(prev => ({
-                                                        ...prev,
-                                                        telaIndex: telaIndex
-                                                    }));
-                                                    setColorSeleccionado(0);
-                                                }}
-                                            >
-                                                <p>{tela.tela}</p>
-                                                <span>({tela.colores.length})</span>
-                                            </button>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-
-                            <div className="color-display d-flex-column gap-10">
-                                <div className="color-preview">
-                                    {colorActual.original ? (
-                                        <img src={colorActual.original} alt={`Color ${colorActual.color}`} className="color-image" />
-                                    ) : (
-                                        <div className="color-placeholder">
-                                            <div className="color-box"></div>
-                                            <p>Imagen no disponible</p>
-                                        </div>
-                                    )}
-                                </div>
-
-                                <div className="color-grid">
-                                    <div className="colors-container">
-                                        {telaActual.colores.map((color, index) => (
-                                            <div key={index} className={`color-item ${colorSeleccionado === index ? 'selected' : ''}`} onClick={() => setColorSeleccionado(index)}>
-                                                {color.original ? (
-                                                    <img src={color.original} alt={color.color} className="color-swatch" />
-                                                ) : (
-                                                    <div className="color-swatch-placeholder"></div>
-                                                )}
-                                                <p>{color.color}</p>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='d-flex-column gap-20'>
-                                <div className="d-flex-column gap-10">
-                                    <h3 className='title'>{telaActual.titulo}:</h3>
-                                    <p className='text'>{telaActual.descripcion}</p>
-                                </div>
-
+                    <section className="block-content">
+                        <div className="page-colors-container">
+                            <div className="telas-category d-flex-column gap-20">
                                 <div className='d-flex-column gap-10'>
-                                    <p className='title'>Costo adicional:</p>
-                                    <span className='text'>S/.{categoriaActual.costoAdicional}.00</span>
+                                    <p className='title'>Categoría de tela:</p>
+                                    <ul className="d-flex d-flex-wrap gap-5">
+                                        {categories.map((category, index) => (
+                                            <li key={index}>
+                                                <button className={selectedCategory === category ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleCategorySelect(category)}>
+                                                    <h2>{category}</h2>
+                                                </button>
+                                            </li>
+                                        ))}
+
+                                        <li>
+                                            <button className={!selectedCategory ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => {
+                                                setSelectedCategory(null);
+                                                setSelectedFabric(null);
+                                                setSelectedColor(null);
+                                            }}>
+                                                <h2>Ver todo</h2>
+                                            </button>
+                                        </li>
+                                    </ul>
                                 </div>
+
+                                {selectedCategory && (
+                                    <div className='d-flex-column gap-10'>
+                                        <p className='title'>Tipos de tela:</p>
+                                        <ul className="d-flex d-flex-wrap gap-5">
+                                            {getFabricsForCategory(selectedCategory).map((fabric, index) => (
+                                                <li key={index}>
+                                                    <button className={selectedFabric === fabric.tela ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleFabricSelect(fabric.tela)} >
+                                                        <h3>{fabric.tela}</h3>
+                                                    </button>
+                                                </li>
+                                            ))}
+
+                                            <li>
+                                                <button className={!selectedFabric ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleFabricSelect(null)} >
+                                                    <h3>Todas las telas</h3>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                )}
+
+                                {selectedFabric && (
+                                    <div className='d-flex-column gap-10'>
+                                        <p className='title'>Colores disponibles:</p>
+                                        <ul className="d-flex d-flex-wrap gap-5">
+                                            {getColorsForFabric(selectedCategory, selectedFabric).map((color, index) => (
+                                                <li key={index}>
+                                                    <button className={selectedColor?.color === color.color ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleColorSelect(color)}>
+                                                        <h2>{color.color}</h2>
+                                                    </button>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
                             </div>
+
+                            <div className="d-flex-column gap-20">
+                                <img src={bannerImage} alt={selectedColor ? `Tela ${selectedFabric} en ${selectedColor.color}` : 'Banner'} className='color-banner' />
+
+                                {renderAllColors()}
+                            </div>
+
+                            {/* {fabricInfo && (
+                                <div className="tela-info d-flex-column gap-20">
+                                    <div className='d-flex-column gap-10'>
+                                        <h3 className='title'>{fabricInfo.nombre}:</h3>
+                                        <p className='text'>{fabricInfo.descripcion}</p>
+                                    </div>
+
+                                    <div className='d-flex-column gap-10'>
+                                        <p className='title'>Costos adicionales:</p>
+
+                                        <table className='costos-adicionales' cellspacing="0">
+                                            <tr>
+                                                <th>
+                                                    <p>Producto</p>
+                                                </th>
+                                                <th>
+                                                    <p>Precio</p>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>Dormitorio</p>
+                                                </td>
+                                                <td>
+                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>Cabecera sola</p>
+                                                </td>
+                                                <td>
+                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>Box - Base sola</p>
+                                                </td>
+                                                <td>
+                                                    <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <p className='text font-13'><b className='color-red'>*</b> Sin importar tamaño o modelo</p>
+                                    </div>
+
+                                    <a href="/busqueda?query=negro">Ver productos relacionados</a>
+                                </div>
+                            )} */}
+
+
+                            {fabricInfo && (
+                                <div className="tela-info d-flex-column gap-20">
+                                    <div className='d-flex-column gap-10'>
+                                        <h3 className='title'>{fabricInfo.nombre}:</h3>
+                                        <p className='text'>{fabricInfo.descripcion}</p>
+                                    </div>
+
+                                    <div className='d-flex-column gap-10'>
+                                        <p className='title'>Costos adicionales:</p>
+
+                                        <table className='costos-adicionales' cellSpacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <p>Producto</p>
+                                                    </th>
+                                                    <th>
+                                                        <p>Precio</p>
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Dormitorio</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Cabecera sola</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Box - Base sola</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>S/.{fabricInfo.costoAdicional}.00</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <p className='text font-13'><b className='color-red'>*</b> Sin importar tamaño o modelo</p>
+                                    </div>
+
+                                    <a href={`/busqueda?query=${selectedColor ? encodeURIComponent(selectedColor.color) : ''}`} title='Ver productos relacionados' className={`button-link button-link-2 see-ship-products ${selectedColor ? 'active' : ''}`}>
+                                        <p className='button-link-text'>Ver productos relacionados</p>
+                                    </a>
+                                </div>
+                            )}
                         </div>
                     </section>
                 </div>
             </main>
 
-            <Footer/>
+            <Footer />
         </>
     );
 }

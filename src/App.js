@@ -122,6 +122,7 @@ function App(){
                     <Route path="*" element={<Error404/>}/>
 
                     <Route path="/vendedores/colores/" element={<Colores/>} />
+                    {/* <Route path="/colores/:categoriaIndex?/:telaIndex?/:colorIndex?" element={<Colores />} /> */}
                 </Routes>
             </Router>
         </HelmetProvider>
