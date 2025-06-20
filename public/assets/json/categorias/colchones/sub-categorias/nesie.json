@@ -177,11 +177,11 @@
             "descripcion":[
                 {
                     "resortes": "17 filas en forma vertical",
+                    "material-de-resorte": "Acero templado",
                     "tela": "Tela jacquard",
                     "sistema": "Clásico",
                     "refuerzos": "Centrales y laterales",
                     "densidad-de-la-espuma": "20kg/m3",
-                    "resortes": "Acero templado",
                     "grosor": "30cm",
                     "tipo-de-uso": "Ambos lados",
                     "soporte-de-peso": "95kg. por persona",
@@ -200,7 +200,7 @@
             "precioNormal": 1469,
             "precioVenta": 1149,
             "stock": 99,
-            "sku": "K134N10",
+            "sku": "K144N10",
             "regalos":[
                 {
                     "texto": "2 almohadas",
