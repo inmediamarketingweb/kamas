@@ -200,4 +200,15 @@
     .colores{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .color-banner-container div{
+        width: calc(100% - 20px);
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 10px;
+    }
+
+    .color-banner-container div p{
+        font-size: 13px;
+    }
 }

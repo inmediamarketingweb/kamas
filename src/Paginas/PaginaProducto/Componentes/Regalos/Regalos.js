@@ -26,7 +26,7 @@ function Regalos({ producto }) {
 
     return (
         <div className="product-page-gifts">
-            <h2 className="title">Te regalamos:</h2>
+            <h2 className="title">Regalos:</h2>
 
             <ul>
                 {listaDeRegalos.map(item => (
