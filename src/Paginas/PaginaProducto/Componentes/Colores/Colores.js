@@ -98,12 +98,8 @@ function Colores({ onSelectColor }) {
                             <ul className="product-page-colors-fabrics d-flex-column gap-5">
                                 {telas.map((tela, index) => (
                                     <li key={index}>
-                                        <button 
-                                            type="button" 
-                                            className={index === activeTelaIndex ? 'active' : ''} 
-                                            onClick={() => setActiveTelaIndex(index)}
-                                        >
-                                            <span className="modal-color-categoria">{tela.categoria}</span>
+                                        <button type="button" className={index === activeTelaIndex ? 'active' : ''} onClick={() => setActiveTelaIndex(index)}>
+                                            {/* <span className="modal-color-categoria">{tela.categoria}</span> */}
                                             <p className="text">{tela.tela}</p>
                                         </button>
                                     </li>
