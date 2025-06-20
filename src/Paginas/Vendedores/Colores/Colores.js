@@ -202,7 +202,7 @@ function Colores(){
                                     {fabric.colores.map((color, index) => (
                                         <li key={index}>
                                             <button className={`color-item ${selectedColor?.color === color.color ? 'active' : ''}`} onClick={() => handleColorSelect(color, category, fabric.tela)}>
-                                                <img src={color.original} alt={`Color ${color.color}`}/>
+                                                <img src={color.img} alt={`Color ${color.color}`}/>
                                                 <p>{color.color}</p>
                                             </button>
                                         </li>
