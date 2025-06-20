@@ -80,6 +80,7 @@ function Colores({ onSelectColor }) {
                         <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/antifluidos/beige-oscuro.webp' alt='Beige oscuro'/></li>
                         <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/tejido/beige.webp' alt='Beige'/></li>
                     </ul>
+
                     <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>
                 </div>
             </div>

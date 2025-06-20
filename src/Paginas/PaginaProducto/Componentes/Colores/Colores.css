@@ -133,6 +133,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
 }
 
 .product-page-colors-results li{
@@ -143,7 +144,7 @@
 
 .product-page-colors-results li button{
     position: relative;
-    padding: 5px;
+    /* padding: 5px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,22 +159,20 @@
     background: rgba(0 0 0 / 0.05);
 }
 
-.product-page-colors-results li button.active{
-    border: 2px solid var(--color-2);
-}
-
 .product-page-colors-results li button::before{
     content: '✔';
     position: absolute;
-    left: 10px;
+    right: 10px;
     top: 10px;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
+    font-size: 14px !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--t-200ms-linear);
     border-radius: 100%;
-    background: var(--color-2);
+    background: var(--color-1);
     color: var(--white);
 
     opacity: 0;
@@ -192,6 +191,23 @@
     height: auto;
     object-fit: cover;
     border-radius: 4px;
+}
+
+.product-page-colors-results li button p{
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    padding: 3px 6px;
+    background: var(--white);
+    color: var(--text);
+    font-size: 13px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.product-page-colors-results li button p::first-letter{
+    text-transform: uppercase;
 }
 
 .product-page-colors-layer{
@@ -244,37 +260,25 @@
         margin-right: -15px;
     }
 
-    .product-page-colors-content{
-        width: calc(100% - 40px);
-        height: 380px;
+    .product-page-colors-content section > div:nth-child(2){
+        grid-template-columns: 1fr;
     }
 
     .product-page-colors-fabrics{
+        flex-wrap: wrap !important;
         flex-direction: row !important;
-        flex-wrap: wrap;
-    }
-
-    .product-page-colors-fabrics li{
-        width: auto;
     }
 
     .product-page-colors-fabrics li button{
-        width: auto;
-        height: 40px;
-        padding: 0 12px;
+        min-height: unset;
+        padding: 8px 10px;
+    }
+
+    .product-page-colors-fabrics li button p{
+        font-size: 13px;
     }
 
     .product-page-colors-results{
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .product-page-colors-results li{
-        flex: unset;
-        max-width: unset;
-    }
-
-    .product-page-colors-results li button p{
-        font-size: 14px;
     }
 }
