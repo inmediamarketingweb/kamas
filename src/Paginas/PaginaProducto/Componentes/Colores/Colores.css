@@ -31,36 +31,41 @@
     border: 1px solid var(--white);
 }
 
-/**/
-
 .product-page-colors-content{
     position: fixed;
     left: 50%;
     top: 50%;
     translate: -50% -50%;
     width: calc(100% - 40px);
-    max-width: 1140px;
+    max-width: var(--content-mx-width);
     height: 690px;
     overflow-y: auto;
     padding: 20px;
     background: var(--white);
-    border: 1px solid rgba(0 0 0 / 0.2);
+    border: 1px solid rgba(0 0 0 / 0.25);
     transition: var(--t-200ms-linear);
     border-radius: 6px;
     z-index: 102;
 
+    scale: 0.95;
     opacity: 0;
     pointer-events: none;
     user-select: none;
 }
 
 .product-page-colors-content.active{
+    scale: 1;
     opacity: 1;
     pointer-events: unset;
     user-select: unset;
 }
 
-/**/
+.product-page-colors-content section > div:nth-child(2){
+    /* background: red; */
+    display: grid;
+    grid-template-columns: 360px auto 280px;
+    gap: 20px;
+}
 
 .product-page-colors-content-button-close{
     display: flex;
@@ -76,15 +81,12 @@
     color: var(--text);
 }
 
-/**/
-
 .product-page-colors-fabrics li button{
     display: flex;
     align-items: flex-start;
     justify-content: left;
     flex-direction: column;
     width: 100%;
-    /* height: 48px; */
     padding: 5px 10px;
     border-radius: 4px;
     transition: var(--t-200ms-linear);
@@ -119,17 +121,16 @@
     color: var(--white);
 }
 
-/**/
-
 .product-page-colors{
-    height: 100%;
+    width: auto;
+    /* height: 100%; */
     overflow-y: auto;
 }
 
 .product-page-colors-results{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .product-page-colors-results li{
@@ -191,15 +192,13 @@
     border-radius: 4px;
 }
 
-/**/
-
 .product-page-colors-layer{
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0 0 0 / 0.1);
+    background: rgba(0 0 0 / 0.2);
     backdrop-filter: blur(2px);
     z-index: 101;
 
@@ -217,8 +216,6 @@
 .product-page-colors-button > div > img{
     display: none;
 }
-
-/**/
 
 @media screen and (max-width: 600px){
     .product-page-colors-button{
@@ -245,14 +242,10 @@
         margin-right: -15px;
     }
 
-    /**/
-
     .product-page-colors-content{
         width: calc(100% - 40px);
         height: 380px;
     }
-
-    /**/
 
     .product-page-colors-fabrics{
         flex-direction: row !important;
@@ -268,8 +261,6 @@
         height: 40px;
         padding: 0 12px;
     }
-
-    /**/
 
     .product-page-colors-results{
         display: grid;

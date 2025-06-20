@@ -16,16 +16,27 @@ function Colores({ onSelectColor }) {
             .then((response) => response.json())
             .then((json) => {
                 setData(json);
-
                 const entrada = json?.telas?.[0];
                 const categorias = ['plus', 'premium', 'elite'];
 
                 const todasLasTelas = categorias.flatMap(categoria => {
                     const grupo = entrada?.[categoria];
+                    
+                    let costosAdicionales = [];
+                    
+                    if (grupo && grupo['costos-adicionales'] !== undefined) {
+                        costosAdicionales = grupo['costos-adicionales'];
+                    } else if (grupo && grupo['costo-adicional'] !== undefined) {
+                        costosAdicionales = [{
+                            producto: 'Costo adicional',
+                            'costo-adicional': grupo['costo-adicional']
+                        }];
+                    }
+
                     return grupo?.telas?.map(tela => ({
                         ...tela,
                         categoria,
-                        costoAdicional: grupo['costo-adicional']
+                        costosAdicionales
                     })) || [];
                 });
 
@@ -76,18 +87,22 @@ function Colores({ onSelectColor }) {
             <div className={`product-page-colors-content ${isColorsActive ? 'active' : ''}`}>
                 <section className="d-flex-column gap-20">
                     <div className="d-flex-center-between gap-20">
-                        <p className="title text">Tipos de tela</p>
+                        <p className="block-title text">Colores</p>
                         <button type="button" className="product-page-colors-content-button-close" onClick={() => setIsColorsActive(false)}>
                             <span className="material-icons">close</span>
                         </button>
                     </div>
 
-                    <div className="d-grid-auto-1fr gap-10">
+                    <div>
                         <div className="d-flex-column gap-20">
                             <ul className="product-page-colors-fabrics d-flex-column gap-5">
                                 {telas.map((tela, index) => (
                                     <li key={index}>
-                                        <button type="button" className={index === activeTelaIndex ? 'active' : ''} onClick={() => setActiveTelaIndex(index)}>
+                                        <button 
+                                            type="button" 
+                                            className={index === activeTelaIndex ? 'active' : ''} 
+                                            onClick={() => setActiveTelaIndex(index)}
+                                        >
                                             <span className="modal-color-categoria">{tela.categoria}</span>
                                             <p className="text">{tela.tela}</p>
                                         </button>
@@ -101,14 +116,14 @@ function Colores({ onSelectColor }) {
                                 <ul className="product-page-colors-results">
                                     {activeTela.colores.map((color, index) => (
                                         <li key={index}>
-                                            <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={ () => {
+                                            <button type="button" className={activeColorIndex === index ? 'active' : ''}  onClick={() => {
                                                     setActiveColorIndex(index);
                                                     if (onSelectColor) {
                                                         onSelectColor({
                                                             color: color.color,
                                                             tela: activeTela.tela,
                                                             categoria: activeTela.categoria,
-                                                            costoAdicional: activeTela.costoAdicional
+                                                            costosAdicionales: activeTela.costosAdicionales
                                                         });
                                                     }
                                                 }}
@@ -120,9 +135,39 @@ function Colores({ onSelectColor }) {
                                     ))}
                                 </ul>
                             </div>
+                        </div>
+
+                        <div className='d-flex-column gap-20'>
+                            <div className='d-flex-column gap-10'>
+                                <p className='title'>{activeTela.tela}</p>
+                                <p className='text'>{activeTela.descripcion || 'Descripción de la tela'}</p>
+                            </div>
+
+                            <div className='d-flex-column gap-10'>
+                                <p className='title'>Costos adicionales</p>
+                                
+                                {activeTela.costosAdicionales.length > 0 ? (
+                                    <table className='costos-adicionales' cellSpacing="0">
+                                        <tbody>
+                                            <tr>
+                                                <th><p>Producto</p></th>
+                                                <th><p>Precio</p></th>
+                                            </tr>
+                                            {activeTela.costosAdicionales.map((costo, index) => (
+                                                <tr key={index}>
+                                                    <td><p>{costo.producto}</p></td>
+                                                    <td><p>S/.{costo['costo-adicional']}.00</p></td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                ) : (
+                                    <p className="text">Sin costos adicionales.</p>
+                                )}
+                            </div>
 
                             {activeColorIndex !== null && (
-                                <button type="button" className="button-link button-link-2 margin-left" onClick={() => setIsColorsActive(false)} >
+                                <button type="button" className="button-link button-link-2 margin-left" onClick={() => setIsColorsActive(false)}>
                                     <span className="material-icons">check</span>
                                     <p className="button-link-text">Confirmar</p>
                                 </button>

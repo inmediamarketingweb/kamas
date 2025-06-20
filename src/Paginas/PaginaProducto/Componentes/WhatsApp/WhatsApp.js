@@ -28,18 +28,15 @@ function WhatsApp({producto, selectedShipping, shippingInfo, selectedColor, quan
         return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
 
-    // Get values with correct localStorage key
     const userName = localStorage.getItem('nombre') || '';
     const district = shippingInfo?.locationData?.distrito || '';
     const headquarters = shippingInfo?.selectedAgency || shippingInfo?.selectedSede || '';
     
-    // Check both conditions
     const hasRequiredFields = Boolean(
         userName.trim() && 
         (district.trim() || headquarters.trim())
     );
 
-    // Build class list
     const buttonClasses = [
         'product-page-whatsapp',
         hasRequiredFields && 'active',
