@@ -24,7 +24,7 @@ function Colores(){
     useEffect(() => {
         if (window.innerWidth < 600 && selectedColor) {
             window.scrollTo({
-                top: 531,
+                top: 272,
                 behavior: 'smooth'
             });
         }
