@@ -145,7 +145,7 @@ function Productos(){
                                         const productosAleatorios = shuffleArray([...productos]).slice(0, 8);
 
                                         return (
-                                            <li key={categoria.id} className="products-page-target">
+                                            <li key={categoria.sku} className="products-page-target">
                                                 <div className='d-flex-column gap-20'>
                                                     <div className='d-flex-column gap-10'>
                                                         <p className='title'>{categoria.categoria}</p>
