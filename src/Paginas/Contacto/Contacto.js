@@ -44,29 +44,31 @@ function Contacto(){
 
                                 <div className="d-flex-column gap-10">
                                     <p className="title">Canales de atención</p>
-                                    <ul className="d-flex-column">
-                                        <li>
-                                            <img src="/" alt="" />
+                                    <ul className="d-flex-center-left gap-10">
+                                        <li className="button-icon button-icon-1">
+                                            <img src="/assets/imagenes/iconos/telefono-blanco.svg" alt="" />
                                         </li>
-                                        <li>
-                                            <a href="tel: +51917013610" title="Teléfono | Kamas" className="">
-                                                <p>917013610</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="+51943469911" title="Teléfono | Kamas" className="">
-                                                <p>943469911</p>
-                                            </a>
+                                        <li className="d-flex-column gap-10">
+                                            <div>
+                                                <a href="tel: +51917013610" title="Teléfono | Kamas" className="">
+                                                    <p className="text">917013610</p>
+                                                </a>
+                                            </div>
+                                            <div>
+                                                <a href="tel: +51943469911" title="Teléfono | Kamas" className="">
+                                                    <p className="text">943469911</p>
+                                                </a>
+                                            </div>
                                         </li>
                                     </ul>
 
-                                    <ul className="d-flex-column">
-                                        <li>
-                                            <img src="/" alt="" />
+                                    <ul className="d-flex-center-left gap-10">
+                                        <li className="button-icon button-icon-1">
+                                            <img src="/assets/imagenes/iconos/correo-blanco.svg" alt="" />
                                         </li>
                                         <li>
-                                            <a href="/" title="" className="">
-                                                <p>consultas@kamas.pe</p>
+                                            <a href="mailto: consultas@kamas.pe" title="" className="">
+                                                <p className="text">consultas@kamas.pe</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -75,28 +77,28 @@ function Contacto(){
                                 <div className="d-flex-column gap-20">
                                     <p className="title">Siguenos</p>
 
-                                    <ul className="social-networks">
+                                    <ul className="contact-social-networks">
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
-                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
+                                            <a href="https://www.facebook.com/KAMAS.pe" target="_blank" rel="noopener noreferrer" title="Facebook | Kamas">
+                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="facebook"/>
                                                 <p>Facebook</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
-                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
+                                            <a href="https://www.instagram.com/kamas.pe/" target="_blank" rel="noopener noreferrer" title="Instagram | Kamas">
+                                                <img src="/assets/imagenes/iconos/instagram-blanco.svg" alt="instagram"/>
                                                 <p>Instagram</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
-                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
+                                            <a href="https://www.tiktok.com/@kamas.pe" target="_blank" rel="noopener noreferrer" title="Tik tok| Kamas">
+                                                <img src="/assets/imagenes/iconos/tiktok-blanco.svg" alt="tik tok"/>
                                                 <p>Tik Tok</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
-                                                <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
+                                            <a href="https://www.youtube.com/@Kamas_Peru" target="_blank" rel="noopener noreferrer" title="Facebook | Kamas">
+                                                <img src="/assets/imagenes/iconos/youtube-blanco.svg" alt="youtube"/>
                                                 <p>You Tube</p>
                                             </a>
                                         </li>

@@ -37,18 +37,15 @@
     --t-400ms-linear: all 400ms linear;
 }
 
-/**/
-
 @font-face{
     font-family: 'DM Sans';
     src: url('../public/assets/fonts/DM_Sans/DMSans.ttf') format('truetype');
     font-display: swap;
 }
 
-/**/
-
 body{
     background: var(--body);
+    transition: var(--t-200ms-linear);
 }
 
 body::-webkit-scrollbar{
@@ -56,15 +53,11 @@ body::-webkit-scrollbar{
     transition: all 200ms linear;
 }
 
-/**/
-
 main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     margin-top: 150px;
 }
-
-/**/
 
 .block-container{
     width: 100%;
@@ -114,8 +107,6 @@ main{
     background: var(--color-1);
 }
 
-/**/
-
 fieldset{
     border: 0;
     outline: 0;
@@ -129,16 +120,12 @@ option{
     cursor: pointer;
 }
 
-/**/
-
 .page-banner-img{
     width: 100%;
     height: auto;
     object-fit: contain;
     border-radius: 6px;
 }
-
-/**/
 
 button{
     width: auto;
@@ -147,8 +134,6 @@ button{
     background: none;
     outline: 0;
 }
-
-/**/
 
 .font-13{
     font-size: 13px !important;
@@ -191,8 +176,6 @@ button{
 .first-uppercase::first-letter{
     text-transform: uppercase;
 }
-
-/**/
 
 .d-flex{
     display: flex;
@@ -247,13 +230,9 @@ button{
     flex-wrap: wrap;
 }
 
-/**/
-
 .w-100{
     width: 100%;
 }
-
-/**/
 
 .d-grid-2-1fr{
     display: grid;
@@ -293,8 +272,6 @@ button{
     grid-column: 2/3;
 }
 
-/**/
-
 .margin-auto{
     margin: auto;
 }
@@ -315,13 +292,9 @@ button{
     margin-bottom: auto;
 }
 
-/**/
-
 .padding-right-20-to-0{
     padding-right: 20px;
 }
-
-/**/
 
 .gap-5{
     gap: 5px;
@@ -335,13 +308,10 @@ button{
     gap: 20px;
 }
 
-/**/
-
 .text-center{
     text-align: center;
 }
 
-/**/
 
 .button-link{
     display: flex;
@@ -408,7 +378,27 @@ button{
     color: var(--color-2);
 }
 
-/**/
+.button-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    transition: var(--t-200ms-linear);
+}
+
+.button-icon img{
+    display: flex;
+    width: 20px;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.button-icon-1{
+    background: var(--color-1);
+}
 
 .product-card{
     width: 100%;
