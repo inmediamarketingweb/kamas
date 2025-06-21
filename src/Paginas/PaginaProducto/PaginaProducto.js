@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
 
+import SpinnerLoading from '../../Componentes/SpinnerLoading/SpinnerLoading';
 import Jerarquia from './Componentes/Jerarquia/Jerarquia';
 import Sku from './Componentes/Sku/Sku';
 import Imagenes from './Componentes/Imagenes/Imagenes';
@@ -115,7 +116,9 @@ function PaginaProducto(){
     }
 
     if (!producto){
-        return <p>Cargando información del producto...</p>;
+        return(
+            <SpinnerLoading/>
+        );
     }
 
     const handleContinuarClick = (e) => {
@@ -159,7 +162,6 @@ function PaginaProducto(){
             "availability": producto.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock"
         }
     };
-
 
     return(
         <>

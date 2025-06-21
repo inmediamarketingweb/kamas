@@ -74,11 +74,11 @@ function Colores({ onSelectColor }) {
                 <div className="d-flex-column gap-5">
                     <p className="text title text-center">+40 colores</p>
                     <ul className="product-page-colors-button-miniatures">
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/acero.webp' alt='Acero'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-durazno/azul-noche.webp' alt='Azul noche'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/iker/gris-raton.webp' alt='Gris ratón'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/antifluidos/beige-oscuro.webp' alt='Beige oscuro'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/tejido/beige.webp' alt='Beige'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/thumb/acero.webp' alt='Acero'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/premium/piel-de-durazno/thumb/azul-noche.webp' alt='Azul noche'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/iker/thumb/gris-raton.webp' alt='Gris ratón'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/elite/antifluidos/thumb/beige-oscuro.webp' alt='Beige oscuro'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/elite/tejido/thumb/beige.webp' alt='Beige'/></li>
                     </ul>
 
                     <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>

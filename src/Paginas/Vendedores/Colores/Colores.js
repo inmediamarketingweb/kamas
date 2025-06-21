@@ -4,6 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import './Colores.css';
 
+import SpinnerLoading from '../../../Componentes/SpinnerLoading/SpinnerLoading';
 import Header from '../../../Componentes/Header/Header';
 import Footer from '../../../Componentes/Footer/Footer';
 
@@ -154,18 +155,7 @@ function Colores(){
     };
 
     if (loading) return (
-        <div className="loading-container">
-            <div className="spinner"></div>
-            <p>Cargando colores...</p>
-        </div>
-    );
-
-    if (error) return (
-        <div className="error-container">
-            <h2>Error</h2>
-            <p>{error}</p>
-            <button onClick={() => window.location.reload()}>Reintentar</button>
-        </div>
+        <SpinnerLoading/>
     );
 
     if (!fabricData) return null;
