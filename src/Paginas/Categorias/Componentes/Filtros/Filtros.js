@@ -56,8 +56,8 @@ function Filtros({ productos, setProductosFiltrados, filtersActive, onClose }){
 
     useEffect(() => {
         if (productos && productos.length > 0) {
-            const precios = productos.map((producto) =>
-                producto.precioVenta || producto.precioNormal || producto.precioRegular || 0
+            const precios = productos.map(
+                (producto) => producto.precioVenta || producto.precioNormal || producto.precioRegular || 0
             );
             const minPrice = Math.min(...precios);
             const maxPrice = Math.max(...precios);
@@ -77,6 +77,7 @@ function Filtros({ productos, setProductosFiltrados, filtersActive, onClose }){
                     )
                 )
             );
+
             const rango = rangosDePrecio.find((r) => r.id === rangoSeleccionado);
             const cumpleRangoPrecio = rango ? producto.precioVenta >= rango.min && producto.precioVenta <= rango.max : true;
             const cumplePrecio = producto.precioVenta >= rangoPrecios[0] && producto.precioVenta <= precioMaximo;

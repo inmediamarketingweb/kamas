@@ -395,11 +395,17 @@ button{
 }
 
 .button-link-3:hover{
-    background: rgba(0 0 0 / 0.075);
+    background: rgba(173 51 98 / 0.1);
 }
 
-.button-link-3 .button-link-text{
+.button-link-3 .button-link-text,
+.button-link-3 span{
     color: var(--text);
+}
+
+.button-link-3:hover .button-link-text,
+.button-link-3:hover span{
+    color: var(--color-2);
 }
 
 /**/

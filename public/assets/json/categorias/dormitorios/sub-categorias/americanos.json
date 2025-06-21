@@ -1823,6 +1823,10 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos//regalos/cojines/rosado.webp"
+                },
+                {
                     "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
@@ -25303,7 +25307,7 @@
                 },
                 {
                     "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/melon.webp"
+                    "foto": "/assets/imagenes/productos/regalos/cojines/melon-2.webp"
                 }
             ],
             "resumen-del-producto":[
