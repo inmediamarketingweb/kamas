@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
+import { Helmet } from 'react-helmet';
+
+import "./Favoritos.css";
 
 import Header from "../../Componentes/Header/Header";
 import Footer from "../../Componentes/Footer/Footer";
-
-import "./Favoritos.css";
 
 function Favoritos(){
     const [favoritos, setFavoritos] = useState([]);
@@ -29,7 +29,10 @@ function Favoritos(){
 
     return(
         <>
-            <title>Mis favoritos | Kamas</title>
+            <Helmet>
+                <title>Mis favoritos | Kamas</title>
+                <meta name="description" content='Guarda tus productos favoritos de KAMAS en tu navegador.'/>
+            </Helmet>
 
             <Header/>
 
@@ -40,11 +43,11 @@ function Favoritos(){
                             <h2 className="block-title">Mis favoritos</h2>
                         </div>
 
-                        <div className="favorites-container">
+                        <div className="favorites-container d-flex-column gap-20">
                             {favoritos.length > 0 ? (
                                 <ul className="favorites-products">
                                     {favoritos.map((producto) => (
-                                        <li key={uuidv4()}>
+                                        <li key={producto.sku}>
                                             <div className="product-card">
                                                 <div className="product-card-images">
                                                     <button type="button" className="remove-favorite" onClick={() => removeFavorite(producto)} title="Eliminar de favoritos">
@@ -70,7 +73,13 @@ function Favoritos(){
                             ) : (
                                 <p>No tienes productos en favoritos.</p>
                             )}
-                            <a href="/">Volver a la tienda</a>
+
+                            <div className="d-flex-center-right">
+                                <a href="https://kamas.pe/" title="Inicio | Kamas" className="button-link button-link-2">
+                                    <span class="material-icons">home</span>
+                                    <p className="button-link-text">Volver al inicio</p>
+                                </a>    
+                            </div>    
                         </div>
                     </section>
                 </div>
