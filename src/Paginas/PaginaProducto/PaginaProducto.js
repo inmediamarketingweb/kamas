@@ -155,6 +155,11 @@ function PaginaProducto(){
             "@type": "Brand",
             "name": "Kamas"
         },
+          "aggregateRating":{
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "99"
+        },
         "offers": {
             "@type": "Offer",
             "url": `https://kamas.pe${producto.ruta}`,
@@ -180,6 +185,7 @@ function PaginaProducto(){
                 <meta property="og:description" content={producto.nombre}/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content={`https://kamas.pe${producto.ruta}`}/>
+                <link rel="canonical" href={`https://kamas.pe${producto.ruta}`} />
 
                 <script type="application/ld+json">{JSON.stringify(productSchema)}</script>
             </Helmet>
