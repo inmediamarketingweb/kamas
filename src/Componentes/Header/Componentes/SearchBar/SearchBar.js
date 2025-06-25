@@ -69,18 +69,39 @@ function SearchBar() {
         setSearchTerm(e.target.value);
     };
 
-    const normalizeStr = (str = '') =>
-        str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+    const normalizeStr = (str = '') => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
-    const filteredProductos = productos.filter((producto) => {
-        if (!searchTerm) return true;
-        const tokens = normalizeStr(searchTerm).split(' ').filter(Boolean);
-        const fields = [ producto.nombre, producto.sku, producto.categoria, producto.subcategoria ].map(String).map(normalizeStr);
+    let filteredProductos = [];
 
-        return tokens.every(token =>
-            fields.some(field => field.includes(token))
+    if (searchTerm.trim() !== ''){
+        const normalizedSearchTerm = normalizeStr(searchTerm);
+        const searchTermWithoutSpaces = normalizedSearchTerm.replace(/\s/g, '');
+
+        // 1. Priorizar coincidencia EXACTA de SKU (ignorando espacios)
+        const exactSkuMatch = productos.find(p => 
+            normalizeStr(p.sku).replace(/\s/g, '') === searchTermWithoutSpaces
         );
-    });
+
+        if (exactSkuMatch) {
+            filteredProductos = [exactSkuMatch];
+        } 
+        // 2. Si no hay match exacto, buscar por tokens
+        else {
+            const tokens = normalizedSearchTerm.split(' ').filter(Boolean);
+            filteredProductos = productos.filter(producto => {
+                const fields = [
+                    producto.nombre, 
+                    producto.sku, 
+                    producto.categoria, 
+                    producto.subcategoria
+                ].map(String).map(normalizeStr);
+
+                return tokens.every(token => 
+                    fields.some(field => field.includes(token))
+                );
+            });
+        }
+    }
 
     const handleKeyDown = (e) => {
         if (e.key === 'Enter') {
