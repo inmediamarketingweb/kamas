@@ -261,10 +261,12 @@ function PaginaProducto(){
                                             {!selectedColor ? (
                                                 <p className='d-flex gap-5'><b className='color-red'>*</b>Sin variación de color</p>
                                             ) : (
-                                                <div className='d-flex gap-5'>
+                                                <div className='d-flex-column gap-5'>
                                                     <p className='bold color-black d-flex gap-5'><b className='color-red'>*</b>Color seleccionado:</p>
-                                                    <span>{selectedColor.color}</span>
-                                                    <img src={selectedColor.img} alt={selectedColor.color} />
+                                                    <div className='d-flex-center-left gap-5'>
+                                                        <span className='first-uppercase'>{selectedColor.color}</span>
+                                                        <img width={26} height={18} src={selectedColor.img} alt={selectedColor.color} loading="lazy" style={{ borderRadius: '10%' }} />
+                                                    </div>
                                                 </div>
                                             )}
                                         </div>

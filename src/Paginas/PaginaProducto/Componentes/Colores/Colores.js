@@ -4,7 +4,7 @@ import './Colores.css';
 
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 
-function Colores({ onSelectColor }) {
+function Colores({ onSelectColor }){
     const [data, setData] = useState(null);
     const [telas, setTelas] = useState([]);
     const [activeTelaIndex, setActiveTelaIndex] = useState(0);
@@ -82,7 +82,7 @@ function Colores({ onSelectColor }) {
 
     const activeTela = telas[activeTelaIndex];
 
-    return (
+    return(
         <>
             <div className="product-page-colors-button" onClick={() => setIsColorsActive(true)}>
                 <div className="d-flex-column gap-5">
@@ -113,11 +113,7 @@ function Colores({ onSelectColor }) {
                             <ul className="product-page-colors-fabrics d-flex-column gap-5">
                                 {telas.map((tela, index) => (
                                     <li key={`${index}-${tela.tela}`}>
-                                        <button 
-                                            type="button" 
-                                            className={index === activeTelaIndex ? 'active' : ''} 
-                                            onClick={() => setActiveTelaIndex(index)}
-                                        >
+                                        <button type="button" className={index === activeTelaIndex ? 'active' : ''} onClick={() => setActiveTelaIndex(index)}>
                                             <p className="text">{tela.tela}</p>
                                         </button>
                                     </li>
@@ -130,10 +126,7 @@ function Colores({ onSelectColor }) {
                                 <ul className="product-page-colors-results">
                                     {activeTela.colores.map((color, index) => (
                                         <li key={`${activeTela.tela}-${index}-${color.color}`}>
-                                            <button 
-                                                type="button" 
-                                                className={activeColorIndex === index ? 'active' : ''}  
-                                                onClick={() => {
+                                            <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => {
                                                     setActiveColorIndex(index);
                                                     if (onSelectColor) {
                                                         onSelectColor({
@@ -146,12 +139,7 @@ function Colores({ onSelectColor }) {
                                                     }
                                                 }}
                                             >
-                                                <LazyImage 
-                                                    width={isSmallScreen ? 90 : 137} 
-                                                    height={isSmallScreen ? 50 : 70} 
-                                                    src={color.img} 
-                                                    alt={color.color} 
-                                                />
+                                                <LazyImage width={isSmallScreen ? 90 : 137} height={isSmallScreen ? 50 : 70} src={color.img} alt={color.color}/>
                                                 <p className="text">{color.color}</p>
                                             </button>
                                         </li>
@@ -167,7 +155,7 @@ function Colores({ onSelectColor }) {
                             </div>
 
                             <div className='d-flex-column gap-10'>
-                                <p className='title'>Costos adicionales</p>
+                                <p className='title'>Costos adicionales:</p>
                                 
                                 {activeTela.costosAdicionales.length > 0 ? (
                                     <table className='costos-adicionales' cellSpacing="0">
@@ -190,11 +178,7 @@ function Colores({ onSelectColor }) {
                             </div>
 
                             {activeColorIndex !== null && (
-                                <button 
-                                    type="button" 
-                                    className="button-link button-link-2 margin-left" 
-                                    onClick={() => setIsColorsActive(false)}
-                                >
+                                <button type="button" className="button-link button-link-2 margin-left" onClick={() => setIsColorsActive(false)}>
                                     <span className="material-icons">check</span>
                                     <p className="button-link-text">Confirmar</p>
                                 </button>
