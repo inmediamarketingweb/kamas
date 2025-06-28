@@ -4,23 +4,32 @@ import './Colores.css';
 
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 
-function Colores({ onSelectColor }) {
+function Colores({ onSelectColor }){
     const [data, setData] = useState(null);
     const [telas, setTelas] = useState([]);
     const [activeTelaIndex, setActiveTelaIndex] = useState(0);
     const [isColorsActive, setIsColorsActive] = useState(false);
     const [activeColorIndex, setActiveColorIndex] = useState(null);
+    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
 
     useEffect(() => {
         fetch('/assets/json/colores.json')
-            .then((response) => response.json())
+            .then((response) => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
             .then((json) => {
                 setData(json);
-                const entrada = json?.telas?.[0];
-                const categorias = ['plus', 'premium', 'elite'];
-
-                const todasLasTelas = categorias.flatMap(categoria => {
-                    const grupo = entrada?.[categoria];
+                const lineasObj = json?.telas?.[0];
+                
+                if (!lineasObj) {
+                    setTelas([]);
+                    return;
+                }
+                
+                const categoriasKeys = Object.keys(lineasObj);
+                const todasLasTelas = categoriasKeys.flatMap(categoriaKey => {
+                    const grupo = lineasObj[categoriaKey];
                     
                     let costosAdicionales = [];
                     
@@ -35,14 +44,17 @@ function Colores({ onSelectColor }) {
 
                     return grupo?.telas?.map(tela => ({
                         ...tela,
-                        categoria,
+                        categoria: categoriaKey,
                         costosAdicionales
                     })) || [];
                 });
 
                 setTelas(todasLasTelas);
             })
-            .catch((error) => console.error('Error al obtener el JSON:', error));
+            .catch((error) => {
+                console.error('Error al obtener el JSON:', error);
+                setTelas([]);
+            });
     }, []);
 
     useEffect(() => {
@@ -52,8 +64,6 @@ function Colores({ onSelectColor }) {
         }
     }, [activeTelaIndex, onSelectColor]);
 
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
-
     useEffect(() => {
         const handleResize = () => {
             setIsSmallScreen(window.innerWidth < 600);
@@ -62,23 +72,27 @@ function Colores({ onSelectColor }) {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    if (!data || telas.length === 0) {
-        return <div>Cargando...</div>;
+    if (!data) {
+        return <div>Cargando colores...</div>;
+    }
+
+    if (telas.length === 0) {
+        return <div>No hay colores disponibles</div>;
     }
 
     const activeTela = telas[activeTelaIndex];
 
-    return (
+    return(
         <>
             <div className="product-page-colors-button" onClick={() => setIsColorsActive(true)}>
                 <div className="d-flex-column gap-5">
-                    <p className="text title text-center">+40 colores</p>
+                    <p className="text title text-center">+80 colores</p>
                     <ul className="product-page-colors-button-miniatures">
                         <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/thumb/acero.webp' alt='Acero'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/premium/piel-de-durazno/thumb/azul-noche.webp' alt='Azul noche'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/thumb/rojo.webp' alt='Azul noche'/></li>
                         <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/iker/thumb/gris-raton.webp' alt='Gris ratón'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/elite/antifluidos/thumb/beige-oscuro.webp' alt='Beige oscuro'/></li>
-                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/elite/tejido/thumb/beige.webp' alt='Beige'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/thumb/amarillo.webp' alt='Amarillo'/></li>
+                        <li><LazyImage width={20} height={20} src='/assets/imagenes/colores/plus/piel-de-potro/thumb/lila.webp' alt='Lila'/></li>
                     </ul>
 
                     <LazyImage width={28} height={28} src="/assets/imagenes/colores/circulo-cromatico.png" alt="Circulo cromatico"/>
@@ -98,9 +112,8 @@ function Colores({ onSelectColor }) {
                         <div className="d-flex-column gap-20">
                             <ul className="product-page-colors-fabrics d-flex-column gap-5">
                                 {telas.map((tela, index) => (
-                                    <li key={index}>
+                                    <li key={`${index}-${tela.tela}`}>
                                         <button type="button" className={index === activeTelaIndex ? 'active' : ''} onClick={() => setActiveTelaIndex(index)}>
-                                            {/* <span className="modal-color-categoria">{tela.categoria}</span> */}
                                             <p className="text">{tela.tela}</p>
                                         </button>
                                     </li>
@@ -112,12 +125,13 @@ function Colores({ onSelectColor }) {
                             <div className="product-page-colors">
                                 <ul className="product-page-colors-results">
                                     {activeTela.colores.map((color, index) => (
-                                        <li key={index}>
-                                            <button type="button" className={activeColorIndex === index ? 'active' : ''}  onClick={() => {
+                                        <li key={`${activeTela.tela}-${index}-${color.color}`}>
+                                            <button type="button" className={activeColorIndex === index ? 'active' : ''} onClick={() => {
                                                     setActiveColorIndex(index);
                                                     if (onSelectColor) {
                                                         onSelectColor({
                                                             color: color.color,
+                                                            img: color.img,
                                                             tela: activeTela.tela,
                                                             categoria: activeTela.categoria,
                                                             costosAdicionales: activeTela.costosAdicionales
@@ -125,7 +139,7 @@ function Colores({ onSelectColor }) {
                                                     }
                                                 }}
                                             >
-                                                <LazyImage width={isSmallScreen ? 90 : 137} height={isSmallScreen ? 50 : 70} src={color.img} alt={color.color} />
+                                                <LazyImage width={isSmallScreen ? 90 : 137} height={isSmallScreen ? 50 : 70} src={color.img} alt={color.color}/>
                                                 <p className="text">{color.color}</p>
                                             </button>
                                         </li>
@@ -141,7 +155,7 @@ function Colores({ onSelectColor }) {
                             </div>
 
                             <div className='d-flex-column gap-10'>
-                                <p className='title'>Costos adicionales</p>
+                                <p className='title'>Costos adicionales:</p>
                                 
                                 {activeTela.costosAdicionales.length > 0 ? (
                                     <table className='costos-adicionales' cellSpacing="0">
@@ -151,7 +165,7 @@ function Colores({ onSelectColor }) {
                                                 <th><p>Precio</p></th>
                                             </tr>
                                             {activeTela.costosAdicionales.map((costo, index) => (
-                                                <tr key={index}>
+                                                <tr key={`${activeTela.tela}-costo-${index}`}>
                                                     <td><p>{costo.producto}</p></td>
                                                     <td><p>S/.{costo['costo-adicional']}.00</p></td>
                                                 </tr>
