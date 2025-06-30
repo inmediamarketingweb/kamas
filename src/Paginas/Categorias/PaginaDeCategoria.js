@@ -230,7 +230,7 @@ function PaginaDeCategoria(){
 
                                         <div className="pagination-controls">
                                             <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1} >
-                                                <span class="material-icons">chevron_left</span>
+                                                <span className="material-icons">chevron_left</span>
                                             </button>
 
                                             <div className="d-flex-center-center gap-10">
@@ -243,7 +243,7 @@ function PaginaDeCategoria(){
                                             </div>
 
                                             <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages} >
-                                                <span class="material-icons">chevron_right</span>
+                                                <span className="material-icons">chevron_right</span>
                                             </button>
                                         </div>
                                     </>
