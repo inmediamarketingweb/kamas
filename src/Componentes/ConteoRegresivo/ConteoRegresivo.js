@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 function ConteoRegresivo({ onExpire }) {
-    const defaultTargetDate = new Date('2025-06-30T17:45:00');
+    const defaultTargetDate = new Date('2025-07-28T00:00:00');
     const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     const format = (num) => String(num).padStart(2, '0');
