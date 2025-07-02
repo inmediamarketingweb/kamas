@@ -554,6 +554,12 @@
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/americanos/queen/sarki/1/"
+                }
+            ],
             "detalles-del-producto":[
                 {
                     "línea": "Americano",
@@ -30621,6 +30627,12 @@
                     "modelo-colchón": "Sarki",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Capitoneada"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/americanos/queen/sarki/1/"
                 }
             ],
             "detalles-del-producto":[
