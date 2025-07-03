@@ -280,6 +280,12 @@
                 },
                 {
                     "id": 7,
+                    "subcategoria": "Premium",
+                    "metaTitulo": "Dormitorios - Premium | Kamas",
+                    "ruta": "/productos/dormitorios/premium/"
+                },
+                {
+                    "id": 8,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Cama box tarimas | Kamas",
                     "ruta": "/productos/dormitorios/"
