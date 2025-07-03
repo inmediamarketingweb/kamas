@@ -20,6 +20,12 @@
                     "cajones": 6
                 }
             ],
+            "video":[
+                {
+                    "ruta": "/assets/imagenes/productos/complementos/veladores/shelter/velador-shelter.mp4",
+                    "url": "https://www.tiktok.com/@kamas.pe/video/7303605519950826757"
+                }
+            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Veladores",

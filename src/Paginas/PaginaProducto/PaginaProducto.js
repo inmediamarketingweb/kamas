@@ -11,6 +11,7 @@ import Sku from './Componentes/Sku/Sku';
 import Imagenes from './Componentes/Imagenes/Imagenes';
 import Regalos from './Componentes/Regalos/Regalos';
 import Resumen from './Componentes/Resumen/Resumen';
+import Video from './Componentes/Video/Video';
 import Medidas from './Componentes/Medidas/Medidas';
 import Beneficios from './Componentes/Beneficios/Beneficios';
 import Envios from './Componentes/Envios/Envios';
@@ -221,6 +222,10 @@ function PaginaProducto(){
                                         <div className='d-grid-2-1fr gap-20'>
                                             <Resumen producto={producto} />
                                             <Medidas producto={producto} />
+                                        </div>
+
+                                        <div className='grid-1-1'>
+                                            <Video producto={producto} />
                                         </div>
 
                                         <div className='d-flex-column'>
