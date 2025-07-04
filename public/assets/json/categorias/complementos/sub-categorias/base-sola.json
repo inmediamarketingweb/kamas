@@ -3,10 +3,10 @@
         {
             "id": 1,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "2 plazas",
-            "ruta": "/ofertas/complementos/bases/americanas/2-plazas/1/",
+            "ruta": "/productos/complementos/base-sola/americanas/2-plazas/1/",
             "nombre": "BASE SOLA AMERICANA 2 PLAZAS ENCAJONADA - MORO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/2-plazas/1/",
             "colores": "si",
@@ -15,8 +15,6 @@
             "precioVenta": 439,
             "stock": 14,
             "sku": "K7221N10",
-            "oferta": "si",
-
             "tipo-de-envio": "Envío aplicado",
             "resumen-del-producto":[
                 {
@@ -26,6 +24,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -51,10 +50,10 @@
         {
             "id": 2,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/americanas/king/1/",
+            "ruta": "/productos/complementos/base-sola/americanas/king/1/",
             "nombre": "BASE SOLA AMERICANA KING - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/1/",
             "colores": "si",
@@ -72,6 +71,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "King",
                     "cajones": "No",
@@ -97,10 +97,10 @@
         {
             "id": 3,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/americanas/king/2/",
+            "ruta": "/productos/complementos/base-sola/americanas/king/2/",
             "nombre": "BASE SOLA AMERICANA KING - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/2/",
             "colores": "si",
@@ -118,6 +118,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "King",
                     "cajones": "No",
@@ -143,10 +144,10 @@
         {
             "id": 4,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/americanas/king/3/",
+            "ruta": "/productos/complementos/base-sola/americanas/king/3/",
             "nombre": "BASE SOLA AMERICANA KING - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/3/",
             "colores": "si",
@@ -164,6 +165,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "King",
                     "cajones": "No",
@@ -189,10 +191,10 @@
         {
             "id": 5,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/americanas-con-cajones/king/4/",
+            "ruta": "/productos/complementos/base-sola/americanas-con-cajones/king/4/",
             "nombre": "BASE SOLA AMERICANA KING + 2 CAJONES AL PIE - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/king/1/",
             "colores": "si",
@@ -210,6 +212,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "King",
                     "cajones": "Si",
@@ -235,10 +238,10 @@
         {
             "id": 6,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "king",
-            "ruta": "/ofertas/complementos/bases/americanas-con-cajones/king/5/",
+            "ruta": "/productos/complementos/base-sola/americanas-con-cajones/king/1/",
             "nombre": "BASE SOLA AMERICANA KING + 4 CAJONES LATERALES - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/king/2/",
             "colores": "si",
@@ -247,8 +250,6 @@
             "precioVenta": 899,
             "stock": 14,
             "sku": "K73422N11",
-            "oferta": "si",
-
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -258,6 +259,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "King",
                     "cajones": "Si",
@@ -283,10 +285,10 @@
         {
             "id": 7,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/complementos/bases/americanas-con-cajones/queen/6/",
+            "ruta": "/productos/complementos/base-sola/americanas-con-cajones/queen/6/",
             "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES AL PIE - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/queen/1/",
             "colores": "si",
@@ -304,6 +306,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "Queen",
                     "cajones": "Si",
@@ -329,10 +332,10 @@
         {
             "id": 8,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "americanas",
             "tamaño": "queen",
-            "ruta": "/ofertas/solo-por-horas/complementos/bases/americanas-con-cajones/queen/7/",
+            "ruta": "/productos/complementos/base-sola/7/",
             "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES LATERALES - ARENA",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/queen/2/",
             "colores": "si",
@@ -341,7 +344,6 @@
             "precioVenta": 799,
             "stock": 0,
             "sku": "K7342N13",
-            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -351,6 +353,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Americana",
                     "tamaño": "Queen",
                     "cajones": "Si",
@@ -376,10 +379,10 @@
         {
             "id": 9,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/ofertas/complementos/bases/europeas/2-plazas/8/",
+            "ruta": "/productos/complementos/base-sola/europeas/2-plazas/8/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/1/",
             "colores": "si",
@@ -388,8 +391,6 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7323N10",
-            "oferta": "si",
-
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -399,6 +400,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -424,10 +426,10 @@
         {
             "id": 10,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas/2-plazas/9/",
+            "ruta": "/productos/complementos/base-sola/europeas/2-plazas/9/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - COBALTO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/2/",
             "colores": "si",
@@ -445,6 +447,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -470,10 +473,10 @@
         {
             "id": 11,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas/2-plazas/10/",
+            "ruta": "/productos/complementos/base-sola/europeas/2-plazas/10/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - MELON",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/3/",
             "colores": "si",
@@ -491,6 +494,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -516,10 +520,10 @@
         {
             "id": 12,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas/2-plazas/11/",
+            "ruta": "/productos/complementos/base-sola/europeas/2-plazas/11/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/4/",
             "colores": "si",
@@ -537,6 +541,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -562,10 +567,10 @@
         {
             "id": 13,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas/2-plazas/12/",
+            "ruta": "/productos/complementos/base-sola/europeas/2-plazas/12/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/5/",
             "colores": "si",
@@ -583,6 +588,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "No",
@@ -608,10 +614,10 @@
         {
             "id": 14,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/europeas/king/13/",
+            "ruta": "/productos/complementos/base-sola/europeas/king/13/",
             "nombre": "BASE SOLA EUROPEA KING - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/king/1/",
             "colores": "si",
@@ -629,6 +635,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "King",
                     "cajones": "No",
@@ -654,10 +661,10 @@
         {
             "id": 15,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/europeas/king/14/",
+            "ruta": "/productos/complementos/base-sola/europeas/king/14/",
             "nombre": "BASE SOLA EUROPEA KING - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/king/2/",
             "colores": "si",
@@ -675,6 +682,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "King",
                     "cajones": "No",
@@ -700,10 +708,10 @@
         {
             "id": 16,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/15/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/15/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/1/",
             "colores": "si",
@@ -721,6 +729,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -746,10 +755,10 @@
         {
             "id": 17,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/16/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/16/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - VINO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/2/",
             "colores": "si",
@@ -767,6 +776,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -792,10 +802,10 @@
         {
             "id": 18,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/17/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/17/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - FUCSIA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/3/",
             "colores": "si",
@@ -813,6 +823,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -838,10 +849,10 @@
         {
             "id": 19,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/18/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/18/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES AL PIE - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/4/",
             "colores": "si",
@@ -850,7 +861,6 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7324N13",
-            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -860,6 +870,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -885,10 +896,10 @@
         {
             "id": 20,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/19/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/19/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/5/",
             "colores": "si",
@@ -906,6 +917,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -931,10 +943,10 @@
         {
             "id": 21,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/20/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/20/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROSADO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/6/",
             "colores": "si",
@@ -943,7 +955,6 @@
             "precioVenta": 499,
             "stock": 14,
             "sku": "K7324N15",
-            "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
@@ -953,6 +964,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -978,10 +990,10 @@
         {
             "id": 22,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "2 plazas",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/2-plazas/21/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/2-plazas/21/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/7/",
             "colores": "si",
@@ -999,6 +1011,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
@@ -1024,10 +1037,10 @@
         {
             "id": 23,
             "categoria": "complementos",
-            "subcategoria": "bases",
+            "subcategoria": "base sola",
             "linea": "europeas",
             "tamaño": "queen",
-            "ruta": "/productos/complementos/bases/europeas-con-cajones/queen/1/",
+            "ruta": "/productos/complementos/base-sola/europeas-con-cajones/queen/1/",
             "nombre": "BASE SOLA EUROPEA QUEEN + 2 CAJONES LATERALES - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/queen/1/",
             "colores": "si",
@@ -1045,6 +1058,7 @@
             ],
             "detalles-del-producto":[
                 {
+                    "sub-categoría": "base sola",
                     "línea": "Europea",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
