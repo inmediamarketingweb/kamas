@@ -1197,6 +1197,12 @@
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ],
+            "video":[
+                {
+                    "ruta": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/americanas/sin-brazos/capitoneado/8/video.mp4",
+                    "url": "https://www.tiktok.com/@kamas.pe/video/7361660895199628550"
+                }
+            ],
             "detalles-del-producto":[
                 {
                     "línea": "Americano",
@@ -10987,7 +10993,7 @@
             "tamaño": "king",
             "modelo": "sarki",
             "ruta": "/productos/dormitorios/americanos/king/sarki/111/",
-            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CLÁSICA - GRIS PLATA",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CLÁSICA 2 - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/americanos/king/sarki/aereas-con-patas/clasicas/sin-brazos/clasica-2/1/",
             "colores": "si",
             "precioRegular": 2949,
