@@ -1,0 +1,12 @@
+.product-video-container{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.product-video-container div video{
+    width: auto;
+    max-width: 180px;
+    border-radius: 4px;
+}

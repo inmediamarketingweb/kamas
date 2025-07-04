@@ -14,7 +14,7 @@
             "precioNormal": 2999,
             "precioVenta": 2349,
             "stock": 10,
-            "sku": "",
+            "sku": "K354237N10",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -24,24 +24,24 @@
             ],
             "resumen-del-producto":[
                 {
-                    "línea": "Clásica",
-                    "tamaño": "2 plazas",
-                    "modelo-de-colchón": "Adel",
+                    "línea": "Premium",
+                    "tamaño": "King",
+                    "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Clásica 1"
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "clásica",
-                    "tamaño": "2 plazas",
+                    "línea": "Premium",
+                    "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Adel",
+                    "modelo-de-colchón": "Sarki",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Clásica",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Clásica 1"
+                    "diseño-de-cabecera": "Otros",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ],
             "descripciones":[

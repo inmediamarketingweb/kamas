@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
-function Video({ producto }) {
+import './Video.css';
+
+function Video({ producto }){
     const [videoSources, setVideoSources] = useState([]);
     const videos = producto?.video;
 
     useEffect(() => {
         if (videos && videos.length > 0) {
-            // Verificar existencia del video
             const checkVideo = async () => {
                 const newSources = await Promise.all(
                     videos.map(async (video) => {
@@ -29,12 +30,12 @@ function Video({ producto }) {
         return null;
     }
 
-    return (
-        <div className="d-flex-column gap-10">
+    return(
+        <div className="d-flex-column gap-10 product-video-container">
             {videos.map((video, index) => (
                 <div key={index} className='w-100 d-flex-column'>
                     {videoSources[index] ? (
-                        <video width="100%" height="auto" controls>
+                        <video width="auto" height="auto" controls className='product-video'>
                             <source src={videoSources[index]} type="video/mp4" />
                         </video>
                     ) : (

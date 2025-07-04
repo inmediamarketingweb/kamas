@@ -224,9 +224,7 @@ function PaginaProducto(){
                                             <Medidas producto={producto} />
                                         </div>
 
-                                        <div className='grid-1-1'>
-                                            <Video producto={producto} />
-                                        </div>
+                                        <Video producto={producto} />
 
                                         <div className='d-flex-column'>
                                             <div className='d-flex-start gap-5'>
