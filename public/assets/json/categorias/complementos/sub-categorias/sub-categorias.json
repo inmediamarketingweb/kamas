@@ -8,9 +8,9 @@
         },
         {
             "id": 3,
-            "subcategoria": "Bases",
-            "metaTitulo": "Complementos - Bases | Kamas",
-            "ruta": "/productos/complementos/bases/"
+            "subcategoria": "Base sola",
+            "metaTitulo": "Complementos - Base sola | Kamas",
+            "ruta": "/productos/complementos/base-sola/"
         },
         {
             "id": 4,
