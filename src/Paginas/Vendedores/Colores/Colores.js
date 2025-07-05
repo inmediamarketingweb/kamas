@@ -160,10 +160,22 @@ function Colores(){
 
     if (!fabricData) return null;
 
-    const categories = Object.keys(fabricData.telas[0] || {});
+    const categories = fabricData.telas.flatMap(obj => Object.keys(obj));
 
     const getFabricsForCategory = (category) => {
-        return fabricData.telas[0][category]?.telas || [];
+        for (const obj of fabricData.telas) {
+            if (obj[category]) {
+                return obj[category].telas || [];
+            }
+        }
+        return [];
+    };
+
+    const getCategoryShort = (category) => {
+        for (const obj of fabricData.telas) {
+            if (obj[category]) return obj[category].short || '';
+        }
+        return '';
     };
 
     const getColorsForFabric = (category, fabricType) => {
@@ -180,14 +192,18 @@ function Colores(){
 
             return(
                 <div className="d-flex-column gap-10" key={category}>
-                    <h2 className='block-title d-flex-center-left color-black-0'>Telas {category}</h2>
+                    <div className='d-flex-center-left gap-10'>
+                        <h2 className='block-title d-flex-center-left color-black-0'>{category}</h2>
+                        <span className='text'>-</span>
+                        <p className='text'>{getCategoryShort(category)}</p>
+                    </div>
 
                     {fabrics.map(fabric => {
                         if (selectedFabric && selectedFabric !== fabric.tela) return null;
 
                         return(
                             <div className="d-flex-column gap-10" key={fabric.tela}>
-                                <h3 className='title text'>{fabric.tela}</h3>
+                                <h3 className='title text'>{fabric.tela} :</h3>
                                 <ul className="colores">
                                     {fabric.colores.map((color, index) => (
                                         <li key={index}>
@@ -230,16 +246,6 @@ function Colores(){
                                                 </button>
                                             </li>
                                         ))}
-
-                                        <li>
-                                            <button className={!selectedCategory ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => {
-                                                setSelectedCategory(null);
-                                                setSelectedFabric(null);
-                                                setSelectedColor(null);
-                                            }}>
-                                                <h2>Ver todo</h2>
-                                            </button>
-                                        </li>
                                     </ul>
                                 </div>
 
@@ -255,11 +261,11 @@ function Colores(){
                                                 </li>
                                             ))}
 
-                                            <li>
+                                            {/* <li>
                                                 <button className={!selectedFabric ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleFabricSelect(null)} >
                                                     <h3>Todas las telas</h3>
                                                 </button>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 )}
@@ -278,6 +284,14 @@ function Colores(){
                                         </ul>
                                     </div>
                                 )}
+
+                                <button className={!selectedCategory ? 'button-link button-link-2 active' : 'button-link button-link-2'} onClick={() => {
+                                        setSelectedCategory(null);
+                                        setSelectedFabric(null);
+                                        setSelectedColor(null);
+                                    }}>
+                                    <h2 className='button-link-text'>Ver todas las telas</h2>
+                                </button>
                             </div>
 
                             <div className="d-flex-column gap-20">
@@ -331,6 +345,7 @@ function Colores(){
 
                                     <a href={`/busqueda?query=${selectedColor ? encodeURIComponent(selectedColor.color) : ''}`} title='Ver productos relacionados' className={`button-link button-link-2 see-ship-products ${selectedColor ? 'active' : ''}`}>
                                         <p className='button-link-text'>Ver productos relacionados</p>
+                                        <span className="material-icons">arrow_forward</span>
                                     </a>
                                 </div>
                             )}

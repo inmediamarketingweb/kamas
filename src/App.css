@@ -352,7 +352,7 @@ button{
     background: var(--color-2);
 }
 
-.button-link-2 p,
+.button-link-2 .button-link-text,
 .button-link-2 span{
     color: var(--white);
 }
