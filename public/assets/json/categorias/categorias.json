@@ -246,43 +246,43 @@
                     "id": 1,
                     "subcategoria": "Clásicos",
                     "metaTitulo": "Dormitorios - Clásicos | Kamas",
-                    "ruta": "/productos/dormitorios/clasicos/"
+                    "ruta": "/productos/dormitorios/?línea=clásica"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Clásicos con cajones",
                     "metaTitulo": "Dormitorios - Clásicos con cajones | Kamas",
-                    "ruta": "/productos/dormitorios/clasicos-con-cajones/"
+                    "ruta": "/productos/dormitorios/?línea=clásica&cajones=si"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Americanos",
                     "metaTitulo": "Dormitorios - Americanos | Kamas",
-                    "ruta": "/productos/dormitorios/americanos/"
+                    "ruta": "/productos/dormitorios/?línea=americano"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Americanos con cajones",
                     "metaTitulo": "Dormitorios - Americanos con cajones | Kamas",
-                    "ruta": "/productos/dormitorios/americanos/"
+                    "ruta": "/productos/dormitorios/?línea=americano&cajones=si"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Europeos",
                     "metaTitulo": "Dormitorios - Europeos | Kamas",
-                    "ruta": "/productos/dormitorios/europeos/"
+                    "ruta": "/productos/dormitorios/?línea=europeo"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Europeos con cajones",
                     "metaTitulo": "Dormitorios - Europeos con cajones | Kamas",
-                    "ruta": "/productos/dormitorios/europeos-con-cajones/"
+                    "ruta": "/productos/dormitorios/?línea=europeo&cajones=si"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Premium",
                     "metaTitulo": "Dormitorios - Premium | Kamas",
-                    "ruta": "/productos/dormitorios/premium/"
+                    "ruta": "/productos/dormitorios/?línea=premium"
                 },
                 {
                     "id": 8,
