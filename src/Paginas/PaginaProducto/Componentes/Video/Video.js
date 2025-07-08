@@ -11,7 +11,8 @@ function Video({ producto }) {
             const sourceChecks = await Promise.all(
                 videos.map(async (video) => {
                     try {
-                        const response = await fetch(video.ruta, { method: 'HEAD' });
+                        const cacheBuster = `?ts=${Date.now()}`;
+                        const response = await fetch(video.ruta + cacheBuster);
                         return response.ok ? video.ruta : null;
                     } catch (error) {
                         return null;
