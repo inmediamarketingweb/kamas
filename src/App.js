@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 
+import LimpiarRutas from "./Componentes/LimpiarRutas/LimpiarRutas";
+
 //Página principal
 import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
 
@@ -63,6 +65,8 @@ function App(){
     return(
         <HelmetProvider>
             <Router>
+                <LimpiarRutas/>
+
                 <Routes>
                     <Route path="/" element={<PaginaPrincipal/>} />
 
