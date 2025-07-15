@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 
 import './Agencias.css';
 
@@ -189,6 +190,20 @@ function Agencias(){
 
     return(
         <>
+            <Helmet>
+                <title>Agencias recomendadas | Kamas</title>
+                <meta name="description" content="Te ayudamos a encontrar la mejor alternativa para llevar tu dormitorio a tu distrito."/>
+
+                <link rel="preload" as="image" href="https://inmedia.pe/Proyectos/JSON/agencias.json" />
+
+                <meta property="og:title" content="Agencias recomendadas | Kamas"/>
+                <meta property="og:site_name" content="Agencias recomendadas | Kamas"/>
+                <meta property="og:description" content="Te ayudamos a encontrar la mejor alternativa para llevar tu dormitorio a tu distrito."/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://kamas.pe/agencias-recomendadas/"/>
+                <link rel="canonical" href="https://kamas.pe/agencias-recomendadas/"/>
+            </Helmet>
+
             <Header/>
 
             <main>
