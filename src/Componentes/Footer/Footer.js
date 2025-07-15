@@ -58,6 +58,11 @@ function Footer(){
                                         </a>
                                     </li>
                                     <li>
+                                        <a href='/agencias-recomendadas/' title='Agencias recomendadas | Kamas'>
+                                            <p>Agencias recomendadas</p>
+                                        </a>
+                                    </li>
+                                    <li>
                                         <a href='/envios/envios-a-lima-y-callao/' title='Envios a Lima y Callao | Kamas'>
                                             <p>Envios a Lima y Callao</p>
                                         </a>
