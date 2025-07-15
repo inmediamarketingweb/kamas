@@ -168,6 +168,10 @@ button{
     transition: var(--t-200ms-linear);
 }
 
+.italic{
+    font-style: italic;
+}
+
 .title{
     font-size: 18px;
     font-weight: bold;

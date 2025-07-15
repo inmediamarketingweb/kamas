@@ -232,8 +232,8 @@ function Agencias(){
                                                             <button type='button' onClick={() => seleccionarDistrito(dist)}>
                                                                 <div className='d-flex-column'>
                                                                     <div className='d-flex gap-5'>
-                                                                        <p className='color-gray cursive font-13'>{dist.departamento},</p>
-                                                                        <p className='color-gray cursive font-13'>{dist.provincia}</p>
+                                                                        <p className='color-gray italic font-13'>{dist.departamento},</p>
+                                                                        <p className='color-gray italic font-13'>{dist.provincia}</p>
                                                                     </div>
                                                                     <p className='margin-right title color-black'>{dist.distrito}</p>
                                                                 </div>
@@ -278,7 +278,7 @@ function Agencias(){
                                                                             <span className="material-icons margin-top margin-bottom">location_on</span>
                                                                             <div className='d-flex-column'>
                                                                                 <p className='title'>{agencia.agencia}</p>
-                                                                                <p className='text cursive'>{sede.sede}</p>
+                                                                                <p className='text italic'>{sede.sede}</p>
                                                                             </div>
                                                                         </div>
                                                                         
