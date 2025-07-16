@@ -29,7 +29,7 @@
     --f-size-small: 14px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1600px;
+    --content-mx-width: 1500px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -492,6 +492,39 @@ button{
 
 .position-relative{
     position: relative;
+}
+
+/**/
+
+.category-loading-container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.category-loading-container .loader{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: 40px;
+    height: 40px;
+    border: 6px solid rgba(0 0 0 / 0.1);
+    border-bottom-color: var(--color-1);
+    border-radius: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /**/
