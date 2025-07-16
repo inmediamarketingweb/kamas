@@ -21,7 +21,4 @@ echo "🔒 Ajustando permisos..."
 sudo chown -R www-data:www-data /var/www/kamas.pe
 sudo chmod -R 777 /var/www/kamas.pe
 
-echo "Moviendo .htaccess a la carpeta build..."
-sudo mv /var/www/kamas.pe/.htaccess /var/www/kamas.pe/build/.htaccess
-
 echo "✅ ¡Despliegue completado!"
