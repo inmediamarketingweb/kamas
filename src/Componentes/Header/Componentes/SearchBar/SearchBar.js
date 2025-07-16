@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import LazyImage from '../../../Plantillas/LazyImage';
 
@@ -8,6 +8,7 @@ function SearchBar() {
     const [productos, setProductos] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
+    const inputRef = useRef(null);
 
     useEffect(() => {
         const handleResize = () => {
@@ -18,6 +19,28 @@ function SearchBar() {
 
         return () => {
             window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    useEffect(() => {
+        const handleGlobalKeyDown = (e) => {
+            const isCtrlK = (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k';
+            
+            const isSlash = e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey;
+            
+            if (isCtrlK || isSlash) {
+                e.preventDefault();
+                if (inputRef.current) {
+                    inputRef.current.focus();
+                    inputRef.current.select();
+                }
+            }
+        };
+
+        document.addEventListener('keydown', handleGlobalKeyDown);
+        
+        return () => {
+            document.removeEventListener('keydown', handleGlobalKeyDown);
         };
     }, []);
 
@@ -77,7 +100,6 @@ function SearchBar() {
         const normalizedSearchTerm = normalizeStr(searchTerm);
         const searchTermWithoutSpaces = normalizedSearchTerm.replace(/\s/g, '');
 
-        // 1. Priorizar coincidencia EXACTA de SKU (ignorando espacios)
         const exactSkuMatch = productos.find(p => 
             normalizeStr(p.sku).replace(/\s/g, '') === searchTermWithoutSpaces
         );
@@ -85,7 +107,6 @@ function SearchBar() {
         if (exactSkuMatch) {
             filteredProductos = [exactSkuMatch];
         } 
-        // 2. Si no hay match exacto, buscar por tokens
         else {
             const tokens = normalizedSearchTerm.split(' ').filter(Boolean);
             filteredProductos = productos.filter(producto => {
@@ -121,7 +142,11 @@ function SearchBar() {
         <>
             <div className={`search-bar-container ${searchTerm.trim() !== '' ? 'active' : ''}`}>
                 <div className='search-bar'>
-                    <input type='text' placeholder='Buscar en kamas.pe' value={searchTerm} onChange={handleSearchChange} onKeyDown={handleKeyDown} />
+                    <input ref={inputRef} type='text' placeholder='Buscar en kamas.pe / Ctrl+K' 
+                        value={searchTerm} 
+                        onChange={handleSearchChange} 
+                        onKeyDown={handleKeyDown} 
+                    />
                     <span className='material-icons'>search</span>
                 </div>
 
@@ -132,7 +157,12 @@ function SearchBar() {
                                 <li key={producto.sku}>
                                     <a href={producto.ruta} title={producto.nombre}>
                                         <p className='text'>{producto.nombre}</p>
-                                        <LazyImage width={isSmallScreen ? 80 : 60} height={isSmallScreen ? 80 : 60} src={`${producto.fotos}/1.jpg`} alt={producto.nombre}/>
+                                        <LazyImage 
+                                            width={isSmallScreen ? 80 : 60} 
+                                            height={isSmallScreen ? 80 : 60} 
+                                            src={`${producto.fotos}/1.jpg`} 
+                                            alt={producto.nombre}
+                                        />
                                     </a>
                                 </li>
                             ))
