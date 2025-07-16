@@ -2,12 +2,21 @@
 // import { useParams } from "react-router-dom";
 // import { Helmet } from "react-helmet-async";
 
+// import "./PaginaDeCategoria.css";
+
 // import Header from "../../Componentes/Header/Header";
 // import Filtros from "./Componentes/Filtros/Filtros";
 // import LazyImage from '../../Componentes/Plantillas/LazyImage.js';
 // import Footer from "../../Componentes/Footer/Footer";
 
-// import "./PaginaDeCategoria.css";
+// function shuffleArray(array) {
+//     const shuffled = [...array];
+//     for (let i = shuffled.length - 1; i > 0; i--) {
+//         const j = Math.floor(Math.random() * (i + 1));
+//         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+//     }
+//     return shuffled;
+// }
 
 // function PaginaDeCategoria(){
 //     const { categoria, subcategoria } = useParams();
@@ -18,6 +27,7 @@
 //     const [filtersActive, setFiltersActive] = useState(false);
 //     const [currentPage, setCurrentPage] = useState(1);
 //     const itemsPerPage = 20;
+//     const [secondImageError, setSecondImageError] = useState(false);
 
 //     useEffect(() => {
 //         const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
@@ -32,8 +42,9 @@
 //             fetch(`/assets/json/categorias/${categoria}/sub-categorias/${subcatNombre}.json`)
 //                 .then((response) => response.json())
 //                 .then((data) => {
-//                     setProductos(data.productos || []);
-//                     setProductosFiltrados(data.productos || []);
+//                     const productosMezclados = shuffleArray(data.productos || []);
+//                     setProductos(productosMezclados);
+//                     setProductosFiltrados(productosMezclados);
 //                 })
 //                 .catch(() => {
 //                     setProductos([]);
@@ -53,9 +64,10 @@
 
 //                 const productosPorSubcategoria = await Promise.all(promesas);
 //                 const todosLosProductos = productosPorSubcategoria.flat();
+//                 const productosMezclados = shuffleArray(todosLosProductos);
 
-//                 setProductos(todosLosProductos);
-//                 setProductosFiltrados(todosLosProductos);
+//                 setProductos(productosMezclados);
+//                 setProductosFiltrados(productosMezclados);
 //             }).catch(() => setProductos([]));
 //         }
 //     }, [categoria, subcategoria]);
@@ -86,8 +98,8 @@
 //     const handlePreviousPage = () => handlePageChange(currentPage - 1);
 //     const handleNextPage = () => handlePageChange(currentPage + 1);
 
-//     const startIndex = Math.max(0, totalItems - (currentPage * itemsPerPage));
-//     const endIndex = totalItems - ((currentPage - 1) * itemsPerPage);
+//     const startIndex = (currentPage - 1) * itemsPerPage;
+//     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
 //     const currentProducts = productosFiltrados.slice(startIndex, endIndex);
 
 //     const handleToggleFilters = () => setFiltersActive((prev) => !prev);
@@ -145,7 +157,7 @@
 //                                         <ul className="category-page-products">
 //                                             {currentProducts
 //                                                 .filter((producto) => producto.oferta !== "si")
-//                                                 .sort((a, b) => b.id - a.id)
+//                                                 // Se eliminó el ordenamiento por ID para mantener el orden aleatorio
 //                                                 .map((producto) => {
 //                                                     const descuento = Math.round(
 //                                                         ((producto.precioNormal - producto.precioVenta) * 100) /
@@ -169,6 +181,21 @@
 
 //                                                                     <a href={producto.ruta}>
 //                                                                         <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
+
+//                                                                         <img
+//                                                                             width={isSmallScreen ? 140 : 200}
+//                                                                             height={isSmallScreen ? 140 : 200}
+//                                                                             src={`${producto.fotos}2.jpg`}
+//                                                                             alt={producto.nombre}
+//                                                                             className="product-image"
+//                                                                             onError={(e) => {
+//                                                                                 if (!secondImageError) {
+//                                                                                     e.target.src = `${producto.fotos}1.jpg`;
+//                                                                                     setSecondImageError(true);
+//                                                                                 }
+//                                                                             }}
+//                                                                             loading='lazy'
+//                                                                         />
 //                                                                     </a>
 
 //                                                                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
@@ -248,7 +275,9 @@
 //                                         </div>
 //                                     </>
 //                                 ) : (
-//                                     <p>No se encontraron productos.</p>
+//                                     <div className="category-loading-container">
+//                                         <span class="loader"></span>
+//                                     </div>
 //                                 )}
 //                             </div>
 //                         </div>
@@ -267,14 +296,13 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
+import "./PaginaDeCategoria.css";
+
 import Header from "../../Componentes/Header/Header";
 import Filtros from "./Componentes/Filtros/Filtros";
 import LazyImage from '../../Componentes/Plantillas/LazyImage.js';
 import Footer from "../../Componentes/Footer/Footer";
 
-import "./PaginaDeCategoria.css";
-
-// Función para mezclar arrays (Fisher-Yates)
 function shuffleArray(array) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -363,7 +391,6 @@ function PaginaDeCategoria(){
     const handlePreviousPage = () => handlePageChange(currentPage - 1);
     const handleNextPage = () => handlePageChange(currentPage + 1);
 
-    // Paginación normal (no invertida)
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
     const currentProducts = productosFiltrados.slice(startIndex, endIndex);
@@ -394,6 +421,39 @@ function PaginaDeCategoria(){
 
     const truncate = (str, maxLength) => str.length <= maxLength ? str : str.slice(0, maxLength) + "...";
 
+    // Componente de imagen para cada producto
+    const ProductImage = ({ producto }) => {
+        const [secondImageError, setSecondImageError] = useState(false);
+        const imageSize = isSmallScreen ? 140 : 200;
+
+        return(
+            <div className="image-container" style={{ width: imageSize, height: imageSize }}>
+                <LazyImage
+                    width={imageSize}
+                    height={imageSize}
+                    src={`${producto.fotos}1.jpg`}
+                    alt={producto.nombre}
+                    className="product-image"
+                />
+                
+                <img
+                    width={imageSize}
+                    height={imageSize}
+                    src={`${producto.fotos}2.jpg`}
+                    alt={producto.nombre}
+                    className="product-image second-image"
+                    onError={(e) => {
+                        if (!secondImageError) {
+                            e.target.src = `${producto.fotos}1.jpg`;
+                            setSecondImageError(true);
+                        }
+                    }}
+                    loading="lazy"
+                />
+            </div>
+        );
+    };
+
     return (
         <>
             <Helmet>
@@ -423,7 +483,6 @@ function PaginaDeCategoria(){
                                         <ul className="category-page-products">
                                             {currentProducts
                                                 .filter((producto) => producto.oferta !== "si")
-                                                // Se eliminó el ordenamiento por ID para mantener el orden aleatorio
                                                 .map((producto) => {
                                                     const descuento = Math.round(
                                                         ((producto.precioNormal - producto.precioVenta) * 100) /
@@ -446,7 +505,7 @@ function PaginaDeCategoria(){
                                                                     )}
 
                                                                     <a href={producto.ruta}>
-                                                                        <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1.jpg`} alt={producto.nombre}/>
+                                                                        <ProductImage producto={producto}/>
                                                                     </a>
 
                                                                     <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >

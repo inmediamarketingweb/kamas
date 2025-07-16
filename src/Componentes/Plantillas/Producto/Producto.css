@@ -34,7 +34,7 @@
     position: relative;
 }
 
-.product-card-images img{
+.product-card-images a img{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -49,9 +49,21 @@
     z-index: 0;
 }
 
-.product-card:hover .product-card-images img{
-    scale: 1.25;
+.product-card-images a img:nth-child(1){
+    z-index: 1;
 }
+
+.product-card:hover .product-card-images a img:nth-child(1){
+    opacity: 0;
+}
+
+.product-card-images a img:nth-child(2){
+    z-index: 0;
+}
+
+/* .product-card:hover .product-card-images img{
+    scale: 1.25;
+} */
 
 .product-card-favorite,
 .remove-favorite{
