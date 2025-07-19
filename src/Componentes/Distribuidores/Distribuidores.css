@@ -2,54 +2,81 @@
     overflow: hidden;
 }
 
+.distribuidores-content{
+    width: 100%;
+    border-radius: 4px;
+    /* padding: 20px;
+    background: #F2F2F2; */
+}
+
 .distribuidores{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 }
 
 .distribuidores li{
+    width: 100%;
+    min-height: 130px;
     display: flex;
+    background: var(--white);
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #D2D2D2;
+    transition: var(--t-200ms-linear);
+}
+
+.distribuidores li:hover{
+    border: 1px solid var(--color-1);
 }
 
 .distribuidores li a{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
     display: flex;
+    background: var(--white);
 }
 
 .distribuidores li a img{
-    aspect-ratio: 3/1;
-    /* width: 170px; */
-    height: 50px;
+    margin: auto;
+    width: 180px;
     object-fit: contain;
 }
 
 @media screen and (max-width: 600px){
     .distribuidores-container{
         width: 100%;
+        overflow: hidden;
     }
 
     .distribuidores-content{
-        width: 180%;
-        animation: scrollX 10s linear infinite alternate;
+        width: auto;
+        overflow-x: scroll;
     }
 
-    @keyframes scrollX{
-        0%, 10%{
-            margin-left: 0;
-        }
-        90%, 100%{
-            margin-left: -126%;
-        }
+    .distribuidores-content::-webkit-scrollbar{
+        display: none;
     }
 
     .distribuidores{
+        width: calc(223.3px * 8);
         display: flex;
+        animation: scrollX 20s linear alternate-reverse infinite;
+    }
+
+    @keyframes scrollX{
+        100%{
+            margin-left: -1450px;
+        }
+    }
+
+    .distribuidores li{
+        min-height: 100px;
     }
 
     .distribuidores li a img{
-        width: auto;
-        height: 36px;
+        width: 120px;
     }
 }
