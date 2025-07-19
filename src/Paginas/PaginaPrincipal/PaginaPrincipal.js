@@ -13,6 +13,10 @@ import ModalDatos from './Componentes/ModalDatos/ModalDatos';
 
 import Footer from '../../Componentes/Footer/Footer';
 
+import Promocion from './Componentes/Promocion/Promocion';
+// import CategoriasNew from './Componentes/CategoriasNew/Categorias';
+import Mapa from './Componentes/Mapa/Mapa';
+
 import './PaginaPrincipal.css';
 
 function PaginaPrincipal(){
@@ -39,6 +43,7 @@ function PaginaPrincipal(){
                 <Slider/>
 
                 <Categorias/>
+                {/* <CategoriasNew/> */}
 
                 <SoloPorHoras/>
 
@@ -46,9 +51,13 @@ function PaginaPrincipal(){
                 
                 <Ofertas/>
 
+                <Promocion/>
+
                 <SobreNosotros/>
 
                 <Distribuidores/>
+
+                <Mapa/>
 
                 <ModalDatos/>
             </main>
